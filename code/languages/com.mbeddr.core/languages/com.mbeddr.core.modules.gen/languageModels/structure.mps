@@ -11,6 +11,7 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -231,6 +232,22 @@
     </node>
     <node concept="PrWs8" id="24KoSSjzI75" role="PzmwI">
       <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2fKCbS_NTha">
+    <property role="TrG5h" value="FunctionKeeper" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2fKCbS_NTil" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
+    </node>
+    <node concept="PrWs8" id="2fKCbS_NTij" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="2fKCbS_NTiq" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
     </node>
   </node>
 </model>
