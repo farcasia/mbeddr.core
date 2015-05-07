@@ -259,5 +259,13 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="1y6uXDUS9fy">
+    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="ForceImportReferencedElements" />
+    <property role="R4oN_" value="used in type system tests to force copying imported root nodes from other models" />
+    <property role="3GE5qa" value="control" />
+    <property role="34LRSv" value="ForceImportReferencedElements" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
 </model>
 
