@@ -57,6 +57,7 @@
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -372,15 +373,19 @@
     <property role="3GE5qa" value="types.cast" />
     <property role="34LRSv" value="((..)..)" />
     <property role="R4oN_" value="downcast an expression" />
-    <ref role="1TJDcQ" node="7FQByU3CrCM" resolve="Expression" />
+    <ref role="1TJDcQ" node="2APHWiztz8M" resolve="UnaryExpression" />
     <node concept="PrWs8" id="6mzZsELonGQ" role="PzmwI">
       <ref role="PrY4T" node="6mzZsELnskC" resolve="IBinaryLike" />
+    </node>
+    <node concept="PrWs8" id="3xuubhGbvdN" role="PzmwI">
+      <ref role="PrY4T" node="7C830Ec4S3e" resolve="IStopReshuffling" />
     </node>
     <node concept="1TJgyj" id="5IYyAOzBgHm" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expr" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7FQByU3CrCM" resolve="Expression" />
+      <ref role="20ksaX" node="6iIoqg1yDLg" />
     </node>
     <node concept="1TJgyj" id="5IYyAOzBgHu" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
