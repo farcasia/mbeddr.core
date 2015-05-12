@@ -318,7 +318,6 @@
       <concept id="3976803464656531170" name="com.mbeddr.core.expressions.structure.UnaryMinusExpression" flags="ng" index="1FllXc" />
       <concept id="6610873504380029780" name="com.mbeddr.core.expressions.structure.CastExpression" flags="ng" index="1S8S4T">
         <child id="6610873504380029790" name="targetType" index="1S8S4N" />
-        <child id="6610873504380029782" name="expr" index="1S8S4V" />
       </concept>
       <concept id="8860443239512147449" name="com.mbeddr.core.expressions.structure.LessExpression" flags="ng" index="3Tl9Jn" />
       <concept id="8860443239512129322" name="com.mbeddr.core.expressions.structure.EqualsExpression" flags="ng" index="3TlM44" />
@@ -484,14 +483,14 @@
         <node concept="3XIRlf" id="5IYyAOzBgHb" role="3XIRFZ">
           <property role="TrG5h" value="mem" />
           <node concept="1S8S4T" id="5IYyAOzBly5" role="3XIe9u">
-            <node concept="3O_q_g" id="5IYyAOzBgHg" role="1S8S4V">
+            <node concept="3wxxNl" id="5IYyAOzBly8" role="1S8S4N">
+              <node concept="26Vqqz" id="3jGRJVwqZny" role="2umbIo" />
+            </node>
+            <node concept="3O_q_g" id="5IYyAOzBgHg" role="1_9fRO">
               <ref role="3O_q_h" node="5mGJ_8zvWiT" resolve="malloc" />
               <node concept="3wxvTy" id="5IYyAOzBgHh" role="3O_q_j">
                 <node concept="26Vqqz" id="3jGRJVwqZnx" role="3wxvTG" />
               </node>
-            </node>
-            <node concept="3wxxNl" id="5IYyAOzBly8" role="1S8S4N">
-              <node concept="26Vqqz" id="3jGRJVwqZny" role="2umbIo" />
             </node>
           </node>
           <node concept="3wxxNl" id="4qazcyJOfpW" role="2C2TGm">
