@@ -494,7 +494,6 @@
       </concept>
       <concept id="6610873504380029780" name="com.mbeddr.core.expressions.structure.CastExpression" flags="ng" index="1S8S4T">
         <child id="6610873504380029790" name="targetType" index="1S8S4N" />
-        <child id="6610873504380029782" name="expr" index="1S8S4V" />
       </concept>
       <concept id="8860443239512147449" name="com.mbeddr.core.expressions.structure.LessExpression" flags="ng" index="3Tl9Jn" />
       <concept id="8860443239512147445" name="com.mbeddr.core.expressions.structure.GreaterExpression" flags="ng" index="3Tl9Jr" />
@@ -666,19 +665,19 @@
             </node>
           </node>
           <node concept="1S8S4T" id="6GXPbpLjHiy" role="3XIe9u">
-            <node concept="3O_q_g" id="6GXPbpLjHis" role="1S8S4V">
-              <ref role="3O_q_h" node="1fAuj8Twc5j" resolve="malloc" />
-              <node concept="3wxvTy" id="6GXPbpLjHiv" role="3O_q_j">
-                <node concept="1sgJKr" id="6GXPbpLjHix" role="3wxvTG">
-                  <ref role="1sgJKq" node="1w5Xuj1QYMq" resolve="Trackpoint" />
-                </node>
-              </node>
-            </node>
             <node concept="3wxxNl" id="6GXPbpLjHi$" role="1S8S4N">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
               <node concept="1sgJKr" id="6GXPbpLjHiz" role="2umbIo">
                 <ref role="1sgJKq" node="1w5Xuj1QYMq" resolve="Trackpoint" />
+              </node>
+            </node>
+            <node concept="3O_q_g" id="6GXPbpLjHis" role="1_9fRO">
+              <ref role="3O_q_h" node="1fAuj8Twc5j" resolve="malloc" />
+              <node concept="3wxvTy" id="6GXPbpLjHiv" role="3O_q_j">
+                <node concept="1sgJKr" id="6GXPbpLjHix" role="3wxvTG">
+                  <ref role="1sgJKq" node="1w5Xuj1QYMq" resolve="Trackpoint" />
+                </node>
               </node>
             </node>
           </node>

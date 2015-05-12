@@ -142,7 +142,6 @@
       <concept id="3976803464656531170" name="com.mbeddr.core.expressions.structure.UnaryMinusExpression" flags="ng" index="1FllXc" />
       <concept id="6610873504380029780" name="com.mbeddr.core.expressions.structure.CastExpression" flags="ng" index="1S8S4T">
         <child id="6610873504380029790" name="targetType" index="1S8S4N" />
-        <child id="6610873504380029782" name="expr" index="1S8S4V" />
       </concept>
       <concept id="8860443239512128054" name="com.mbeddr.core.expressions.structure.Type" flags="ng" index="3TlMgo">
         <property id="2941277002445651368" name="const" index="2c7vTL" />
@@ -459,7 +458,11 @@
         <node concept="3XISUE" id="4UHO8tvqpOW" role="3XIRFZ" />
         <node concept="2BFjQ_" id="5ePkerKN8K1" role="3XIRFZ">
           <node concept="1S8S4T" id="66PbkE$QeG7" role="2BFjQA">
-            <node concept="2zguM6" id="66PbkE$QcvE" role="1S8S4V">
+            <node concept="26Vqph" id="66PbkE$QeT$" role="1S8S4N">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+            <node concept="2zguM6" id="66PbkE$QcvE" role="1_9fRO">
               <node concept="2BOciq" id="66PbkE$QcvF" role="2zgELT">
                 <node concept="2z_Mm0" id="66PbkE$QcvG" role="3TlMhJ">
                   <node concept="2BOcil" id="66PbkE$QcvH" role="2z_MjF">
@@ -500,10 +503,6 @@
                   <property role="2hmy$m" value="2" />
                 </node>
               </node>
-            </node>
-            <node concept="26Vqph" id="66PbkE$QeT$" role="1S8S4N">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
             </node>
           </node>
         </node>
