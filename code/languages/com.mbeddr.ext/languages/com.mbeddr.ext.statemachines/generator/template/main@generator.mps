@@ -8,7 +8,6 @@
     <use id="564e97d6-8fb7-41f5-bfc1-c7ed376efd62" name="com.mbeddr.ext.statemachines" version="-1" />
     <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="-1" />
     <use id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt" version="-1" />
-    <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest" version="-1" />
@@ -18,6 +17,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="896334f3-82ce-427b-bb47-ccd3131864a9" name="com.mbeddr.mpsutil.mappingLabels" version="0" />
+    <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="1" />
     <generationPart ref="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" />
     <generationPart ref="61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -98,7 +98,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -577,7 +577,6 @@
       <concept id="22102029902365709" name="com.mbeddr.core.expressions.structure.AssignmentExpr" flags="ng" index="3pqW6w" />
       <concept id="6610873504380029780" name="com.mbeddr.core.expressions.structure.CastExpression" flags="ng" index="1S8S4T">
         <child id="6610873504380029790" name="targetType" index="1S8S4N" />
-        <child id="6610873504380029782" name="expr" index="1S8S4V" />
       </concept>
       <concept id="8860443239512129322" name="com.mbeddr.core.expressions.structure.EqualsExpression" flags="ng" index="3TlM44" />
       <concept id="8860443239512128058" name="com.mbeddr.core.expressions.structure.BooleanType" flags="ng" index="3TlMgk" />
@@ -4603,7 +4602,28 @@
                 <node concept="2BPB98" id="466dILPCpGG" role="1_9egR">
                   <node concept="3wxyx2" id="466dILPCp8r" role="1_9fRO">
                     <node concept="1S8S4T" id="466dILPCp7W" role="1_9fRO">
-                      <node concept="2BPB98" id="466dILPCp7y" role="1S8S4V">
+                      <node concept="3wxxNl" id="466dILPCp7Z" role="1S8S4N">
+                        <node concept="26Vqqz" id="4Pack3zPxdr" role="2umbIo">
+                          <node concept="29HgVG" id="4Pack3zPxdt" role="lGtFl">
+                            <node concept="3NFfHV" id="4Pack3zPxdu" role="3NFExx">
+                              <node concept="3clFbS" id="4Pack3zPxdv" role="2VODD2">
+                                <node concept="3clFbF" id="4Pack3zPxdw" role="3cqZAp">
+                                  <node concept="2OqwBi" id="4Pack3zPxdB" role="3clFbG">
+                                    <node concept="2OqwBi" id="4Pack3zPxdy" role="2Oq$k0">
+                                      <node concept="30H73N" id="4Pack3zPxdx" role="2Oq$k0" />
+                                      <node concept="3TrEf2" id="4Pack3zPxdA" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="clqz:1z9MsBsVkjj" />
+                                      </node>
+                                    </node>
+                                    <node concept="3JvlWi" id="4Pack3zRDul" role="2OqNvi" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2BPB98" id="466dILPCp7y" role="1_9fRO">
                         <node concept="2wJmCr" id="466dILPCp7z" role="1_9fRO">
                           <node concept="3ZUYvv" id="466dILPCp7$" role="1_9fRO">
                             <ref role="3ZUYvu" node="2e3lhtcj8wj" resolve="arguments" />
@@ -4630,27 +4650,6 @@
                                       </node>
                                       <node concept="Xl_RD" id="466dILPCp7R" role="3uHU7B" />
                                     </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3wxxNl" id="466dILPCp7Z" role="1S8S4N">
-                        <node concept="26Vqqz" id="4Pack3zPxdr" role="2umbIo">
-                          <node concept="29HgVG" id="4Pack3zPxdt" role="lGtFl">
-                            <node concept="3NFfHV" id="4Pack3zPxdu" role="3NFExx">
-                              <node concept="3clFbS" id="4Pack3zPxdv" role="2VODD2">
-                                <node concept="3clFbF" id="4Pack3zPxdw" role="3cqZAp">
-                                  <node concept="2OqwBi" id="4Pack3zPxdB" role="3clFbG">
-                                    <node concept="2OqwBi" id="4Pack3zPxdy" role="2Oq$k0">
-                                      <node concept="30H73N" id="4Pack3zPxdx" role="2Oq$k0" />
-                                      <node concept="3TrEf2" id="4Pack3zPxdA" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="clqz:1z9MsBsVkjj" />
-                                      </node>
-                                    </node>
-                                    <node concept="3JvlWi" id="4Pack3zRDul" role="2OqNvi" />
                                   </node>
                                 </node>
                               </node>
