@@ -89,6 +89,7 @@
     <property name="com.mbeddr.tutorial.build-file.location" value="${mbeddr.github.core.home}/build/com.mbeddr.tutorial" />    
     <property name="com.mbeddr.tutorial.languages-build-file.name" value="build-languages.xml" /> 
     <property name="com.mbeddr.tutorial.solutions-build-file.name" value="build-solutions.xml" /> 
+    <property name="com.mbeddr.tutorial.userguide-build-file.name" value="build-userguide.xml" /> 	
     <property name="com.mbeddr.tutorial.tests-build-file.name" value="build-tests.xml" /> 
     <property name="com.mbeddr.tutorial.working-dir" value="${mbeddr.github.core.home}/applications/tutorial" />  
 
@@ -440,12 +441,15 @@
 <ant antfile="${com.mbeddr.analyses.ts-tests-build-file.name}" dir="${com.mbeddr.analyses.build-file.location}" target="${run-tests.task}" />	
 </target>
 
-<target name="build-tutorial" depends="build-sl-all">	  	   	  	  
+<target name="build-tutorial" depends="build-sl-all">	  	   	  	   
  <ant antfile="${com.mbeddr.tutorial.languages-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${generate-code.task}" />
  <ant antfile="${com.mbeddr.tutorial.languages-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${build-plugin.task}" />
 
  <ant antfile="${com.mbeddr.tutorial.solutions-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${generate-code.task}" />
  <ant antfile="${com.mbeddr.tutorial.solutions-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${build-plugin.task}" />
+ 
+ <ant antfile="${com.mbeddr.tutorial.userguide-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${generate-code.task}" />
+ <ant antfile="${com.mbeddr.tutorial.userguide-build-file.name}" dir="${com.mbeddr.tutorial.build-file.location}" target="${build-plugin.task}" />
 </target>     
 
 <target name="test-tutorial"  >	  

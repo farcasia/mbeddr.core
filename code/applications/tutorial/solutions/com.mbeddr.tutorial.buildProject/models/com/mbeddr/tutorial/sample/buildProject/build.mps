@@ -113,9 +113,15 @@
     <node concept="10PD9b" id="5dchr4Ql2LK" role="10PD9s" />
     <node concept="2sgV4H" id="5dchr4QkTfv" role="1l3spa">
       <ref role="1l3spb" to="p6ld:4i9pOwKTFVe" resolve="mbeddr" />
+      <node concept="398BVA" id="4d$UG6ZTQ3a" role="2JcizS">
+        <ref role="398BVh" node="4d$UG6ZShWe" resolve="mbeddr.artifacts" />
+      </node>
     </node>
     <node concept="2sgV4H" id="5dchr4Ql7Kx" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
+      <node concept="398BVA" id="4d$UG6ZTQ2I" role="2JcizS">
+        <ref role="398BVh" node="4d$UG6ZShW6" resolve="sl.all" />
+      </node>
     </node>
     <node concept="2sgV4H" id="5dchr4QlcKU" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
@@ -143,6 +149,71 @@
       <node concept="55IIr" id="5dchr4QkTfO" role="398pKh">
         <node concept="2Ry0Ak" id="5dchr4QkTfQ" role="iGT6I">
           <property role="2Ry0Am" value=".." />
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="4d$UG6ZShVW" role="1l3spd">
+      <property role="TrG5h" value="mbeddr.github.core.home" />
+      <node concept="55IIr" id="4d$UG6ZShVX" role="398pKh">
+        <node concept="2Ry0Ak" id="4d$UG6ZShVY" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="4d$UG6ZShVZ" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="4d$UG6ZShW0" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="4d$UG6ZSjhv" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="4d$UG6ZSjhz" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="4d$UG6ZShW6" role="1l3spd">
+      <property role="TrG5h" value="sl.all" />
+      <node concept="398BVA" id="4d$UG6ZShW7" role="398pKh">
+        <ref role="398BVh" node="4d$UG6ZShVW" resolve="mbeddr.github.core.home" />
+        <node concept="2Ry0Ak" id="4d$UG6ZShW8" role="iGT6I">
+          <property role="2Ry0Am" value="code" />
+          <node concept="2Ry0Ak" id="4d$UG6ZShW9" role="2Ry0An">
+            <property role="2Ry0Am" value="plugins" />
+            <node concept="2Ry0Ak" id="4d$UG6ZShWa" role="2Ry0An">
+              <property role="2Ry0Am" value="sl-all" />
+              <node concept="2Ry0Ak" id="4d$UG6ZShWb" role="2Ry0An">
+                <property role="2Ry0Am" value="build" />
+                <node concept="2Ry0Ak" id="4d$UG6ZShWc" role="2Ry0An">
+                  <property role="2Ry0Am" value="artifacts" />
+                  <node concept="2Ry0Ak" id="4d$UG6ZShWd" role="2Ry0An">
+                    <property role="2Ry0Am" value="mps-sl-all" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="4d$UG6ZShWe" role="1l3spd">
+      <property role="TrG5h" value="mbeddr.artifacts" />
+      <node concept="398BVA" id="4d$UG6ZShWf" role="398pKh">
+        <ref role="398BVh" node="4d$UG6ZShVW" resolve="mbeddr.github.core.home" />
+        <node concept="2Ry0Ak" id="4d$UG6ZShWg" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="4d$UG6ZShWh" role="2Ry0An">
+            <property role="2Ry0Am" value="com.mbeddr.build" />
+            <node concept="2Ry0Ak" id="4d$UG6ZShWi" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="4d$UG6ZShWj" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="4d$UG6ZShWk" role="2Ry0An">
+                  <property role="2Ry0Am" value="mbeddr" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
