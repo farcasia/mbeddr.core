@@ -16,7 +16,6 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)</dependency>
-        <dependency reexport="false">d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -26,6 +25,7 @@
       </usedLanguages>
       <languageVersions>
         <language id="46ffad3b-003c-4f6c-9877-f2e87e66c24b" fqName="com.mbeddr.mpsutil.assessment" version="-1" />
+        <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
         <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" fqName="com.mbeddr.mpsutil.chunk" version="-1" />
         <language id="3ea5fb2e-05f3-455f-904b-1c5525bc9b74" fqName="com.mbeddr.mpsutil.documentable" version="-1" />
         <language id="80371c31-fa98-441d-b7bf-abbd09329f38" fqName="com.mbeddr.mpsutil.ideEnhancement" version="-1" />
@@ -34,6 +34,7 @@
         <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" fqName="com.mbeddr.mpsutil.paragraph" version="-1" />
         <language id="b4d28e19-7d2d-47e9-943e-3a41f97a0e52" fqName="com.mbeddr.mpsutil.plantuml.node" version="0" />
         <language id="17abd836-3160-4627-b72d-0eb6d89532e0" fqName="com.mbeddr.mpsutil.search" version="-1" />
+        <language id="632f2086-3151-42f4-b852-e494368259f4" fqName="com.mbeddr.mpsutil.tree" version="0" />
         <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" fqName="de.slisson.mps.richtext" version="0" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
