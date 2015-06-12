@@ -10,7 +10,17 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" />
+    <import index="frrp" ref="r:59aa36d4-7a48-4954-ada4-be90c0fd4d45(com.mbeddr.mpsutil.tree.structure)" />
+    <import index="dipc" ref="r:c2073504-695d-4b88-a6d1-e11bcbce2167(com.mbeddr.mpsutil.outline.structure)" implicit="true" />
+    <import index="uplv" ref="r:d1b2d3c7-0ecf-4fac-9278-71146d3d535c(com.mbeddr.mpsutil.pathAndFile.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" implicit="true" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" implicit="true" />
+    <import index="c9ir" ref="r:6c0adec9-f600-4822-be96-08f45bb1ef2c(com.mbeddr.mpsutil.ideEnhancement.structure)" implicit="true" />
+    <import index="5vfd" ref="r:0c2e4b65-88f2-4040-962b-35eed850c792(com.mbeddr.mpsutil.assessment.structure)" implicit="true" />
+    <import index="isp" ref="r:e5bf7ad5-c82e-4a89-a984-b7530cc87e26(com.mbeddr.mpsutil.search.structure)" implicit="true" />
+    <import index="j006" ref="r:a8b15c4b-d1e5-4d6e-ad01-641bd35af9f8(com.mbeddr.mpsutil.documentable.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -72,17 +82,17 @@
       <property role="TrG5h" value="chapterStartIndex" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="PrWs8" id="2TZO3DbuxwN" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDg$f" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="5L$H31Kgq3i" role="PzmwI">
       <ref role="PrY4T" node="5L$H31Kgq3f" resolve="IDocumentLike" />
     </node>
-    <node concept="PrWs8" id="1uL8CItr6Fw" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+    <node concept="PrWs8" id="5hf93sHDg$h" role="PzmwI">
+      <ref role="PrY4T" to="c9ir:66D23jC1gXK" resolve="IMbeddrIDERoot" />
     </node>
-    <node concept="PrWs8" id="60pdW7uM1gq" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:9MiAwFsXp0" resolve="ITreeViewRoot" />
+    <node concept="PrWs8" id="5hf93sHDg$j" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZV" resolve="ITreeViewRoot" />
     </node>
     <node concept="PrWs8" id="4zsoa5EdazX" role="PzmwI">
       <ref role="PrY4T" to="570t:3JrMqIyfmMY" resolve="IBreadcrumb" />
@@ -91,8 +101,8 @@
   <node concept="PlHQZ" id="2TZO3DbuxwP">
     <property role="TrG5h" value="IDocumentContent" />
     <property role="3GE5qa" value="ifaces" />
-    <node concept="PrWs8" id="2TZO3Dbv5pF" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDgOa" role="PrDN$">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="1o2NPvZml3z" role="PrDN$">
       <ref role="PrY4T" to="570t:3JrMqIyfmMY" resolve="IBreadcrumb" />
@@ -104,8 +114,8 @@
     <node concept="PrWs8" id="2TZO3Dbuxxh" role="PzmwI">
       <ref role="PrY4T" node="2TZO3DbuxwP" resolve="IDocumentContent" />
     </node>
-    <node concept="PrWs8" id="2TZO3Dbuxxj" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+    <node concept="PrWs8" id="5hf93sHDg$7" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
     </node>
   </node>
   <node concept="1TIwiD" id="2TZO3Dbv6Ju">
@@ -124,17 +134,17 @@
     <node concept="PrWs8" id="2TZO3Dbv6JY" role="PzmwI">
       <ref role="PrY4T" node="2TZO3Dbv6JT" resolve="IDocContentContainer" />
     </node>
-    <node concept="PrWs8" id="7$DvC4gS4yN" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+    <node concept="PrWs8" id="5hf93sHBr6Q" role="PzmwI">
+      <ref role="PrY4T" to="dipc:66D23jBYaQk" resolve="IShowUpInOutline" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34iD" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHBr7d" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
     <node concept="PrWs8" id="1F0U9H6cCL0" role="PzmwI">
       <ref role="PrY4T" to="570t:3JrMqIyfmMY" resolve="IBreadcrumb" />
     </node>
-    <node concept="PrWs8" id="39jEAIlrcKU" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7NyyyjNt9Bq" resolve="ITreeViewable" />
+    <node concept="PrWs8" id="5hf93sHBr7f" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZX" resolve="ITreeViewable" />
     </node>
     <node concept="PrWs8" id="6jiGbW_JDXF" role="PzmwI">
       <ref role="PrY4T" node="6jiGbW_JBH_" resolve="IDocReferencable" />
@@ -149,8 +159,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2TZO3DbuxwP" resolve="IDocumentContent" />
     </node>
-    <node concept="PrWs8" id="3UlEobTG04T" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+    <node concept="PrWs8" id="5hf93sHDgO5" role="PrDN$">
+      <ref role="PrY4T" to="m1h3:2JUQ7aeoTqg" resolve="IContainerOfUniqueNames" />
     </node>
   </node>
   <node concept="1TIwiD" id="2TZO3Dbv6N7">
@@ -159,8 +169,8 @@
     <property role="34LRSv" value="section" />
     <property role="R4oN_" value="a section in the document" />
     <ref role="1TJDcQ" node="2TZO3Dbv6Ju" resolve="AbstractSection" />
-    <node concept="PrWs8" id="2en8HnCuQbk" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+    <node concept="PrWs8" id="5hf93sHDgPs" role="PzmwI">
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="2TZO3DbvcVJ">
@@ -190,14 +200,14 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34b7" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDgPd" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
-    <node concept="PrWs8" id="3il$LAnRuv7" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+    <node concept="PrWs8" id="5hf93sHDgPf" role="PzmwI">
+      <ref role="PrY4T" to="dipc:66D23jBYaQk" resolve="IShowUpInOutline" />
     </node>
-    <node concept="PrWs8" id="72AnQbQ5ZHg" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7NyyyjNt9Bq" resolve="ITreeViewable" />
+    <node concept="PrWs8" id="5hf93sHDgPh" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZX" resolve="ITreeViewable" />
     </node>
   </node>
   <node concept="1TIwiD" id="2TZO3DbvhAy">
@@ -254,10 +264,10 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="abstract" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
-    <node concept="PrWs8" id="1uL8CItvfvF" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+    <node concept="PrWs8" id="5hf93sHDgNV" role="PzmwI">
+      <ref role="PrY4T" to="c9ir:66D23jC1gXK" resolve="IMbeddrIDERoot" />
     </node>
   </node>
   <node concept="1TIwiD" id="2TZO3DbvSLN">
@@ -294,7 +304,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="description" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
     <node concept="1TJgyj" id="7uLL3Mf1NPn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -314,8 +324,8 @@
       <property role="TrG5h" value="center" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="PrWs8" id="5yxqZJwzdNY" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDgOv" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="47ZkZt5YzNg" role="PzmwI">
       <ref role="PrY4T" node="47ZkZt5YzN8" resolve="IFloating" />
@@ -323,11 +333,11 @@
     <node concept="PrWs8" id="3UlEobTHU2f" role="PzmwI">
       <ref role="PrY4T" node="3UlEobTHU0C" resolve="IUsesExternalPath" />
     </node>
-    <node concept="PrWs8" id="72AnQbR5QmU" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7NyyyjNt9Bq" resolve="ITreeViewable" />
+    <node concept="PrWs8" id="5hf93sHDgOx" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZX" resolve="ITreeViewable" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34hf" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDgOz" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
   </node>
   <node concept="1TIwiD" id="5yxqZJwzrcZ">
@@ -379,17 +389,17 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2U5fsQei4zf" resolve="IDocConfigItem" />
     </node>
-    <node concept="PrWs8" id="5yxqZJwzC3f" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDg$V" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
-    <node concept="PrWs8" id="2vLLb0TkqvV" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+    <node concept="PrWs8" id="5hf93sHDg$X" role="PzmwI">
+      <ref role="PrY4T" to="m1h3:2JUQ7aeoTqg" resolve="IContainerOfUniqueNames" />
     </node>
-    <node concept="PrWs8" id="1uL8CItt9cu" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+    <node concept="PrWs8" id="5hf93sHDg$Z" role="PzmwI">
+      <ref role="PrY4T" to="c9ir:66D23jC1gXK" resolve="IMbeddrIDERoot" />
     </node>
-    <node concept="PrWs8" id="720V7ZgxWTL" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
+    <node concept="PrWs8" id="5hf93sHDg_1" role="PzmwI">
+      <ref role="PrY4T" to="c9ir:66D23jC4T5W" resolve="IKeepAliveInGeneration" />
     </node>
   </node>
   <node concept="1TIwiD" id="5yxqZJwzC3r">
@@ -400,10 +410,10 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pathPicker" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:2iGZqsHuOWj" resolve="SolutionRelativeDirPicker" />
+      <ref role="20lvS9" to="uplv:66D23jC0kgs" resolve="SolutionRelativeDirPicker" />
     </node>
-    <node concept="PrWs8" id="5yxqZJwzC3s" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDg_f" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5yxqZJwzNUZ">
@@ -446,14 +456,14 @@
     <property role="TrG5h" value="Shortcut" />
     <property role="3GE5qa" value="config" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3RseghIejGw" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDg_k" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="1TJgyj" id="3RseghIejGx" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
     <node concept="1TJgyj" id="3RseghIeCOR" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -496,8 +506,8 @@
     <property role="3GE5qa" value="config" />
     <property role="TrG5h" value="ShortcutArg" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3RseghIeCOM" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDg_p" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3RseghIeCP3">
@@ -542,13 +552,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34fM" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDgOO" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
-    <node concept="PrWs8" id="2en8HnCwsSL" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+    <node concept="PrWs8" id="5hf93sHDgOQ" role="PzmwI">
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="5mf_X_Larxx">
@@ -624,8 +634,8 @@
   <node concept="PlHQZ" id="47ZkZt5YzN8">
     <property role="TrG5h" value="IFloating" />
     <property role="3GE5qa" value="ifaces" />
-    <node concept="PrWs8" id="47ZkZt5YzN9" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDgOi" role="PrDN$">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="6jiGbW_JEjT" role="PrDN$">
       <ref role="PrY4T" node="6jiGbW_JBH_" resolve="IDocReferencable" />
@@ -695,8 +705,8 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7uLL3Mf0t_w" resolve="FigureSizeSpec" />
     </node>
-    <node concept="PrWs8" id="7uLL3Mf1pvU" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDg$Q" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5gTlpaky5gD">
@@ -728,8 +738,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5yxqZJwzW1O" resolve="PathMapping" />
     </node>
-    <node concept="PrWs8" id="4vQSg$ArRIU" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHBr2p" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5gTlpaky6t5">
@@ -738,8 +748,8 @@
     <property role="3GE5qa" value="export" />
     <property role="MwhBj" value="${language_descriptor}/icons/documentExport.png" />
     <ref role="1TJDcQ" node="5gTlpaky5gD" resolve="AbstractExport" />
-    <node concept="PrWs8" id="1uL8CIttCpY" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+    <node concept="PrWs8" id="5hf93sHDgO0" role="PzmwI">
+      <ref role="PrY4T" to="c9ir:66D23jC1gXK" resolve="IMbeddrIDERoot" />
     </node>
   </node>
   <node concept="1TIwiD" id="7$DvC4gUq7B">
@@ -757,11 +767,11 @@
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34em" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDgOY" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
-    <node concept="PrWs8" id="3il$LAnLwNo" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7NyyyjNt9Bq" resolve="ITreeViewable" />
+    <node concept="PrWs8" id="5hf93sHDgP0" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZX" resolve="ITreeViewable" />
     </node>
   </node>
   <node concept="1TIwiD" id="4vQSg$Ar0eu">
@@ -772,8 +782,8 @@
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34cI" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDgP8" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
   </node>
   <node concept="1TIwiD" id="4vQSg$ArKJG">
@@ -786,13 +796,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="description" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
     <node concept="PrWs8" id="4vQSg$ArKJH" role="PzmwI">
       <ref role="PrY4T" node="47ZkZt5YzN8" resolve="IFloating" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34lE" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDhw3" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
   </node>
   <node concept="1TIwiD" id="4vQSg$ArKJI">
@@ -836,8 +846,8 @@
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34kS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDian" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
   </node>
   <node concept="1TIwiD" id="519ky_SkDrE">
@@ -883,10 +893,10 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
-    <node concept="PrWs8" id="jpyKDg34kg" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDias" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
   </node>
   <node concept="1TIwiD" id="2HzhasNytLD">
@@ -927,8 +937,8 @@
     <node concept="PrWs8" id="2fGuOSYbvYY" role="PzmwI">
       <ref role="PrY4T" node="3UlEobTHU0C" resolve="IUsesExternalPath" />
     </node>
-    <node concept="PrWs8" id="5MdJlx$btP6" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7NyyyjNt9Bq" resolve="ITreeViewable" />
+    <node concept="PrWs8" id="5hf93sHCpLo" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZX" resolve="ITreeViewable" />
     </node>
     <node concept="1TJgyj" id="2fGuOSYbvZ0" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -949,7 +959,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="description" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
     <node concept="1TJgyj" id="2fGuOSYbvZ4" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1008,8 +1018,8 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
     </node>
-    <node concept="PrWs8" id="6VFmq3I3EUp" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+    <node concept="PrWs8" id="5hf93sHDgOq" role="PzmwI">
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
   </node>
   <node concept="1TIwiD" id="yrKNEnZDpF">
@@ -1065,8 +1075,8 @@
     <property role="TrG5h" value="NameAnnotation" />
     <property role="3GE5qa" value="embed" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="PrWs8" id="3DAECxFssLT" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="5hf93sHDgNQ" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="M6xJ_" id="3DAECxFssLU" role="lGtFl">
       <property role="Hh88m" value="nameAnnotation" />
@@ -1088,8 +1098,8 @@
     <property role="34LRSv" value="chapter" />
     <property role="R4oN_" value="a chapter in the document" />
     <ref role="1TJDcQ" node="2TZO3Dbv6Ju" resolve="AbstractSection" />
-    <node concept="PrWs8" id="3DAECxG6nQF" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+    <node concept="PrWs8" id="5hf93sHBr7Z" role="PzmwI">
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="aiIotWrcya" role="PzmwI">
       <ref role="PrY4T" to="570t:4o4$mVTwnFM" resolve="ISectionIndex" />
@@ -1166,8 +1176,8 @@
     <node concept="PrWs8" id="627_yy34G19" role="PzmwI">
       <ref role="PrY4T" node="47ZkZt5XzTh" resolve="IInterspersed" />
     </node>
-    <node concept="PrWs8" id="627_yy34G1a" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7NyyyjNt9Bq" resolve="ITreeViewable" />
+    <node concept="PrWs8" id="5hf93sHBr6I" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZX" resolve="ITreeViewable" />
     </node>
   </node>
   <node concept="1TIwiD" id="627_yy34G1b">
@@ -1196,7 +1206,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="description" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
     <node concept="1TJgyj" id="627_yy34G1h" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1258,12 +1268,12 @@
     <property role="TrG5h" value="QAAssessmentQuery" />
     <property role="34LRSv" value="QA relevant stuff in documents" />
     <property role="3GE5qa" value="assessment" />
-    <ref role="1TJDcQ" to="vs0r:K292flwD4r" resolve="AssessmentQuery" />
+    <ref role="1TJDcQ" to="5vfd:66D23jBKIgp" resolve="AssessmentQuery" />
   </node>
   <node concept="1TIwiD" id="627_yy3SoY7">
     <property role="3GE5qa" value="assessment" />
     <property role="TrG5h" value="QAAssessmentResult" />
-    <ref role="1TJDcQ" to="vs0r:K292flwHw9" resolve="AssessmentResult" />
+    <ref role="1TJDcQ" to="5vfd:66D23jBKIgq" resolve="AssessmentResult" />
     <node concept="1TJgyj" id="627_yy3SoZQ" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="node" />
@@ -1335,11 +1345,11 @@
     <node concept="PrWs8" id="QRmqzHsCFF" role="PzmwI">
       <ref role="PrY4T" node="2TZO3DbuxwP" resolve="IDocumentContent" />
     </node>
-    <node concept="PrWs8" id="QRmqzHsCFN" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+    <node concept="PrWs8" id="5hf93sHDgPx" role="PzmwI">
+      <ref role="PrY4T" to="dipc:66D23jBYaQk" resolve="IShowUpInOutline" />
     </node>
-    <node concept="PrWs8" id="QRmqzHsCG0" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6SQk4GjI9n5" resolve="IHierarchicalStructure" />
+    <node concept="PrWs8" id="5hf93sHDgPG" role="PzmwI">
+      <ref role="PrY4T" to="frrp:66D23jBSLZN" resolve="IHierarchicalStructure" />
     </node>
   </node>
   <node concept="1TIwiD" id="QRmqzHsCG8">
