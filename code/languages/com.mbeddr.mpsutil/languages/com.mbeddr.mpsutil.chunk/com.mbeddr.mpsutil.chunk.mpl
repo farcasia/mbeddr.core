@@ -23,9 +23,11 @@
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <languageVersions>
+        <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
         <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" fqName="com.mbeddr.mpsutil.chunk" version="-1" />
         <language id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" fqName="com.mbeddr.mpsutil.jung" version="0" />
         <language id="e87a5642-e4a5-4abe-b61d-2f36720bc989" fqName="com.mbeddr.mpsutil.outline" version="-1" />
+        <language id="632f2086-3151-42f4-b852-e494368259f4" fqName="com.mbeddr.mpsutil.tree" version="0" />
         <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
         <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
         <language id="fd392034-7849-419d-9071-12563d152375" fqName="jetbrains.mps.baseLanguage.closures" version="0" />
@@ -46,9 +48,9 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">1338ba73-5059-479b-a929-de86597a62b8(com.mbeddr.mpsutil.jung.pluginSolution)</dependency>
-    <dependency reexport="false">632f2086-3151-42f4-b852-e494368259f4(com.mbeddr.mpsutil.tree)</dependency>
-    <dependency reexport="false">e87a5642-e4a5-4abe-b61d-2f36720bc989(com.mbeddr.mpsutil.outline)</dependency>
     <dependency reexport="false">6d413dda-39a2-46c4-b917-f7643a08e428(com.mbeddr.mpsutil.codereview)</dependency>
+    <dependency reexport="false">0bef6f08-4882-454b-b4ca-21221f574c06(com.mbeddr.mpsutil.commentable)</dependency>
+    <dependency reexport="false">371850a9-2c5b-4e1d-a811-70d97e847917(com.mbeddr.mpsutil.editor.utils)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>
@@ -96,6 +98,7 @@
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
     <extendedLanguage>d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)</extendedLanguage>
     <extendedLanguage>e87a5642-e4a5-4abe-b61d-2f36720bc989(com.mbeddr.mpsutil.outline)</extendedLanguage>
+    <extendedLanguage>632f2086-3151-42f4-b852-e494368259f4(com.mbeddr.mpsutil.tree)</extendedLanguage>
   </extendedLanguages>
 </language>
 

@@ -26,6 +26,7 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="lou4" ref="r:b604394b-5174-4f56-b4e5-d111608b89f0(com.mbeddr.mpsutil.documentable.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1023,8 +1024,8 @@
                 <node concept="1snrkl" id="4itX8XVTLAQ" role="1sne05">
                   <ref role="1snrk2" to="tpck:h0TrG11" resolve="name" />
                   <node concept="2YIFZM" id="3Wi_6mkqJVM" role="1snq_E">
-                    <ref role="37wK5l" to="hwgx:3Wi_6mkqD6I" resolve="extractExampleName" />
-                    <ref role="1Pybhc" to="hwgx:3Wi_6mkqAnn" resolve="NameExtractionHelper" />
+                    <ref role="37wK5l" to="lou4:66D23jC8P5t" resolve="extractExampleName" />
+                    <ref role="1Pybhc" to="lou4:66D23jC8P5r" resolve="NameExtractionHelper" />
                     <node concept="2Sf5sV" id="3Wi_6mkqJWi" role="37wK5m" />
                   </node>
                 </node>
@@ -1724,8 +1725,8 @@
                   <node concept="1snrkl" id="1YMKWAVKUBX" role="1sne05">
                     <ref role="1snrk2" to="tpck:h0TrG11" resolve="name" />
                     <node concept="2YIFZM" id="3Wi_6mkqNIp" role="1snq_E">
-                      <ref role="37wK5l" to="hwgx:3Wi_6mkqD6I" resolve="extractExampleName" />
-                      <ref role="1Pybhc" to="hwgx:3Wi_6mkqAnn" resolve="NameExtractionHelper" />
+                      <ref role="37wK5l" to="lou4:66D23jC8P5t" resolve="extractExampleName" />
+                      <ref role="1Pybhc" to="lou4:66D23jC8P5r" resolve="NameExtractionHelper" />
                       <node concept="2Sf5sV" id="3Wi_6mkqNIq" role="37wK5m" />
                     </node>
                   </node>

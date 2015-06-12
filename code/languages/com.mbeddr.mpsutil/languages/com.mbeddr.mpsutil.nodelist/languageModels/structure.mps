@@ -63,7 +63,7 @@
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
     <node concept="PrWs8" id="66D23jC0iju" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="66D23jC0ijv">
@@ -79,7 +79,7 @@
       <ref role="20lvS9" node="66D23jC0ijr" resolve="NodeList" />
     </node>
     <node concept="PrWs8" id="66D23jC0ijx" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="66D23jC0ijy" role="PzmwI">
       <ref role="PrY4T" to="c9ir:66D23jC1gXK" resolve="IMbeddrIDERoot" />

@@ -112,6 +112,8 @@
     <import index="c9ir" ref="r:6c0adec9-f600-4822-be96-08f45bb1ef2c(com.mbeddr.mpsutil.ideEnhancement.structure)" />
     <import index="enj3" ref="r:a0389f1a-b335-4231-9d0d-7d5022a52de4(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
     <import index="sp18" ref="r:f962b007-77a9-40cc-87eb-5d389d55f74f(com.mbeddr.mpsutil.ideEnhancement.pluginSolution.plugin)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platformRuntimeSolution.plugin)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -142,8 +144,6 @@
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
-        <property id="1204991940915" name="caption" index="2f7twF" />
-        <property id="1213283637680" name="isPopup" index="1XlLyE" />
         <child id="1204991552650" name="modifier" index="2f5YQi" />
         <child id="1207145245948" name="contents" index="ftER_" />
       </concept>
@@ -411,11 +411,6 @@
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
       <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
-    </language>
-    <language id="58e731a3-6aaa-444a-bf40-801b91c15878" name="com.mbeddr.mpsutil.lang.plugin.extensions">
-      <concept id="3826319847679748876" name="com.mbeddr.mpsutil.lang.plugin.extensions.structure.AddWithConstantArchor" flags="lg" index="30SVEG">
-        <property id="3826319847679982768" name="archor" index="30T2Og" />
-      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1787,8 +1782,8 @@
       <node concept="3clFbS" id="3slbD0C6UdH" role="2VODD2">
         <node concept="3clFbF" id="3slbD0C6UDH" role="3cqZAp">
           <node concept="2YIFZM" id="3slbD0C7$Al" role="3clFbG">
-            <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
-            <ref role="37wK5l" to="hwgx:3slbD0C6STV" resolve="showButtons" />
+            <ref role="1Pybhc" to="oq9k:66D23jC6qVS" resolve="EditorButtonHelper" />
+            <ref role="37wK5l" to="oq9k:66D23jC6qWc" resolve="showButtons" />
             <node concept="3clFbT" id="3slbD0C7$Am" role="37wK5m">
               <property role="3clFbU" value="true" />
             </node>
@@ -1820,8 +1815,8 @@
         <node concept="3clFbF" id="3slbD0C7$Af" role="3cqZAp">
           <node concept="3fqX7Q" id="3slbD0C7$Aj" role="3clFbG">
             <node concept="2YIFZM" id="3slbD0C7$Ak" role="3fr31v">
-              <ref role="37wK5l" to="hwgx:3slbD0C6STN" resolve="showButtons" />
-              <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
+              <ref role="37wK5l" to="oq9k:66D23jC6qVX" resolve="showButtons" />
+              <ref role="1Pybhc" to="oq9k:66D23jC6qVS" resolve="EditorButtonHelper" />
             </node>
           </node>
         </node>
@@ -1841,8 +1836,8 @@
       <node concept="2a7GMi" id="goNQ8fvP_X" role="ftvYc" />
     </node>
     <node concept="tT9cl" id="3slbD0C6VXx" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />
-      <ref role="2f8Tey" node="goNQ8fnbte" resolve="mbeddrPlatformProjectionModes" />
+      <ref role="tU$_T" to="ig80:66D23jC6bn4" resolve="mbeddrPlatformProjectionModeGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bn6" resolve="mbeddrPlatformProjectionModes" />
     </node>
   </node>
   <node concept="sE7Ow" id="3slbD0C7$An">
@@ -1863,8 +1858,8 @@
       <node concept="3clFbS" id="3slbD0C7$Ar" role="2VODD2">
         <node concept="3clFbF" id="3slbD0C7$As" role="3cqZAp">
           <node concept="2YIFZM" id="3slbD0C7$At" role="3clFbG">
-            <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
-            <ref role="37wK5l" to="hwgx:3slbD0C6STV" resolve="showButtons" />
+            <ref role="1Pybhc" to="oq9k:66D23jC6qVS" resolve="EditorButtonHelper" />
+            <ref role="37wK5l" to="oq9k:66D23jC6qWc" resolve="showButtons" />
             <node concept="3clFbT" id="3slbD0C7$Au" role="37wK5m" />
           </node>
         </node>
@@ -1895,8 +1890,8 @@
       <node concept="3clFbS" id="3slbD0C7$Ax" role="2VODD2">
         <node concept="3clFbF" id="3slbD0C7$Ay" role="3cqZAp">
           <node concept="2YIFZM" id="3slbD0C7$A$" role="3clFbG">
-            <ref role="37wK5l" to="hwgx:3slbD0C6STN" resolve="showButtons" />
-            <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
+            <ref role="37wK5l" to="oq9k:66D23jC6qVX" resolve="showButtons" />
+            <ref role="1Pybhc" to="oq9k:66D23jC6qVS" resolve="EditorButtonHelper" />
           </node>
         </node>
       </node>
@@ -2191,62 +2186,6 @@
       <ref role="3uigEE" to="dbrf:~JPanel" resolve="JPanel" />
     </node>
   </node>
-  <node concept="tC5Ba" id="53G_t0FcvfX">
-    <property role="TrG5h" value="mbeddrPlatformEditorPopupGroup" />
-    <node concept="ftmFs" id="53G_t0FcvgP" role="ftER_">
-      <node concept="2a7GMi" id="53G_t0FcvgS" role="ftvYc" />
-      <node concept="10WQ6h" id="53G_t0FcvgX" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformEditorPopupExtensions" />
-      </node>
-      <node concept="2a7GMi" id="39c7fuKwbnb" role="ftvYc" />
-      <node concept="10WQ6h" id="39c7fuKwbnA" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformEditorPopupAnalysisExtensions" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="53G_t0Fcvh1" role="2f5YQi">
-      <ref role="tU$_T" to="ekwn:1xsN4xJX8VI" resolve="EditorPopup" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fiCdc">
-    <property role="TrG5h" value="mbeddrPlatformModelGroup" />
-    <node concept="ftmFs" id="goNQ8fiCdd" role="ftER_">
-      <node concept="2a7GMi" id="goNQ8fiCde" role="ftvYc" />
-      <node concept="10WQ6h" id="goNQ8fiCdf" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformModelExtensions" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="goNQ8fiCdg" role="2f5YQi">
-      <ref role="tU$_T" to="tprs:hyf4Hgq" resolve="ModelActions" />
-      <ref role="2f8Tey" to="tprs:2blMBvV$tE0" resolve="showHelp" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fiE3l">
-    <property role="TrG5h" value="mbeddrPlatformSolutionGroup" />
-    <node concept="ftmFs" id="goNQ8fiE3m" role="ftER_">
-      <node concept="2a7GMi" id="goNQ8fiE3n" role="ftvYc" />
-      <node concept="10WQ6h" id="goNQ8fiE3o" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformSolutionExtensions" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="goNQ8fiE3p" role="2f5YQi">
-      <ref role="tU$_T" to="tprs:hyf4Jd1" resolve="SolutionActions" />
-      <ref role="2f8Tey" to="tprs:1bRM4HyGOKI" resolve="contents" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fnbtb">
-    <property role="TrG5h" value="mbeddrPlatformProjectionModeGroup" />
-    <property role="1XlLyE" value="true" />
-    <property role="2f7twF" value="Projection Mode" />
-    <node concept="ftmFs" id="goNQ8fnbtc" role="ftER_">
-      <node concept="10WQ6h" id="goNQ8fnbte" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformProjectionModes" />
-      </node>
-    </node>
-    <node concept="30SVEG" id="3kpOq3PZX3V" role="2f5YQi">
-      <property role="30T2Og" value="ViewMenu" />
-      <ref role="tU$_T" to="tprs:hF$pMQx" resolve="IDEAMainMenu" />
-    </node>
-  </node>
   <node concept="tC5Ba" id="goNQ8fxK7J">
     <property role="TrG5h" value="CodeMenuExtensions" />
     <node concept="ftmFs" id="goNQ8fxK8l" role="ftER_">
@@ -2261,20 +2200,6 @@
     </node>
     <node concept="tT9cl" id="goNQ8fxK8A" role="2f5YQi">
       <ref role="tU$_T" to="9oh:4vodOtydcQH" resolve="IDEACode" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fyUy3">
-    <property role="TrG5h" value="mbeddrPlatformWizards" />
-    <property role="1XlLyE" value="true" />
-    <property role="2f7twF" value="Wizards" />
-    <node concept="ftmFs" id="goNQ8fyUy4" role="ftER_">
-      <node concept="10WQ6h" id="goNQ8fyUy5" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformWizards" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="goNQ8fyUy6" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fxK7J" resolve="CodeMenuExtensions" />
-      <ref role="2f8Tey" node="goNQ8fyUxT" resolve="WizardStuff" />
     </node>
   </node>
   <node concept="312cEu" id="2nGuY2QKdBO">
@@ -3238,8 +3163,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="2nGuY2QPdF$" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fiE3l" resolve="mbeddrPlatformSolutionGroup" />
-      <ref role="2f8Tey" node="goNQ8fiE3o" resolve="mbeddrPlatformSolutionExtensions" />
+      <ref role="tU$_T" to="ig80:66D23jC6bn8" resolve="mbeddrPlatformSolutionGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bnb" resolve="mbeddrPlatformSolutionExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="2nGuY2QOx22">
@@ -3433,8 +3358,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="2Y27DzrvF82" role="2f5YQi">
-      <ref role="2f8Tey" node="53G_t0FcvgX" resolve="mbeddrPlatformEditorPopupExtensions" />
-      <ref role="tU$_T" node="53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bmV" resolve="mbeddrPlatformEditorPopupExtensions" />
+      <ref role="tU$_T" to="ig80:66D23jC6bmS" resolve="mbeddrPlatformEditorPopupGroup" />
     </node>
   </node>
 </model>

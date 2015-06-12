@@ -18,6 +18,7 @@
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
     <import index="39a1" ref="r:04bf42b6-9c97-463a-99ec-af9b2dcba2ae(com.mbeddr.mpsutil.assessment.behavior)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -142,8 +143,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="66D23jBMoUN" role="2f5YQi">
-      <ref role="tU$_T" to="d244:goNQ8fiCdc" resolve="mbeddrPlatformModelGroup" />
-      <ref role="2f8Tey" to="d244:goNQ8fiCdf" resolve="mbeddrPlatformModelExtensions" />
+      <ref role="tU$_T" to="ig80:66D23jC6bmZ" resolve="mbeddrPlatformModelGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bn2" resolve="mbeddrPlatformModelExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="66D23jBMoUO">

@@ -15,8 +15,10 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
+    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="pc7u" ref="r:d1daf0bb-3793-4ffe-ae26-dc0d91022b52(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1137,10 +1139,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCqk8Q" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCqk2Y" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="m1h3:66D23jCb_qj" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCqkpY" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="pc7u:66D23jCb_qn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="x1qBkTzxS" role="37wK5m">
               <ref role="1YBMHb" node="x1qBkTy4v" resolve="sboas" />
             </node>

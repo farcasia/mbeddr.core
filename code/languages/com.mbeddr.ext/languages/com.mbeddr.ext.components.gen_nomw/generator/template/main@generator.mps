@@ -37,6 +37,7 @@
     <import index="1s42" ref="r:d482a2e6-b3ef-4c45-883b-cf624a56b653(com.mbeddr.core.pointers.behavior)" />
     <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="v2zw" ref="r:628ca079-8bed-477e-9e46-e865ba206d8e(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1541,7 +1542,7 @@
                   </node>
                   <node concept="2OqwBi" id="3yeYUb91sth" role="3uHU7w">
                     <node concept="2qgKlT" id="3yeYUb91str" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:4JF77iuPCMH" resolve="qualifiedName" />
+                      <ref role="37wK5l" to="qcz6:66D23jC3jtm" resolve="qualifiedName" />
                     </node>
                     <node concept="30H73N" id="3yeYUb91stj" role="2Oq$k0" />
                   </node>

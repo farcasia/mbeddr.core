@@ -7,9 +7,8 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</dependency>
-    <dependency reexport="false">9e24fcdc-a232-4d24-8c95-1f525946191a(com.mbeddr.core.base.pluginSolution)</dependency>
     <dependency reexport="false">6d413dda-39a2-46c4-b917-f7643a08e428(com.mbeddr.mpsutil.codereview)</dependency>
+    <dependency reexport="false">f016836c-fc2c-4511-ad20-1de7093c3494(com.mbeddr.mpsutil.platform.pluginSolution)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ef7bf5ac-d06c-4342-b11d-e42104eb9343(jetbrains.mps.lang.plugin.standalone)</usedLanguage>

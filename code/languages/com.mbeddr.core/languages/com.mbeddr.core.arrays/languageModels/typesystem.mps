@@ -28,6 +28,8 @@
     <import index="bt5b" ref="r:10548ca1-8094-4342-a65a-87d986241875(com.mbeddr.core.pointers.utils)" />
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="pc7u" ref="r:d1daf0bb-3793-4ffe-ae26-dc0d91022b52(com.mbeddr.mpsutil.controlledName.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1261,10 +1263,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCqk8Q" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCqk2Y" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="m1h3:66D23jCb_qj" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCqkpY" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="pc7u:66D23jCb_qn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCreBK" role="37wK5m">
               <ref role="1YBMHb" node="4VhroexOWgn" resolve="arrayType" />
             </node>

@@ -14,6 +14,13 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
@@ -43,6 +50,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -62,7 +70,7 @@
       <ref role="20lvS9" node="66D23jBXkFf" resolve="ChunkDependencyConstraint" />
     </node>
     <node concept="PrWs8" id="66D23jBNlJP" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" node="66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="66D23jBNlJQ" role="PzmwI">
       <ref role="PrY4T" node="66D23jBNlK5" resolve="IVisibleElementProvider" />
@@ -145,11 +153,34 @@
   <node concept="PlHQZ" id="66D23jBXx5A">
     <property role="TrG5h" value="IDetectCycle" />
     <node concept="PrWs8" id="66D23jBXx5B" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" node="66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="66D23jBXx5C">
     <property role="TrG5h" value="ILOCCountProvider" />
+  </node>
+  <node concept="PlHQZ" id="66D23jC3js$">
+    <property role="TrG5h" value="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="66D23jC3js_" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="66D23jC3jsA" role="PrDN$">
+      <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="66D23jC7zeY">
+    <property role="TrG5h" value="IReference" />
+  </node>
+  <node concept="1TIwiD" id="66D23jC8h7P">
+    <property role="TrG5h" value="VisibilityControllingAttribute" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="66D23jC8h7Q" role="lGtFl">
+      <property role="Hh88m" value="visibilityController" />
+      <node concept="trNpa" id="66D23jC8h7R" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
   </node>
 </model>
 

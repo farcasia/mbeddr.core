@@ -10,7 +10,7 @@
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" implicit="true" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1142,7 +1142,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="2YT86TS39Xx" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:70kXLV4LLzy" resolve="target" />
+                  <ref role="37wK5l" to="qcz6:66D23jC7zf0" resolve="target" />
                 </node>
               </node>
               <node concept="2OqwBi" id="UsFCYPvOPm" role="1XBRO_">

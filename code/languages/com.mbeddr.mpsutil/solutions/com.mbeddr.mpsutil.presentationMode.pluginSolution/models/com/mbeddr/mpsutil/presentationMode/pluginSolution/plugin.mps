@@ -9,6 +9,7 @@
   <imports>
     <import index="hdtg" ref="r:a98870ae-8a43-4751-92a1-59619b72eaaa(com.mbeddr.mpsutil.presentationMode.editor)" />
     <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -50,8 +51,8 @@
       <ref role="33glcY" to="hdtg:66D23jBQP4W" resolve="presentationMode" />
     </node>
     <node concept="tT9cl" id="66D23jBQTfZ" role="2hfP89">
-      <ref role="tU$_T" to="d244:goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />
-      <ref role="2f8Tey" to="d244:goNQ8fnbte" resolve="mbeddrPlatformProjectionModes" />
+      <ref role="tU$_T" to="ig80:66D23jC6bn4" resolve="mbeddrPlatformProjectionModeGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bn6" resolve="mbeddrPlatformProjectionModes" />
     </node>
   </node>
 </model>

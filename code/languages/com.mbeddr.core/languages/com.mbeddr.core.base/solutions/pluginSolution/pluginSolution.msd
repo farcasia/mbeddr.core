@@ -31,6 +31,8 @@
     <dependency reexport="false">077c0a96-f16f-4da4-b70a-32962edc7dad(com.mbeddr.mpsutil.tree.pluginSolution)</dependency>
     <dependency reexport="false">80371c31-fa98-441d-b7bf-abbd09329f38(com.mbeddr.mpsutil.ideEnhancement)</dependency>
     <dependency reexport="false">aae22091-f47c-42de-9374-c1fd92e63b2b(com.mbeddr.mpsutil.ideEnhancement.pluginSolution)</dependency>
+    <dependency reexport="false">f016836c-fc2c-4511-ad20-1de7093c3494(com.mbeddr.mpsutil.platformRuntimeSolution)</dependency>
+    <dependency reexport="false">371850a9-2c5b-4e1d-a811-70d97e847917(com.mbeddr.mpsutil.editor.utils)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>

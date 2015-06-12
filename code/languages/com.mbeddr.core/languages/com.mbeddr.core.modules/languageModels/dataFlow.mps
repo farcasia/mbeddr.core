@@ -27,6 +27,7 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="cu2c" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
   </imports>
   <registry>
     <language id="97a52717-898f-4598-8150-573d9fd03868" name="jetbrains.mps.lang.dataFlow.analyzers">
@@ -5413,7 +5414,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="L2WnbQNnZk" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:70kXLV4LLzy" resolve="target" />
+                  <ref role="37wK5l" to="qcz6:66D23jC7zf0" resolve="target" />
                 </node>
               </node>
             </node>
@@ -5543,7 +5544,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="321ojDtuM0K" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:70kXLV4LLzy" resolve="target" />
+                    <ref role="37wK5l" to="qcz6:66D23jC7zf0" resolve="target" />
                   </node>
                 </node>
               </node>

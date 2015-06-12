@@ -8,6 +8,7 @@
   <imports>
     <import index="5vfd" ref="r:0c2e4b65-88f2-4040-962b-35eed850c792(com.mbeddr.mpsutil.assessment.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -96,7 +97,7 @@
     <property role="3GE5qa" value="controlledName" />
     <property role="TrG5h" value="IControlledName" />
     <node concept="PrWs8" id="66D23jBZN3$" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="66D23jBZN3_">
@@ -107,7 +108,7 @@
     <property role="TrG5h" value="IControlledNamedConcept" />
     <property role="3GE5qa" value="controlledName" />
     <node concept="PrWs8" id="66D23jBZN3B" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="66D23jBZN3C">
@@ -117,6 +118,16 @@
     <node concept="1TJgyi" id="66D23jBZN3D" role="1TKVEl">
       <property role="TrG5h" value="suffix" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="66D23jCb_qj">
+    <property role="TrG5h" value="SuppressWarnings" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="66D23jCb_qk" role="lGtFl">
+      <property role="Hh88m" value="suppressWarning" />
+      <node concept="trNpa" id="66D23jCb_ql" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
     </node>
   </node>
 </model>

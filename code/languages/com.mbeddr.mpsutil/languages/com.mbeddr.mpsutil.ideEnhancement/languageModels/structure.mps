@@ -29,5 +29,14 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="PlHQZ" id="66D23jC4T5U">
+    <property role="TrG5h" value="IGeneratesCodeForIDE" />
+    <node concept="PrWs8" id="66D23jC4T5V" role="PrDN$">
+      <ref role="PrY4T" node="66D23jC4T5W" resolve="IKeepAliveInGeneration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="66D23jC4T5W">
+    <property role="TrG5h" value="IKeepAliveInGeneration" />
+  </node>
 </model>
 

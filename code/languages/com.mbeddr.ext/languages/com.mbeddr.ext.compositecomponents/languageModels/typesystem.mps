@@ -16,6 +16,8 @@
     <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="pc7u" ref="r:d1daf0bb-3793-4ffe-ae26-dc0d91022b52(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -317,10 +319,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCCTzL" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCCTtT" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="m1h3:66D23jCb_qj" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCCTOT" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="pc7u:66D23jCb_qn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCDc4z" role="37wK5m">
               <ref role="1YBMHb" node="6JVEnxIjpG1" resolve="ccic" />
             </node>

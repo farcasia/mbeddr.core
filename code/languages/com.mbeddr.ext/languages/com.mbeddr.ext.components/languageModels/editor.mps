@@ -31,6 +31,7 @@
     <import index="7ou7" ref="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="dfdw" ref="r:63385fda-49f8-4508-b096-71e40bbfa812(com.mbeddr.mpsutil.commentable.editor)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -2906,7 +2907,7 @@
             <node concept="3clFbF" id="2hmLFgaUNPo" role="3cqZAp">
               <node concept="2ShNRf" id="2hmLFgaUNPm" role="3clFbG">
                 <node concept="1pGfFk" id="2hmLFgaUO1M" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:6Ce4x7KQbw2" resolve="ColoredVerticalBarCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5CWC" resolve="ColoredVerticalBarCell" />
                   <node concept="pncrf" id="2hmLFgaUO3p" role="37wK5m" />
                   <node concept="10M0yZ" id="2hmLFgaUPt4" role="37wK5m">
                     <ref role="3cqZAo" to="1t7x:~Color.gray" resolve="gray" />
@@ -4247,7 +4248,7 @@
                 <node concept="3clFbF" id="5j5biBQ$JWr" role="3cqZAp">
                   <node concept="2ShNRf" id="5j5biBQ$JWp" role="3clFbG">
                     <node concept="1pGfFk" id="5j5biBQ_aYE" role="2ShVmc">
-                      <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                      <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                       <node concept="pncrf" id="5j5biBQ_b0i" role="37wK5m" />
                       <node concept="3cmrfG" id="5j5biBQ_ba0" role="37wK5m">
                         <property role="3cmrfH" value="0" />
@@ -4310,7 +4311,7 @@
                 <node concept="3clFbF" id="5j5biBQCSix" role="3cqZAp">
                   <node concept="2ShNRf" id="5j5biBQCSiy" role="3clFbG">
                     <node concept="1pGfFk" id="5j5biBQCSiz" role="2ShVmc">
-                      <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                      <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                       <node concept="pncrf" id="5j5biBQCSi$" role="37wK5m" />
                       <node concept="3cmrfG" id="5j5biBQCSi_" role="37wK5m">
                         <property role="3cmrfH" value="1" />
@@ -4338,7 +4339,7 @@
                 <node concept="3clFbF" id="5j5biBQCTwc" role="3cqZAp">
                   <node concept="2ShNRf" id="5j5biBQCTwd" role="3clFbG">
                     <node concept="1pGfFk" id="5j5biBQCTwe" role="2ShVmc">
-                      <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                      <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                       <node concept="pncrf" id="5j5biBQCTwf" role="37wK5m" />
                       <node concept="3cmrfG" id="5j5biBQCTwg" role="37wK5m">
                         <property role="3cmrfH" value="1" />
@@ -4415,7 +4416,7 @@
               <node concept="3clFbF" id="5j5biBQ_bcB" role="3cqZAp">
                 <node concept="2ShNRf" id="5j5biBQ_bcC" role="3clFbG">
                   <node concept="1pGfFk" id="5j5biBQ_bcD" role="2ShVmc">
-                    <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                    <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                     <node concept="pncrf" id="5j5biBQ_bcE" role="37wK5m" />
                     <node concept="3cmrfG" id="5j5biBQ_bcF" role="37wK5m">
                       <property role="3cmrfH" value="0" />

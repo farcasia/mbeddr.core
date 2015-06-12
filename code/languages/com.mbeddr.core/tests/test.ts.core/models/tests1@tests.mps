@@ -12,6 +12,7 @@
     <use id="5e845763-f4ca-40bf-b31f-74e236ffed75" name="com.mbeddr.mpsutil.spreferences.context" version="-1" />
     <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
     <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
+    <use id="24424f20-7598-4d7c-972a-f2b93086d35e" name="com.mbeddr.mpsutil.controlledName" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -296,7 +297,6 @@
       </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="7787579437361950085" name="com.mbeddr.core.base.structure.SuppressWarnings" flags="ng" index="242QuT" />
       <concept id="7024921229556133803" name="com.mbeddr.core.base.structure.ICommentedCode" flags="ng" index="vHEs8">
         <child id="7024921229556133804" name="commentedCode" index="vHEsf" />
       </concept>
@@ -579,6 +579,9 @@
         <property id="1670233242589904219" name="postfix" index="3VGQ4j" />
       </concept>
       <concept id="86532984527104137" name="com.mbeddr.core.expressions.structure.LongType" flags="ng" index="1X9cn3" />
+    </language>
+    <language id="24424f20-7598-4d7c-972a-f2b93086d35e" name="com.mbeddr.mpsutil.controlledName">
+      <concept id="7037164916069783187" name="" flags="ng" index="29xPUB" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -3624,7 +3627,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="242QuT" id="6Kj2zNCASyT" role="lGtFl" />
+              <node concept="29xPUB" id="6Kj2zNCASyT" role="lGtFl" />
             </node>
             <node concept="3XISUE" id="6Kj2zNCAPTQ" role="3XIRFZ" />
             <node concept="1_9egQ" id="6uZAbUKdzoh" role="3XIRFZ">

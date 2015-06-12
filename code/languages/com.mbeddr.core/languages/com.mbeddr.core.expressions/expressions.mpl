@@ -80,6 +80,7 @@
     <dependency reexport="false">24424f20-7598-4d7c-972a-f2b93086d35e(com.mbeddr.mpsutil.controlledName)</dependency>
     <dependency reexport="false">3d100f00-77c7-4b00-950c-66f5e6238e10(com.mbeddr.mpsutil.valueDebugger)</dependency>
     <dependency reexport="false">80371c31-fa98-441d-b7bf-abbd09329f38(com.mbeddr.mpsutil.ideEnhancement)</dependency>
+    <dependency reexport="false">371850a9-2c5b-4e1d-a811-70d97e847917(com.mbeddr.mpsutil.editor.utils)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ebb5e132-d298-4649-b320-b3f4d7f3acff(com.mbeddr.core.debug.blext)</usedLanguage>

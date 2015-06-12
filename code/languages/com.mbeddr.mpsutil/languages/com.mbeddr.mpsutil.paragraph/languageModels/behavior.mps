@@ -11,6 +11,7 @@
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -564,8 +565,8 @@
       <node concept="3clFbS" id="66D23jBQ1UO" role="3clF47">
         <node concept="3clFbF" id="66D23jBQ1UP" role="3cqZAp">
           <node concept="10M0yZ" id="66D23jBQ1UQ" role="3clFbG">
-            <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
-            <ref role="3cqZAo" to="r4b4:4tRpPVPUEa5" resolve="COMMENT_GREEN" />
+            <ref role="1PxDUh" to="oq9k:66D23jC8Iqq" resolve="BasicColors" />
+            <ref role="3cqZAo" to="oq9k:66D23jC8Iqs" resolve="COMMENT_GREEN" />
           </node>
         </node>
       </node>
@@ -581,8 +582,8 @@
       <node concept="3clFbS" id="66D23jBQ1UU" role="3clF47">
         <node concept="3clFbF" id="66D23jBQ1UV" role="3cqZAp">
           <node concept="10M0yZ" id="66D23jBQ1UW" role="3clFbG">
-            <ref role="3cqZAo" to="r4b4:4tRpPVPUEa5" resolve="COMMENT_GREEN" />
-            <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
+            <ref role="3cqZAo" to="oq9k:66D23jC8Iqs" resolve="COMMENT_GREEN" />
+            <ref role="1PxDUh" to="oq9k:66D23jC8Iqq" resolve="BasicColors" />
           </node>
         </node>
       </node>

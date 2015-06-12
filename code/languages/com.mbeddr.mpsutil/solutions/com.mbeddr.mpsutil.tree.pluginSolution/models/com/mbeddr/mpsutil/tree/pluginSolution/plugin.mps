@@ -30,6 +30,7 @@
     <import index="82u" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.wm(MPS.IDEA/com.intellij.openapi.wm@java_stub)" />
     <import index="frrp" ref="r:59aa36d4-7a48-4954-ada4-be90c0fd4d45(com.mbeddr.mpsutil.tree.structure)" />
     <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -6142,8 +6143,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="66D23jBZEuR" role="2f5YQi">
-      <ref role="tU$_T" to="d244:53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
-      <ref role="2f8Tey" to="d244:53G_t0FcvgX" resolve="mbeddrPlatformEditorPopupExtensions" />
+      <ref role="tU$_T" to="ig80:66D23jC6bmS" resolve="mbeddrPlatformEditorPopupGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bmV" resolve="mbeddrPlatformEditorPopupExtensions" />
     </node>
   </node>
   <node concept="tC5Ba" id="66D23jBZEuS">
@@ -6153,8 +6154,8 @@
     <property role="2f7twF" value="Show Tree View ..." />
     <property role="1rdrE6" value="true" />
     <node concept="tT9cl" id="66D23jBZEuT" role="2f5YQi">
-      <ref role="2f8Tey" to="d244:53G_t0FcvgX" resolve="mbeddrPlatformEditorPopupExtensions" />
-      <ref role="tU$_T" to="d244:53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bmV" resolve="mbeddrPlatformEditorPopupExtensions" />
+      <ref role="tU$_T" to="ig80:66D23jC6bmS" resolve="mbeddrPlatformEditorPopupGroup" />
     </node>
     <node concept="2OiAzN" id="66D23jBZEuU" role="ftER_">
       <node concept="2OiTZ2" id="66D23jBZEuV" role="2Oj6PV">

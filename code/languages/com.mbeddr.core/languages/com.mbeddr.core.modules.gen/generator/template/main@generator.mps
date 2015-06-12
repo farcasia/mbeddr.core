@@ -44,6 +44,7 @@
     <import index="d6xm" ref="r:05cb5acb-485c-4c3f-8930-e27f70fe04d1(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="v2zw" ref="r:628ca079-8bed-477e-9e46-e865ba206d8e(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="c9ir" ref="r:6c0adec9-f600-4822-be96-08f45bb1ef2c(com.mbeddr.mpsutil.ideEnhancement.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -2586,7 +2587,7 @@
                               </node>
                               <node concept="1mIQ4w" id="2I5SFMdu9V_" role="2OqNvi">
                                 <node concept="chp4Y" id="3Y7ywckEKu0" role="cj9EA">
-                                  <ref role="cht4Q" to="vs0r:3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
+                                  <ref role="cht4Q" to="c9ir:66D23jC4T5W" resolve="IKeepAliveInGeneration" />
                                 </node>
                               </node>
                             </node>
@@ -2873,7 +2874,7 @@
                                   </node>
                                   <node concept="1mIQ4w" id="36EXhjbTUXA" role="2OqNvi">
                                     <node concept="chp4Y" id="3Y7ywckEKu1" role="cj9EA">
-                                      <ref role="cht4Q" to="vs0r:3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
+                                      <ref role="cht4Q" to="c9ir:66D23jC4T5W" resolve="IKeepAliveInGeneration" />
                                     </node>
                                   </node>
                                 </node>
@@ -3129,7 +3130,7 @@
                                   </node>
                                   <node concept="1mIQ4w" id="36EXhjbU0ma" role="2OqNvi">
                                     <node concept="chp4Y" id="3Y7ywckEKu2" role="cj9EA">
-                                      <ref role="cht4Q" to="vs0r:3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
+                                      <ref role="cht4Q" to="c9ir:66D23jC4T5W" resolve="IKeepAliveInGeneration" />
                                     </node>
                                   </node>
                                 </node>
@@ -3208,7 +3209,7 @@
               <node concept="2OqwBi" id="2rPBHhQOnxA" role="25WWJ7">
                 <node concept="1Q6Npb" id="2rPBHhQOnxB" role="2Oq$k0" />
                 <node concept="3lApI0" id="2rPBHhQOnxC" role="2OqNvi">
-                  <ref role="3lApI3" to="vs0r:3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
+                  <ref role="3lApI3" to="c9ir:66D23jC4T5W" resolve="IKeepAliveInGeneration" />
                 </node>
               </node>
             </node>

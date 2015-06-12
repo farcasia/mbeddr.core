@@ -23,6 +23,7 @@
     <import index="nx1" ref="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
     <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
     <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platformRuntimeSolution.plugin)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -564,8 +565,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="1ptFCtLqsyS" role="2f5YQi">
-      <ref role="tU$_T" to="d244:goNQ8fyUy3" resolve="mbeddrPlatformWizards" />
-      <ref role="2f8Tey" to="d244:goNQ8fyUy5" resolve="mbeddrPlatformWizards" />
+      <ref role="tU$_T" to="ig80:66D23jC6bnd" resolve="mbeddrPlatformWizards" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bnf" resolve="mbeddrPlatformWizards" />
     </node>
   </node>
   <node concept="2DaZZR" id="1ptFCtLqsyT" />

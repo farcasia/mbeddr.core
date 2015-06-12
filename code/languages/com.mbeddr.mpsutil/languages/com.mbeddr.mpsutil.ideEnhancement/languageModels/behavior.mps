@@ -75,5 +75,11 @@
       <node concept="3clFbS" id="66D23jC1gY0" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="66D23jC4T5X">
+    <ref role="13h7C2" to="c9ir:66D23jC4T5U" resolve="IGeneratesCodeForIDE" />
+    <node concept="13hLZK" id="66D23jC4T5Y" role="13h7CW">
+      <node concept="3clFbS" id="66D23jC4T5Z" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

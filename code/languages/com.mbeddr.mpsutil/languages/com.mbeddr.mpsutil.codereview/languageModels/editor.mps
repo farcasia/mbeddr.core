@@ -12,6 +12,7 @@
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="hmk1" ref="r:1ba4ffac-5a14-499e-b949-796929b2162a(com.mbeddr.mpsutil.codereview.behavior)" />
+    <import index="7wpd" ref="c7a315e6-1d93-4186-85bc-2dfafd1ccc21/r:fb1c47d7-a72e-4e01-92dc-1e9f2ba4a118(com.mbeddr.mpsutil.common/com.mbeddr.mpsutil.common.util)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -344,8 +345,8 @@
                 <node concept="3clFbS" id="66D23jBZKn_" role="2VODD2">
                   <node concept="3clFbF" id="66D23jBZKnA" role="3cqZAp">
                     <node concept="2YIFZM" id="66D23jBZKnB" role="3clFbG">
-                      <ref role="37wK5l" to="hwgx:gjBy3TcpAt" resolve="asReadableDeltaFromNow" />
-                      <ref role="1Pybhc" to="hwgx:3Pz_UaJQugP" resolve="TimeHelper" />
+                      <ref role="37wK5l" to="7wpd:66D23jC6Dly" resolve="asReadableDeltaFromNow" />
+                      <ref role="1Pybhc" to="7wpd:66D23jC6DhQ" resolve="TimeHelper" />
                       <node concept="2OqwBi" id="66D23jBZKnC" role="37wK5m">
                         <node concept="pncrf" id="66D23jBZKnD" role="2Oq$k0" />
                         <node concept="3TrcHB" id="66D23jBZKnE" role="2OqNvi">
@@ -455,8 +456,8 @@
                   <node concept="3clFbS" id="66D23jBZKom" role="2VODD2">
                     <node concept="3clFbF" id="66D23jBZKon" role="3cqZAp">
                       <node concept="2YIFZM" id="66D23jBZKoo" role="3clFbG">
-                        <ref role="37wK5l" to="hwgx:3Pz_UaK8cU3" resolve="asRelativeToNow" />
-                        <ref role="1Pybhc" to="hwgx:3Pz_UaJQugP" resolve="TimeHelper" />
+                        <ref role="37wK5l" to="7wpd:66D23jC6Dnm" resolve="asRelativeToNow" />
+                        <ref role="1Pybhc" to="7wpd:66D23jC6DhQ" resolve="TimeHelper" />
                         <node concept="2OqwBi" id="66D23jBZKop" role="37wK5m">
                           <node concept="pncrf" id="66D23jBZKoq" role="2Oq$k0" />
                           <node concept="3TrcHB" id="66D23jBZKor" role="2OqNvi">

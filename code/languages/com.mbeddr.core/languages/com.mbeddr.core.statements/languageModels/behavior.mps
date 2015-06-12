@@ -33,6 +33,8 @@
     <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="6a2k" ref="r:866b3ca8-1d57-4094-9bff-dea845a6efe8(com.mbeddr.mpsutil.commentable.behavior)" />
     <import index="d6xm" ref="r:05cb5acb-485c-4c3f-8930-e27f70fe04d1(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -5771,13 +5773,13 @@
               <node concept="2Xjw5R" id="4ueXZrqtexe" role="2OqNvi">
                 <node concept="1xMEDy" id="4ueXZrqtexf" role="1xVPHs">
                   <node concept="chp4Y" id="4ueXZrqtexi" role="ri$Ld">
-                    <ref role="cht4Q" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+                    <ref role="cht4Q" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
                   </node>
                 </node>
               </node>
             </node>
             <node concept="2qgKlT" id="6wvhQs7nAwg" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:6wvhQs7n_YM" resolve="namespace" />
+              <ref role="37wK5l" to="qcz6:66D23jC3ju1" resolve="namespace" />
             </node>
           </node>
         </node>
@@ -5790,8 +5792,8 @@
       <node concept="3clFbS" id="BsHjoDSP5E" role="3clF47">
         <node concept="3cpWs6" id="BsHjoDSP5R" role="3cqZAp">
           <node concept="10M0yZ" id="4tRpPVPUEqf" role="3cqZAk">
-            <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
-            <ref role="3cqZAo" to="r4b4:2CEi94dud1E" resolve="COMMENT_GREY" />
+            <ref role="1PxDUh" to="oq9k:66D23jC8Iqq" resolve="BasicColors" />
+            <ref role="3cqZAo" to="oq9k:66D23jC8IqH" resolve="COMMENT_GREY" />
           </node>
         </node>
       </node>
@@ -5806,8 +5808,8 @@
       <node concept="3clFbS" id="BsHjoDSP6D" role="3clF47">
         <node concept="3cpWs6" id="2ofiXe_ssdb" role="3cqZAp">
           <node concept="10M0yZ" id="2ofiXe_ssdc" role="3cqZAk">
-            <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
-            <ref role="3cqZAo" to="r4b4:2CEi94dud1E" resolve="COMMENT_GREY" />
+            <ref role="1PxDUh" to="oq9k:66D23jC8Iqq" resolve="BasicColors" />
+            <ref role="3cqZAo" to="oq9k:66D23jC8IqH" resolve="COMMENT_GREY" />
           </node>
         </node>
       </node>

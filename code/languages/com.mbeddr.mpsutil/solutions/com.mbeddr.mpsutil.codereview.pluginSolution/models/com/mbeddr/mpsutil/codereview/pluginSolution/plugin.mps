@@ -20,6 +20,7 @@
     <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
     <import index="2y5t" ref="r:1859d107-c8bf-4ed7-966d-ec6dda6e08cc(com.mbeddr.mpsutil.codereview.structure)" />
     <import index="79by" ref="r:61d735bc-5614-4849-b4c1-cf405146734b(com.mbeddr.mpsutil.codereview.editor)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -28,9 +29,6 @@
         <reference id="1204992316090" name="point" index="2f8Tey" />
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
-    </language>
-    <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
-      <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
@@ -102,6 +100,12 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
+      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
+        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -164,7 +168,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
     </language>
   </registry>
-  <node concept="2DaZZR" id="66D23jBYZ7f" />
   <node concept="30z_3H" id="66D23jBYZ7y">
     <property role="TrG5h" value="Code Review Preferences" />
     <ref role="30zxtE" to="2y5t:66D23jBZHZH" resolve="CodeReviewConfig" />
@@ -187,26 +190,30 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="66D23jBZ0Bh" role="3clF47">
-        <node concept="3clFbJ" id="66D23jBZ0Bi" role="3cqZAp">
-          <node concept="3clFbS" id="66D23jBZ0Bj" role="3clFbx">
-            <node concept="3cpWs6" id="66D23jBZ0Bk" role="3cqZAp">
-              <node concept="3clFbT" id="66D23jBZ0Bl" role="3cqZAk">
-                <property role="3clFbU" value="false" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="66D23jBZ0Bm" role="3clFbw">
-            <node concept="1eOMI4" id="66D23jBZ0Bn" role="2Oq$k0">
-              <node concept="10QFUN" id="66D23jBZ0Bo" role="1eOMHV">
-                <node concept="37vLTw" id="66D23jBZ0Bp" role="10QFUP">
-                  <ref role="3cqZAo" node="66D23jBZ0BU" resolve="node" />
+        <node concept="3SKdUt" id="66D23jC8Cyk" role="3cqZAp">
+          <node concept="3SKWN0" id="66D23jC8Cyl" role="3SKWNk">
+            <node concept="3clFbJ" id="66D23jBZ0Bi" role="3SKWNf">
+              <node concept="3clFbS" id="66D23jBZ0Bj" role="3clFbx">
+                <node concept="3cpWs6" id="66D23jBZ0Bk" role="3cqZAp">
+                  <node concept="3clFbT" id="66D23jBZ0Bl" role="3cqZAk">
+                    <property role="3clFbU" value="false" />
+                  </node>
                 </node>
-                <node concept="3Tqbb2" id="66D23jBZ0Bq" role="10QFUM" />
               </node>
-            </node>
-            <node concept="1mIQ4w" id="66D23jBZ0Br" role="2OqNvi">
-              <node concept="chp4Y" id="66D23jBZ0Bs" role="cj9EA">
-                <ref role="cht4Q" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
+              <node concept="2OqwBi" id="66D23jBZ0Bm" role="3clFbw">
+                <node concept="1eOMI4" id="66D23jBZ0Bn" role="2Oq$k0">
+                  <node concept="10QFUN" id="66D23jBZ0Bo" role="1eOMHV">
+                    <node concept="37vLTw" id="66D23jBZ0Bp" role="10QFUP">
+                      <ref role="3cqZAo" node="66D23jBZ0BU" resolve="node" />
+                    </node>
+                    <node concept="3Tqbb2" id="66D23jBZ0Bq" role="10QFUM" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="66D23jBZ0Br" role="2OqNvi">
+                  <node concept="chp4Y" id="66D23jBZ0Bs" role="cj9EA">
+                    <ref role="cht4Q" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -304,8 +311,8 @@
       <ref role="33glcY" to="79by:66D23jBZKqi" resolve="showReviewState" />
     </node>
     <node concept="tT9cl" id="66D23jBZ0C3" role="2hfP89">
-      <ref role="tU$_T" to="d244:goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />
-      <ref role="2f8Tey" to="d244:goNQ8fnbte" resolve="mbeddrPlatformProjectionModes" />
+      <ref role="tU$_T" to="ig80:66D23jC6bn4" resolve="mbeddrPlatformProjectionModeGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bn6" resolve="mbeddrPlatformProjectionModes" />
     </node>
   </node>
 </model>

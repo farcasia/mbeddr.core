@@ -8,6 +8,7 @@
   <imports>
     <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -24,11 +25,23 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
+        <child id="1186402402630" name="styleClass" index="V601i" />
+      </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+        <child id="1186403803051" name="query" index="VblUZ" />
+      </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
       <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
         <reference id="1139535219968" name="applicableConcept" index="1h_SK9" />
         <child id="1139535219969" name="item" index="1h_SK8" />
@@ -68,6 +81,7 @@
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
+      <concept id="1176809959526" name="jetbrains.mps.lang.editor.structure.QueryFunction_Color" flags="in" index="3ZlJ5R" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -84,7 +98,13 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -138,7 +158,7 @@
               <node concept="3clFbF" id="66D23jBNlZ3" role="3cqZAp">
                 <node concept="2ShNRf" id="66D23jBNlZ4" role="3clFbG">
                   <node concept="1pGfFk" id="66D23jBNlZ5" role="2ShVmc">
-                    <ref role="37wK5l" to="r4b4:DubiFB4e4X" resolve="IconCell" />
+                    <ref role="37wK5l" to="oq9k:66D23jC5D5s" resolve="IconCell" />
                     <node concept="2OqwBi" id="66D23jBNlZ6" role="37wK5m">
                       <node concept="pncrf" id="66D23jBNlZ7" role="2Oq$k0" />
                       <node concept="3TrEf2" id="66D23jBNlZ8" role="2OqNvi">
@@ -188,7 +208,7 @@
       <node concept="3F0ifn" id="66D23jBNlZn" role="3EZMnx">
         <property role="3F0ifm" value="reexport" />
         <ref role="1ERwB7" node="66D23jBNlZw" resolve="deleteReexport" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" node="66D23jC8v8F" resolve="keyword" />
         <node concept="pkWqt" id="66D23jBNlZo" role="pqm2j">
           <node concept="3clFbS" id="66D23jBNlZp" role="2VODD2">
             <node concept="3clFbF" id="66D23jBNlZq" role="3cqZAp">
@@ -240,6 +260,28 @@
       <property role="3F0ifm" value="" />
       <node concept="VPxyj" id="66D23jBNlZG" role="3F10Kt">
         <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="V5hpn" id="66D23jC8v8$">
+    <property role="TrG5h" value="ChunkStyle" />
+    <node concept="14StLt" id="66D23jC8v8F" role="V601i">
+      <property role="TrG5h" value="keyword" />
+      <node concept="VechU" id="2CEi94dgMB1" role="3F10Kt">
+        <property role="Vb096" value="DARK_MAGENTA" />
+        <node concept="3ZlJ5R" id="66D23jC8LaI" role="VblUZ">
+          <node concept="3clFbS" id="66D23jC8LaJ" role="2VODD2">
+            <node concept="3clFbF" id="66D23jC8Lmr" role="3cqZAp">
+              <node concept="10M0yZ" id="66D23jC8Lmq" role="3clFbG">
+                <ref role="1PxDUh" to="oq9k:66D23jC8Iqq" resolve="BasicColors" />
+                <ref role="3cqZAo" to="oq9k:66D23jC8IqP" resolve="KEYWORD_BLUE" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Vb9p2" id="2CEi94dgOTW" role="3F10Kt">
+        <property role="Vbekb" value="BOLD" />
       </node>
     </node>
   </node>

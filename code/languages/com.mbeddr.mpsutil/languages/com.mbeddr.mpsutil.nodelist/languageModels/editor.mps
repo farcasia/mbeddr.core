@@ -11,6 +11,7 @@
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="a5hm" ref="r:26a760b2-c482-45fb-9d07-02d903b3b1da(com.mbeddr.mpsutil.ideEnhancement.editor)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -182,7 +183,7 @@
             <node concept="3clFbF" id="66D23jC0ikG" role="3cqZAp">
               <node concept="2ShNRf" id="66D23jC0ikH" role="3clFbG">
                 <node concept="1pGfFk" id="66D23jC0ikI" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:3Dgh5aYiKso" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0H" resolve="HorizLineCell" />
                   <node concept="pncrf" id="66D23jC0ikJ" role="37wK5m" />
                   <node concept="10M0yZ" id="66D23jC0ikK" role="37wK5m">
                     <ref role="1PxDUh" to="1t7x:~Color" resolve="Color" />
@@ -273,7 +274,7 @@
             <node concept="3clFbF" id="66D23jC0ilf" role="3cqZAp">
               <node concept="2ShNRf" id="66D23jC0ilg" role="3clFbG">
                 <node concept="1pGfFk" id="66D23jC0ilh" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:3Dgh5aYiKso" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0H" resolve="HorizLineCell" />
                   <node concept="pncrf" id="66D23jC0ili" role="37wK5m" />
                   <node concept="10M0yZ" id="66D23jC0ilj" role="37wK5m">
                     <ref role="1PxDUh" to="1t7x:~Color" resolve="Color" />
@@ -341,7 +342,7 @@
               <node concept="3clFbF" id="66D23jC0ilG" role="3cqZAp">
                 <node concept="2ShNRf" id="66D23jC0ilH" role="3clFbG">
                   <node concept="1pGfFk" id="66D23jC0ilI" role="2ShVmc">
-                    <ref role="37wK5l" to="r4b4:DubiFB4e4X" resolve="IconCell" />
+                    <ref role="37wK5l" to="oq9k:66D23jC5D5s" resolve="IconCell" />
                     <node concept="2OqwBi" id="66D23jC0ilJ" role="37wK5m">
                       <node concept="pncrf" id="66D23jC0ilK" role="2Oq$k0" />
                       <node concept="3TrEf2" id="66D23jC0ilL" role="2OqNvi">
