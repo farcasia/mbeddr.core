@@ -9,7 +9,7 @@
   <dependencies>
     <dependency reexport="false">9e24fcdc-a232-4d24-8c95-1f525946191a(com.mbeddr.core.base.pluginSolution)</dependency>
     <dependency reexport="false">564e97d6-8fb7-41f5-bfc1-c7ed376efd62(com.mbeddr.ext.statemachines)</dependency>
-    <dependency reexport="false">f016836c-fc2c-4511-ad20-1de7093c3494(com.mbeddr.mpsutil.platformRuntimeSolution)</dependency>
+    <dependency reexport="false">f016836c-fc2c-4511-ad20-1de7093c3494(com.mbeddr.mpsutil.platform.pluginSolution)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>1fc20ffe-f35b-4791-a0b7-d706bad5c49a(com.mbeddr.mpsutil.refactoring)</usedLanguage>

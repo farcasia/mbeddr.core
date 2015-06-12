@@ -297,6 +297,10 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="4040588429969021681" name="jetbrains.mps.lang.smodel.structure.ModuleReferenceExpression" flags="nn" index="3rM5sP">
+        <property id="4040588429969021683" name="moduleId" index="3rM5sR" />
+      </concept>
+      <concept id="4040588429969069898" name="jetbrains.mps.lang.smodel.structure.LanguageReferenceExpression" flags="nn" index="3rNLEe" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
         <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
@@ -4874,8 +4878,10 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="66D23jCbn$u" role="3cqZAp">
-              <node concept="10Nm6u" id="66D23jCbn$s" role="3clFbG" />
+            <node concept="3clFbF" id="Fe6ew7U3Us" role="3cqZAp">
+              <node concept="3rNLEe" id="Fe6ew7U5l7" role="3clFbG">
+                <property role="3rM5sR" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
+              </node>
             </node>
           </node>
         </node>

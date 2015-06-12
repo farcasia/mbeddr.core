@@ -48,7 +48,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">1338ba73-5059-479b-a929-de86597a62b8(com.mbeddr.mpsutil.jung.pluginSolution)</dependency>
-    <dependency reexport="false">6d413dda-39a2-46c4-b917-f7643a08e428(com.mbeddr.mpsutil.codereview)</dependency>
     <dependency reexport="false">0bef6f08-4882-454b-b4ca-21221f574c06(com.mbeddr.mpsutil.commentable)</dependency>
     <dependency reexport="false">371850a9-2c5b-4e1d-a811-70d97e847917(com.mbeddr.mpsutil.editor.utils)</dependency>
   </dependencies>
