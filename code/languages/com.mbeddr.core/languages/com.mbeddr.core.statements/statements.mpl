@@ -16,6 +16,11 @@
     <dependency reexport="false">d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
+    <dependency reexport="false">3ea5fb2e-05f3-455f-904b-1c5525bc9b74(com.mbeddr.mpsutil.documentable)</dependency>
+    <dependency reexport="false">bf4d0f5d-29e1-4923-bf16-5133c56fd0a8(com.mbeddr.mpsutil.paragraph)</dependency>
+    <dependency reexport="false">17abd836-3160-4627-b72d-0eb6d89532e0(com.mbeddr.mpsutil.search)</dependency>
+    <dependency reexport="false">0bef6f08-4882-454b-b4ca-21221f574c06(com.mbeddr.mpsutil.commentable)</dependency>
+    <dependency reexport="false">24424f20-7598-4d7c-972a-f2b93086d35e(com.mbeddr.mpsutil.controlledName)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ebb5e132-d298-4649-b320-b3f4d7f3acff(com.mbeddr.core.debug.blext)</usedLanguage>

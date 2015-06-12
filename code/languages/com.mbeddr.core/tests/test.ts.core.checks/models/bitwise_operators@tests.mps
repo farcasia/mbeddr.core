@@ -12,6 +12,7 @@
     <use id="b2da2e1a-b542-47f5-9be0-4dc21efe74a4" name="com.mbeddr.core.checks" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports>
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
@@ -127,6 +128,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618461" name="com.mbeddr.core.expressions.structure.UnsignedInt8tType" flags="ng" index="26Vqp4" />
@@ -293,7 +297,7 @@
             </node>
             <node concept="3XISUE" id="3nGMb$mp6D5" role="3XIRFZ" />
             <node concept="1QiMYF" id="7Ny2UQe_NA2" role="3XIRFZ">
-              <node concept="OjmMv" id="7Ny2UQe_NA4" role="3SJzmv">
+              <node concept="26shno" id="7Ny2UQe_NA4" role="3SJzmv">
                 <node concept="19SGf9" id="7Ny2UQe_NA5" role="OjmMu">
                   <node concept="19SUe$" id="7Ny2UQe_NA6" role="19SJt6">
                     <property role="19SUeA" value="no warning" />

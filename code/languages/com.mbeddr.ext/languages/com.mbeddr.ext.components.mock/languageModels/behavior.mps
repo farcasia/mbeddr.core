@@ -27,6 +27,8 @@
     <import index="dbrf" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="v2zw" ref="r:628ca079-8bed-477e-9e46-e865ba206d8e(com.mbeddr.mpsutil.configItem.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -2175,7 +2177,7 @@
       <property role="2Ki8OM" value="true" />
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+      <ref role="13i0hy" to="v2zw:66D23jC0P0L" resolve="getConfigItem" />
       <node concept="3Tm1VV" id="20ezT9ZDJwb" role="1B3o_S" />
       <node concept="_YKpA" id="20ezT9ZDJw8" role="3clF45">
         <node concept="3Tqbb2" id="20ezT9ZDJw9" role="_ZDj9">
@@ -2196,7 +2198,7 @@
                 <ref role="3eA5LN" to="v7ag:3TmmsQkCzn9" resolve="Component" />
               </node>
               <node concept="2qgKlT" id="20ezT9ZDJwg" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+                <ref role="37wK5l" to="v2zw:66D23jC0P0L" resolve="getConfigItem" />
               </node>
             </node>
           </node>
@@ -4910,7 +4912,7 @@
     </node>
     <node concept="13i0hz" id="2XRfpKWzcOB" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="qcz6:66D23jBXx5E" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="2XRfpKWzcOE" role="3clF47">
         <node concept="3clFbF" id="2XRfpKWzets" role="3cqZAp">
           <node concept="3cmrfG" id="2XRfpKWzetr" role="3clFbG">
@@ -4923,7 +4925,7 @@
     </node>
     <node concept="13i0hz" id="2XRfpKWzetG" role="13h7CS">
       <property role="TrG5h" value="getConceptToBeCounted" />
-      <ref role="13i0hy" to="hwgx:6brBMefSzRs" resolve="getConceptToBeCounted" />
+      <ref role="13i0hy" to="qcz6:66D23jBXx5K" resolve="getConceptToBeCounted" />
       <node concept="3clFbS" id="2XRfpKWzetJ" role="3clF47">
         <node concept="3clFbF" id="2XRfpKWzgHc" role="3cqZAp">
           <node concept="3TUQnm" id="2XRfpKWzgHb" role="3clFbG">

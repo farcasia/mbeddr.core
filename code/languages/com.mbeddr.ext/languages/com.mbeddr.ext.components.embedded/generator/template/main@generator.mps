@@ -22,7 +22,8 @@
     <import index="v7ag" ref="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
     <import index="eup9" ref="r:ab391014-3e08-4918-9cc5-1c93e3a55c72(com.mbeddr.ext.components.behavior)" />
     <import index="cjn1" ref="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -284,7 +285,7 @@
           <node concept="3cpWsn" id="to$mQWqpXo" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="to$mQWqpXp" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="to$mQWqpXq" role="33vP2m">
               <ref role="1Pybhc" to="ahli:78Ts1skprjP" resolve="BCHelper" />

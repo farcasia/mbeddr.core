@@ -33,6 +33,8 @@
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="u8e7" ref="r:4acb4e42-0ef5-487c-a21d-496738d115a6(com.mbeddr.mpsutil.breadcrumb.behavior)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -481,7 +483,7 @@
     </node>
     <node concept="13i0hz" id="6brBMefRHgg" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="qcz6:66D23jBXx5E" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="6brBMefRHgj" role="3clF47">
         <node concept="3cpWs6" id="6brBMefROWY" role="3cqZAp">
           <node concept="3cpWs3" id="6brBMefROXl" role="3cqZAk">
@@ -3633,7 +3635,7 @@
     </node>
     <node concept="13i0hz" id="6brBMefRP3n" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="qcz6:66D23jBXx5E" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="6brBMefRP3q" role="3clF47">
         <node concept="3clFbF" id="6brBMefRP3t" role="3cqZAp">
           <node concept="3cpWs3" id="6brBMefRP3N" role="3clFbG">
@@ -3858,7 +3860,7 @@
     </node>
     <node concept="13i0hz" id="59HbAIOYG9c" role="13h7CS">
       <property role="TrG5h" value="cycleRelevantReferencedElements" />
-      <ref role="13i0hy" to="hwgx:59HbAIOYveX" resolve="cycleRelevantReferencedElements" />
+      <ref role="13i0hy" to="qcz6:66D23jBXx5V" resolve="cycleRelevantReferencedElements" />
       <node concept="3clFbS" id="59HbAIOYG9f" role="3clF47">
         <node concept="3clFbF" id="59HbAIOYJd5" role="3cqZAp">
           <node concept="2OqwBi" id="59HbAIOZa$j" role="3clFbG">
@@ -3926,7 +3928,7 @@
       </node>
       <node concept="A3Dl8" id="59HbAIOYGRq" role="3clF45">
         <node concept="3Tqbb2" id="59HbAIOYGRr" role="A3Ik2">
-          <ref role="ehGHo" to="vs0r:59HbAIOYkEn" resolve="IDetectCycle" />
+          <ref role="ehGHo" to="v6ji:66D23jBXx5A" resolve="IDetectCycle" />
         </node>
       </node>
       <node concept="3Tm1VV" id="59HbAIOYGRs" role="1B3o_S" />

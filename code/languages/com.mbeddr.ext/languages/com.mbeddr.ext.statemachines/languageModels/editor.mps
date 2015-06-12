@@ -25,6 +25,7 @@
     <import index="9a8" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
     <import index="as9o" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/f:java_stub#3f233e7f-b8a6-46d2-a57f-795d56775243#org.jetbrains.annotations(Annotations/org.jetbrains.annotations@java_stub)" />
     <import index="7ou7" ref="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" />
+    <import index="dfdw" ref="r:63385fda-49f8-4508-b096-71e40bbfa812(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -1736,7 +1737,7 @@
     <node concept="3EZMnI" id="65XyadYNkVz" role="2wV5jI">
       <node concept="l2Vlx" id="65XyadYNkV$" role="2iSdaV" />
       <node concept="PMmxH" id="65XyadYNoaU" role="3EZMnx">
-        <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+        <ref role="PMmxG" to="dfdw:66D23jBZ4ds" resolve="commentedCodeDefault" />
       </node>
     </node>
   </node>
@@ -1886,7 +1887,7 @@
     <property role="3GE5qa" value="machine.states" />
     <ref role="1XX52x" to="clqz:47Sr75PnWI7" resolve="CommentedStateContent" />
     <node concept="PMmxH" id="47Sr75PnWXk" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="dfdw:66D23jBZ4ds" resolve="commentedCodeDefault" />
     </node>
   </node>
   <node concept="24kQdi" id="45sewQzWcan">

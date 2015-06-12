@@ -14,6 +14,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -67,6 +68,9 @@
       <concept id="2103658896110278831" name="com.mbeddr.ext.components.gen_nomw.structure.NoMwComponentsGenStrategy" flags="ng" index="3i3YCL">
         <property id="4768833643347725006" name="generateContracts" index="3Ewwow" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -845,11 +849,11 @@
     <node concept="2NXPZ9" id="7TdHRrCnp_a" role="N3F5h">
       <property role="TrG5h" value="empty_1395521352177_1" />
     </node>
-    <node concept="3GEVxB" id="7TdHRrCfuaH" role="2OODSX">
+    <node concept="26p5ff" id="7TdHRrCfuaH" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="ZfwZQEqPtX" resolve="InterfaceTypesAsVar" />
     </node>
-    <node concept="3GEVxB" id="7TdHRrCfueu" role="2OODSX">
+    <node concept="26p5ff" id="7TdHRrCfueu" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3yeYUb95GDI" resolve="InterfaceTypesPassing" />
     </node>

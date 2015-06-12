@@ -18,8 +18,10 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -281,14 +283,14 @@
                   <node concept="2Xjw5R" id="2lgwE2U3eHJ" role="2OqNvi">
                     <node concept="1xMEDy" id="2lgwE2U3eHK" role="1xVPHs">
                       <node concept="chp4Y" id="1e36WDc3Q$C" role="ri$Ld">
-                        <ref role="cht4Q" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
+                        <ref role="cht4Q" to="v6ji:66D23jBNlK5" resolve="IVisibleElementProvider" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="2lgwE2U3eHQ" role="1xVPHs" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="2lgwE2U3eHV" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
+                  <ref role="37wK5l" to="qcz6:66D23jBNlLj" resolve="visibleContentsOfType" />
                   <node concept="3TUQnm" id="2lgwE2U3eHW" role="37wK5m">
                     <ref role="3TV0OU" to="k146:2lgwE2U2X_H" resolve="MessageDefinitionTable" />
                   </node>
@@ -711,13 +713,13 @@
                   <node concept="2Xjw5R" id="4itX8XV7C1D" role="2OqNvi">
                     <node concept="1xMEDy" id="4itX8XV7C1F" role="1xVPHs">
                       <node concept="chp4Y" id="4itX8XV7C3u" role="ri$Ld">
-                        <ref role="cht4Q" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
+                        <ref role="cht4Q" to="v6ji:66D23jBNlK5" resolve="IVisibleElementProvider" />
                       </node>
                     </node>
                   </node>
                 </node>
                 <node concept="2qgKlT" id="4itX8XV7DvN" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
+                  <ref role="37wK5l" to="qcz6:66D23jBNlLj" resolve="visibleContentsOfType" />
                   <node concept="3TUQnm" id="4itX8XV7DAl" role="37wK5m">
                     <ref role="3TV0OU" to="k146:1lBH0hH6vd4" resolve="DataLoggerDeclaration" />
                   </node>

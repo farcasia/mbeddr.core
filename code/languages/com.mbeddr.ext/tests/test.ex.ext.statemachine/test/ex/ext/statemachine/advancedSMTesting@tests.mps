@@ -12,6 +12,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -58,6 +59,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -285,15 +289,15 @@
     <node concept="2NXPZ9" id="13QNHYGEBgk" role="N3F5h">
       <property role="TrG5h" value="empty_1362847606233_3" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRrx" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRrx" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="13QNHYGEbqf" resolve="ModifyState" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRrq" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRrq" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5ngFs$3Sw15" resolve="TransitionTest" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRry" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRry" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="13QNHYGEUVI" resolve="SetVariable" />
     </node>

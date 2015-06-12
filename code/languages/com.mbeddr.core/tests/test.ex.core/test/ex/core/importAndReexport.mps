@@ -2,6 +2,7 @@
 <model ref="r:d215b8f7-1b72-4e36-87a9-58966caafe13(test.ex.core.importAndReexport)">
   <persistence version="9" />
   <languages>
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -37,6 +38,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -176,11 +180,11 @@
     <node concept="2NXPZ9" id="6uZAbUKexSG" role="N3F5h">
       <property role="TrG5h" value="empty_1364212237400_2" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4p" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ4p" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6uZAbUKexTN" resolve="M2" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4q" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ4q" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="6uZAbUKeCcu" resolve="M3" />
     </node>
@@ -238,7 +242,7 @@
     <node concept="2NXPZ9" id="6uZAbUKeCc_" role="N3F5h">
       <property role="TrG5h" value="empty_1364212442558_11" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4r" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ4r" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="6uZAbUKf2l4" resolve="M4" />
     </node>
@@ -362,7 +366,7 @@
     <node concept="2NXPZ9" id="6uZAbUKfmom" role="N3F5h">
       <property role="TrG5h" value="empty_1364222192358_6" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4s" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ4s" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6uZAbUKexSE" resolve="M1" />
     </node>

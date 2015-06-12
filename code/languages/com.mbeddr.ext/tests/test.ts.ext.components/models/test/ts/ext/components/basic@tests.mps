@@ -4,6 +4,7 @@
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   </languages>
@@ -104,6 +105,9 @@
       <concept id="2103658896110278831" name="com.mbeddr.ext.components.gen_nomw.structure.NoMwComponentsGenStrategy" flags="ng" index="3i3YCL">
         <property id="4768833643347725006" name="generateContracts" index="3Ewwow" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="3073566081777391256" name="com.mbeddr.core.util.structure.WithMemberAssignment" flags="ng" index="8C5q9">
@@ -2164,7 +2168,7 @@
     <node concept="1qefOq" id="36a7yl95vly" role="1SKRRt">
       <node concept="N3F5e" id="36a7yl95vma" role="1qenE9">
         <property role="TrG5h" value="Bug913" />
-        <node concept="3GEVxB" id="36a7yl95yAW" role="2OODSX">
+        <node concept="26p5ff" id="36a7yl95yAW" role="2OODSX">
           <ref role="3GEb4d" node="36a7yl95y_f" resolve="Bug913Helper" />
         </node>
         <node concept="5JLF8" id="36a7yl95yB0" role="N3F5h">

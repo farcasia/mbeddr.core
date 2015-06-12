@@ -15,6 +15,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports />
   <registry>
@@ -166,6 +167,9 @@
         <reference id="1482737808881210673" name="config" index="1XX6Gv" />
       </concept>
     </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
       <concept id="8463282783691618426" name="com.mbeddr.core.expressions.structure.Int8tType" flags="ng" index="26Vqqz" />
@@ -307,7 +311,7 @@
             <ref role="1XX6Gv" node="78Ts1skplN9" resolve="instances" />
           </node>
           <node concept="1z9TsT" id="78Ts1skpoRP" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxL0$" role="1w35rA">
+            <node concept="26shno" id="3mjVpLdxL0$" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxL0B" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxL0D" role="19SJt6">
                   <property role="19SUeA" value="Interface f\u00FCr \&quot;Calls\&quot; was die Parameter pr\u00FCft etc." />

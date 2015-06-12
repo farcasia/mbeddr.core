@@ -16,6 +16,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt" version="1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   </languages>
   <imports />
@@ -118,6 +119,9 @@
       <concept id="2103658896110278831" name="com.mbeddr.ext.components.gen_nomw.structure.NoMwComponentsGenStrategy" flags="ng" index="3i3YCL">
         <property id="4768833643347725006" name="generateContracts" index="3Ewwow" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="767515563077204464" name="com.mbeddr.core.util.structure.MessageProperty" flags="ng" index="2qqzEA" />
@@ -481,7 +485,7 @@
         <node concept="1KB$IV" id="7moPk04QkCb" role="lGtFl" />
       </node>
     </node>
-    <node concept="3GEVxB" id="vMpGaXZ2en" role="2OODSX">
+    <node concept="26p5ff" id="vMpGaXZ2en" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="1Rr52SXzTsD" resolve="Interfaces" />
     </node>
@@ -971,11 +975,11 @@
     <node concept="2NXPZ9" id="4DCBrJ$1Rps" role="N3F5h">
       <property role="TrG5h" value="empty_1327306835465_18" />
     </node>
-    <node concept="3GEVxB" id="2mhTzLJuKBV" role="2OODSX">
+    <node concept="26p5ff" id="2mhTzLJuKBV" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="1Rr52SXzTsD" resolve="Interfaces" />
     </node>
-    <node concept="3GEVxB" id="2mhTzLJuKJK" role="2OODSX">
+    <node concept="26p5ff" id="2mhTzLJuKJK" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="1Rr52SXzVci" resolve="ApplicationStuff" />
     </node>

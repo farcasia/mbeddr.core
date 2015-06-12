@@ -17,6 +17,8 @@
     <use id="97d24244-51db-4e2e-97fc-7bd73b1f5f40" name="com.mbeddr.ext.components" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports />
   <registry>
@@ -88,6 +90,9 @@
       <concept id="2103658896110278831" name="com.mbeddr.ext.components.gen_nomw.structure.NoMwComponentsGenStrategy" flags="ng" index="3i3YCL">
         <property id="4768833643347725006" name="generateContracts" index="3Ewwow" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -336,6 +341,9 @@
         <reference id="4514118643321592184" name="providedPort" index="1ZwSu5" />
       </concept>
     </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618461" name="com.mbeddr.core.expressions.structure.UnsignedInt8tType" flags="ng" index="26Vqp4" />
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
@@ -493,35 +501,35 @@
     <node concept="2NXPZ9" id="eSkzRgKoaI" role="N3F5h">
       <property role="TrG5h" value="empty_1359545912367_14" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsG" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsG" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="eSkzRgKoa6" resolve="PortOpCallInSM" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsy" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsy" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="41KMvfckyJs" resolve="StatemachineCompTests" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsI" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsI" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="eSkzRgLrpG" resolve="TestSMInComp" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsF" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsF" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="4paRqaMeTyB" resolve="WhenPortConnectedInSMGuard" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsD" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsD" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7z1efbQRTYN" resolve="WhenPortConnectedInSMGuardSRI" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsE" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsE" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="1_Q4fcrBdxd" resolve="RunnableCallsInSM" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsH" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsH" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5CDgsyZ1fG0" resolve="SMWithSenderReceiver" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsJ" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRsJ" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6dhOyaM78sI" resolve="SMActionsInComponent" />
     </node>
@@ -913,7 +921,7 @@
             <node concept="OCJnL" id="47Sr75PnwFG" role="1KoBSX">
               <node concept="2xGTIE" id="6MoZRJHUyyE" role="S7lxW">
                 <node concept="1QiMYF" id="KU5KLY2w15" role="3XIRFZ">
-                  <node concept="OjmMv" id="7uLL3Mf4pNn" role="3SJzmv">
+                  <node concept="26shno" id="7uLL3Mf4pNn" role="3SJzmv">
                     <node concept="19SGf9" id="7uLL3Mf4pNq" role="OjmMu">
                       <node concept="19SUe$" id="7uLL3Mf4pNs" role="19SJt6">
                         <property role="19SUeA" value="value is initialized to 5 above" />
@@ -922,7 +930,7 @@
                   </node>
                 </node>
                 <node concept="1QiMYF" id="KU5KLY2w17" role="3XIRFZ">
-                  <node concept="OjmMv" id="7uLL3Mf4pP3" role="3SJzmv">
+                  <node concept="26shno" id="7uLL3Mf4pP3" role="3SJzmv">
                     <node concept="19SGf9" id="7uLL3Mf4pP6" role="OjmMu">
                       <node concept="19SUe$" id="7uLL3Mf4pP8" role="19SJt6">
                         <property role="19SUeA" value="setting it to 0 here tests whether this enty" />
@@ -931,7 +939,7 @@
                   </node>
                 </node>
                 <node concept="1QiMYF" id="KU5KLY2w19" role="3XIRFZ">
-                  <node concept="OjmMv" id="7uLL3Mf4pUp" role="3SJzmv">
+                  <node concept="26shno" id="7uLL3Mf4pUp" role="3SJzmv">
                     <node concept="19SGf9" id="7uLL3Mf4pUs" role="OjmMu">
                       <node concept="19SUe$" id="7uLL3Mf4pUu" role="19SJt6">
                         <property role="19SUeA" value="action of the initial state is actually executed" />

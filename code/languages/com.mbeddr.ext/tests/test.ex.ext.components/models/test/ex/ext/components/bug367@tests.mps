@@ -14,6 +14,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -63,6 +64,9 @@
         <property id="4768833643347725006" name="generateContracts" index="3Ewwow" />
         <reference id="1553713790141527407" name="instanceConfig" index="35zhcq" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -278,15 +282,15 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRms" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRms" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="58nhJFE6Q7a" resolve="Contract" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRmk" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRmk" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="58nhJFE6Q7e" resolve="Impl" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRml" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRml" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="58nhJFE6Q7o" resolve="Client" />
     </node>
@@ -374,7 +378,7 @@
     <node concept="2NXPZ9" id="58nhJFE6Q7r" role="N3F5h">
       <property role="TrG5h" value="empty_1346137852112_3" />
     </node>
-    <node concept="3GEVxB" id="2PeDUX_FqOj" role="2OODSX">
+    <node concept="26p5ff" id="2PeDUX_FqOj" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="58nhJFE6Q7a" resolve="Contract" />
     </node>
@@ -417,7 +421,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRmt" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRmt" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="58nhJFE6Q7a" resolve="Contract" />
     </node>

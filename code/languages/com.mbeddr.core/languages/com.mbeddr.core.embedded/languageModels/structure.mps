@@ -9,8 +9,11 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="2gv2" ref="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" />
+    <import index="j006" ref="r:a8b15c4b-d1e5-4d6e-ad01-641bd35af9f8(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="2gv2" ref="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -83,10 +86,10 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="5W7baq$5gqA" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="5W7baq$5gqB" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="1TJgyj" id="5W7baq$5gqC" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -169,7 +172,7 @@
       <ref role="20lvS9" node="5W7baq$aGq_" resolve="AbstractRegisterTransformationKind" />
     </node>
     <node concept="PrWs8" id="5W7baq$5xJi" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="5W7baq$5xJp">
@@ -270,10 +273,10 @@
       <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
     </node>
     <node concept="PrWs8" id="SwwM9UHwwN" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="7X9xw2qEetx" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="7FgMBfg9sEu" role="PzmwI">
       <ref role="PrY4T" to="x27k:2h5hmpsyQcW" resolve="IFunctionLikeReducedToSingleFunction" />
@@ -301,13 +304,13 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="SwwM9UHCGS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="7X9xw2qEcuj" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="5eiKWfwhgsS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="SwwM9UHCHB">
@@ -321,7 +324,7 @@
       <ref role="20lvS9" node="SwwM9UHwwI" resolve="Isr" />
     </node>
     <node concept="PrWs8" id="7X9xw2qD1CD" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="34EVIEX$uM" role="PzmwI">
       <ref role="PrY4T" to="2gv2:2R5TvtOl$CY" resolve="IStepIntoable" />
@@ -340,7 +343,7 @@
       <ref role="20lvS9" node="7X9xw2qCZP5" resolve="AbstractInterruptKind" />
     </node>
     <node concept="PrWs8" id="7X9xw2qCSja" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="7X9xw2qCZP5">

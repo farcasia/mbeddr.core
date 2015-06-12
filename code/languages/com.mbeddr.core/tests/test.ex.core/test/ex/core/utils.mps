@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -68,6 +70,9 @@
       <concept id="1595838349830846141" name="com.mbeddr.core.pointers.structure.ReferenceExpr" flags="ng" index="YInwV" />
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="2790345531544431663" name="com.mbeddr.core.util.structure.GenericDLFinishOp" flags="ng" index="6Xa1l" />
@@ -229,6 +234,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618461" name="com.mbeddr.core.expressions.structure.UnsignedInt8tType" flags="ng" index="26Vqp4" />
@@ -1161,18 +1169,18 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="E67pIVBGIm" role="2OODSX">
+    <node concept="26p5ff" id="E67pIVBGIm" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5oGU$loBUC1" resolve="UtilsTest" />
     </node>
-    <node concept="3GEVxB" id="E67pIVBGHR" role="2OODSX">
+    <node concept="26p5ff" id="E67pIVBGHR" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="4itX8XUV$dM" resolve="DataLoggerTest" />
     </node>
-    <node concept="3GEVxB" id="E67pIVBGJl" role="2OODSX">
+    <node concept="26p5ff" id="E67pIVBGJl" role="2OODSX">
       <ref role="3GEb4d" node="E67pIVB7DF" resolve="WithResourceTest" />
     </node>
-    <node concept="3GEVxB" id="7vXEDSfF6EY" role="2OODSX">
+    <node concept="26p5ff" id="7vXEDSfF6EY" role="2OODSX">
       <ref role="3GEb4d" node="7vXEDSfqVRb" resolve="GotoFail" />
     </node>
   </node>
@@ -1265,7 +1273,7 @@
             </node>
             <node concept="3XIRFW" id="E67pIWngGl" role="2QKArf">
               <node concept="1QiMYF" id="E67pIWptxN" role="3XIRFZ">
-                <node concept="OjmMv" id="E67pIWptxO" role="3SJzmv">
+                <node concept="26shno" id="E67pIWptxO" role="3SJzmv">
                   <node concept="19SGf9" id="E67pIWptxP" role="OjmMu">
                     <node concept="19SUe$" id="E67pIWptxQ" role="19SJt6">
                       <property role="19SUeA" value="report some kind of error" />

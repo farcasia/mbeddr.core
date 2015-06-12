@@ -17,6 +17,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="896334f3-82ce-427b-bb47-ccd3131864a9" name="com.mbeddr.mpsutil.mappingLabels" version="-1" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -36,6 +37,8 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="d0vh" ref="r:9488318d-ce46-4320-b4e7-2566a511c366(com.mbeddr.core.modules.gen.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -101,7 +104,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -581,6 +584,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="7615572890648529894" name="com.mbeddr.core.expressions.structure.NotEqualsExpression" flags="ng" index="25Bbzn" />
@@ -4149,7 +4155,7 @@
           <node concept="3cpWsn" id="78Ts1skpDFy" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="78Ts1skpDFz" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="78Ts1skpDF$" role="33vP2m">
               <ref role="37wK5l" to="ahli:78Ts1skpDBH" resolve="expectBCConfigItem" />
@@ -5462,7 +5468,7 @@
                   <ref role="3cqZAo" node="3_EX3Wi7NG8" resolve="bc" />
                 </node>
                 <node concept="3Tsc0h" id="3_EX3Wi7Vpj" role="2OqNvi">
-                  <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                  <ref role="3TtcxE" to="zsp6:66D23jC0OZE" />
                 </node>
               </node>
               <node concept="1z4cxt" id="3_EX3Wi7VpJ" role="2OqNvi">
@@ -8679,7 +8685,7 @@
           <node concept="3cpWsn" id="1M41OHtQMYT" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="1M41OHtQMYU" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="1M41OHuATje" role="33vP2m">
               <ref role="37wK5l" to="ahli:6dhuB$Q5W0b" resolve="findBCConfigItem" />
@@ -9539,7 +9545,7 @@
           <node concept="3cpWsn" id="1M41OHtQTK5" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="1M41OHtQTK6" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="1M41OHuCzmC" role="33vP2m">
               <ref role="37wK5l" to="ahli:6dhuB$Q5W0b" resolve="findBCConfigItem" />
@@ -12198,7 +12204,7 @@
                   </node>
                 </node>
                 <node concept="1QiMYF" id="2qTj7CwNudl" role="3XIRFZ">
-                  <node concept="OjmMv" id="2qTj7CwNudm" role="3SJzmv">
+                  <node concept="26shno" id="2qTj7CwNudm" role="3SJzmv">
                     <node concept="19SGf9" id="2qTj7CwNudn" role="OjmMu">
                       <node concept="19SUe$" id="2qTj7CwNudo" role="19SJt6">
                         <property role="19SUeA" value="Output of the data logger" />
@@ -13114,7 +13120,7 @@
           <node concept="3cpWsn" id="1M41OHtWTuO" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="1M41OHtWTuP" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="1M41OHuCvNi" role="33vP2m">
               <ref role="37wK5l" to="ahli:6dhuB$Q5W0b" resolve="findBCConfigItem" />
@@ -14610,7 +14616,7 @@
           <node concept="3cpWsn" id="79_VoWRYuzB" role="3cpWs9">
             <property role="TrG5h" value="ci" />
             <node concept="3Tqbb2" id="79_VoWRYuz$" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2OqwBi" id="79_VoWRYuzC" role="33vP2m">
               <node concept="2OqwBi" id="79_VoWRYuzD" role="2Oq$k0">
@@ -14618,7 +14624,7 @@
                   <ref role="3cqZAo" node="79_VoWRYto2" resolve="bc" />
                 </node>
                 <node concept="3Tsc0h" id="79_VoWRYuzF" role="2OqNvi">
-                  <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                  <ref role="3TtcxE" to="zsp6:66D23jC0OZE" />
                 </node>
               </node>
               <node concept="1z4cxt" id="79_VoWRYuzG" role="2OqNvi">
@@ -16149,7 +16155,7 @@
                 </node>
               </node>
               <node concept="1z9TsT" id="5usoWIJKHvT" role="lGtFl">
-                <node concept="OjmMv" id="5usoWIJKHvU" role="1w35rA">
+                <node concept="26shno" id="5usoWIJKHvU" role="1w35rA">
                   <node concept="19SGf9" id="5usoWIJKHvV" role="OjmMu">
                     <node concept="19SUe$" id="5usoWIJKHvW" role="19SJt6">
                       <property role="19SUeA" value="Message Reporting Function " />
@@ -16267,7 +16273,7 @@
           <node concept="3cpWsn" id="5usoWIJ2LVK" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="5usoWIJ2LVL" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="5usoWIJ2LVM" role="33vP2m">
               <ref role="1Pybhc" to="ahli:78Ts1skprjP" resolve="BCHelper" />
@@ -16321,7 +16327,7 @@
             <node concept="2OqwBi" id="5tbhN$5UT4p" role="2Oq$k0">
               <node concept="1Q6Npb" id="5tbhN$5UT3W" role="2Oq$k0" />
               <node concept="2RRcyG" id="5tbhN$5UTcO" role="2OqNvi">
-                <ref role="2RRcyH" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+                <ref role="2RRcyH" to="v6ji:66D23jBNlJN" resolve="Chunk" />
               </node>
             </node>
             <node concept="2es0OD" id="5tbhN$5V43F" role="2OqNvi">

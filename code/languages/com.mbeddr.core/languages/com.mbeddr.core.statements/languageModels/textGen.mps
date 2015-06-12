@@ -14,6 +14,8 @@
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" />
+    <import index="l09r" ref="r:584ab9a4-a751-458f-b5ce-3acbcbd6197f(com.mbeddr.mpsutil.paragraph.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1190,7 +1192,7 @@
                       </node>
                     </node>
                     <node concept="3TrEf2" id="7T88Na6$DBu" role="2OqNvi">
-                      <ref role="3Tt5mk" to="vs0r:7gVrg_0tw6n" />
+                      <ref role="3Tt5mk" to="f51m:66D23jBQ1RH" />
                     </node>
                   </node>
                   <node concept="2qgKlT" id="7T88Na6$DBv" role="2OqNvi">
@@ -1233,7 +1235,7 @@
             <node concept="2OqwBi" id="2EPyuw9ZZn" role="3fr31v">
               <node concept="117lpO" id="2EPyuw9ZRJ" role="2Oq$k0" />
               <node concept="2qgKlT" id="2EPyuwaax1" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:7uLL3Mf3Bol" resolve="isEmpty" />
+                <ref role="37wK5l" to="l09r:66D23jBQ1UH" resolve="isEmpty" />
               </node>
             </node>
           </node>

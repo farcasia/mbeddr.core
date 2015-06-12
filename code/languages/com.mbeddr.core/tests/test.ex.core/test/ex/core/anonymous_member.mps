@@ -2,6 +2,7 @@
 <model ref="r:028f3179-2429-49c7-a1e9-3479afedebac(test.ex.core.anonymous_member)">
   <persistence version="9" />
   <languages>
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports />
@@ -49,6 +50,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt">
       <concept id="9101132143320200657" name="com.mbeddr.core.udt.structure.SUContent" flags="ng" index="2mccaB" />
@@ -263,7 +267,7 @@
   </node>
   <node concept="N3F5e" id="5WwC2ssWwAt">
     <property role="TrG5h" value="main" />
-    <node concept="3GEVxB" id="5WwC2ssWwBE" role="2OODSX">
+    <node concept="26p5ff" id="5WwC2ssWwBE" role="2OODSX">
       <ref role="3GEb4d" node="5WwC2ssWtXx" resolve="ExternalStuff" />
     </node>
     <node concept="1sgJKc" id="5WwC2ssX6mY" role="N3F5h">

@@ -12,6 +12,8 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -246,7 +248,7 @@
       <ref role="20lvS9" node="69lKCLH$b8Y" resolve="AbstractMessageDefinition" />
     </node>
     <node concept="PrWs8" id="6brBMefRP1T" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="2lgwE2U2X_I" role="PzmwI">
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
@@ -329,7 +331,7 @@
       <ref role="PrY4T" to="x27k:2lgwE2U4_F1" resolve="ICodeLocationAware" />
     </node>
     <node concept="PrWs8" id="1rXJcsmEEPs" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="2lgwE2U3cEn">
@@ -520,7 +522,7 @@
       <ref role="20lvS9" node="3R$6B6bKEUa" resolve="ReportingStrategy" />
     </node>
     <node concept="PrWs8" id="3R$6B6bKETI" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="3R$6B6bKEUa">
@@ -618,7 +620,7 @@
       <ref role="PrY4T" to="356a:4pl5GY7LKmz" resolve="TraceableConcept" />
     </node>
     <node concept="PrWs8" id="2XRfpKWin9C" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ZUGF54jpqt">
@@ -651,7 +653,7 @@
     <property role="34LRSv" value="convert named struct init to positional stuct init" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3_EX3Wi7Hiz" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
     <node concept="1TJgyi" id="79_VoWRWiUx" role="1TKVEl">
       <property role="TrG5h" value="replaceMissingWithDefaultValues" />
@@ -698,7 +700,7 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="69lKCLH$b90" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="69lKCLH$b91">
@@ -706,7 +708,7 @@
     <property role="TrG5h" value="EmptyMessageDefinition" />
     <ref role="1TJDcQ" node="69lKCLH$b8Y" resolve="AbstractMessageDefinition" />
     <node concept="PrWs8" id="69lKCLH$b92" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+      <ref role="PrY4T" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
     </node>
   </node>
   <node concept="1TIwiD" id="5uVxDlUdaKu">
@@ -953,7 +955,7 @@
       <ref role="20lvS9" node="1M41OHtH7dU" resolve="DLGenStrategy" />
     </node>
     <node concept="PrWs8" id="1M41OHtH7cW" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="1M41OHtH7dU">

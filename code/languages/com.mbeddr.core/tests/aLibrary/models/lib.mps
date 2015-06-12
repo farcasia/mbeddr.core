@@ -2,6 +2,7 @@
 <model ref="r:30bd260c-eeef-48cc-bdac-128d01e18a6f(aLibrary.lib)">
   <persistence version="9" />
   <languages>
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -41,6 +42,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -130,7 +134,7 @@
   </node>
   <node concept="N3F5e" id="58DJDcMiMVu">
     <property role="TrG5h" value="Dummy" />
-    <node concept="3GEVxB" id="58DJDcMiMVv" role="2OODSX">
+    <node concept="26p5ff" id="58DJDcMiMVv" role="2OODSX">
       <ref role="3GEb4d" node="58DJDcMhRF1" resolve="HelperFunctions" />
     </node>
     <node concept="N3Fnx" id="58DJDcMiPK2" role="N3F5h">

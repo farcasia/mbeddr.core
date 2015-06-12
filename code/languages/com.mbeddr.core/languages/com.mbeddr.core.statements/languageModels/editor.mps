@@ -13,6 +13,10 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
+    <import index="4cpq" ref="r:424b203d-7f0f-469f-9792-0f5c8a69a9a0(com.mbeddr.mpsutil.paragraph.editor)" />
+    <import index="dfdw" ref="r:63385fda-49f8-4508-b096-71e40bbfa812(com.mbeddr.mpsutil.commentable.editor)" />
+    <import index="7qr6" ref="r:edf0ebfc-d7b4-4804-8848-2256e38ff09c(com.mbeddr.mpsutil.controlledName.editor)" />
+    <import index="l7pu" ref="r:6e2af974-7c36-44f8-a3cc-cbcb41edca15(com.mbeddr.mpsutil.documentable.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -384,7 +388,7 @@
         </node>
         <node concept="OXEIz" id="1AGZLa8nZn3" role="P5bDN">
           <node concept="1Y$tRT" id="4k0bDztzpYa" role="OY2wv">
-            <ref role="1Y$EBa" to="r4b4:3VMeFNyYP4F" resolve="controlledNameStuff" />
+            <ref role="1Y$EBa" to="7qr6:66D23jBZNh1" resolve="controlledNameStuff" />
           </node>
           <node concept="PvTIS" id="1AGZLa8nZn4" role="OY2wv">
             <node concept="MLZmj" id="1AGZLa8nZn5" role="PvTIR">
@@ -1211,18 +1215,18 @@
     <property role="3GE5qa" value="comment" />
     <ref role="1XX52x" to="c4fa:1teBndx1rbo" resolve="CommentStatement" />
     <node concept="3EZMnI" id="1teBndx1rbu" role="2wV5jI">
-      <ref role="1k5W1q" to="r4b4:3m8H$lmGFF4" resolve="wcomment" />
+      <ref role="1k5W1q" to="4cpq:66D23jBQBqq" resolve="wcomment" />
       <node concept="l2Vlx" id="5gTlpakuLIG" role="2iSdaV" />
       <node concept="3F0ifn" id="1teBndx1rbt" role="3EZMnx">
         <property role="3F0ifm" value="//" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dprSJ" resolve="TextComment" />
+        <ref role="1k5W1q" to="l7pu:66D23jC2y08" resolve="TextComment" />
         <node concept="34QqEe" id="1v_KPTNwgxI" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F1sOY" id="7uLL3Mf3Z7z" role="3EZMnx">
         <ref role="1NtTu8" to="c4fa:7uLL3Mf3Z6z" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dprSJ" resolve="TextComment" />
+        <ref role="1k5W1q" to="l7pu:66D23jC2y08" resolve="TextComment" />
         <node concept="34QqEe" id="1v_KPTNwgQZ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1238,7 +1242,7 @@
   <node concept="24kQdi" id="65XyadYMSVb">
     <ref role="1XX52x" to="c4fa:65XyadYMNd2" resolve="CommentedStatement" />
     <node concept="PMmxH" id="65XyadYMSVd" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="dfdw:66D23jBZ4ds" resolve="commentedCodeDefault" />
       <node concept="VPM3Z" id="6A4xWqfT4vk" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>
@@ -1799,7 +1803,7 @@
   <node concept="24kQdi" id="2g$mb2NyZzj">
     <ref role="1XX52x" to="c4fa:2g$mb2NyXzf" resolve="NotParsedStatement" />
     <node concept="3EZMnI" id="2g$mb2NyZzl" role="2wV5jI">
-      <ref role="1k5W1q" to="r4b4:3m8H$lmGFF4" resolve="wcomment" />
+      <ref role="1k5W1q" to="4cpq:66D23jBQBqq" resolve="wcomment" />
       <node concept="2iRfu4" id="2g$mb2NyZzm" role="2iSdaV" />
       <node concept="3F0ifn" id="6jlhXWm8QxV" role="3EZMnx">
         <property role="3F0ifm" value="{" />
@@ -1834,7 +1838,7 @@
     <property role="3GE5qa" value="switch" />
     <ref role="1XX52x" to="c4fa:1rXJcsmCnIY" resolve="CommentedSwitchMember" />
     <node concept="PMmxH" id="1rXJcsmCrKS" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="dfdw:66D23jBZ4ds" resolve="commentedCodeDefault" />
     </node>
   </node>
   <node concept="1h_SRR" id="2VzPqUCsXOi">

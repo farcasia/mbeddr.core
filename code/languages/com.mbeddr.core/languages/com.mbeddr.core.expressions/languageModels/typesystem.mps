@@ -23,7 +23,9 @@
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
     <import index="e8zp" ref="r:58a558d9-50ed-4b86-91cf-66ce18b52794(com.mbeddr.core.expressions.actions)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
+    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="pc7u" ref="r:d1daf0bb-3793-4ffe-ae26-dc0d91022b52(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -11134,10 +11136,10 @@
             <node concept="3cpWsn" id="7ii2FhSDj$Z" role="3cpWs9">
               <property role="TrG5h" value="cnc" />
               <node concept="3Tqbb2" id="7ii2FhSDj$V" role="1tU5fm">
-                <ref role="ehGHo" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+                <ref role="ehGHo" to="m1h3:66D23jBZN3A" resolve="IControlledNamedConcept" />
               </node>
               <node concept="1PxgMI" id="7ii2FhSDj_0" role="33vP2m">
-                <ref role="1PxNhF" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+                <ref role="1PxNhF" to="m1h3:66D23jBZN3A" resolve="IControlledNamedConcept" />
                 <node concept="1YBJjd" id="7ii2FhSDj_1" role="1PxMeX">
                   <ref role="1YBMHb" node="7ii2FhSp42l" resolve="it" />
                 </node>
@@ -11148,7 +11150,7 @@
             <node concept="3cpWsn" id="7ii2FhS2ieV" role="3cpWs9">
               <property role="TrG5h" value="na" />
               <node concept="3Tqbb2" id="7ii2FhS2ieQ" role="1tU5fm">
-                <ref role="ehGHo" to="vs0r:2GIWVTRHgNL" resolve="ControlledNameAttribute" />
+                <ref role="ehGHo" to="m1h3:66D23jBZN3u" resolve="ControlledNameAttribute" />
               </node>
               <node concept="2OqwBi" id="7ii2FhS2ieW" role="33vP2m">
                 <node concept="37vLTw" id="7ii2FhSDj_2" role="2Oq$k0">
@@ -11156,7 +11158,7 @@
                 </node>
                 <node concept="3CFZ6_" id="7ii2FhS2ieZ" role="2OqNvi">
                   <node concept="3CFTII" id="7ii2FhS2if0" role="3CFYIz">
-                    <ref role="3CFTIH" to="vs0r:2GIWVTRHgNL" resolve="ControlledNameAttribute" />
+                    <ref role="3CFTIH" to="m1h3:66D23jBZN3u" resolve="ControlledNameAttribute" />
                     <node concept="29tlS8" id="7ii2FhS2if1" role="3CFTIG">
                       <ref role="29tlSa" to="tpck:h0TrG11" resolve="name" />
                     </node>
@@ -11182,11 +11184,11 @@
                             <ref role="3cqZAo" node="7ii2FhS2ieV" resolve="na" />
                           </node>
                           <node concept="3TrEf2" id="7ii2FhSunez" role="2OqNvi">
-                            <ref role="3Tt5mk" to="vs0r:2GIWVTRHgZp" />
+                            <ref role="3Tt5mk" to="m1h3:66D23jBZN3y" />
                           </node>
                         </node>
                         <node concept="2qgKlT" id="2k_GwRYcCeU" role="2OqNvi">
-                          <ref role="37wK5l" to="hwgx:3VMeFNzc6$L" resolve="getPrescribedType" />
+                          <ref role="37wK5l" to="pc7u:66D23jBZN8P" resolve="getPrescribedType" />
                         </node>
                       </node>
                       <node concept="1$rogu" id="2k_GwRY8hzQ" role="2OqNvi" />
@@ -11243,7 +11245,7 @@
                         <ref role="3cqZAo" node="7ii2FhSDj$Z" resolve="cnc" />
                       </node>
                       <node concept="2qgKlT" id="7ii2FhSDoSq" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:7ii2FhSDlTM" resolve="automaticallySyncPrescribedType" />
+                        <ref role="37wK5l" to="pc7u:66D23jBZN9w" resolve="automaticallySyncPrescribedType" />
                       </node>
                     </node>
                     <node concept="9aQIb" id="7ii2FhSDp7a" role="9aQIa">
@@ -11323,11 +11325,11 @@
                     <ref role="3cqZAo" node="7ii2FhS2ieV" resolve="na" />
                   </node>
                   <node concept="3TrEf2" id="7ii2FhS2jPF" role="2OqNvi">
-                    <ref role="3Tt5mk" to="vs0r:2GIWVTRHgZp" />
+                    <ref role="3Tt5mk" to="m1h3:66D23jBZN3y" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="7ii2FhS2lXq" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:3VMeFNzc5hU" resolve="prescribesType" />
+                  <ref role="37wK5l" to="pc7u:66D23jBZN8J" resolve="prescribesType" />
                 </node>
               </node>
               <node concept="3y3z36" id="7ii2FhS2iwb" role="3uHU7B">
@@ -11345,7 +11347,7 @@
           </node>
           <node concept="1mIQ4w" id="7ii2FhS2dQ9" role="2OqNvi">
             <node concept="chp4Y" id="7ii2FhS2dRt" role="cj9EA">
-              <ref role="cht4Q" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+              <ref role="cht4Q" to="m1h3:66D23jBZN3A" resolve="IControlledNamedConcept" />
             </node>
           </node>
         </node>

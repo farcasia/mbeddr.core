@@ -10,6 +10,7 @@
     <import index="clqz" ref="r:5ebcdb77-81e9-4964-beae-35bd9a2f28b5(com.mbeddr.ext.statemachines.structure)" />
     <import index="51wr" ref="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -167,7 +168,7 @@
               <property role="TrG5h" value="items" />
               <node concept="A3Dl8" id="5ngFs$3Tewy" role="1tU5fm">
                 <node concept="3Tqbb2" id="5ngFs$3Tewz" role="A3Ik2">
-                  <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+                  <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
                 </node>
               </node>
               <node concept="2OqwBi" id="5ngFs$3Tew$" role="33vP2m">
@@ -175,7 +176,7 @@
                   <ref role="3cqZAo" node="5ngFs$3Tetm" resolve="bc" />
                 </node>
                 <node concept="3Tsc0h" id="5ngFs$3TpPr" role="2OqNvi">
-                  <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                  <ref role="3TtcxE" to="zsp6:66D23jC0OZE" />
                 </node>
               </node>
             </node>
@@ -184,7 +185,7 @@
             <node concept="3cpWsn" id="5ngFs$3TeuW" role="3cpWs9">
               <property role="TrG5h" value="ci" />
               <node concept="3Tqbb2" id="5ngFs$3TeuX" role="1tU5fm">
-                <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+                <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
               </node>
               <node concept="2OqwBi" id="5ngFs$3TeuY" role="33vP2m">
                 <node concept="37vLTw" id="20ezT9ZBY$O" role="2Oq$k0">
@@ -238,7 +239,7 @@
                       <ref role="3cqZAo" node="5ngFs$3Tetm" resolve="bc" />
                     </node>
                     <node concept="3Tsc0h" id="5ngFs$3TpPS" role="2OqNvi">
-                      <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                      <ref role="3TtcxE" to="zsp6:66D23jC0OZE" />
                     </node>
                   </node>
                   <node concept="TSZUe" id="5ngFs$3TpQk" role="2OqNvi">
@@ -298,7 +299,7 @@
                   <property role="TrG5h" value="items" />
                   <node concept="A3Dl8" id="5ngFs$3TpEa" role="1tU5fm">
                     <node concept="3Tqbb2" id="5ngFs$3TpEb" role="A3Ik2">
-                      <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+                      <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="5ngFs$3TpEc" role="33vP2m">
@@ -306,7 +307,7 @@
                       <ref role="3cqZAo" node="5ngFs$3TpOr" resolve="bc" />
                     </node>
                     <node concept="3Tsc0h" id="5ngFs$3TpOW" role="2OqNvi">
-                      <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                      <ref role="3TtcxE" to="zsp6:66D23jC0OZE" />
                     </node>
                   </node>
                 </node>
@@ -315,7 +316,7 @@
                 <node concept="3cpWsn" id="5ngFs$3TpEg" role="3cpWs9">
                   <property role="TrG5h" value="ci" />
                   <node concept="3Tqbb2" id="5ngFs$3TpEh" role="1tU5fm">
-                    <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+                    <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
                   </node>
                   <node concept="2OqwBi" id="5ngFs$3TpEi" role="33vP2m">
                     <node concept="37vLTw" id="20ezT9ZBYkc" role="2Oq$k0">

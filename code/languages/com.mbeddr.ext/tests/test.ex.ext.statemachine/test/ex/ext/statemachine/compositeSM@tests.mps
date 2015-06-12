@@ -13,6 +13,8 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports />
   <registry>
@@ -67,6 +69,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="7085783497126752833" name="com.mbeddr.core.util.structure.EmptyMessageDefinition" flags="ng" index="fLn3d" />
@@ -221,6 +226,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
@@ -854,15 +862,15 @@
     <node concept="2NXPZ9" id="7Dny5nFzX0N" role="N3F5h">
       <property role="TrG5h" value="empty_1354197545534_2" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRqA" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRqA" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3FSHg1aAZ2c" resolve="CompositeStateTest" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRq_" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5xRq_" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7Dny5nFzX0R" resolve="OrderingOfActionsTest" />
     </node>
-    <node concept="3GEVxB" id="4otgCcVJFuQ" role="2OODSX">
+    <node concept="26p5ff" id="4otgCcVJFuQ" role="2OODSX">
       <ref role="3GEb4d" node="4otgCcVC3NM" resolve="Accent661" />
     </node>
   </node>
@@ -1416,7 +1424,7 @@
         </node>
       </node>
       <node concept="1z9TsT" id="4otgCcVJE_Z" role="lGtFl">
-        <node concept="OjmMv" id="4otgCcVJEA0" role="1w35rA">
+        <node concept="26shno" id="4otgCcVJEA0" role="1w35rA">
           <node concept="19SGf9" id="4otgCcVJEA1" role="OjmMu">
             <node concept="19SUe$" id="4otgCcVJEA2" role="19SJt6">
               <property role="19SUeA" value="Nested states with same names in different composite states must be allowed" />

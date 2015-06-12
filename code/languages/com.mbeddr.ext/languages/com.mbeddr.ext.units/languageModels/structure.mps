@@ -10,6 +10,9 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="c9ir" ref="r:6c0adec9-f600-4822-be96-08f45bb1ef2c(com.mbeddr.mpsutil.ideEnhancement.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -117,7 +120,7 @@
       <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="4CUqBF4vMZG" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="7eOyx9raabt">
@@ -172,7 +175,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="definition" />
     <property role="MwhBj" value="${module}/icons/units.png" />
-    <ref role="1TJDcQ" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="v6ji:66D23jBNlJN" resolve="Chunk" />
     <node concept="1TJgyj" id="7eOyx9r3jt0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="contents" />
@@ -183,13 +186,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="imports" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+      <ref role="20lvS9" to="v6ji:66D23jBNlK2" resolve="IChunkDependency" />
     </node>
     <node concept="PrWs8" id="5jgivonKjbk" role="PzmwI">
       <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="5jgivonKjbw" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+      <ref role="PrY4T" to="c9ir:66D23jC1gXK" resolve="IMbeddrIDERoot" />
     </node>
     <node concept="PrWs8" id="3VpMwkcjX5H" role="PzmwI">
       <ref role="PrY4T" node="3VpMwkcjX3N" resolve="IUnitDeclarationsProvider" />
@@ -200,7 +203,7 @@
     <property role="3GE5qa" value="definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4CUqBF4xMRo" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="1TJgyj" id="7eOyx9r3qFY" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -302,7 +305,7 @@
       <ref role="PrY4T" node="6mzZsELfLSn" resolve="ICanUseNoUnit" />
     </node>
     <node concept="PrWs8" id="4CUqBF4xPvA" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="21cGQ$hAigW" role="PzmwI">
       <ref role="PrY4T" to="vs0r:7jSUHHvkAp9" resolve="IModuleContentRef" />
@@ -407,7 +410,7 @@
     <property role="3GE5qa" value="definition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4CUqBF4vCbW" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="3j3yk3guAAl">

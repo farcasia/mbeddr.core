@@ -17,6 +17,8 @@
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="rmg4" ref="r:18211265-1331-48c8-8298-565ed01be497(com.mbeddr.core.unittest.behavior)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -554,14 +556,14 @@
                   <node concept="2Xjw5R" id="6GXPbpLjwhy" role="2OqNvi">
                     <node concept="1xMEDy" id="6GXPbpLjwhz" role="1xVPHs">
                       <node concept="chp4Y" id="6GXPbpLjwh$" role="ri$Ld">
-                        <ref role="cht4Q" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
+                        <ref role="cht4Q" to="v6ji:66D23jBNlK5" resolve="IVisibleElementProvider" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="6GXPbpLjwh_" role="1xVPHs" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="6GXPbpLjwhA" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
+                  <ref role="37wK5l" to="qcz6:66D23jBNlLj" resolve="visibleContentsOfType" />
                   <node concept="3TUQnm" id="6GXPbpLjwhB" role="37wK5m">
                     <ref role="3TV0OU" to="yz9a:6189YbXx_nM" resolve="ITestContext" />
                   </node>

@@ -19,8 +19,11 @@
     <import index="lx0c" ref="r:12c76b04-7fd6-45a2-9d94-f0756fc5ad8f(com.mbeddr.ext.units.behavior)" />
     <import index="tpci" ref="r:00000000-0000-4000-0000-011c8959028e(jetbrains.mps.lang.structure.findUsages)" />
     <import index="g4jo" ref="r:d98d04fb-4a60-4106-81cf-6cb40b67de4d(jetbrains.mps.ide.findusages.model)" />
+    <import index="19h7" ref="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="a5hm" ref="r:26a760b2-c482-45fb-9d07-02d903b3b1da(com.mbeddr.mpsutil.ideEnhancement.editor)" />
+    <import index="l7pu" ref="r:6e2af974-7c36-44f8-a3cc-cbcb41edca15(com.mbeddr.mpsutil.documentable.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="19h7" ref="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1145,7 +1148,7 @@
             <property role="VOm3f" value="false" />
           </node>
           <node concept="PMmxH" id="2A5UqXJUtld" role="3EZMnx">
-            <ref role="PMmxG" to="r4b4:2A5UqXJPGTA" resolve="iconAndNameCell" />
+            <ref role="PMmxG" to="a5hm:66D23jC1gY1" resolve="iconAndNameCell" />
             <node concept="pVoyu" id="2A5UqXJUy9h" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -1323,7 +1326,7 @@
                     <node concept="2ShNRf" id="5Xe$YcRFTNy" role="3clFbG">
                       <node concept="3zrR0B" id="5Xe$YcRFZ6S" role="2ShVmc">
                         <node concept="3Tqbb2" id="5Xe$YcRFZ6U" role="3zrR0E">
-                          <ref role="ehGHo" to="vs0r:5Xe$YcRDdel" resolve="EmptyChunkDependency" />
+                          <ref role="ehGHo" to="v6ji:66D23jBNlJZ" resolve="EmptyChunkDependency" />
                         </node>
                       </node>
                     </node>
@@ -1590,11 +1593,11 @@
       <node concept="l2Vlx" id="6CnXAkqMGU8" role="2iSdaV" />
       <node concept="3F0ifn" id="6CnXAkqMGU3" role="3EZMnx">
         <property role="3F0ifm" value="//" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dprSJ" resolve="TextComment" />
+        <ref role="1k5W1q" to="l7pu:66D23jC2y08" resolve="TextComment" />
       </node>
       <node concept="3F0A7n" id="6CnXAkqMGUm" role="3EZMnx">
         <ref role="1NtTu8" to="qlb5:6CnXAkqMGKL" resolve="text" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dprSJ" resolve="TextComment" />
+        <ref role="1k5W1q" to="l7pu:66D23jC2y08" resolve="TextComment" />
       </node>
     </node>
   </node>

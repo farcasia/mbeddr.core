@@ -23,5 +23,9 @@
     <property role="TrG5h" value="IVisualizable" />
     <property role="3GE5qa" value="vis" />
   </node>
+  <node concept="PlHQZ" id="66D23jC0LvQ">
+    <property role="3GE5qa" value="vis" />
+    <property role="TrG5h" value="IVisualizationParticipant" />
+  </node>
 </model>
 

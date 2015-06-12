@@ -6,6 +6,7 @@
     <use id="390de4af-0c8d-4716-8dec-3d05ca751b28" name="com.mbeddr.core.cinterpreter" version="-1" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -118,6 +119,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
     <language id="390de4af-0c8d-4716-8dec-3d05ca751b28" name="com.mbeddr.core.cinterpreter">
       <concept id="7019451652828660821" name="com.mbeddr.core.cinterpreter.structure.InlineInterpreterEvaluation" flags="ng" index="dyTT3">
         <child id="7019451652828794097" name="expression" index="dyprB" />
@@ -170,7 +174,7 @@
           <node concept="3XIRFW" id="65E6xpGUqRo" role="3XIRFX">
             <node concept="3XISUE" id="65E6xpGUOfV" role="3XIRFZ" />
             <node concept="1QiMYF" id="65E6xpHcuFr" role="3XIRFZ">
-              <node concept="OjmMv" id="65E6xpHcuFt" role="3SJzmv">
+              <node concept="26shno" id="65E6xpHcuFt" role="3SJzmv">
                 <node concept="19SGf9" id="65E6xpHcuFu" role="OjmMu">
                   <node concept="19SUe$" id="65E6xpHcuFv" role="19SJt6">
                     <property role="19SUeA" value="NumberLiteral" />
@@ -233,7 +237,7 @@
             <node concept="3XISUE" id="65E6xpHd9Ge" role="3XIRFZ" />
             <node concept="3XISUE" id="65E6xpHd9Hf" role="3XIRFZ" />
             <node concept="1QiMYF" id="65E6xpHd7mU" role="3XIRFZ">
-              <node concept="OjmMv" id="65E6xpHd7mW" role="3SJzmv">
+              <node concept="26shno" id="65E6xpHd7mW" role="3SJzmv">
                 <node concept="19SGf9" id="65E6xpHd7mX" role="OjmMu">
                   <node concept="19SUe$" id="65E6xpHd7mY" role="19SJt6">
                     <property role="19SUeA" value="Variables and References" />
@@ -334,7 +338,7 @@
             <node concept="3XISUE" id="65E6xpHiEgQ" role="3XIRFZ" />
             <node concept="3XISUE" id="65E6xpHiEiG" role="3XIRFZ" />
             <node concept="1QiMYF" id="65E6xpHiE_B" role="3XIRFZ">
-              <node concept="OjmMv" id="65E6xpHiE_D" role="3SJzmv">
+              <node concept="26shno" id="65E6xpHiE_D" role="3SJzmv">
                 <node concept="19SGf9" id="65E6xpHiE_E" role="OjmMu">
                   <node concept="19SUe$" id="65E6xpHiE_F" role="19SJt6">
                     <property role="19SUeA" value="UnaryMinus" />
@@ -391,7 +395,7 @@
             <node concept="3XISUE" id="65E6xpHiSjL" role="3XIRFZ" />
             <node concept="3XISUE" id="65E6xpHiSm0" role="3XIRFZ" />
             <node concept="1QiMYF" id="65E6xpHd9Lt" role="3XIRFZ">
-              <node concept="OjmMv" id="65E6xpHd9Lv" role="3SJzmv">
+              <node concept="26shno" id="65E6xpHd9Lv" role="3SJzmv">
                 <node concept="19SGf9" id="65E6xpHd9Lw" role="OjmMu">
                   <node concept="19SUe$" id="65E6xpHd9Lx" role="19SJt6">
                     <property role="19SUeA" value="Plus" />
@@ -497,7 +501,7 @@
             <node concept="3XISUE" id="65E6xpHiDIP" role="3XIRFZ" />
             <node concept="3XISUE" id="65E6xpHiDZP" role="3XIRFZ" />
             <node concept="1QiMYF" id="65E6xpHiSUj" role="3XIRFZ">
-              <node concept="OjmMv" id="65E6xpHiSUl" role="3SJzmv">
+              <node concept="26shno" id="65E6xpHiSUl" role="3SJzmv">
                 <node concept="19SGf9" id="65E6xpHiSUm" role="OjmMu">
                   <node concept="19SUe$" id="65E6xpHiSUn" role="19SJt6">
                     <property role="19SUeA" value="Minus" />

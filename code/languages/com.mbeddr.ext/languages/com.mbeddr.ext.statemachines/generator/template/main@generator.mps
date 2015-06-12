@@ -18,6 +18,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="896334f3-82ce-427b-bb47-ccd3131864a9" name="com.mbeddr.mpsutil.mappingLabels" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <generationPart ref="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" />
     <generationPart ref="61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -38,6 +39,8 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="byxr" ref="r:0408ee73-1f2e-4dd0-8c67-48f28bb6adce(com.mbeddr.ext.statemachines.utils)" />
     <import index="ierg" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.textgen.trace(MPS.Core/jetbrains.mps.textgen.trace@java_stub)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="v2zw" ref="r:628ca079-8bed-477e-9e46-e865ba206d8e(com.mbeddr.mpsutil.configItem.behavior)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -98,7 +101,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -555,6 +558,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618461" name="com.mbeddr.core.expressions.structure.UnsignedInt8tType" flags="ng" index="26Vqp4" />
@@ -1559,7 +1565,7 @@
                             </node>
                             <node concept="3XIRFW" id="6TgX$rT28wY" role="3XIRFZ">
                               <node concept="1QiMYF" id="6TgX$rT28wZ" role="3XIRFZ">
-                                <node concept="OjmMv" id="6TgX$rT28x0" role="3SJzmv">
+                                <node concept="26shno" id="6TgX$rT28x0" role="3SJzmv">
                                   <node concept="19SGf9" id="6TgX$rT28x1" role="OjmMu">
                                     <node concept="19SUe$" id="6TgX$rT28x2" role="19SJt6">
                                       <property role="19SUeA" value="transition actions" />
@@ -1645,7 +1651,7 @@
                               </node>
                             </node>
                             <node concept="1QiMYF" id="2yGObvV5c_H" role="3XIRFZ">
-                              <node concept="OjmMv" id="7uLL3Mf4pLd" role="3SJzmv">
+                              <node concept="26shno" id="7uLL3Mf4pLd" role="3SJzmv">
                                 <node concept="19SGf9" id="7uLL3Mf4pLg" role="OjmMu">
                                   <node concept="19SUe$" id="7uLL3Mf4pLi" role="19SJt6">
                                     <property role="19SUeA" value="switch state" />
@@ -3177,7 +3183,7 @@
                             <node concept="3cpWsn" id="5jCi3tKdhtH" role="3cpWs9">
                               <property role="TrG5h" value="sci" />
                               <node concept="3Tqbb2" id="5jCi3tKdhtI" role="1tU5fm">
-                                <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+                                <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
                               </node>
                               <node concept="2OqwBi" id="5jCi3tKdhtJ" role="33vP2m">
                                 <node concept="2OqwBi" id="5jCi3tKdhtK" role="2Oq$k0">
@@ -3187,13 +3193,13 @@
                                       <node concept="I4A8Y" id="5jCi3tKdhtO" role="2OqNvi" />
                                     </node>
                                     <node concept="2RRcyG" id="5jCi3tKdhtP" role="2OqNvi">
-                                      <ref role="2RRcyH" to="vs0r:3R$6B6bKw0D" resolve="IConfigurationContainer" />
+                                      <ref role="2RRcyH" to="zsp6:66D23jC0OZD" resolve="IConfigurationContainer" />
                                     </node>
                                   </node>
                                   <node concept="1uHKPH" id="5jCi3tKdhtQ" role="2OqNvi" />
                                 </node>
                                 <node concept="2qgKlT" id="5jCi3tKdhtR" role="2OqNvi">
-                                  <ref role="37wK5l" to="hwgx:3R$6B6bL1DB" resolve="findItemOfType" />
+                                  <ref role="37wK5l" to="v2zw:66D23jC0P03" resolve="findItemOfType" />
                                   <node concept="3TUQnm" id="5jCi3tKdhtS" role="37wK5m">
                                     <ref role="3TV0OU" to="clqz:45sewQzW4pZ" resolve="StatemachineConfigItem" />
                                   </node>

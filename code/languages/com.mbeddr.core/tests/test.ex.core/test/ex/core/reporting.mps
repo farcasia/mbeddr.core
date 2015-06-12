@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -134,6 +135,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
       <concept id="2212975673976017893" name="com.mbeddr.core.expressions.structure.NumericLiteral" flags="ng" index="2hns93">
@@ -229,7 +233,7 @@
         </node>
       </node>
       <node concept="1z9TsT" id="4JYoVJb7$eH" role="lGtFl">
-        <node concept="OjmMv" id="4JYoVJb7$eI" role="1w35rA">
+        <node concept="26shno" id="4JYoVJb7$eI" role="1w35rA">
           <node concept="19SGf9" id="4JYoVJb7$eJ" role="OjmMu">
             <node concept="19SUe$" id="4JYoVJb7$eK" role="19SJt6">
               <property role="19SUeA" value="Make sure that the message count is relative to the used test case" />

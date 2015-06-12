@@ -10,6 +10,8 @@
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="5e845763-f4ca-40bf-b31f-74e236ffed75" name="com.mbeddr.mpsutil.spreferences.context" version="-1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -88,7 +90,7 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
@@ -211,6 +213,9 @@
       <concept id="877857976371880700" name="com.mbeddr.mpsutil.spreferences.context.structure.SPreferencesContext" flags="ng" index="2wNmnh">
         <child id="877857976371881842" name="redirectToModel" index="2wNm1v" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="3073566081777391256" name="com.mbeddr.core.util.structure.WithMemberAssignment" flags="ng" index="8C5q9">
@@ -462,6 +467,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="7615572890648529894" name="com.mbeddr.core.expressions.structure.NotEqualsExpression" flags="ng" index="25Bbzn" />
@@ -3460,7 +3468,7 @@
     <node concept="1qefOq" id="4fD91B_pzl9" role="1SKRRt">
       <node concept="N3F5e" id="4fD91B_pzEM" role="1qenE9">
         <property role="TrG5h" value="dummy" />
-        <node concept="3GEVxB" id="4fD91B_pAjl" role="2OODSX">
+        <node concept="26p5ff" id="4fD91B_pAjl" role="2OODSX">
           <ref role="3GEb4d" node="6GXPbpLibrC" resolve="stdio_stub" />
         </node>
         <node concept="N3Fnx" id="4fD91B_pAjr" role="N3F5h">
@@ -5207,7 +5215,7 @@
             <node concept="3XISUE" id="rK9hH13V6E" role="3XIRFZ" />
             <node concept="3XISUE" id="6FZjEDdF6fR" role="3XIRFZ" />
             <node concept="1QiMYF" id="6FZjEDdF6fQ" role="3XIRFZ">
-              <node concept="OjmMv" id="7uLL3Mf4pCk" role="3SJzmv">
+              <node concept="26shno" id="7uLL3Mf4pCk" role="3SJzmv">
                 <node concept="19SGf9" id="7uLL3Mf4pCn" role="OjmMu">
                   <node concept="19SUe$" id="7uLL3Mf4pCp" role="19SJt6">
                     <property role="19SUeA" value="end test ranges" />
@@ -5510,7 +5518,7 @@
             <node concept="3XISUE" id="5cvgcpwnZQW" role="3XIRFZ" />
             <node concept="3XIRFW" id="5cvgcpwnZQY" role="3XIRFZ">
               <node concept="1QiMYF" id="5cvgcpwnZRz" role="3XIRFZ">
-                <node concept="OjmMv" id="7uLL3Mf4pyA" role="3SJzmv">
+                <node concept="26shno" id="7uLL3Mf4pyA" role="3SJzmv">
                   <node concept="19SGf9" id="7uLL3Mf4pyD" role="OjmMu">
                     <node concept="19SUe$" id="7uLL3Mf4pyF" role="19SJt6">
                       <property role="19SUeA" value="you can't assign int8 to uint8" />
@@ -6997,7 +7005,7 @@
             </node>
             <node concept="3XISUE" id="4fklbveD4CL" role="3XIRFZ" />
             <node concept="1QiMYF" id="485kC3CqG3_" role="3XIRFZ">
-              <node concept="OjmMv" id="485kC3CqG3B" role="3SJzmv">
+              <node concept="26shno" id="485kC3CqG3B" role="3SJzmv">
                 <node concept="19SGf9" id="485kC3CqG3C" role="OjmMu">
                   <node concept="19SUe$" id="485kC3CqG3D" role="19SJt6">
                     <property role="19SUeA" value="non-pointer types can be assigned from volatile to non volatile and vice versa" />
@@ -7052,7 +7060,7 @@
             </node>
             <node concept="3XISUE" id="4fklbveDJvN" role="3XIRFZ" />
             <node concept="1QiMYF" id="485kC3CqMZz" role="3XIRFZ">
-              <node concept="OjmMv" id="485kC3CqMZ_" role="3SJzmv">
+              <node concept="26shno" id="485kC3CqMZ_" role="3SJzmv">
                 <node concept="19SGf9" id="485kC3CqMZA" role="OjmMu">
                   <node concept="19SUe$" id="485kC3CqMZB" role="19SJt6">
                     <property role="19SUeA" value="in case of a pointer, \nif the assigned base type is NOT volatile\nonly pointers with a NON-volatile base type must be assigned" />
@@ -8192,7 +8200,7 @@
             <node concept="3XISUE" id="5h6rdrHa_Jx" role="3XIRFZ" />
             <node concept="3XIRFW" id="5cvgcpwo1Wi" role="3XIRFZ">
               <node concept="1QiMYF" id="5cvgcpwo1Wk" role="3XIRFZ">
-                <node concept="OjmMv" id="7uLL3Mf4pEc" role="3SJzmv">
+                <node concept="26shno" id="7uLL3Mf4pEc" role="3SJzmv">
                   <node concept="19SGf9" id="7uLL3Mf4pEf" role="OjmMu">
                     <node concept="19SUe$" id="7uLL3Mf4pEh" role="19SJt6">
                       <property role="19SUeA" value="you can't assign int8 to uint8" />
@@ -17736,7 +17744,7 @@
         <node concept="7CXmI" id="3PT6Z48Ks7T" role="lGtFl">
           <node concept="7OXhh" id="3PT6Z48Ks7U" role="7EUXB" />
         </node>
-        <node concept="3GEVxB" id="aFniQED_rJ" role="2OODSX">
+        <node concept="26p5ff" id="aFniQED_rJ" role="2OODSX">
           <ref role="3GEb4d" node="aFniQED$A8" resolve="RegularCDataTypes" />
         </node>
       </node>
@@ -17959,7 +17967,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="40dlgDM1dHW" role="lGtFl">
-            <node concept="OjmMv" id="40dlgDM1dHX" role="1w35rA">
+            <node concept="26shno" id="40dlgDM1dHX" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM1dHY" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM1dHZ" role="19SJt6">
                   <property role="19SUeA" value="arrays are allowed" />
@@ -17998,7 +18006,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="40dlgDM2JBI" role="lGtFl">
-            <node concept="OjmMv" id="40dlgDM2JBJ" role="1w35rA">
+            <node concept="26shno" id="40dlgDM2JBJ" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM2JBK" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM2JBL" role="19SJt6">
                   <property role="19SUeA" value="global variable addresses are allowed" />
@@ -18049,7 +18057,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="40dlgDM3hwF" role="lGtFl">
-            <node concept="OjmMv" id="40dlgDM3hwG" role="1w35rA">
+            <node concept="26shno" id="40dlgDM3hwG" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM3hwH" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM3hwI" role="19SJt6">
                   <property role="19SUeA" value="field addresses of global struct variables are allowed" />
@@ -21321,7 +21329,7 @@
     <node concept="1qefOq" id="7ya9dtelRMk" role="1SKRRt">
       <node concept="N3F5e" id="7ya9dtelRNH" role="1qenE9">
         <property role="TrG5h" value="dummy" />
-        <node concept="3GEVxB" id="7ya9dtelRNK" role="2OODSX">
+        <node concept="26p5ff" id="7ya9dtelRNK" role="2OODSX">
           <ref role="3GEb4d" node="7ya9dtegY_S" resolve="ExternalTest" />
         </node>
         <node concept="N3Fnx" id="7ya9dtelRNN" role="N3F5h">
@@ -21531,7 +21539,7 @@
             <property role="2c7vTL" value="false" />
           </node>
           <node concept="1z9TsT" id="5WwC2ssWq0D" role="lGtFl">
-            <node concept="OjmMv" id="5WwC2ssWq0E" role="1w35rA">
+            <node concept="26shno" id="5WwC2ssWq0E" role="1w35rA">
               <node concept="19SGf9" id="5WwC2ssWq0F" role="OjmMu">
                 <node concept="19SUe$" id="5WwC2ssWq0G" role="19SJt6" />
               </node>
@@ -22113,7 +22121,7 @@
     <node concept="1qefOq" id="12K3RfpFMIx" role="1SKRRt">
       <node concept="N3F5e" id="12K3RfpFMIz" role="1qenE9">
         <property role="TrG5h" value="TestModule" />
-        <node concept="3GEVxB" id="12K3RfpFMI_" role="2OODSX">
+        <node concept="26p5ff" id="12K3RfpFMI_" role="2OODSX">
           <ref role="3GEb4d" node="12K3RfpFq2T" resolve="Operators_External" />
         </node>
         <node concept="N3Fnx" id="12K3RfpFMPb" role="N3F5h">
@@ -22121,7 +22129,7 @@
           <property role="2OOxQR" value="true" />
           <node concept="3XIRFW" id="12K3RfpFMPd" role="3XIRFX">
             <node concept="1QiMYF" id="1iwpWaOSqjC" role="3XIRFZ">
-              <node concept="OjmMv" id="1iwpWaOSqjE" role="3SJzmv">
+              <node concept="26shno" id="1iwpWaOSqjE" role="3SJzmv">
                 <node concept="19SGf9" id="1iwpWaOSqjF" role="OjmMu">
                   <node concept="19SUe$" id="1iwpWaOSqjG" role="19SJt6">
                     <property role="19SUeA" value="accent bug 1418" />

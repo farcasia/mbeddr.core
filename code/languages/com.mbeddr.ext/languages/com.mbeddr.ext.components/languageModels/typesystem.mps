@@ -23,6 +23,8 @@
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="7juq" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.lang.pattern.util(MPS.Core/jetbrains.mps.lang.pattern.util@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -8049,7 +8051,7 @@
               <property role="TrG5h" value="moduleImports" />
               <node concept="A3Dl8" id="6qL8nDXpI$Z" role="1tU5fm">
                 <node concept="3Tqbb2" id="6qL8nDXpI_0" role="A3Ik2">
-                  <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+                  <ref role="ehGHo" to="v6ji:66D23jBNlK2" resolve="IChunkDependency" />
                 </node>
               </node>
               <node concept="2OqwBi" id="6qL8nDXpI_3" role="33vP2m">
@@ -8088,7 +8090,7 @@
                                 <ref role="3cqZAo" node="6qL8nDXpIAe" resolve="it" />
                               </node>
                               <node concept="2qgKlT" id="5CXUFNJmVZ7" role="2OqNvi">
-                                <ref role="37wK5l" to="hwgx:6clJcrKt_a0" resolve="isReexported" />
+                                <ref role="37wK5l" to="qcz6:66D23jBNlWr" resolve="isReexported" />
                               </node>
                             </node>
                           </node>
@@ -8098,7 +8100,7 @@
                                 <ref role="3cqZAo" node="6qL8nDXpIAe" resolve="it" />
                               </node>
                               <node concept="2qgKlT" id="5CXUFNJmV9m" role="2OqNvi">
-                                <ref role="37wK5l" to="hwgx:6clJcrJZN1z" resolve="chunk" />
+                                <ref role="37wK5l" to="qcz6:66D23jBNlWn" resolve="chunk" />
                               </node>
                             </node>
                             <node concept="3cpWsa" id="6qL8nDXpIB5" role="3uHU7w">
@@ -8147,7 +8149,7 @@
                             <node concept="3CnSsL" id="5CXUFNJmYgC" role="3Coj4f">
                               <ref role="QkamJ" node="6qL8nDXpIFf" resolve="import" />
                               <node concept="1PxgMI" id="5CXUFNJmZmP" role="3CoRuB">
-                                <ref role="1PxNhF" to="vs0r:DubiFAXpld" resolve="DefaultGenericChunkDependency" />
+                                <ref role="1PxNhF" to="v6ji:66D23jBNlJV" resolve="DefaultGenericChunkDependency" />
                                 <node concept="3cpWs2" id="5CXUFNJmYgD" role="1PxMeX">
                                   <ref role="3cqZAo" node="6qL8nDXpIDT" resolve="it" />
                                 </node>
@@ -8162,7 +8164,7 @@
                         </node>
                         <node concept="1mIQ4w" id="5CXUFNJmYfB" role="2OqNvi">
                           <node concept="chp4Y" id="5CXUFNJmYfG" role="cj9EA">
-                            <ref role="cht4Q" to="vs0r:DubiFAXpld" resolve="DefaultGenericChunkDependency" />
+                            <ref role="cht4Q" to="v6ji:66D23jBNlJV" resolve="DefaultGenericChunkDependency" />
                           </node>
                         </node>
                       </node>
@@ -8243,7 +8245,7 @@
                 <ref role="QwW4h" node="6qL8nDXpIFf" resolve="import" />
               </node>
               <node concept="3TrcHB" id="5CXUFNJmSsS" role="2OqNvi">
-                <ref role="3TsBF5" to="vs0r:DubiFAXCMb" resolve="reexport" />
+                <ref role="3TsBF5" to="v6ji:66D23jBNlJX" resolve="reexport" />
               </node>
             </node>
           </node>
@@ -8253,7 +8255,7 @@
     <node concept="Q6JDH" id="6qL8nDXpIFf" role="Q6Id_">
       <property role="TrG5h" value="import" />
       <node concept="3Tqbb2" id="6qL8nDXpIFh" role="Q6QK4">
-        <ref role="ehGHo" to="vs0r:DubiFAXpld" resolve="DefaultGenericChunkDependency" />
+        <ref role="ehGHo" to="v6ji:66D23jBNlJV" resolve="DefaultGenericChunkDependency" />
       </node>
     </node>
     <node concept="QznSV" id="6qL8nDXpIG8" role="QzAvj">
@@ -8266,7 +8268,7 @@
                   <ref role="QwW4h" node="6qL8nDXpIFf" resolve="import" />
                 </node>
                 <node concept="2qgKlT" id="5CXUFNJmRT9" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:6clJcrJZN1z" resolve="chunk" />
+                  <ref role="37wK5l" to="qcz6:66D23jBNlWn" resolve="chunk" />
                 </node>
               </node>
               <node concept="3TrcHB" id="6qL8nDXpIHI" role="2OqNvi">

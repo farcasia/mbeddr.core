@@ -17,8 +17,10 @@
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="lx0c" ref="r:12c76b04-7fd6-45a2-9d94-f0756fc5ad8f(com.mbeddr.ext.units.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -5543,14 +5545,14 @@
                         <node concept="2Xjw5R" id="yGiRIF7dfn" role="2OqNvi">
                           <node concept="1xMEDy" id="yGiRIF7dfo" role="1xVPHs">
                             <node concept="chp4Y" id="yGiRIF7dfp" role="ri$Ld">
-                              <ref role="cht4Q" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
+                              <ref role="cht4Q" to="v6ji:66D23jBNlK5" resolve="IVisibleElementProvider" />
                             </node>
                           </node>
                           <node concept="1xIGOp" id="1KfKM1Yzz8E" role="1xVPHs" />
                         </node>
                       </node>
                       <node concept="2qgKlT" id="yGiRIF7dfq" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
+                        <ref role="37wK5l" to="qcz6:66D23jBNlLj" resolve="visibleContentsOfType" />
                         <node concept="3TUQnm" id="yGiRIF7dfr" role="37wK5m">
                           <ref role="3TV0OU" to="qlb5:7eOyx9r3jsZ" resolve="Unit" />
                         </node>
@@ -5592,14 +5594,14 @@
                             <node concept="2Xjw5R" id="4DRdDUoDqCf" role="2OqNvi">
                               <node concept="1xMEDy" id="4DRdDUoDqCg" role="1xVPHs">
                                 <node concept="chp4Y" id="4DRdDUoDqCh" role="ri$Ld">
-                                  <ref role="cht4Q" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
+                                  <ref role="cht4Q" to="v6ji:66D23jBNlK5" resolve="IVisibleElementProvider" />
                                 </node>
                               </node>
                               <node concept="1xIGOp" id="4DRdDUoDqCi" role="1xVPHs" />
                             </node>
                           </node>
                           <node concept="2qgKlT" id="4DRdDUoDqCj" role="2OqNvi">
-                            <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
+                            <ref role="37wK5l" to="qcz6:66D23jBNlLj" resolve="visibleContentsOfType" />
                             <node concept="3TUQnm" id="4DRdDUoDqCk" role="37wK5m">
                               <ref role="3TV0OU" to="qlb5:7eOyx9r3jsZ" resolve="Unit" />
                             </node>

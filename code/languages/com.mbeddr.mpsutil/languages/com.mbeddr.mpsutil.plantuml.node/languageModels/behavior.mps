@@ -532,5 +532,30 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="66D23jC0LvS">
+    <property role="3GE5qa" value="vis" />
+    <ref role="13h7C2" to="kwxp:66D23jC0LvQ" resolve="IVisualizationParticipant" />
+    <node concept="13i0hz" id="66D23jC0LvT" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="visualize" />
+      <node concept="3Tm1VV" id="66D23jC0LvU" role="1B3o_S" />
+      <node concept="3cqZAl" id="66D23jC0LvV" role="3clF45" />
+      <node concept="3clFbS" id="66D23jC0LvW" role="3clF47" />
+      <node concept="37vLTG" id="66D23jC0LvX" role="3clF46">
+        <property role="TrG5h" value="g" />
+        <node concept="3uibUv" id="66D23jC0LvY" role="1tU5fm">
+          <ref role="3uigEE" node="6xkj9mMqLz" resolve="VisGraph" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="66D23jC0LvZ" role="3clF46">
+        <property role="TrG5h" value="category" />
+        <node concept="17QB3L" id="66D23jC0Lw0" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="66D23jC0Lw1" role="13h7CW">
+      <node concept="3clFbS" id="66D23jC0Lw2" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

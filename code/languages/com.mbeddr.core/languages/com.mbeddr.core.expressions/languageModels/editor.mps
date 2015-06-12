@@ -24,11 +24,14 @@
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="4cpq" ref="r:424b203d-7f0f-469f-9792-0f5c8a69a9a0(com.mbeddr.mpsutil.paragraph.editor)" />
+    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="a5hm" ref="r:26a760b2-c482-45fb-9d07-02d903b3b1da(com.mbeddr.mpsutil.ideEnhancement.editor)" />
+    <import index="dfdw" ref="r:63385fda-49f8-4508-b096-71e40bbfa812(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -386,7 +389,7 @@
       </concept>
     </language>
     <language id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool">
-      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" index="27S6Sx" />
+      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" stub="416014060004381438" index="27S6Sx" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
@@ -1621,7 +1624,7 @@
     <node concept="3EZMnI" id="2TbP0WsJymh" role="2wV5jI">
       <node concept="2iRkQZ" id="2TbP0WsJymj" role="2iSdaV" />
       <node concept="PMmxH" id="2A5UqXK8_yN" role="3EZMnx">
-        <ref role="PMmxG" to="r4b4:2A5UqXJPGTA" resolve="iconAndNameCell" />
+        <ref role="PMmxG" to="a5hm:66D23jC1gY1" resolve="iconAndNameCell" />
       </node>
       <node concept="gc7cB" id="3Dgh5aYj2Ho" role="3EZMnx">
         <node concept="3VJUX4" id="3Dgh5aYj2Hp" role="3YsKMw">
@@ -2537,7 +2540,7 @@
   <node concept="24kQdi" id="6jlhXWm8Rct">
     <ref role="1XX52x" to="mj1l:6jlhXWm8Rcs" resolve="NotParsedExpression" />
     <node concept="3EZMnI" id="2g$mb2NyZzl" role="2wV5jI">
-      <ref role="1k5W1q" to="r4b4:3m8H$lmGFF4" resolve="wcomment" />
+      <ref role="1k5W1q" to="4cpq:66D23jBQBqq" resolve="wcomment" />
       <node concept="2iRfu4" id="2g$mb2NyZzm" role="2iSdaV" />
       <node concept="3F0ifn" id="6jlhXWm8QxV" role="3EZMnx">
         <property role="3F0ifm" value="{" />
@@ -3903,16 +3906,16 @@
       <node concept="l2Vlx" id="1X9RDux22Qt" role="2iSdaV" />
       <node concept="3F0ifn" id="1X9RDux22Qu" role="3EZMnx">
         <property role="3F0ifm" value="/*" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dhncU" resolve="CodeComment" />
+        <ref role="1k5W1q" to="dfdw:66D23jC2uv2" resolve="CodeComment" />
         <ref role="1ERwB7" node="3w$uTwNVsQI" resolve="CommentedContent_Actions" />
       </node>
       <node concept="3F1sOY" id="1X9RDux22Qv" role="3EZMnx">
         <ref role="1NtTu8" to="mj1l:1X9RDux22HP" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dhncU" resolve="CodeComment" />
+        <ref role="1k5W1q" to="dfdw:66D23jC2uv2" resolve="CodeComment" />
       </node>
       <node concept="3F0ifn" id="1X9RDux22Qw" role="3EZMnx">
         <property role="3F0ifm" value="*/" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dhncU" resolve="CodeComment" />
+        <ref role="1k5W1q" to="dfdw:66D23jC2uv2" resolve="CodeComment" />
         <ref role="1ERwB7" node="3w$uTwNVsQI" resolve="CommentedContent_Actions" />
       </node>
     </node>

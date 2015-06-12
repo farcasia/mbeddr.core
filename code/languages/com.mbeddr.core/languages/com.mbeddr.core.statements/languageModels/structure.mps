@@ -9,6 +9,12 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="2gv2" ref="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" />
     <import index="356a" ref="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
+    <import index="j006" ref="r:a8b15c4b-d1e5-4d6e-ad01-641bd35af9f8(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" />
+    <import index="isp" ref="r:e5bf7ad5-c82e-4a89-a984-b7530cc87e26(com.mbeddr.mpsutil.search.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="d6xm" ref="r:05cb5acb-485c-4c3f-8930-e27f70fe04d1(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -55,10 +61,10 @@
     <property role="R4oN_" value="an empty statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="jLLIdCm1p8" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="4AnlLd6svrQ" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aT" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="7n6Wve7WkEc" role="PzmwI">
       <ref role="PrY4T" to="356a:4pl5GY7LKmz" resolve="TraceableConcept" />
@@ -70,7 +76,7 @@
       <ref role="PrY4T" to="2gv2:7DakfXFco7$" resolve="IBreakpointSupport" />
     </node>
     <node concept="PrWs8" id="6brBMefRP4U" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="3CmSUB7FprA">
@@ -90,7 +96,7 @@
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="4k0bDztzEcS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+      <ref role="PrY4T" to="m1h3:66D23jBZN3A" resolve="IControlledNamedConcept" />
     </node>
     <node concept="PrWs8" id="hEaDaGor66" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -405,7 +411,7 @@
       <ref role="PrY4T" node="5Xsg2EBpBVN" resolve="IStatmentListContainer" />
     </node>
     <node concept="PrWs8" id="67O0HaCxSNi" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="1pM_z_iJkXF" role="PzmwI">
       <ref role="PrY4T" to="2gv2:2R5TvtOlFs8" resolve="ISteppableContext" />
@@ -461,10 +467,10 @@
       <ref role="PrY4T" to="2gv2:vymDPxT3Jf" resolve="ISteppable" />
     </node>
     <node concept="PrWs8" id="1rXJcsmCnIX" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aT" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="2XRfpKWxqMA" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="2I09F8VKHC0">
@@ -544,16 +550,16 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="textblock" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
     <node concept="PrWs8" id="6yeRgC0uAEH" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6yeRgC0uAED" resolve="IIsDocumentationComment" />
+      <ref role="PrY4T" to="j006:66D23jBMB4H" resolve="IIsDocumentationComment" />
     </node>
     <node concept="PrWs8" id="7uLL3Mf3Z6_" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7uLL3Mf3udZ" resolve="ITextBlockOwner" />
+      <ref role="PrY4T" to="f51m:66D23jBQ1RF" resolve="ITextBlockOwner" />
     </node>
     <node concept="PrWs8" id="4ueXZrqtevg" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+      <ref role="PrY4T" to="isp:66D23jBRmPx" resolve="ISearchSupport" />
     </node>
   </node>
   <node concept="1TIwiD" id="65XyadYMNd2">
@@ -561,7 +567,7 @@
     <property role="R4oN_" value="comment out code" />
     <ref role="1TJDcQ" node="3CmSUB7FmO3" resolve="Statement" />
     <node concept="PrWs8" id="65XyadYMNd3" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aV" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="5HxjapwgqRZ" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -642,7 +648,7 @@
     <property role="TrG5h" value="CommentedSwitchMember" />
     <ref role="1TJDcQ" node="2I09F8VKHBY" resolve="SwitchMember" />
     <node concept="PrWs8" id="1rXJcsmCnIZ" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aV" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="fLtBvql1qS" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -686,7 +692,7 @@
       <ref role="PrY4T" to="mj1l:4usdeMNUjj3" resolve="IRequiresTypeToBeInferred" />
     </node>
     <node concept="PrWs8" id="1H6zsulMvPN" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="PlHQZ" id="4Ixybz5aK1O">

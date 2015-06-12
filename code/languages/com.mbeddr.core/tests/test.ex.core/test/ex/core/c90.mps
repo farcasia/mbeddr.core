@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="-1" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports />
@@ -158,6 +159,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618456" name="com.mbeddr.core.expressions.structure.UnsignedInt64tType" flags="ng" index="26Vqp1" />
@@ -354,7 +358,7 @@
       </node>
       <node concept="3XIRFW" id="5tbhN$4Mm_7" role="3XIRFX">
         <node concept="1QiMYF" id="5tbhN$4MnL0" role="3XIRFZ">
-          <node concept="OjmMv" id="5tbhN$4MnL2" role="3SJzmv">
+          <node concept="26shno" id="5tbhN$4MnL2" role="3SJzmv">
             <node concept="19SGf9" id="5tbhN$4MnL3" role="OjmMu">
               <node concept="19SUe$" id="5tbhN$4MnL4" role="19SJt6">
                 <property role="19SUeA" value="this is a single line comment" />

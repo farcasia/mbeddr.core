@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -107,6 +108,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
@@ -251,7 +255,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="1H6zsulca13" role="lGtFl">
-        <node concept="OjmMv" id="1H6zsulca14" role="1w35rA">
+        <node concept="26shno" id="1H6zsulca14" role="1w35rA">
           <node concept="19SGf9" id="1H6zsulca15" role="OjmMu">
             <node concept="19SUe$" id="1H6zsulca16" role="19SJt6">
               <property role="19SUeA" value="must be in c-file only" />
@@ -284,7 +288,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="1H6zsulca3J" role="lGtFl">
-        <node concept="OjmMv" id="1H6zsulca3K" role="1w35rA">
+        <node concept="26shno" id="1H6zsulca3K" role="1w35rA">
           <node concept="19SGf9" id="1H6zsulca3L" role="OjmMu">
             <node concept="19SUe$" id="1H6zsulca3M" role="19SJt6">
               <property role="19SUeA" value="must be in c-file only" />
@@ -317,7 +321,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="1H6zsulca43" role="lGtFl">
-        <node concept="OjmMv" id="1H6zsulca44" role="1w35rA">
+        <node concept="26shno" id="1H6zsulca44" role="1w35rA">
           <node concept="19SGf9" id="1H6zsulca45" role="OjmMu">
             <node concept="19SUe$" id="1H6zsulca46" role="19SJt6">
               <property role="19SUeA" value="must be in h-file only" />
@@ -350,7 +354,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="1H6zsulca4n" role="lGtFl">
-        <node concept="OjmMv" id="1H6zsulca4o" role="1w35rA">
+        <node concept="26shno" id="1H6zsulca4o" role="1w35rA">
           <node concept="19SGf9" id="1H6zsulca4p" role="OjmMu">
             <node concept="19SUe$" id="1H6zsulca4q" role="19SJt6">
               <property role="19SUeA" value="must be in h-file only" />

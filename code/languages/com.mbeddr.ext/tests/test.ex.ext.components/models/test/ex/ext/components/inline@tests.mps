@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   </languages>
@@ -57,6 +58,9 @@
         <property id="4768833643347725006" name="generateContracts" index="3Ewwow" />
         <reference id="1553713790141527407" name="instanceConfig" index="35zhcq" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -617,10 +621,10 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6nT_n0fdO31" role="2OODSX">
+    <node concept="26p5ff" id="6nT_n0fdO31" role="2OODSX">
       <ref role="3GEb4d" node="2VzPqUCqeM8" resolve="InlineTestAnotherComponent" />
     </node>
-    <node concept="3GEVxB" id="6nT_n0fdO9M" role="2OODSX">
+    <node concept="26p5ff" id="6nT_n0fdO9M" role="2OODSX">
       <ref role="3GEb4d" node="2VzPqUCq7Da" resolve="InlineTestSameComponent" />
     </node>
   </node>

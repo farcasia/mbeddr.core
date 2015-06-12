@@ -24,6 +24,8 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="v2zw" ref="r:628ca079-8bed-477e-9e46-e865ba206d8e(com.mbeddr.mpsutil.configItem.behavior)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1934,11 +1936,11 @@
                 <ref role="3cqZAo" node="78Ts1skprlC" resolve="bc" />
               </node>
               <node concept="3Tsc0h" id="4qSf1u20kke" role="2OqNvi">
-                <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                <ref role="3TtcxE" to="zsp6:66D23jC0OZE" />
               </node>
             </node>
             <node concept="2Gpcm3" id="XaN6GmZYL" role="2OqNvi">
-              <ref role="2Gpcm2" to="vs0r:4qSf1u208SI" resolve="IConfigurationItemWithProcessor" />
+              <ref role="2Gpcm2" to="zsp6:66D23jC0OZK" resolve="IConfigurationItemWithProcessor" />
             </node>
           </node>
           <node concept="3clFbS" id="4qSf1u20kk4" role="2LFqv$">
@@ -1957,7 +1959,7 @@
                       <ref role="2Gs0qQ" node="4qSf1u20kk2" resolve="preprocessor" />
                     </node>
                     <node concept="2qgKlT" id="4qSf1u20km1" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:4qSf1u208SQ" resolve="preprocess" />
+                      <ref role="37wK5l" to="v2zw:66D23jC0P0s" resolve="preprocess" />
                       <node concept="2GrUjf" id="4qSf1u20km2" role="37wK5m">
                         <ref role="2Gs0qQ" node="4qSf1u20klA" resolve="n" />
                       </node>

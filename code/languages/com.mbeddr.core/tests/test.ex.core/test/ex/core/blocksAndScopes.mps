@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -67,6 +69,9 @@
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
     </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
+    </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
         <child id="4459718605982051999" name="strategy" index="2Q9FjI" />
@@ -124,6 +129,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
       <concept id="8463282783691618445" name="com.mbeddr.core.expressions.structure.Int64tType" flags="ng" index="26Vqpk" />
@@ -156,7 +164,7 @@
   </registry>
   <node concept="N3F5e" id="6CslLwlSItC">
     <property role="TrG5h" value="AnotherModule" />
-    <node concept="3GEVxB" id="2bBLuwRgWQV" role="2OODSX">
+    <node concept="26p5ff" id="2bBLuwRgWQV" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6CslLwlSIuc" resolve="TestModule" />
     </node>
@@ -168,7 +176,7 @@
       <node concept="3XIRFW" id="6CslLwlSItG" role="3XIRFX">
         <node concept="3XISUE" id="5gTlpakxbGE" role="3XIRFZ" />
         <node concept="1QiMYF" id="5gTlpakxbGH" role="3XIRFZ">
-          <node concept="OjmMv" id="5gTlpakxbGI" role="3SJzmv">
+          <node concept="26shno" id="5gTlpakxbGI" role="3SJzmv">
             <node concept="19SGf9" id="5gTlpakxbGJ" role="OjmMu">
               <node concept="19SUe$" id="5gTlpakxbGK" role="19SJt6">
                 <property role="19SUeA" value="Here is a single line comment." />
@@ -209,7 +217,7 @@
         </node>
         <node concept="3XISUE" id="5gTlpakxbGN" role="3XIRFZ" />
         <node concept="1QiMYF" id="5gTlpakxbGQ" role="3XIRFZ">
-          <node concept="OjmMv" id="5gTlpakxbGR" role="3SJzmv">
+          <node concept="26shno" id="5gTlpakxbGR" role="3SJzmv">
             <node concept="19SGf9" id="5gTlpakxbGS" role="OjmMu">
               <node concept="19SUe$" id="5gTlpakxbGT" role="19SJt6">
                 <property role="19SUeA" value="But you can always write more than one line. \nIt automatically wraps, and you can also press\nEnter anytime." />
@@ -252,7 +260,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5gTlpakxbGU" role="lGtFl">
-            <node concept="OjmMv" id="5gTlpakxbGV" role="1w35rA">
+            <node concept="26shno" id="5gTlpakxbGV" role="1w35rA">
               <node concept="19SGf9" id="5gTlpakxbGW" role="OjmMu">
                 <node concept="19SUe$" id="5gTlpakxbGX" role="19SJt6">
                   <property role="19SUeA" value="Hier ist the doc." />

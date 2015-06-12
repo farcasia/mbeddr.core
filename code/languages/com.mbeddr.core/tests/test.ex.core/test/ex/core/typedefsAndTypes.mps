@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -59,6 +61,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -140,6 +145,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618456" name="com.mbeddr.core.expressions.structure.UnsignedInt64tType" flags="ng" index="26Vqp1" />
@@ -327,18 +335,18 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4n" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ4n" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7lNBHBNC4_M" resolve="TypeDefFromExternalModule" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4g" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ4g" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7lNBHBNC4E9" resolve="TypeTest" />
     </node>
   </node>
   <node concept="N3F5e" id="7lNBHBNC4_M">
     <property role="TrG5h" value="TypeDefFromExternalModule" />
-    <node concept="3GEVxB" id="6uc_WDS6k43" role="2OODSX">
+    <node concept="26p5ff" id="6uc_WDS6k43" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6FLcSer$fDs" resolve="ExtModuleUsesTypeDef" />
     </node>
@@ -367,7 +375,7 @@
         </node>
         <node concept="3XISUE" id="3Wi_6mkmOVf" role="3XIRFZ" />
         <node concept="1QiMYF" id="6FLcSer$$Bf" role="3XIRFZ">
-          <node concept="OjmMv" id="7uLL3Mf4pEE" role="3SJzmv">
+          <node concept="26shno" id="7uLL3Mf4pEE" role="3SJzmv">
             <node concept="19SGf9" id="7uLL3Mf4pEH" role="OjmMu">
               <node concept="19SUe$" id="7uLL3Mf4pEJ" role="19SJt6">
                 <property role="19SUeA" value="uses someInt from ExtModuleWithTypeDef" />
@@ -685,7 +693,7 @@
       </node>
       <node concept="19Rifw" id="4WTYg$PSMq3" role="2C2TGm" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4o" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ4o" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7lNBHBNC4_M" resolve="TypeDefFromExternalModule" />
     </node>
@@ -711,7 +719,7 @@
   </node>
   <node concept="rcWEw" id="6FLcSer$fDs">
     <property role="TrG5h" value="ExtModuleUsesTypeDef" />
-    <node concept="3GEVxB" id="6uc_WDS6kq$" role="2OODSX">
+    <node concept="26p5ff" id="6uc_WDS6kq$" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="6FLcSer$fDo" resolve="ExtModuleWithTypeDef3" />
     </node>

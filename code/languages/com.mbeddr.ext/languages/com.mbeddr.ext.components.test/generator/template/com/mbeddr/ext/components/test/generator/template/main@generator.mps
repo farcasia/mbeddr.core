@@ -23,8 +23,9 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="cjn1" ref="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" />
+    <import index="rmg4" ref="r:18211265-1331-48c8-8298-565ed01be497(com.mbeddr.core.unittest.behavior)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="rmg4" ref="r:18211265-1331-48c8-8298-565ed01be497(com.mbeddr.core.unittest.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -765,7 +766,7 @@
           <node concept="3cpWsn" id="78Ts1skpDB6" role="3cpWs9">
             <property role="TrG5h" value="compconfig" />
             <node concept="3Tqbb2" id="78Ts1skpDB7" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="78Ts1skpDDS" role="33vP2m">
               <ref role="37wK5l" to="ahli:78Ts1skpDBH" resolve="expectBCConfigItem" />

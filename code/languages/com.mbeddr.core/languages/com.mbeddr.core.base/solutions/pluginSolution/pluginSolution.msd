@@ -20,6 +20,17 @@
     <dependency reexport="false">5b1f863d-65a0-41a6-a801-33896be24202(jetbrains.mps.ide.editor)</dependency>
     <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
+    <dependency reexport="false">46ffad3b-003c-4f6c-9877-f2e87e66c24b(com.mbeddr.mpsutil.assessment)</dependency>
+    <dependency reexport="false">3ea5fb2e-05f3-455f-904b-1c5525bc9b74(com.mbeddr.mpsutil.documentable)</dependency>
+    <dependency reexport="false">84acbe17-47b2-4b16-b2ae-471abbf2ff13(com.mbeddr.mpsutil.presentationMode)</dependency>
+    <dependency reexport="false">17abd836-3160-4627-b72d-0eb6d89532e0(com.mbeddr.mpsutil.search)</dependency>
+    <dependency reexport="false">632f2086-3151-42f4-b852-e494368259f4(com.mbeddr.mpsutil.tree)</dependency>
+    <dependency reexport="false">e87a5642-e4a5-4abe-b61d-2f36720bc989(com.mbeddr.mpsutil.outline)</dependency>
+    <dependency reexport="false">004982be-7a9d-494d-85bd-da20ef71e03d(com.mbeddr.mpsutil.codereview.pluginSolution)</dependency>
+    <dependency reexport="false">0bef6f08-4882-454b-b4ca-21221f574c06(com.mbeddr.mpsutil.commentable)</dependency>
+    <dependency reexport="false">077c0a96-f16f-4da4-b70a-32962edc7dad(com.mbeddr.mpsutil.tree.pluginSolution)</dependency>
+    <dependency reexport="false">80371c31-fa98-441d-b7bf-abbd09329f38(com.mbeddr.mpsutil.ideEnhancement)</dependency>
+    <dependency reexport="false">aae22091-f47c-42de-9374-c1fd92e63b2b(com.mbeddr.mpsutil.ideEnhancement.pluginSolution)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>

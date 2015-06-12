@@ -16,6 +16,9 @@
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <import index="dfdw" ref="r:63385fda-49f8-4508-b096-71e40bbfa812(com.mbeddr.mpsutil.commentable.editor)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="a5hm" ref="r:26a760b2-c482-45fb-9d07-02d903b3b1da(com.mbeddr.mpsutil.ideEnhancement.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -182,7 +185,7 @@
       </concept>
     </language>
     <language id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool">
-      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" index="27S6Sx" />
+      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" stub="416014060004381438" index="27S6Sx" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -217,7 +220,7 @@
     <ref role="1XX52x" to="51wr:6GqYvBOf2X8" resolve="BuildConfiguration" />
     <node concept="3EZMnI" id="6GqYvBOf2Xy" role="2wV5jI">
       <node concept="PMmxH" id="2A5UqXK9JKM" role="3EZMnx">
-        <ref role="PMmxG" to="r4b4:2A5UqXJPGTA" resolve="iconAndNameCell" />
+        <ref role="PMmxG" to="a5hm:66D23jC1gY1" resolve="iconAndNameCell" />
         <node concept="pVoyu" id="2A5UqXK9K8l" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -372,7 +375,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="3R$6B6bKxEG" role="3EZMnx">
-        <ref role="1NtTu8" to="vs0r:3R$6B6bKw0E" />
+        <ref role="1NtTu8" to="zsp6:66D23jC0OZE" />
         <node concept="2EHx9g" id="2hmLFgaotdy" role="2czzBx" />
         <node concept="pVoyu" id="3R$6B6bKxEI" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -819,7 +822,7 @@
     <property role="3GE5qa" value="binary" />
     <ref role="1XX52x" to="51wr:65XyadYPO6o" resolve="CommentedExecutable" />
     <node concept="PMmxH" id="65XyadYPOIS" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="dfdw:66D23jBZ4ds" resolve="commentedCodeDefault" />
       <node concept="VPM3Z" id="6A4xWqfT4vk" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>
@@ -829,7 +832,7 @@
     <property role="3GE5qa" value="binary" />
     <ref role="1XX52x" to="51wr:65XyadYP0CJ" resolve="CommentedModuleRef" />
     <node concept="PMmxH" id="65XyadYP3jw" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="dfdw:66D23jBZ4ds" resolve="commentedCodeDefault" />
       <node concept="VPM3Z" id="6A4xWqfT4vl" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>

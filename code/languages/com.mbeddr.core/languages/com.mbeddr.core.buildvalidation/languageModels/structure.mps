@@ -8,6 +8,7 @@
   <imports>
     <import index="3ior" ref="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="uplv" ref="r:d1b2d3c7-0ecf-4fac-9278-71146d3d535c(com.mbeddr.mpsutil.pathAndFile.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -97,7 +98,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pathpicker" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7c_RIoB8H2I" resolve="MacroFilePicker" />
+      <ref role="20lvS9" to="uplv:66D23jC0kgo" resolve="MacroFilePicker" />
     </node>
   </node>
   <node concept="1TIwiD" id="7uEcx53DVzq">

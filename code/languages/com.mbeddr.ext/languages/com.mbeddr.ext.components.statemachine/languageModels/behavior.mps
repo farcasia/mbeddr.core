@@ -21,6 +21,9 @@
     <import index="eup9" ref="r:ab391014-3e08-4918-9cc5-1c93e3a55c72(com.mbeddr.ext.components.behavior)" />
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="v2zw" ref="r:628ca079-8bed-477e-9e46-e865ba206d8e(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -158,7 +161,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getAdaptedElement" />
-      <ref role="13i0hy" to="hwgx:6clJcrKm6q7" resolve="getAdaptedElement" />
+      <ref role="13i0hy" to="qcz6:66D23jBNlWQ" resolve="getAdaptedElement" />
       <node concept="3Tm1VV" id="41KMvfckCvB" role="1B3o_S" />
       <node concept="3clFbS" id="41KMvfckCvC" role="3clF47">
         <node concept="3cpWs6" id="41KMvfckCvE" role="3cqZAp">
@@ -226,7 +229,7 @@
       <property role="2Ki8OM" value="true" />
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+      <ref role="13i0hy" to="v2zw:66D23jC0P0L" resolve="getConfigItem" />
       <node concept="3Tm1VV" id="20ezT9ZDJpZ" role="1B3o_S" />
       <node concept="_YKpA" id="20ezT9ZDJpW" role="3clF45">
         <node concept="3Tqbb2" id="20ezT9ZDJpX" role="_ZDj9">
@@ -244,10 +247,10 @@
             </node>
             <node concept="2OqwBi" id="20ezT9ZDJqa" role="33vP2m">
               <node concept="13iAh5" id="20ezT9ZDJq5" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+                <ref role="3eA5LN" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
               </node>
               <node concept="2qgKlT" id="20ezT9ZDJq4" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+                <ref role="37wK5l" to="v2zw:66D23jC0P0L" resolve="getConfigItem" />
               </node>
             </node>
           </node>
@@ -305,7 +308,7 @@
           <node concept="2OqwBi" id="hDImLk4kQD" role="2QERvC">
             <node concept="13iPFW" id="hDImLk4kQE" role="2Oq$k0" />
             <node concept="2qgKlT" id="hDImLk4kQF" role="2OqNvi">
-              <ref role="37wK5l" to="eup9:5hYHEwZIiiW" resolve="IDName" />
+              <ref role="37wK5l" to="eup9:5hYHEwZIiiW" resolve="genLocalIDVarName" />
             </node>
           </node>
         </node>
@@ -314,7 +317,7 @@
           <node concept="2OqwBi" id="hDImLk71Il" role="2QERvC">
             <node concept="13iPFW" id="hDImLk71Im" role="2Oq$k0" />
             <node concept="2qgKlT" id="hDImLk72E$" role="2OqNvi">
-              <ref role="37wK5l" to="eup9:5hYHEwZIiiQ" resolve="componentIDName" />
+              <ref role="37wK5l" to="eup9:5hYHEwZIiiQ" resolve="genLocalCIDVarName" />
             </node>
           </node>
         </node>

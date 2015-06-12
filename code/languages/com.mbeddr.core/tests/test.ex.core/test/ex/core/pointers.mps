@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -102,6 +104,9 @@
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
         <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
       </concept>
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="767515563077204464" name="com.mbeddr.core.util.structure.MessageProperty" flags="ng" index="2qqzEA" />
@@ -288,6 +293,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618461" name="com.mbeddr.core.expressions.structure.UnsignedInt8tType" flags="ng" index="26Vqp4" />
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
@@ -340,7 +348,7 @@
   </registry>
   <node concept="N3F5e" id="fwMInzpGLD">
     <property role="TrG5h" value="pointerStuff" />
-    <node concept="3GEVxB" id="3RllbSaBH9c" role="2OODSX">
+    <node concept="26p5ff" id="3RllbSaBH9c" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5mGJ_8zvWiR" resolve="stdlib" />
     </node>
@@ -910,45 +918,45 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDlu" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDlu" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="21C9UXP8zu" resolve="arrayStuff" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDlZ" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDlZ" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="fwMInzpGLD" resolve="pointerStuff" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDjq" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDjq" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7qHzltJ0oHH" resolve="functionPointerStuff" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDkX" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDkX" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7apEgWbJpJu" resolve="ClosureTests" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDio" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDio" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3pWy65PLS9R" resolve="Functions" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDjV" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDjV" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="4VxFbWczdvs" resolve="Strings" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDks" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDks" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="eSkzRgLO1o" resolve="ArrayInitAndCompound" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDiT" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDiT" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3$tYuge5b4Z" resolve="StructAndUnionInitAndCompound" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDpx" role="2OODSX">
+    <node concept="26p5ff" id="6o2p2Z1mDpx" role="2OODSX">
       <ref role="3GEb4d" node="1exqRp90su" resolve="constVolatile" />
     </node>
-    <node concept="3GEVxB" id="7m5QaK8GCWK" role="2OODSX">
+    <node concept="26p5ff" id="7m5QaK8GCWK" role="2OODSX">
       <ref role="3GEb4d" node="7m5QaK8sTi1" resolve="arraysAndPointers" />
     </node>
-    <node concept="3GEVxB" id="6Pt2vx4qeJf" role="2OODSX">
+    <node concept="26p5ff" id="6Pt2vx4qeJf" role="2OODSX">
       <ref role="3GEb4d" node="6Pt2vx4lXtf" resolve="Concat" />
     </node>
   </node>
@@ -1075,7 +1083,7 @@
     <node concept="1S7NMz" id="7qHzltJ0uco" role="N3F5h">
       <property role="TrG5h" value="globalRef" />
       <node concept="1z9TsT" id="2oCAQmIHVuN" role="lGtFl">
-        <node concept="OjmMv" id="3mjVpLdxLs3" role="1w35rA">
+        <node concept="26shno" id="3mjVpLdxLs3" role="1w35rA">
           <node concept="19SGf9" id="3mjVpLdxLs6" role="OjmMu">
             <node concept="19SUe$" id="3mjVpLdxLs8" role="19SJt6">
               <property role="19SUeA" value="a function reference in a global variable a function reference in a global variable" />
@@ -1144,7 +1152,7 @@
     <node concept="N3Fnx" id="7qHzltJ0oSE" role="N3F5h">
       <property role="TrG5h" value="add" />
       <node concept="1z9TsT" id="2oCAQmIHUuZ" role="lGtFl">
-        <node concept="OjmMv" id="3mjVpLdxLCr" role="1w35rA">
+        <node concept="26shno" id="3mjVpLdxLCr" role="1w35rA">
           <node concept="19SGf9" id="3mjVpLdxLCu" role="OjmMu">
             <node concept="19SUe$" id="3mjVpLdxLCw" role="19SJt6">
               <property role="19SUeA" value="a simple add function a simple add function" />
@@ -1331,7 +1339,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="2oCAQmIHVuO" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxLYX" role="1w35rA">
+            <node concept="26shno" id="3mjVpLdxLYX" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxLZ0" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxLZ2" role="19SJt6">
                   <property role="19SUeA" value="assign a reference to add to globalref... assign a reference to add to globalref..." />
@@ -1343,7 +1351,7 @@
         <node concept="3XIRlf" id="7qHzltJ0JKs" role="3XIRFZ">
           <property role="TrG5h" value="res" />
           <node concept="1z9TsT" id="2oCAQmIHVuP" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxLCN" role="1w35rA">
+            <node concept="26shno" id="3mjVpLdxLCN" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxLCQ" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxLCS" role="19SJt6">
                   <property role="19SUeA" value="and call it... and call it..." />
@@ -1378,7 +1386,7 @@
         <node concept="3XIRlf" id="1qFzXhgAiBC" role="3XIRFZ">
           <property role="TrG5h" value="localRef" />
           <node concept="1z9TsT" id="2oCAQmIHVuQ" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxLJ8" role="1w35rA">
+            <node concept="26shno" id="3mjVpLdxLJ8" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxLJb" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxLJd" role="19SJt6">
                   <property role="19SUeA" value="a local variable of function reference type a local variable of function reference type" />
@@ -1405,7 +1413,7 @@
         <node concept="3XIRlf" id="1qFzXhgAiBW" role="3XIRFZ">
           <property role="TrG5h" value="localres" />
           <node concept="1z9TsT" id="2oCAQmIHVuR" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxL5F" role="1w35rA">
+            <node concept="26shno" id="3mjVpLdxL5F" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxL5I" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxL5K" role="19SJt6">
                   <property role="19SUeA" value="calling through the local one calling through the local one" />
@@ -1455,7 +1463,7 @@
         </node>
         <node concept="c0Tn9" id="7qHzltJ0KqY" role="3XIRFZ">
           <node concept="1z9TsT" id="2oCAQmIHVuT" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxLaP" role="1w35rA">
+            <node concept="26shno" id="3mjVpLdxLaP" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxLaS" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxLaU" role="19SJt6">
                   <property role="19SUeA" value="calling the HOF function with a function reference calling the HOF function with a function reference" />
@@ -1488,7 +1496,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="2oCAQmIHVuU" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxLrL" role="1w35rA">
+            <node concept="26shno" id="3mjVpLdxLrL" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxLrO" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxLrQ" role="19SJt6">
                   <property role="19SUeA" value="calling the HOF directly with a function reference calling the HOF directly with a function reference" />
@@ -1777,7 +1785,7 @@
     <node concept="N3Fnx" id="7qHzltJ0ucb" role="N3F5h">
       <property role="TrG5h" value="higherOrderFunction" />
       <node concept="1z9TsT" id="2oCAQmIHVuS" role="lGtFl">
-        <node concept="OjmMv" id="3mjVpLdxLQa" role="1w35rA">
+        <node concept="26shno" id="3mjVpLdxLQa" role="1w35rA">
           <node concept="19SGf9" id="3mjVpLdxLQd" role="OjmMu">
             <node concept="19SUe$" id="3mjVpLdxLQf" role="19SJt6">
               <property role="19SUeA" value="a function taking another function as an argument a function taking another function as an argument" />
@@ -1920,11 +1928,11 @@
     <node concept="2NXPZ9" id="7JWieF82U$f" role="N3F5h">
       <property role="TrG5h" value="empty1326292240445" />
     </node>
-    <node concept="3GEVxB" id="6YocL3t7_Ao" role="2OODSX">
+    <node concept="26p5ff" id="6YocL3t7_Ao" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7apEgWbJoRH" resolve="ClosureUtils" />
     </node>
-    <node concept="3GEVxB" id="6YocL3t7xGJ" role="2OODSX">
+    <node concept="26p5ff" id="6YocL3t7xGJ" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5mGJ_8zvWiR" resolve="stdlib" />
     </node>
@@ -2586,7 +2594,7 @@
                 </node>
               </node>
               <node concept="1QiMYF" id="3v2lwlG8XQ" role="3XIRFZ">
-                <node concept="OjmMv" id="3v2lwlG8XS" role="3SJzmv">
+                <node concept="26shno" id="3v2lwlG8XS" role="3SJzmv">
                   <node concept="19SGf9" id="3v2lwlG8XT" role="OjmMu">
                     <node concept="19SUe$" id="3v2lwlG8XU" role="19SJt6">
                       <property role="19SUeA" value="2 * i;" />
@@ -3780,7 +3788,7 @@
     <node concept="2NXPZ9" id="7V6bHlU_6po" role="N3F5h">
       <property role="TrG5h" value="empty_1413558905722_5" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ3u" role="2OODSX">
+    <node concept="26p5ff" id="6PCgYL5qJ3u" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3pWy65PLVjw" resolve="stdarg" />
     </node>
@@ -3939,7 +3947,7 @@
       </node>
       <node concept="3XIRFW" id="4VxFbWczdvv" role="c0Qz3">
         <node concept="1QiMYF" id="4VxFbWczdvx" role="3XIRFZ">
-          <node concept="OjmMv" id="7uLL3Mf4pvA" role="3SJzmv">
+          <node concept="26shno" id="7uLL3Mf4pvA" role="3SJzmv">
             <node concept="19SGf9" id="7uLL3Mf4pvD" role="OjmMu">
               <node concept="19SUe$" id="7uLL3Mf4pvF" role="19SJt6">
                 <property role="19SUeA" value="this is just a compile test" />
@@ -6340,7 +6348,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6Pt2vx4_4PF" role="2OODSX">
+    <node concept="26p5ff" id="6Pt2vx4_4PF" role="2OODSX">
       <ref role="3GEb4d" node="6Pt2vx4_4hM" resolve="string" />
     </node>
   </node>

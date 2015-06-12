@@ -12,6 +12,7 @@
     <use id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports>
     <import index="cmgk" ref="r:679066bc-2da8-4932-a09c-5d2b3d47b911(com.mbeddr.ext.units.siunits)" />
@@ -117,6 +118,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="955aa921-c7f3-40cf-b446-8aa9d69f23db" name="com.mbeddr.mpsutil.chunk">
+      <concept id="7037164916063427579" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="26p5ff" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -582,10 +586,10 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="7j7F_4owcaS" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owcaS" role="2OODSX">
       <ref role="3GEb4d" node="7j7F_4owdeY" resolve="DefaultUnits" />
     </node>
-    <node concept="3GEVxB" id="7j7F_4owcaT" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owcaT" role="2OODSX">
       <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
     </node>
   </node>
@@ -666,7 +670,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="7j7F_4owdfn" role="7b7yl">
+    <node concept="26p5ff" id="7j7F_4owdfn" role="7b7yl">
       <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
     </node>
   </node>
@@ -964,7 +968,7 @@
         <node concept="3XISUE" id="7j7F_4owgvF" role="3XIRFZ" />
       </node>
     </node>
-    <node concept="3GEVxB" id="7j7F_4owgvG" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owgvG" role="2OODSX">
       <ref role="3GEb4d" node="7j7F_4owdeY" resolve="DefaultUnits" />
     </node>
   </node>
@@ -1363,10 +1367,10 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="7j7F_4owjFr" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owjFr" role="2OODSX">
       <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
     </node>
-    <node concept="3GEVxB" id="7j7F_4owjFs" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owjFs" role="2OODSX">
       <ref role="3GEb4d" node="7j7F_4owdeY" resolve="DefaultUnits" />
     </node>
   </node>
@@ -1416,15 +1420,15 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="7j7F_4owjQf" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owjQf" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7j7F_4owgtV" resolve="Expressions" />
     </node>
-    <node concept="3GEVxB" id="7j7F_4owjQg" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owjQg" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7j7F_4owc9c" resolve="Conversions" />
     </node>
-    <node concept="3GEVxB" id="7j7F_4owjQh" role="2OODSX">
+    <node concept="26p5ff" id="7j7F_4owjQh" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7j7F_4owjDf" resolve="MetaMethods" />
     </node>

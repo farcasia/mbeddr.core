@@ -15,6 +15,12 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
+    <import index="j006" ref="r:a8b15c4b-d1e5-4d6e-ad01-641bd35af9f8(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="dipc" ref="r:c2073504-695d-4b88-a6d1-e11bcbce2167(com.mbeddr.mpsutil.outline.structure)" />
+    <import index="d6xm" ref="r:05cb5acb-485c-4c3f-8930-e27f70fe04d1(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -80,13 +86,13 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="1rXJcsmEEPj" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="6brBMefUdln" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="7rLKwon1m4d" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBNlK5" resolve="IVisibleElementProvider" />
     </node>
     <node concept="PrWs8" id="62XMcUocG0j" role="PzmwI">
       <ref role="PrY4T" to="356a:4pl5GY7LKmz" resolve="TraceableConcept" />
@@ -126,7 +132,7 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="1rXJcsmEEPe" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="6RCWEZG4Krh" role="PzmwI">
       <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
@@ -177,7 +183,7 @@
       <ref role="20lvS9" node="5Xnv3$Q_DjT" resolve="ICSInterfaceContents" />
     </node>
     <node concept="PrWs8" id="6brBMefUdm0" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="2SU$CK2_9a0" role="PzmwI">
       <ref role="PrY4T" to="2gv2:3SnnFeub0mq" resolve="IWatchablesProviderContext" />
@@ -213,7 +219,7 @@
       <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="EZWYGad_xW" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="5Xnv3$Q_DjW" role="PzmwI">
       <ref role="PrY4T" node="5Xnv3$Q_DjT" resolve="ICSInterfaceContents" />
@@ -228,7 +234,7 @@
       <ref role="PrY4T" to="x27k:2azu63OPjKX" resolve="ICodeLocationContext" />
     </node>
     <node concept="PrWs8" id="2XRfpKWDIOj" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="2XWzsf_N5v6" role="PzmwI">
       <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
@@ -260,7 +266,7 @@
       <ref role="PrY4T" node="71UKpntm630" resolve="IComponentContent" />
     </node>
     <node concept="PrWs8" id="6brBMefUdlt" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="3TmmsQkD8YC">
@@ -348,13 +354,13 @@
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
     </node>
     <node concept="PrWs8" id="4LpbtzntwjS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="4LpbtznuboV" role="PzmwI">
       <ref role="PrY4T" to="c4fa:5Xsg2EBpBVN" resolve="IStatmentListContainer" />
     </node>
     <node concept="PrWs8" id="6brBMefUv0S" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="3NJ7rfmYe4s" role="PzmwI">
       <ref role="PrY4T" node="3NJ7rfmYe2W" resolve="ITriggeredByOperation" />
@@ -446,7 +452,7 @@
       <ref role="PrY4T" node="5fn4FV$bX67" resolve="InstanceConfigContents" />
     </node>
     <node concept="PrWs8" id="5MS7_YHdTSs" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="70y00cdVbOD" role="PzmwI">
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
@@ -521,10 +527,10 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="1rXJcsmEEPm" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="6brBMefUdsH" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="70y00cdVcOG" role="PzmwI">
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
@@ -563,7 +569,7 @@
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
     </node>
     <node concept="PrWs8" id="4LpbtzntqlY" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="7$$5Stoo8RA" role="PzmwI">
       <ref role="PrY4T" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
@@ -576,7 +582,7 @@
       <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="7oI7FI6qbsr" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aT" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="5hYHEwZXRHC" role="PrDN$">
       <ref role="PrY4T" node="5hYHEwZIii2" resolve="IComponentIDAware" />
@@ -735,10 +741,10 @@
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
     </node>
     <node concept="PrWs8" id="3$v$DpgFELE" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="6brBMefUdt8" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="wBsWbTn7S9" role="PzmwI">
       <ref role="PrY4T" to="mj1l:7oI7FI6oqPw" resolve="IInitializationContext" />
@@ -747,7 +753,7 @@
       <ref role="PrY4T" to="c4fa:6o2p2Z0DOCt" resolve="IAllowsIncompleteTypes" />
     </node>
     <node concept="PrWs8" id="1DVNPtFQlXH" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+      <ref role="PrY4T" to="dipc:66D23jBYaQk" resolve="IShowUpInOutline" />
     </node>
     <node concept="PrWs8" id="29JE8qNvthB" role="PzmwI">
       <ref role="PrY4T" node="29JE8qNvth_" resolve="IMayRequiresComponentInitializer" />
@@ -1101,7 +1107,7 @@
       <ref role="20lvS9" node="1OLGDVfeZ1b" resolve="ComponentsGenStrategy" />
     </node>
     <node concept="PrWs8" id="1OLGDVfeZ19" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="1OLGDVfeZ1b">
@@ -1170,17 +1176,17 @@
       <ref role="PrY4T" node="71UKpntm630" resolve="IComponentContent" />
     </node>
     <node concept="PrWs8" id="3PT6Z48KINj" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+      <ref role="PrY4T" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
     </node>
   </node>
   <node concept="PlHQZ" id="5fn4FV$bX67">
     <property role="3GE5qa" value="comp.instances" />
     <property role="TrG5h" value="InstanceConfigContents" />
     <node concept="PrWs8" id="58NNGt3cGlo" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aT" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="6brBMefUdsW" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="62XMcUobAXz" role="PrDN$">
       <ref role="PrY4T" to="2gv2:7DakfXFco7$" resolve="IBreakpointSupport" />
@@ -1194,7 +1200,7 @@
       <ref role="PrY4T" node="5fn4FV$bX67" resolve="InstanceConfigContents" />
     </node>
     <node concept="PrWs8" id="3PT6Z48KN_E" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+      <ref role="PrY4T" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
     </node>
     <node concept="PrWs8" id="13C5RDfC758" role="PzmwI">
       <ref role="PrY4T" to="2gv2:vymDPxT3Jf" resolve="ISteppable" />
@@ -1208,7 +1214,7 @@
       <ref role="PrY4T" node="5fn4FV$bX67" resolve="InstanceConfigContents" />
     </node>
     <node concept="PrWs8" id="58NNGt3cxe$" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aV" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="13C5RDfCfJy" role="PzmwI">
       <ref role="PrY4T" to="2gv2:vymDPxT3Jf" resolve="ISteppable" />
@@ -1221,7 +1227,7 @@
     <property role="3GE5qa" value="intf.cs" />
     <property role="TrG5h" value="ICSInterfaceContents" />
     <node concept="PrWs8" id="3RtPbXKO1Z4" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aT" resolve="ICommentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Xnv3$QABtA">
@@ -1229,7 +1235,7 @@
     <property role="TrG5h" value="EmptyInterfaceContents" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5Xnv3$QABtB" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+      <ref role="PrY4T" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
     </node>
     <node concept="PrWs8" id="5Xnv3$QABtD" role="PzmwI">
       <ref role="PrY4T" node="5Xnv3$Q_DjT" resolve="ICSInterfaceContents" />
@@ -1434,7 +1440,7 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6JVEnxIhAG1" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="zsp6:66D23jC0OZM" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="6JVEnxIjTkc" role="PzmwI">
       <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
@@ -1492,7 +1498,7 @@
       <ref role="PrY4T" to="clbe:IPRL99KNBJ" resolve="IValueStructure" />
     </node>
     <node concept="PrWs8" id="2XRfpKX33Hg" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="v6ji:66D23jBXx5C" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="RsLjUnMNva">
@@ -1504,7 +1510,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="7NyyyjNnqgr" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+      <ref role="PrY4T" to="m1h3:66D23jBZN3A" resolve="IControlledNamedConcept" />
     </node>
     <node concept="PrWs8" id="RsLjUnMNvd" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -1513,7 +1519,7 @@
       <ref role="PrY4T" to="clbe:IPRL99KNBK" resolve="IValuedElement" />
     </node>
     <node concept="PrWs8" id="1sHR4zGRRg5" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="j006:66D23jBMB4G" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="RsLjUnO2bV">
@@ -1705,7 +1711,7 @@
       <ref role="PrY4T" node="5Xnv3$Q_DjT" resolve="ICSInterfaceContents" />
     </node>
     <node concept="PrWs8" id="3RtPbXKO4cI" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aV" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="3RtPbXKO4cV" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -1719,7 +1725,7 @@
       <ref role="PrY4T" node="71UKpntm630" resolve="IComponentContent" />
     </node>
     <node concept="PrWs8" id="7oI7FI6qb0e" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="d6xm:66D23jBZ4aV" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="20ezT9ZDJ3l" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
