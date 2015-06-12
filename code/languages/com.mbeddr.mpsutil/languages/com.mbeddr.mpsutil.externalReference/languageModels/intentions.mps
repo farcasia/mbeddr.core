@@ -99,5 +99,30 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="2JUQ7aepOkO">
+    <property role="TrG5h" value="updateHashForIExtRef" />
+    <ref role="2ZfgGC" to="f3vd:66D23jC0ddF" resolve="IExtRef" />
+    <node concept="2S6ZIM" id="2JUQ7aepOkP" role="2ZfVej">
+      <node concept="3clFbS" id="2JUQ7aepOkQ" role="2VODD2">
+        <node concept="3clFbF" id="2JUQ7aepOkR" role="3cqZAp">
+          <node concept="Xl_RD" id="2JUQ7aepOkS" role="3clFbG">
+            <property role="Xl_RC" value="Update External Reference" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2JUQ7aepOkT" role="2ZfgGD">
+      <node concept="3clFbS" id="2JUQ7aepOkU" role="2VODD2">
+        <node concept="3clFbF" id="2JUQ7aepOkV" role="3cqZAp">
+          <node concept="2OqwBi" id="2JUQ7aepOkW" role="3clFbG">
+            <node concept="2Sf5sV" id="2JUQ7aepOkX" role="2Oq$k0" />
+            <node concept="2qgKlT" id="2JUQ7aepOkY" role="2OqNvi">
+              <ref role="37wK5l" to="errz:66D23jC0hbx" resolve="update" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

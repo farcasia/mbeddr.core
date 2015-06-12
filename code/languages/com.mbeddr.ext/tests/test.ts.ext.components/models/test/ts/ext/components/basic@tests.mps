@@ -17,6 +17,7 @@
     <import index="bt4i" ref="r:4b72363d-e94a-4383-b5ad-ba453d6efac9(com.mbeddr.ext.components.constraints)" />
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="j807" ref="r:54210dde-4071-421e-b973-a22bb864eeac(com.mbeddr.core.pointers.typesystem)" />
+    <import index="y0m3" ref="r:d5b7ec0d-4363-478b-b3b0-254bf141ae56(com.mbeddr.mpsutil.controlledName.typesystem)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -687,7 +688,7 @@
             <node concept="7CXmI" id="3lIakVHnG2G" role="lGtFl">
               <node concept="1TM$A" id="3YIXnYMYkoq" role="7EUXB">
                 <node concept="2PYRI3" id="3YIXnYMYkor" role="3lydEf">
-                  <ref role="39XzEq" to="9zoj:4qSf1u1TRgo" />
+                  <ref role="39XzEq" to="y0m3:2JUQ7aeoTqD" />
                 </node>
               </node>
             </node>
@@ -729,7 +730,7 @@
             <node concept="7CXmI" id="3lIakVHnG2u" role="lGtFl">
               <node concept="1TM$A" id="3YIXnYMYM1u" role="7EUXB">
                 <node concept="2PYRI3" id="3YIXnYMYM1v" role="3lydEf">
-                  <ref role="39XzEq" to="9zoj:4qSf1u1TRgo" />
+                  <ref role="39XzEq" to="y0m3:2JUQ7aeoTqD" />
                 </node>
               </node>
             </node>

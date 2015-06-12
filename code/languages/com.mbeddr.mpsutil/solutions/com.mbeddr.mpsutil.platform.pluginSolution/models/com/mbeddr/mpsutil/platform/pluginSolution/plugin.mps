@@ -8,7 +8,7 @@
   </languages>
   <imports>
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
-    <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
+    <import index="9oh" ref="r:de82dfab-9448-49ba-813e-2b0579f7fb15(jetbrains.mps.ide.platform.actions)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
@@ -110,8 +110,24 @@
       </node>
     </node>
     <node concept="tT9cl" id="66D23jC6bng" role="2f5YQi">
-      <ref role="tU$_T" to="d244:goNQ8fxK7J" resolve="CodeMenuExtensions" />
-      <ref role="2f8Tey" to="d244:goNQ8fyUxT" resolve="WizardStuff" />
+      <ref role="tU$_T" node="2JUQ7aeq1_B" resolve="CodeMenuExtensions" />
+      <ref role="2f8Tey" node="2JUQ7aeq1_E" resolve="WizardStuff" />
+    </node>
+  </node>
+  <node concept="tC5Ba" id="2JUQ7aeq1_B">
+    <property role="TrG5h" value="CodeMenuExtensions" />
+    <node concept="ftmFs" id="2JUQ7aeq1_C" role="ftER_">
+      <node concept="2a7GMi" id="2JUQ7aeq1_D" role="ftvYc" />
+      <node concept="10WQ6h" id="2JUQ7aeq1_E" role="ftvYc">
+        <property role="TrG5h" value="WizardStuff" />
+      </node>
+      <node concept="2a7GMi" id="2JUQ7aeq1_F" role="ftvYc" />
+      <node concept="10WQ6h" id="2JUQ7aeq1_G" role="ftvYc">
+        <property role="TrG5h" value="CodeMenuStuff" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="2JUQ7aeq1_H" role="2f5YQi">
+      <ref role="tU$_T" to="9oh:4vodOtydcQH" resolve="IDEACode" />
     </node>
   </node>
 </model>

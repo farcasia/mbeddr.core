@@ -621,7 +621,7 @@
       <ref role="PrY4T" to="mj1l:6mfXVgRsmwb" resolve="IVoidTypeContainer" />
     </node>
     <node concept="PrWs8" id="4qSf1u1Vs1s" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="m1h3:2JUQ7aeoTqg" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="1DVNPtFQl$H" role="PrDN$">
       <ref role="PrY4T" to="dipc:66D23jBYaQk" resolve="IShowUpInOutline" />
@@ -993,7 +993,7 @@
       <ref role="PrY4T" node="5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="2VsHNE70LB7" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7uYRIghZq9c" resolve="INameAllUpperCase" />
+      <ref role="PrY4T" to="m1h3:2JUQ7aeod4Q" resolve="INameAllUpperCase" />
     </node>
     <node concept="PrWs8" id="2VsHNE70LB8" role="PzmwI">
       <ref role="PrY4T" to="mj1l:7oI7FI6oqPw" resolve="IInitializationContext" />

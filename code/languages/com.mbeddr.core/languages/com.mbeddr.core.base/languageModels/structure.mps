@@ -30,27 +30,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="PlHQZ" id="7uYRIghZpWq">
-    <property role="TrG5h" value="INameFirstCharLowerCase" />
-    <node concept="PrWs8" id="7uYRIghZpWr" role="PrDN$">
-      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7uYRIghZq9a">
-    <property role="TrG5h" value="INameFirstCharUpperCase" />
-    <node concept="PrWs8" id="7uYRIghZq9b" role="PrDN$">
-      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7uYRIghZq9c">
-    <property role="TrG5h" value="INameAllUpperCase" />
-    <node concept="PrWs8" id="7uYRIghZq9d" role="PrDN$">
-      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="4qSf1u1TQeO">
-    <property role="TrG5h" value="IContainerOfUniqueNames" />
-  </node>
   <node concept="PlHQZ" id="7jSUHHvkAp9">
     <property role="TrG5h" value="IModuleContentRef" />
     <node concept="PrWs8" id="70kXLV4K0vZ" role="PrDN$">

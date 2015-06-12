@@ -25,6 +25,7 @@
     <import index="9zoj" ref="r:1b0f275e-bd62-4f6e-8c4b-51b05d651a63(com.mbeddr.core.base.typesystem)" />
     <import index="fvu6" ref="r:8c46b4ec-76a7-4335-baef-93cb86f4b0fc(com.mbeddr.core.udt.typesystem)" />
     <import index="1ok9" ref="r:a604a9bb-58f8-4cf0-a289-ef69bb1576bb(com.mbeddr.core.__spreferences.PlatformTemplates)" />
+    <import index="y0m3" ref="r:d5b7ec0d-4363-478b-b3b0-254bf141ae56(com.mbeddr.mpsutil.controlledName.typesystem)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -581,7 +582,7 @@
       <concept id="86532984527104137" name="com.mbeddr.core.expressions.structure.LongType" flags="ng" index="1X9cn3" />
     </language>
     <language id="24424f20-7598-4d7c-972a-f2b93086d35e" name="com.mbeddr.mpsutil.controlledName">
-      <concept id="7037164916069783187" name="" flags="ng" index="29xPUB" />
+      <concept id="7037164916069783187" name="com.mbeddr.mpsutil.controlledName.structure.SuppressWarnings" flags="ng" index="29xPUB" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
@@ -21259,7 +21260,7 @@
               <node concept="7CXmI" id="7ya9dte7Wdn" role="lGtFl">
                 <node concept="1TM$A" id="7ya9dte7Wdo" role="7EUXB">
                   <node concept="2PYRI3" id="7ya9dte8h2z" role="3lydEf">
-                    <ref role="39XzEq" to="9zoj:4qSf1u1TRgo" />
+                    <ref role="39XzEq" to="y0m3:2JUQ7aeoTqD" />
                   </node>
                 </node>
               </node>
@@ -21310,7 +21311,7 @@
               <node concept="7CXmI" id="7ya9dteeleA" role="lGtFl">
                 <node concept="1TM$A" id="7ya9dteeleB" role="7EUXB">
                   <node concept="2PYRI3" id="7ya9dteeleS" role="3lydEf">
-                    <ref role="39XzEq" to="9zoj:4qSf1u1TRgo" />
+                    <ref role="39XzEq" to="y0m3:2JUQ7aeoTqD" />
                   </node>
                 </node>
               </node>

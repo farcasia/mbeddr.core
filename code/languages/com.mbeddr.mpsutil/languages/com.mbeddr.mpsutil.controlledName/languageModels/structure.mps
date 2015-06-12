@@ -129,5 +129,26 @@
       </node>
     </node>
   </node>
+  <node concept="PlHQZ" id="2JUQ7aeod4Q">
+    <property role="TrG5h" value="INameAllUpperCase" />
+    <node concept="PrWs8" id="2JUQ7aeod4R" role="PrDN$">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2JUQ7aeod4S">
+    <property role="TrG5h" value="INameFirstCharLowerCase" />
+    <node concept="PrWs8" id="2JUQ7aeod4T" role="PrDN$">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2JUQ7aeod4U">
+    <property role="TrG5h" value="INameFirstCharUpperCase" />
+    <node concept="PrWs8" id="2JUQ7aeod4V" role="PrDN$">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2JUQ7aeoTqg">
+    <property role="TrG5h" value="IContainerOfUniqueNames" />
+  </node>
 </model>
 

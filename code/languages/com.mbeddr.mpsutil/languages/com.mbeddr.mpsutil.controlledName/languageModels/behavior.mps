@@ -1182,5 +1182,23 @@
       <node concept="3clFbS" id="66D23jCb_qY" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="2JUQ7aeoTqS">
+    <ref role="13h7C2" to="m1h3:2JUQ7aeoTqg" resolve="IContainerOfUniqueNames" />
+    <node concept="13i0hz" id="2JUQ7aeoTqT" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getUniquelyNamedElements" />
+      <node concept="3Tm1VV" id="2JUQ7aeoTqU" role="1B3o_S" />
+      <node concept="A3Dl8" id="2JUQ7aeoTqV" role="3clF45">
+        <node concept="3Tqbb2" id="2JUQ7aeoTqW" role="A3Ik2">
+          <ref role="ehGHo" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2JUQ7aeoTqX" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="2JUQ7aeoTqY" role="13h7CW">
+      <node concept="3clFbS" id="2JUQ7aeoTqZ" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

@@ -35,6 +35,7 @@
     <import index="u8e7" ref="r:4acb4e42-0ef5-487c-a21d-496738d115a6(com.mbeddr.mpsutil.breadcrumb.behavior)" />
     <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="pc7u" ref="r:d1daf0bb-3793-4ffe-ae26-dc0d91022b52(com.mbeddr.mpsutil.controlledName.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -509,7 +510,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getUniquelyNamedElements" />
-      <ref role="13i0hy" to="hwgx:4qSf1u1TRfj" resolve="getUniquelyNamedElements" />
+      <ref role="13i0hy" to="pc7u:2JUQ7aeoTqT" resolve="getUniquelyNamedElements" />
       <node concept="3Tm1VV" id="IrwlmWyJ36" role="1B3o_S" />
       <node concept="3clFbS" id="IrwlmWyJ37" role="3clF47">
         <node concept="3clFbF" id="IrwlmWyJ3a" role="3cqZAp">
@@ -3504,7 +3505,7 @@
     <ref role="13h7C2" to="clbe:6a5SBPfXGBP" resolve="SUDeclaration" />
     <node concept="13i0hz" id="4qSf1u1Vs14" role="13h7CS">
       <property role="TrG5h" value="getUniquelyNamedElements" />
-      <ref role="13i0hy" to="hwgx:4qSf1u1TRfj" resolve="getUniquelyNamedElements" />
+      <ref role="13i0hy" to="pc7u:2JUQ7aeoTqT" resolve="getUniquelyNamedElements" />
       <node concept="3clFbS" id="4qSf1u1Vs15" role="3clF47">
         <node concept="3cpWs8" id="7ya9dte9AQF" role="3cqZAp">
           <node concept="3cpWsn" id="7ya9dte9AQI" role="3cpWs9">
