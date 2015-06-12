@@ -10,9 +10,9 @@
   <imports>
     <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
     <import index="4gky" ref="r:e1dfab1d-c7a7-43e7-9f26-028afd483e82(com.mbeddr.doc.behavior)" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1285,8 +1285,8 @@
                                   <ref role="3cqZAo" node="1YUFCeGjc5d" resolve="it" />
                                 </node>
                                 <node concept="1mIQ4w" id="1YUFCeGjfgQ" role="2OqNvi">
-                                  <node concept="chp4Y" id="1YUFCeGjg8Q" role="cj9EA">
-                                    <ref role="cht4Q" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+                                  <node concept="chp4Y" id="54zREDiP$Ji" role="cj9EA">
+                                    <ref role="cht4Q" to="v6ji:66D23jBNlK6" resolve="IEmpty" />
                                   </node>
                                 </node>
                               </node>

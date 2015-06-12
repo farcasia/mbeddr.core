@@ -10,12 +10,12 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
-    <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
     <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" />
     <import index="88zw" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" />
     <import index="cu2c" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
+    <import index="oq9k" ref="r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" implicit="true" />
     <import index="5xh9" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.actions(MPS.Platform/jetbrains.mps.ide.actions@java_stub)" implicit="true" />
   </imports>
@@ -260,8 +260,8 @@
                                 <node concept="3clFbF" id="41AlOFgCs5M" role="3cqZAp">
                                   <node concept="37vLTI" id="41AlOFgCtM8" role="3clFbG">
                                     <node concept="2YIFZM" id="5_sZ3baBjfn" role="37vLTx">
-                                      <ref role="37wK5l" to="hwgx:5_sZ3ba$LLe" resolve="getTextForNodeInSwingContext" />
-                                      <ref role="1Pybhc" to="hwgx:1yFmGPnITl_" resolve="FakeEditorComponent" />
+                                      <ref role="1Pybhc" to="oq9k:2JUQ7aepLI1" resolve="FakeEditorComponent" />
+                                      <ref role="37wK5l" to="oq9k:2JUQ7aepLJB" resolve="getTextForNodeInSwingContext" />
                                       <node concept="37vLTw" id="5_sZ3baBjfo" role="37wK5m">
                                         <ref role="3cqZAo" node="41AlOFgCrRS" resolve="codeParagraph" />
                                       </node>
@@ -402,8 +402,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="41AlOFgDs2U" role="2f5YQi">
-      <ref role="tU$_T" to="d244:goNQ8fiE3l" resolve="mbeddrPlatformSolutionGroup" />
-      <ref role="2f8Tey" to="d244:goNQ8fiE3o" resolve="mbeddrPlatformSolutionExtensions" />
+      <ref role="tU$_T" to="ig80:66D23jC6bn8" resolve="mbeddrPlatformSolutionGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bnb" resolve="mbeddrPlatformSolutionExtensions" />
     </node>
   </node>
   <node concept="2DaZZR" id="6$smv8BKV3F" />

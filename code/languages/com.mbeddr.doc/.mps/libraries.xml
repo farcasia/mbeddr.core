@@ -7,7 +7,7 @@
           <value>
             <Library>
               <option name="name" value="mbeddr.core" />
-              <option name="path" value="${mbeddr.github.core.home}/code/languages" />
+              <option name="path" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.mpsutil" />
             </Library>
           </value>
         </entry>
@@ -19,8 +19,15 @@
             </Library>
           </value>
         </entry>
+        <entry key="xxx">
+          <value>
+            <Library>
+              <option name="name" value="xxx" />
+              <option name="path" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.core/languages/com.mbeddr.core.base" />
+            </Library>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
 </project>
-

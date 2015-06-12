@@ -15,19 +15,11 @@
     <dependency reexport="true">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">019b622b-0aef-4dd3-86d0-4eef01f3f6bb(jetbrains.mps.ide)</dependency>
     <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
-    <dependency reexport="false">3ea5fb2e-05f3-455f-904b-1c5525bc9b74(com.mbeddr.mpsutil.documentable)</dependency>
+    <dependency reexport="true">3ea5fb2e-05f3-455f-904b-1c5525bc9b74(com.mbeddr.mpsutil.documentable)</dependency>
     <dependency reexport="true">632f2086-3151-42f4-b852-e494368259f4(com.mbeddr.mpsutil.tree)</dependency>
-    <dependency reexport="false">e87a5642-e4a5-4abe-b61d-2f36720bc989(com.mbeddr.mpsutil.outline)</dependency>
-    <dependency reexport="true">077c0a96-f16f-4da4-b70a-32962edc7dad(com.mbeddr.mpsutil.tree.pluginSolution)</dependency>
+    <dependency reexport="true">e87a5642-e4a5-4abe-b61d-2f36720bc989(com.mbeddr.mpsutil.outline)</dependency>
     <dependency reexport="true">f016836c-fc2c-4511-ad20-1de7093c3494(com.mbeddr.mpsutil.platform.pluginSolution)</dependency>
     <dependency reexport="true">371850a9-2c5b-4e1d-a811-70d97e847917(com.mbeddr.mpsutil.editor.utils)</dependency>
-    <dependency reexport="true">6d374f1e-eb2d-4294-8f34-75ecdff99bd3(com.mbeddr.mpsutil.assessment.pluginSolution)</dependency>
-    <dependency reexport="true">004982be-7a9d-494d-85bd-da20ef71e03d(com.mbeddr.mpsutil.codereview.pluginSolution)</dependency>
-    <dependency reexport="true">2052b4ff-f3bf-4a51-b9c5-c062176fb180(com.mbeddr.mpsutil.commentable.pluginSolution)</dependency>
-    <dependency reexport="true">aae22091-f47c-42de-9374-c1fd92e63b2b(com.mbeddr.mpsutil.ideEnhancement.pluginSolution)</dependency>
-    <dependency reexport="true">c0488c1e-322f-4f38-92d4-5520a7ce96c1(com.mbeddr.mpsutil.plantuml.pluginSolution)</dependency>
-    <dependency reexport="true">2dd77153-14bd-49fd-b98c-0d783dbca4b1(com.mbeddr.mpsutil.presentationMode.pluginSolution)</dependency>
-    <dependency reexport="true">71635f51-0fc2-447a-90a0-c2dd834991a3(com.mbeddr.mpsutil.terminal)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>

@@ -9,6 +9,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="2374bc90-7e37-41f1-a9c4-c2e35194c36a" name="com.mbeddr.doc" version="0" />
+    <use id="6fd7ed77-978a-42c7-8b95-a8f3004356f5" name="com.mbeddr.mpsutil.pathAndFile" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -22,6 +23,8 @@
     <import index="cu2c" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="a8zf" ref="c0488c1e-322f-4f38-92d4-5520a7ce96c1/f:java_stub#c0488c1e-322f-4f38-92d4-5520a7ce96c1#net.sourceforge.plantuml(com.mbeddr.mpsutil.plantuml.pluginSolution/net.sourceforge.plantuml@java_stub)" />
+    <import index="oq9k" ref="r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils.runtime)" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -215,7 +218,6 @@
       </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="2642765975824060179" name="com.mbeddr.core.base.structure.SolutionRelativeDirPicker" flags="ng" index="9PVaO" />
       <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
         <child id="8375407818529178007" name="text" index="OjmMu" />
       </concept>
@@ -280,6 +282,12 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
+    <language id="6fd7ed77-978a-42c7-8b95-a8f3004356f5" name="com.mbeddr.mpsutil.pathAndFile">
+      <concept id="7037164916066829340" name="com.mbeddr.mpsutil.pathAndFile.structure.SolutionRelativeDirPicker" flags="ng" index="29E4KC" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -391,8 +399,8 @@
                             <ref role="3Tt5mk" to="2c95:3RseghIejGx" />
                           </node>
                         </node>
-                        <node concept="3TrEf2" id="1HPyE8Bks59" role="2OqNvi">
-                          <ref role="3Tt5mk" to="vs0r:7gVrg_0tw6n" />
+                        <node concept="3TrEf2" id="q2u8KePL9W" role="2OqNvi">
+                          <ref role="3Tt5mk" to="f51m:66D23jBQ1RH" />
                         </node>
                       </node>
                       <node concept="3Tsc0h" id="1HPyE8Bks5a" role="2OqNvi">
@@ -664,7 +672,7 @@
                 </node>
               </node>
             </node>
-            <node concept="OjmMv" id="2nlzmLNtP4b" role="2SaI5j">
+            <node concept="26shno" id="2nlzmLNtP4b" role="2SaI5j">
               <node concept="19SGf9" id="2nlzmLNtP4c" role="OjmMu">
                 <node concept="19SUe$" id="2nlzmLNtP4d" role="19SJt6">
                   <property role="19SUeA" value="Code" />
@@ -1015,7 +1023,7 @@
                 </node>
               </node>
             </node>
-            <node concept="OjmMv" id="47ZkZt5Yd8W" role="2SaI5j">
+            <node concept="26shno" id="47ZkZt5Yd8W" role="2SaI5j">
               <node concept="19SGf9" id="47ZkZt5Yd8X" role="OjmMu">
                 <node concept="19SUe$" id="47ZkZt5Yd8Y" role="19SJt6">
                   <property role="19SUeA" value="Text" />
@@ -1081,11 +1089,11 @@
     <property role="TrG5h" value="DummyCfg" />
     <node concept="2SbYGw" id="627_yy35IQp" role="2SbYGa">
       <property role="TrG5h" value="p" />
-      <node concept="9PVaO" id="2iGZqsHCknq" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCknq" role="9PVG_" />
     </node>
     <node concept="2SbYGw" id="627_yy35IQq" role="Cbewh">
       <property role="TrG5h" value="temp" />
-      <node concept="9PVaO" id="2iGZqsHCknm" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCknm" role="9PVG_" />
     </node>
     <node concept="n94m4" id="627_yy35IQr" role="lGtFl" />
   </node>
@@ -1177,8 +1185,8 @@
             </node>
             <node concept="3clFbF" id="7$DvC4gQTRT" role="3cqZAp">
               <node concept="2YIFZM" id="7$DvC4gQTRV" role="3clFbG">
-                <ref role="37wK5l" to="hwgx:1yFmGPnLcLb" resolve="takeScreenshot" />
-                <ref role="1Pybhc" to="hwgx:1yFmGPnLcL9" resolve="CellEditorScreenshooter" />
+                <ref role="1Pybhc" to="oq9k:2JUQ7aepLF_" resolve="CellEditorScreenshooter" />
+                <ref role="37wK5l" to="oq9k:2JUQ7aepLFC" resolve="takeScreenshot" />
                 <node concept="37vLTw" id="5Hxjapw9v6m" role="37wK5m">
                   <ref role="3cqZAo" node="7$DvC4gSb_j" resolve="original" />
                 </node>

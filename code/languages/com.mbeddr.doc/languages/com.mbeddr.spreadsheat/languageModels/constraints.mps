@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:75bb348e-bcfc-40b4-86b4-e3809253db4d(com.mbeddr.spreadsheat.constraints)">
+<model ref="1d891f7b-dc93-42f9-a4bc-b016656b14e2/r:75bb348e-bcfc-40b4-86b4-e3809253db4d(com.mbeddr.spreadsheat/com.mbeddr.spreadsheat.constraints)">
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="gnwj" ref="r:f6651a85-73de-42f1-9bd6-d372b5b47f05(com.mbeddr.spreadsheat.structure)" />
-    <import index="watd" ref="r:1a1284ce-37a2-4d35-b38f-a54d85ba3c77(com.mbeddr.spreadsheat.behavior)" implicit="true" />
+    <import index="gnwj" ref="1d891f7b-dc93-42f9-a4bc-b016656b14e2/r:f6651a85-73de-42f1-9bd6-d372b5b47f05(com.mbeddr.spreadsheat/com.mbeddr.spreadsheat.structure)" />
+    <import index="watd" ref="1d891f7b-dc93-42f9-a4bc-b016656b14e2/r:1a1284ce-37a2-4d35-b38f-a54d85ba3c77(com.mbeddr.spreadsheat/com.mbeddr.spreadsheat.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

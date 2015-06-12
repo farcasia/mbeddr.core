@@ -7468,5 +7468,18 @@
       </node>
     </node>
   </node>
+  <node concept="tC5Ba" id="2VeGfuFYcdL">
+    <property role="TrG5h" value="accentSolutionTreeActions" />
+    <property role="3GE5qa" value="solutionTree" />
+    <node concept="ftmFs" id="2VeGfuFYcdM" role="ftER_">
+      <node concept="tCFHf" id="2VeGfuFYcdN" role="ftvYc">
+        <ref role="tCJdB" node="5l$FWy6IyXd" resolve="openSolutionTree2" />
+      </node>
+    </node>
+    <node concept="tT9cl" id="2VeGfuFYcdO" role="2f5YQi">
+      <ref role="tU$_T" to="ig80:66D23jC6bn8" resolve="mbeddrPlatformSolutionGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bnb" resolve="mbeddrPlatformSolutionExtensions" />
+    </node>
+  </node>
 </model>
 

@@ -12,6 +12,7 @@
     <import index="9a8" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
     <import index="watd" ref="r:1a1284ce-37a2-4d35-b38f-a54d85ba3c77(com.mbeddr.spreadsheat.behavior)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
+    <import index="oq9k" ref="r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -267,7 +268,7 @@
             <node concept="3clFbF" id="9t0esq9H$6" role="3cqZAp">
               <node concept="2ShNRf" id="9t0esq9H$7" role="3clFbG">
                 <node concept="1pGfFk" id="9t0esq9H$8" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5$bT90ZdOUF" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5CZL" resolve="HorizLineCell" />
                   <node concept="pncrf" id="9t0esq9H$9" role="37wK5m" />
                 </node>
               </node>

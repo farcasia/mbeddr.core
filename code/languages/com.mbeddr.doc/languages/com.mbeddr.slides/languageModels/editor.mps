@@ -16,8 +16,9 @@
     <import index="4gky" ref="r:e1dfab1d-c7a7-43e7-9f26-028afd483e82(com.mbeddr.doc.behavior)" />
     <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="oq9k" ref="r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -251,7 +252,7 @@
             <node concept="3clFbF" id="3Dgh5aYjqYl" role="3cqZAp">
               <node concept="2ShNRf" id="3Dgh5aYjqYm" role="3clFbG">
                 <node concept="1pGfFk" id="3Dgh5aYjqYn" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:3Dgh5aYiKso" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0H" resolve="HorizLineCell" />
                   <node concept="pncrf" id="3Dgh5aYjqYo" role="37wK5m" />
                   <node concept="10M0yZ" id="3Dgh5aYjqYp" role="37wK5m">
                     <ref role="3cqZAo" to="1t7x:~Color.black" resolve="black" />
@@ -401,7 +402,7 @@
             <node concept="3clFbF" id="7$DvC4gSA_W" role="3cqZAp">
               <node concept="2ShNRf" id="7$DvC4gSA_X" role="3clFbG">
                 <node concept="1pGfFk" id="7$DvC4gSA_Z" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                   <node concept="pncrf" id="7$DvC4gSAA0" role="37wK5m" />
                   <node concept="3cmrfG" id="7$DvC4gSAAm" role="37wK5m">
                     <property role="3cmrfH" value="2" />
@@ -418,7 +419,7 @@
             <node concept="3clFbF" id="5gTlpakuUy0" role="3cqZAp">
               <node concept="2ShNRf" id="5gTlpakuUy1" role="3clFbG">
                 <node concept="1pGfFk" id="5gTlpakuVJx" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5gTlpakvelx" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0h" resolve="HorizLineCell" />
                   <node concept="pncrf" id="5gTlpakuVJy" role="37wK5m" />
                   <node concept="10Nm6u" id="5gTlpakvjrp" role="37wK5m" />
                   <node concept="3cmrfG" id="5gTlpakveoD" role="37wK5m">
@@ -675,7 +676,7 @@
             <node concept="3clFbF" id="5gTlpakvjrv" role="3cqZAp">
               <node concept="2ShNRf" id="5gTlpakvjrw" role="3clFbG">
                 <node concept="1pGfFk" id="5gTlpakvjrx" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5gTlpakvelx" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0h" resolve="HorizLineCell" />
                   <node concept="pncrf" id="5gTlpakvjry" role="37wK5m" />
                   <node concept="10Nm6u" id="5gTlpakvjrX" role="37wK5m" />
                   <node concept="3cmrfG" id="5gTlpakvjrz" role="37wK5m">
@@ -693,7 +694,7 @@
             <node concept="3clFbF" id="7$DvC4gSAAr" role="3cqZAp">
               <node concept="2ShNRf" id="7$DvC4gSAAs" role="3clFbG">
                 <node concept="1pGfFk" id="7$DvC4gSAAt" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                   <node concept="pncrf" id="7$DvC4gSAAu" role="37wK5m" />
                   <node concept="3cmrfG" id="7$DvC4gSAAv" role="37wK5m">
                     <property role="3cmrfH" value="2" />

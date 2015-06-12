@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:be2272c0-bc2d-4ac4-a164-b072c9e60516(exampleCCode)">
+<model ref="c87fbd33-5a05-41e8-ac53-491a30791f53/r:be2272c0-bc2d-4ac4-a164-b072c9e60516(com.mbeddr.doc.doc/exampleCCode)">
   <persistence version="9" />
   <languages>
     <use id="2374bc90-7e37-41f1-a9c4-c2e35194c36a" name="com.mbeddr.doc" version="-1" />

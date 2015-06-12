@@ -8,6 +8,7 @@
   <imports>
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -58,8 +59,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3RseghIcqSy" resolve="ILine" />
     </node>
-    <node concept="PrWs8" id="3RseghIcqSe" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="54zREDjjMxt" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="1TJgyi" id="3RseghIcqSf" role="1TKVEl">
       <property role="TrG5h" value="documentClass" />
@@ -193,8 +194,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3RseghIcqSy" resolve="ILine" />
     </node>
-    <node concept="PrWs8" id="1ZiHc0gKksl" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="54zREDjjMxx" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
 </model>

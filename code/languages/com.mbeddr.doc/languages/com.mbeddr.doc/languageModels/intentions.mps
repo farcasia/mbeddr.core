@@ -18,8 +18,8 @@
     <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
     <import index="y596" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.selection(MPS.Editor/jetbrains.mps.openapi.editor.selection@java_stub)" />
     <import index="4gky" ref="r:e1dfab1d-c7a7-43e7-9f26-028afd483e82(com.mbeddr.doc.behavior)" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -2983,8 +2983,8 @@
                   <ref role="3Tt5mk" to="2c95:4E$PniRJOs_" />
                 </node>
               </node>
-              <node concept="3TrEf2" id="1CZbvxNc9fa" role="2OqNvi">
-                <ref role="3Tt5mk" to="vs0r:7gVrg_0tw6n" />
+              <node concept="3TrEf2" id="54zREDiPAnJ" role="2OqNvi">
+                <ref role="3Tt5mk" to="f51m:66D23jBQ1RH" />
               </node>
             </node>
             <node concept="2OqwBi" id="1CZbvxNc6xA" role="37vLTJ">

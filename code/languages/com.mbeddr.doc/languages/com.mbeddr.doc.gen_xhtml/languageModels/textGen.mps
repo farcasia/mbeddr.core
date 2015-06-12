@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:96478eaf-4e91-4148-a795-31f9b32b7d84(com.mbeddr.doc.gen_xhtml.textGen)">
+<model ref="2dec0852-3a21-4c4e-a68c-b05236cc37f2/r:96478eaf-4e91-4148-a795-31f9b32b7d84(com.mbeddr.doc.gen_xhtml/com.mbeddr.doc.gen_xhtml.textGen)">
   <persistence version="9" />
   <languages>
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="lsus" ref="r:25d6e7db-06a4-44ee-83aa-8c5bf17f3b3a(com.mbeddr.doc.gen_xhtml.structure)" />
-    <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" implicit="true" />
+    <import index="lsus" ref="2dec0852-3a21-4c4e-a68c-b05236cc37f2/r:25d6e7db-06a4-44ee-83aa-8c5bf17f3b3a(com.mbeddr.doc.gen_xhtml/com.mbeddr.doc.gen_xhtml.structure)" />
+    <import index="iuxj" ref="479c7a8c-02f9-43b5-9139-d910cb22f298/r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml/jetbrains.mps.core.xml.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

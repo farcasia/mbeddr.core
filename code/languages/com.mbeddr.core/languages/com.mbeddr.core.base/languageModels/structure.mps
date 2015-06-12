@@ -25,7 +25,7 @@
   </registry>
   <node concept="PlHQZ" id="7jSUHHvkAp9">
     <property role="TrG5h" value="IModuleContentRef" />
-    <node concept="PrWs8" id="2hApxYRiBcN" role="PrDN$">
+    <node concept="PrWs8" id="2VeGfuFYDp0" role="PrDN$">
       <ref role="PrY4T" to="v6ji:66D23jC7zeY" resolve="IReference" />
     </node>
   </node>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c5313ae9-1c38-4258-a551-e4e33897458e(com.mbeddr.slides.generator.template.main@generator)">
+<model ref="7276fe27-ac58-4bed-89ee-66e00d2b7581/r:c5313ae9-1c38-4258-a551-e4e33897458e(com.mbeddr.slides#5455967284188432063/com.mbeddr.slides.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
@@ -9,12 +9,12 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="apd" ref="r:3f86baf5-195f-493c-8564-191d759abee5(com.mbeddr.slides.structure)" />
-    <import index="7f6k" ref="r:47b3698c-534b-4997-89b0-e52223f7f9a5(com.mbeddr.slides.behavior)" />
-    <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
-    <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
-    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="apd" ref="94daa6eb-e6a4-4b9f-90b6-4b23682ca120/r:3f86baf5-195f-493c-8564-191d759abee5(com.mbeddr.slides/com.mbeddr.slides.structure)" />
+    <import index="7f6k" ref="94daa6eb-e6a4-4b9f-90b6-4b23682ca120/r:47b3698c-534b-4997-89b0-e52223f7f9a5(com.mbeddr.slides/com.mbeddr.slides.behavior)" />
+    <import index="2c95" ref="2374bc90-7e37-41f1-a9c4-c2e35194c36a/r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc/com.mbeddr.doc.structure)" />
+    <import index="87nw" ref="92d2ea16-5a42-4fdf-a676-c7604efe3504/r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext/de.slisson.mps.richtext.structure)" />
+    <import index="tbr6" ref="92d2ea16-5a42-4fdf-a676-c7604efe3504/r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext/de.slisson.mps.richtext.behavior)" />
+    <import index="tpck" ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="94daa6eb-e6a4-4b9f-90b6-4b23682ca120" name="com.mbeddr.slides">

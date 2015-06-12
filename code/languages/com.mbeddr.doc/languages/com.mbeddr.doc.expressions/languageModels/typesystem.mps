@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7d63afe9-9fc3-4991-890c-1008af05d479(com.mbeddr.doc.expressions.typesystem)">
+<model ref="1c5b7d51-0ef3-4332-af36-874466950878/r:7d63afe9-9fc3-4991-890c-1008af05d479(com.mbeddr.doc.expressions/com.mbeddr.doc.expressions.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="f87k" ref="r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions.structure)" />
+    <import index="f87k" ref="1c5b7d51-0ef3-4332-af36-874466950878/r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions/com.mbeddr.doc.expressions.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

@@ -9,7 +9,9 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
+    <import index="zsp6" ref="r:6fc39a79-3562-4a26-bae1-24414b279a14(com.mbeddr.mpsutil.configItem.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -78,7 +80,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
     <node concept="1TJgyi" id="7rXn3flJFxj" role="1TKVEl">
       <property role="TrG5h" value="term" />
@@ -114,8 +116,8 @@
     <property role="34LRSv" value="terms" />
     <property role="R4oN_" value="use the glossary and term definitions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2fGuOSYaN_w" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+    <node concept="PrWs8" id="54zREDj8O0v" role="PzmwI">
+      <ref role="PrY4T" to="zsp6:66D23jC0OZF" resolve="IConfigurationItem" />
     </node>
   </node>
 </model>

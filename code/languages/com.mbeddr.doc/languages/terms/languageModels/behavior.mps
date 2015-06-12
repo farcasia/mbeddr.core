@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8185846e-345f-44be-a985-82a99007c49a(com.mbeddr.doc.terms.behavior)">
+<model ref="c61970b4-87fb-4429-8a3a-c87719f000a3/r:8185846e-345f-44be-a985-82a99007c49a(com.mbeddr.doc.terms/com.mbeddr.doc.terms.behavior)">
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="8zu2" ref="r:04621706-863a-4403-8bd2-5b328fe9405d(com.mbeddr.doc.terms.structure)" />
-    <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
-    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
-    <import index="4gky" ref="r:e1dfab1d-c7a7-43e7-9f26-028afd483e82(com.mbeddr.doc.behavior)" />
-    <import index="grvc" ref="r:e4b7e230-de2a-46ac-9f53-996b361d25ef(com.mbeddr.mpsutil.plantuml.node.behavior)" />
+    <import index="8zu2" ref="c61970b4-87fb-4429-8a3a-c87719f000a3/r:04621706-863a-4403-8bd2-5b328fe9405d(com.mbeddr.doc.terms/com.mbeddr.doc.terms.structure)" />
+    <import index="2c95" ref="2374bc90-7e37-41f1-a9c4-c2e35194c36a/r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc/com.mbeddr.doc.structure)" />
+    <import index="tbr6" ref="92d2ea16-5a42-4fdf-a676-c7604efe3504/r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext/de.slisson.mps.richtext.behavior)" />
+    <import index="4gky" ref="2374bc90-7e37-41f1-a9c4-c2e35194c36a/r:e1dfab1d-c7a7-43e7-9f26-028afd483e82(com.mbeddr.doc/com.mbeddr.doc.behavior)" />
+    <import index="grvc" ref="b4d28e19-7d2d-47e9-943e-3a41f97a0e52/r:e4b7e230-de2a-46ac-9f53-996b361d25ef(com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">

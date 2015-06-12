@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:45fb8748-e332-49c2-94db-b5243614f035(com.mbeddr.doc.terms.generator.template.main@generator)">
+<model ref="7c4fbe30-28c3-4183-bd85-544c5edd6320/r:45fb8748-e332-49c2-94db-b5243614f035(com.mbeddr.doc.terms#8574110643282389173/com.mbeddr.doc.terms.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
@@ -8,10 +8,11 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="8zu2" ref="r:04621706-863a-4403-8bd2-5b328fe9405d(com.mbeddr.doc.terms.structure)" />
-    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
-    <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
+    <import index="8zu2" ref="c61970b4-87fb-4429-8a3a-c87719f000a3/r:04621706-863a-4403-8bd2-5b328fe9405d(com.mbeddr.doc.terms/com.mbeddr.doc.terms.structure)" />
+    <import index="tbr6" ref="92d2ea16-5a42-4fdf-a676-c7604efe3504/r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext/de.slisson.mps.richtext.behavior)" />
+    <import index="vs0r" ref="d4280a54-f6df-4383-aa41-d1b2bffa7eb1/r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base/com.mbeddr.core.base.structure)" />
+    <import index="2c95" ref="2374bc90-7e37-41f1-a9c4-c2e35194c36a/r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc/com.mbeddr.doc.structure)" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -141,8 +142,8 @@
                           <ref role="3Tt5mk" to="8zu2:7rXn3flJFxk" />
                         </node>
                       </node>
-                      <node concept="3TrEf2" id="7rXn3flJG10" role="2OqNvi">
-                        <ref role="3Tt5mk" to="vs0r:7gVrg_0tw6n" />
+                      <node concept="3TrEf2" id="q2u8Kf6I7H" role="2OqNvi">
+                        <ref role="3Tt5mk" to="f51m:66D23jBQ1RH" />
                       </node>
                     </node>
                   </node>

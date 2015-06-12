@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:eb1e30db-f9c7-461d-86f0-65e4fe201e3b(com.mbeddr.doc.expressions.editor)">
+<model ref="1c5b7d51-0ef3-4332-af36-874466950878/r:eb1e30db-f9c7-461d-86f0-65e4fe201e3b(com.mbeddr.doc.expressions/com.mbeddr.doc.expressions.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="f87k" ref="r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions.structure)" />
-    <import index="vrqd" ref="r:53e59391-150a-45ff-930e-2b4fdafb0904(com.mbeddr.core.expressions.editor)" />
-    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
-    <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="f87k" ref="1c5b7d51-0ef3-4332-af36-874466950878/r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions/com.mbeddr.doc.expressions.structure)" />
+    <import index="vrqd" ref="61c69711-ed61-4850-81d9-7714ff227fb0/r:53e59391-150a-45ff-930e-2b4fdafb0904(com.mbeddr.core.expressions/com.mbeddr.core.expressions.editor)" />
+    <import index="mj1l" ref="61c69711-ed61-4850-81d9-7714ff227fb0/r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions/com.mbeddr.core.expressions.structure)" />
+    <import index="ywuz" ref="61c69711-ed61-4850-81d9-7714ff227fb0/r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions/com.mbeddr.core.expressions.behavior)" />
+    <import index="tpck" ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:90c78076-66cd-4687-855c-6c0898a2f1b2(com.mbeddr.doc.gen_latex.editor)">
+<model ref="f44f6b9a-bf30-4f73-866e-fac17c177409/r:90c78076-66cd-4687-855c-6c0898a2f1b2(com.mbeddr.doc.gen_latex/com.mbeddr.doc.gen_latex.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="g9w8" ref="r:506f4964-2b3f-49f3-a581-8c498222bac6(com.mbeddr.doc.gen_latex.structure)" />
-    <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
+    <import index="g9w8" ref="f44f6b9a-bf30-4f73-866e-fac17c177409/r:506f4964-2b3f-49f3-a581-8c498222bac6(com.mbeddr.doc.gen_latex/com.mbeddr.doc.gen_latex.structure)" />
+    <import index="2c95" ref="2374bc90-7e37-41f1-a9c4-c2e35194c36a/r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc/com.mbeddr.doc.structure)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">

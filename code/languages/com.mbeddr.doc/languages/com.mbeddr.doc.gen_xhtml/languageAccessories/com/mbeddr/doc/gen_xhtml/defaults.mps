@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:717da79d-5632-4537-9680-813308745bcf(com.mbeddr.doc.gen_xhtml.defaults)" doNotGenerate="true">
+<model ref="2dec0852-3a21-4c4e-a68c-b05236cc37f2/r:717da79d-5632-4537-9680-813308745bcf(com.mbeddr.doc.gen_xhtml/com.mbeddr.doc.gen_xhtml.defaults)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
     <use id="2dec0852-3a21-4c4e-a68c-b05236cc37f2" name="com.mbeddr.doc.gen_xhtml" version="0" />

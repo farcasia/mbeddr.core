@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cc779de1-bd2d-4ec5-b6b4-2cd971172aea(com.mbeddr.slides.intentions)">
+<model ref="94daa6eb-e6a4-4b9f-90b6-4b23682ca120/r:cc779de1-bd2d-4ec5-b6b4-2cd971172aea(com.mbeddr.slides/com.mbeddr.slides.intentions)">
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="apd" ref="r:3f86baf5-195f-493c-8564-191d759abee5(com.mbeddr.slides.structure)" />
+    <import index="apd" ref="94daa6eb-e6a4-4b9f-90b6-4b23682ca120/r:3f86baf5-195f-493c-8564-191d759abee5(com.mbeddr.slides/com.mbeddr.slides.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

@@ -9,6 +9,7 @@
     <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -68,7 +69,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="description" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="f51m:66D23jBQ1RG" resolve="TextBlock" />
     </node>
   </node>
 </model>

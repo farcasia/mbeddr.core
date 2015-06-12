@@ -43,7 +43,7 @@
   <node concept="2DaZZR" id="66D23jBQTfW" />
   <node concept="33ghlw" id="66D23jBQTfX">
     <property role="3GE5qa" value="presentationMode" />
-    <property role="TrG5h" value="presentationMode" />
+    <property role="TrG5h" value="presentationModeSwitcher" />
     <node concept="33gmoH" id="66D23jBQTfY" role="2hfSGL">
       <property role="33g7Lv" value="Presentation Mode" />
       <ref role="33glcW" to="hdtg:66D23jBQP4V" resolve="presentationMode" />

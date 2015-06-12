@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:adff6c43-cedd-4567-a168-4afd6fece1b1(com.mbeddr.doc.expressions.generator.template.main@generator)">
+<model ref="1ce94c6a-937b-45a8-9a07-7975e5b7d060/r:adff6c43-cedd-4567-a168-4afd6fece1b1(com.mbeddr.doc.expressions#5378658552263161807/com.mbeddr.doc.expressions.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
@@ -10,11 +10,11 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="f87k" ref="r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions.structure)" />
-    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
-    <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
-    <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="f87k" ref="1c5b7d51-0ef3-4332-af36-874466950878/r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions/com.mbeddr.doc.expressions.structure)" />
+    <import index="tbr6" ref="92d2ea16-5a42-4fdf-a676-c7604efe3504/r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext/de.slisson.mps.richtext.behavior)" />
+    <import index="ywuz" ref="61c69711-ed61-4850-81d9-7714ff227fb0/r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions/com.mbeddr.core.expressions.behavior)" />
+    <import index="2c95" ref="2374bc90-7e37-41f1-a9c4-c2e35194c36a/r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc/com.mbeddr.doc.structure)" />
+    <import index="tpck" ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c/r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -119,9 +119,6 @@
       </concept>
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
     </language>
-    <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="2642765975824060179" name="com.mbeddr.core.base.structure.SolutionRelativeDirPicker" flags="ng" index="9PVaO" />
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
@@ -144,6 +141,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="6fd7ed77-978a-42c7-8b95-a8f3004356f5" name="com.mbeddr.mpsutil.pathAndFile">
+      <concept id="7037164916066829340" name="com.mbeddr.mpsutil.pathAndFile.structure.SolutionRelativeDirPicker" flags="ng" index="29E4KC" />
     </language>
   </registry>
   <node concept="bUwia" id="4E$PniRKNvK">
@@ -415,7 +415,7 @@
     <property role="TrG5h" value="Cfg" />
     <node concept="2SbYGw" id="5V$rgM4LQtt" role="Cbewh">
       <property role="TrG5h" value="temp" />
-      <node concept="9PVaO" id="2iGZqsHCkq2" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCkq2" role="9PVG_" />
     </node>
   </node>
 </model>

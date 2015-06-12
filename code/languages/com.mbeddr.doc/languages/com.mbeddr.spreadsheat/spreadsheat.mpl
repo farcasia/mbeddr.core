@@ -61,13 +61,13 @@
           <greater-priority-mapping>
             <generator generatorUID="7986ede4-bb02-4e5d-8e13-03458d393ab7(com.mbeddr.spreadsheat#2042272859106851293)" />
             <external-mapping>
-              <mapping-node modelUID="r:e5112c1a-86c5-4178-8db2-7e1be9fc4f78(com.mbeddr.spreadsheat.generator.template.main@generator)" nodeID="2042272859106851326" />
+              <mapping-node modelUID="7986ede4-bb02-4e5d-8e13-03458d393ab7/r:e5112c1a-86c5-4178-8db2-7e1be9fc4f78(com.mbeddr.spreadsheat#2042272859106851293/com.mbeddr.spreadsheat.generator.template.main@generator)" nodeID="2042272859106851326" />
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="be090156-a678-454c-bd8f-89ebd4a0e6af(com.mbeddr.core.modules.gen#1758019824472882132)" />
             <external-mapping>
-              <mapping-node modelUID="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" nodeID="1252295221377568075" />
+              <mapping-node modelUID="be090156-a678-454c-bd8f-89ebd4a0e6af/r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen#1758019824472882132/com.mbeddr.core.modules.gen.generator.template.main@generator)" nodeID="1252295221377568075" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>

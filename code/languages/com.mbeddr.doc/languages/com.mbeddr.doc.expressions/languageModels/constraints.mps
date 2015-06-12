@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:697979d5-8650-4fc5-9822-69d354a1b343(com.mbeddr.doc.expressions.constraints)">
+<model ref="1c5b7d51-0ef3-4332-af36-874466950878/r:697979d5-8650-4fc5-9822-69d354a1b343(com.mbeddr.doc.expressions/com.mbeddr.doc.expressions.constraints)">
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="f87k" ref="r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions.structure)" />
-    <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
+    <import index="f87k" ref="1c5b7d51-0ef3-4332-af36-874466950878/r:e7473124-6323-4ddf-9715-6e1684f751bd(com.mbeddr.doc.expressions/com.mbeddr.doc.expressions.structure)" />
+    <import index="2c95" ref="2374bc90-7e37-41f1-a9c4-c2e35194c36a/r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc/com.mbeddr.doc.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

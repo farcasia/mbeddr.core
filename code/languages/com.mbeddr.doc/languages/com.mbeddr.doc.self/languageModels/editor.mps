@@ -8,6 +8,7 @@
   <imports>
     <import index="z5ox" ref="r:48b6c04c-173b-45da-963f-54fbbdb59cfc(com.mbeddr.doc.self.structure)" />
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
+    <import index="oq9k" ref="r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -87,7 +88,7 @@
             <node concept="3clFbF" id="7$DvC4gSARd" role="3cqZAp">
               <node concept="2ShNRf" id="7$DvC4gSARe" role="3clFbG">
                 <node concept="1pGfFk" id="7$DvC4gSARg" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                   <node concept="pncrf" id="7$DvC4gSARh" role="37wK5m" />
                   <node concept="3cmrfG" id="7$DvC4gSARG" role="37wK5m">
                     <property role="3cmrfH" value="2" />
@@ -104,7 +105,7 @@
             <node concept="3clFbF" id="7$DvC4gQU7j" role="3cqZAp">
               <node concept="2ShNRf" id="7$DvC4gQU7k" role="3clFbG">
                 <node concept="1pGfFk" id="7$DvC4gQVMK" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5gTlpakvelx" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0h" resolve="HorizLineCell" />
                   <node concept="pncrf" id="7$DvC4gQVML" role="37wK5m" />
                   <node concept="10Nm6u" id="7$DvC4gQX3t" role="37wK5m" />
                   <node concept="3cmrfG" id="7$DvC4gQX3v" role="37wK5m">
@@ -188,7 +189,7 @@
             <node concept="3clFbF" id="7$DvC4gQX3$" role="3cqZAp">
               <node concept="2ShNRf" id="7$DvC4gQX3_" role="3clFbG">
                 <node concept="1pGfFk" id="7$DvC4gQX3A" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5gTlpakvelx" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0h" resolve="HorizLineCell" />
                   <node concept="pncrf" id="7$DvC4gQX3B" role="37wK5m" />
                   <node concept="10Nm6u" id="7$DvC4gQX3C" role="37wK5m" />
                   <node concept="3cmrfG" id="7$DvC4gQX3D" role="37wK5m">
@@ -209,7 +210,7 @@
             <node concept="3clFbF" id="7$DvC4gSARR" role="3cqZAp">
               <node concept="2ShNRf" id="7$DvC4gSARS" role="3clFbG">
                 <node concept="1pGfFk" id="7$DvC4gSART" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5DeR" resolve="VerticalWhitespaceCell" />
                   <node concept="pncrf" id="7$DvC4gSARU" role="37wK5m" />
                   <node concept="3cmrfG" id="7$DvC4gSARV" role="37wK5m">
                     <property role="3cmrfH" value="2" />

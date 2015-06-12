@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a46446ad-54c2-4490-b87d-d88cb0378823(com.mbeddr.doc.slides.sandbox.main)">
+<model ref="e26732a8-c7d7-4326-8a4a-31f87521971f/r:a46446ad-54c2-4490-b87d-d88cb0378823(com.mbeddr.doc.slides.sandbox/com.mbeddr.doc.slides.sandbox.main)">
   <persistence version="9" />
   <languages>
     <use id="94daa6eb-e6a4-4b9f-90b6-4b23682ca120" name="com.mbeddr.slides" version="-1" />
@@ -59,13 +59,13 @@
         <child id="6386504476136472817" name="paths" index="2SbYGa" />
       </concept>
     </language>
-    <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="2642765975824060179" name="com.mbeddr.core.base.structure.SolutionRelativeDirPicker" flags="ng" index="9PVaO" />
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="6fd7ed77-978a-42c7-8b95-a8f3004356f5" name="com.mbeddr.mpsutil.pathAndFile">
+      <concept id="7037164916066829340" name="com.mbeddr.mpsutil.pathAndFile.structure.SolutionRelativeDirPicker" flags="ng" index="29E4KC" />
     </language>
   </registry>
   <node concept="33xvKG" id="4IRvlq8cIAW">
@@ -135,11 +135,11 @@
     <property role="TrG5h" value="wSlideConfig" />
     <node concept="2SbYGw" id="4IRvlq8d48c" role="2SbYGa">
       <property role="TrG5h" value="images" />
-      <node concept="9PVaO" id="2iGZqsHCksE" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCksE" role="9PVG_" />
     </node>
     <node concept="2SbYGw" id="4IRvlq8d48a" role="Cbewh">
       <property role="TrG5h" value="temp" />
-      <node concept="9PVaO" id="2iGZqsHCksA" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCksA" role="9PVG_" />
     </node>
   </node>
 </model>

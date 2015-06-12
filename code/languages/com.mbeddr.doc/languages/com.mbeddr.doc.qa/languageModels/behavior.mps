@@ -16,7 +16,9 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="6otn" ref="r:d1c76b51-b992-43d8-94f8-013d38773d9f(com.mbeddr.doc.qa.structure)" />
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
+    <import index="5vfd" ref="r:0c2e4b65-88f2-4040-962b-35eed850c792(com.mbeddr.mpsutil.assessment.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="39a1" ref="r:04bf42b6-9c97-463a-99ec-af9b2dcba2ae(com.mbeddr.mpsutil.assessment.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -163,7 +165,7 @@
       <property role="TrG5h" value="runQuery" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:7hIyKqbFNeu" resolve="runQuery" />
+      <ref role="13i0hy" to="39a1:66D23jBRUiH" resolve="runQuery" />
       <node concept="3Tm1VV" id="5r_qjlV1sW" role="1B3o_S" />
       <node concept="3clFbS" id="5r_qjlV1sZ" role="3clF47">
         <node concept="3cpWs8" id="5r_qjlUXBd" role="3cqZAp">
@@ -207,7 +209,7 @@
             <property role="TrG5h" value="referencedCode" />
             <node concept="A3Dl8" id="5r_qjlUZ8h" role="1tU5fm">
               <node concept="3Tqbb2" id="5r_qjlUZ8i" role="A3Ik2">
-                <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+                <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
               </node>
             </node>
             <node concept="2OqwBi" id="5r_qjlVg$S" role="33vP2m">
@@ -221,13 +223,13 @@
                 <node concept="2qgKlT" id="5r_qjlV3dR" role="2OqNvi">
                   <ref role="37wK5l" to="ene9:jipk886TYE" resolve="findInstances" />
                   <node concept="3TUQnm" id="5r_qjlV3hH" role="37wK5m">
-                    <ref role="3TV0OU" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+                    <ref role="3TV0OU" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
                   </node>
                 </node>
               </node>
               <node concept="v3k3i" id="5r_qjlVhii" role="2OqNvi">
                 <node concept="chp4Y" id="5r_qjlVhCC" role="v3oSu">
-                  <ref role="cht4Q" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+                  <ref role="cht4Q" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
                 </node>
               </node>
             </node>
@@ -368,7 +370,7 @@
         </node>
       </node>
       <node concept="2I9FWS" id="5r_qjlV1t0" role="3clF45">
-        <ref role="2I9WkF" to="vs0r:K292flwHw9" resolve="AssessmentResult" />
+        <ref role="2I9WkF" to="5vfd:66D23jBKIgq" resolve="AssessmentResult" />
       </node>
     </node>
   </node>
@@ -381,7 +383,7 @@
       <property role="TrG5h" value="uniqueIdentifier" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:K292flwHwe" resolve="uniqueIdentifier" />
+      <ref role="13i0hy" to="39a1:66D23jBRUcP" resolve="uniqueIdentifier" />
       <node concept="3Tm1VV" id="5r_qjlVEzn" role="1B3o_S" />
       <node concept="3clFbS" id="5r_qjlVEzq" role="3clF47">
         <node concept="3clFbF" id="5r_qjlVE$j" role="3cqZAp">
@@ -404,13 +406,13 @@
       <property role="TrG5h" value="updateValues" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:5L$H31Kf5$y" resolve="updateValues" />
+      <ref role="13i0hy" to="39a1:66D23jBRUcT" resolve="updateValues" />
       <node concept="3Tm1VV" id="5r_qjlVEzt" role="1B3o_S" />
       <node concept="3clFbS" id="5r_qjlVEzy" role="3clF47" />
       <node concept="37vLTG" id="5r_qjlVEzz" role="3clF46">
         <property role="TrG5h" value="updatedResult" />
         <node concept="3Tqbb2" id="5r_qjlVEz$" role="1tU5fm">
-          <ref role="ehGHo" to="vs0r:K292flwHw9" resolve="AssessmentResult" />
+          <ref role="ehGHo" to="5vfd:66D23jBKIgq" resolve="AssessmentResult" />
         </node>
       </node>
       <node concept="3cqZAl" id="5r_qjlVEz_" role="3clF45" />
@@ -422,7 +424,7 @@
       <property role="TrG5h" value="runQuery" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:7hIyKqbFNeu" resolve="runQuery" />
+      <ref role="13i0hy" to="39a1:66D23jBRUiH" resolve="runQuery" />
       <node concept="3Tm1VV" id="5r_qjlVNgi" role="1B3o_S" />
       <node concept="3clFbS" id="5r_qjlVNgj" role="3clF47">
         <node concept="3cpWs8" id="5r_qjlVNgk" role="3cqZAp">
@@ -466,7 +468,7 @@
             <property role="TrG5h" value="referencedCode" />
             <node concept="A3Dl8" id="5r_qjlVNg$" role="1tU5fm">
               <node concept="3Tqbb2" id="5r_qjlVNg_" role="A3Ik2">
-                <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+                <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
               </node>
             </node>
             <node concept="2OqwBi" id="5r_qjlVNgA" role="33vP2m">
@@ -480,13 +482,13 @@
                 <node concept="2qgKlT" id="5r_qjlVNgF" role="2OqNvi">
                   <ref role="37wK5l" to="ene9:jipk886TYE" resolve="findInstances" />
                   <node concept="3TUQnm" id="5r_qjlVNgG" role="37wK5m">
-                    <ref role="3TV0OU" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+                    <ref role="3TV0OU" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
                   </node>
                 </node>
               </node>
               <node concept="v3k3i" id="5r_qjlVNgH" role="2OqNvi">
                 <node concept="chp4Y" id="5r_qjlVNgI" role="v3oSu">
-                  <ref role="cht4Q" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+                  <ref role="cht4Q" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
                 </node>
               </node>
             </node>
@@ -627,7 +629,7 @@
         </node>
       </node>
       <node concept="2I9FWS" id="5r_qjlVNhE" role="3clF45">
-        <ref role="2I9WkF" to="vs0r:K292flwHw9" resolve="AssessmentResult" />
+        <ref role="2I9WkF" to="5vfd:66D23jBKIgq" resolve="AssessmentResult" />
       </node>
     </node>
     <node concept="13hLZK" id="5r_qjlVMLn" role="13h7CW">

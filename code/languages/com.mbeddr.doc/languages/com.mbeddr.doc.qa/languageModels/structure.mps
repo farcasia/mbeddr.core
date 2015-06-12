@@ -8,6 +8,7 @@
   <imports>
     <import index="79wq" ref="r:ad7435e2-263f-4d16-a250-c987f2fa9599(com.mbeddr.core.qa.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="5vfd" ref="r:0c2e4b65-88f2-4040-962b-35eed850c792(com.mbeddr.mpsutil.assessment.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -39,7 +40,7 @@
   </node>
   <node concept="1TIwiD" id="5r_qjlVEy3">
     <property role="TrG5h" value="SpecificationAssessmentResult" />
-    <ref role="1TJDcQ" to="vs0r:K292flwHw9" resolve="AssessmentResult" />
+    <ref role="1TJDcQ" to="5vfd:66D23jBKIgq" resolve="AssessmentResult" />
     <node concept="1TJgyj" id="5r_qjlVEy4" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20lbJX" value="1" />

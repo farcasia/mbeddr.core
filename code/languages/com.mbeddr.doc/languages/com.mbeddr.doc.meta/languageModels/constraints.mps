@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:d2a0aee5-0ade-4a2c-bbaf-5cf69862bb20(com.mbeddr.doc.meta.constraints)">
+<model ref="e06345c7-da82-4f8b-bd44-1425fe158640/r:d2a0aee5-0ade-4a2c-bbaf-5cf69862bb20(com.mbeddr.doc.meta/com.mbeddr.doc.meta.constraints)">
   <persistence version="9" />
   <languages>
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:973e5e9b-9563-4b58-b6b2-532b58188103(com.mbeddr.doc.meta.intentions)">
+<model ref="e06345c7-da82-4f8b-bd44-1425fe158640/r:973e5e9b-9563-4b58-b6b2-532b58188103(com.mbeddr.doc.meta/com.mbeddr.doc.meta.intentions)">
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />

@@ -9,6 +9,7 @@
     <import index="8zu2" ref="r:04621706-863a-4403-8bd2-5b328fe9405d(com.mbeddr.doc.terms.structure)" />
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="1t7x" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <import index="oq9k" ref="r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -182,7 +183,7 @@
             <node concept="3clFbF" id="7rXn3flJFyq" role="3cqZAp">
               <node concept="2ShNRf" id="7rXn3flJFyr" role="3clFbG">
                 <node concept="1pGfFk" id="7rXn3flJFZf" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5gTlpakvelx" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0h" resolve="HorizLineCell" />
                   <node concept="pncrf" id="7rXn3flJFZg" role="37wK5m" />
                   <node concept="2ShNRf" id="3EwB7OlCYQU" role="37wK5m">
                     <node concept="1pGfFk" id="3EwB7OlDft1" role="2ShVmc">
@@ -225,7 +226,7 @@
             <node concept="3clFbF" id="3EwB7OlDgCs" role="3cqZAp">
               <node concept="2ShNRf" id="3EwB7OlDgCt" role="3clFbG">
                 <node concept="1pGfFk" id="3EwB7OlDgCu" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5gTlpakvelx" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5D0h" resolve="HorizLineCell" />
                   <node concept="pncrf" id="3EwB7OlDgCv" role="37wK5m" />
                   <node concept="2ShNRf" id="3EwB7OlDgCw" role="37wK5m">
                     <node concept="1pGfFk" id="3EwB7OlDgCx" role="2ShVmc">
@@ -279,7 +280,7 @@
             <node concept="3clFbF" id="3EwB7OlCGm0" role="3cqZAp">
               <node concept="2ShNRf" id="3EwB7OlCGm1" role="3clFbG">
                 <node concept="1pGfFk" id="3EwB7OlCHzx" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:5$bT90ZdOUF" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:66D23jC5CZL" resolve="HorizLineCell" />
                   <node concept="pncrf" id="3EwB7OlCHzy" role="37wK5m" />
                 </node>
               </node>

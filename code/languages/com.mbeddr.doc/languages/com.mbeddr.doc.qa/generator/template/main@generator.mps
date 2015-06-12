@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:9ed3b1ca-6aa1-417c-bf1f-1a8cacb0417b(com.mbeddr.doc.qa.generator.template.main@generator)">
+<model ref="1e7f8eb6-99b3-402c-b540-6329ea3de584/r:9ed3b1ca-6aa1-417c-bf1f-1a8cacb0417b(com.mbeddr.doc.qa#97836352114790758/com.mbeddr.doc.qa.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
     <use id="5344b781-2242-4d23-be90-673ee10bea46" name="com.mbeddr.doc.qa" version="-1" />

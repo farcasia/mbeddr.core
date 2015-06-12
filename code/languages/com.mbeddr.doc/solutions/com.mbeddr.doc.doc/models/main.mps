@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:bb84e72a-94cb-4bbd-a73b-7a12f6f6911f(main)">
+<model ref="c87fbd33-5a05-41e8-ac53-491a30791f53/r:bb84e72a-94cb-4bbd-a73b-7a12f6f6911f(com.mbeddr.doc.doc/main)">
   <persistence version="9" />
   <languages>
     <use id="d7145000-936a-47e8-95a5-71f220e623f9" name="com.mbeddr.doc.self" version="-1" />
@@ -10,7 +10,7 @@
     <devkit ref="54c79f9f-f3ba-4167-91f1-eb4e98a9c47c(com.mbeddr.documentation)" />
   </languages>
   <imports>
-    <import index="bskg" ref="r:be2272c0-bc2d-4ac4-a164-b072c9e60516(exampleCCode)" />
+    <import index="bskg" ref="c87fbd33-5a05-41e8-ac53-491a30791f53/r:be2272c0-bc2d-4ac4-a164-b072c9e60516(com.mbeddr.doc.doc/exampleCCode)" />
   </imports>
   <registry>
     <language id="2dec0852-3a21-4c4e-a68c-b05236cc37f2" name="com.mbeddr.doc.gen_xhtml">
@@ -51,10 +51,10 @@
         <child id="126932837435370865" name="authors" index="Wq1Bf" />
         <child id="8730648445433290694" name="dependsOn" index="1DXQ57" />
       </concept>
-      <concept id="2286331641395252232" name="com.mbeddr.doc.structure.CPNamedNodeElement" flags="ng" index="2NCMab">
+      <concept id="2286331641395252232" name="com.mbeddr.doc.structure.NamedNodeModelContentPointerElement" flags="ng" index="2NCMab">
         <reference id="2286331641395252233" name="node" index="2NCMaa" />
       </concept>
-      <concept id="2286331641395238583" name="com.mbeddr.doc.structure.CodePointer" flags="ng" index="2NCZwO">
+      <concept id="2286331641395238583" name="com.mbeddr.doc.structure.ModelContentPointer" flags="ng" index="2NCZwO">
         <child id="2286331641395252236" name="elements" index="2NCMaf" />
       </concept>
       <concept id="6386504476136263187" name="com.mbeddr.doc.structure.ImageParagraph" flags="ng" index="2SaynC">
@@ -107,15 +107,15 @@
       <concept id="5185579450379273118" name="com.mbeddr.doc.structure.TextParHeader" flags="ng" index="1xAIan">
         <property id="5185579450379273119" name="text" index="1xAIam" />
       </concept>
-      <concept id="6955693250238922827" name="com.mbeddr.doc.structure.CCodeAsImageParagraph" flags="ng" index="3z_lpz">
+      <concept id="6955693250238922827" name="com.mbeddr.doc.structure.ModelContentAsImageParagraph" flags="ng" index="3z_lpz">
         <reference id="6955693250238922828" name="path" index="3z_lp$" />
         <child id="6955693250238922832" name="description" index="3z_lpS" />
         <child id="6955693250238922833" name="sizeSpec" index="3z_lpT" />
       </concept>
-      <concept id="6955693250238922820" name="com.mbeddr.doc.structure.AbstractCCodeParagraph" flags="ng" index="3z_lpG">
+      <concept id="6955693250238922820" name="com.mbeddr.doc.structure.AbstractModelContentParagraph" flags="ng" index="3z_lpG">
         <child id="6955693250238922822" name="codeptr" index="3z_lpI" />
       </concept>
-      <concept id="6955693250238922834" name="com.mbeddr.doc.structure.CCodeParagraph" flags="ng" index="3z_lpU">
+      <concept id="6955693250238922834" name="com.mbeddr.doc.structure.ModelContentAsTextParagraph" flags="ng" index="3z_lpU">
         <property id="6955693250238922836" name="language" index="3z_lpW" />
       </concept>
       <concept id="3350625596580256366" name="com.mbeddr.doc.structure.DocumentExport" flags="ng" index="1_08Dk">
@@ -175,7 +175,6 @@
       </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="2642765975824060179" name="com.mbeddr.core.base.structure.SolutionRelativeDirPicker" flags="ng" index="9PVaO" />
       <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
         <child id="8375407818529178007" name="text" index="OjmMu" />
       </concept>
@@ -209,6 +208,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="bf4d0f5d-29e1-4923-bf16-5133c56fd0a8" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="7037164916064132588" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="26shno" />
+    </language>
     <language id="d7145000-936a-47e8-95a5-71f220e623f9" name="com.mbeddr.doc.self">
       <concept id="6416473402306197330" name="com.mbeddr.doc.self.structure.SectionAsImageParagraph" flags="ng" index="1Ae1f2">
         <reference id="6416473402306197356" name="path" index="1Ae1fW" />
@@ -231,6 +233,9 @@
         <child id="8860443239512128064" name="left" index="3TlMhI" />
         <child id="8860443239512128065" name="right" index="3TlMhJ" />
       </concept>
+    </language>
+    <language id="6fd7ed77-978a-42c7-8b95-a8f3004356f5" name="com.mbeddr.mpsutil.pathAndFile">
+      <concept id="7037164916066829340" name="com.mbeddr.mpsutil.pathAndFile.structure.SolutionRelativeDirPicker" flags="ng" index="29E4KC" />
     </language>
   </registry>
   <node concept="1_1swa" id="1ZiHc0gKI6c">
@@ -313,11 +318,11 @@
     <property role="3GE5qa" value="cfg" />
     <node concept="2SbYGw" id="7$DvC4gPWka" role="2SbYGa">
       <property role="TrG5h" value="imgTemp" />
-      <node concept="9PVaO" id="2iGZqsHCkp7" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCkp7" role="9PVG_" />
     </node>
     <node concept="2SbYGw" id="7$DvC4gRmn2" role="2SbYGa">
       <property role="TrG5h" value="images" />
-      <node concept="9PVaO" id="2iGZqsHCkpb" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCkpb" role="9PVG_" />
     </node>
     <node concept="3SH5f5" id="7$DvC4gV3xo" role="3SH5Mq">
       <property role="TrG5h" value="smallCodeShot" />
@@ -327,7 +332,7 @@
     </node>
     <node concept="2SbYGw" id="3OiIliPSmau" role="Cbewh">
       <property role="TrG5h" value="temp" />
-      <node concept="9PVaO" id="2iGZqsHCkp3" role="9PVG_" />
+      <node concept="29E4KC" id="2iGZqsHCkp3" role="9PVG_" />
     </node>
   </node>
   <node concept="1_08Dk" id="1ZiHc0gLrRv">
@@ -345,7 +350,7 @@
       <property role="2SbEId" value="figures/doc" />
       <ref role="2SbEIe" node="7$DvC4gRmn2" resolve="images" />
     </node>
-    <node concept="OjmMv" id="7$DvC4gRvLP" role="WqcPc">
+    <node concept="26shno" id="7$DvC4gRvLP" role="WqcPc">
       <node concept="19SGf9" id="7$DvC4gRvLQ" role="OjmMu">
         <node concept="19SUe$" id="7$DvC4gRvLR" role="19SJt6">
           <property role="19SUeA" value="This document explains how to use the documentation language of mbeddr.\nIt supports writing prose text with sections, figures etc. It also supports\nembedding program nodes into the prose text. For example, references to other\nsections or figures are actural (refactoring-safe) references. Using a separate\nextension language, it is also possible to reference mbeddr code and even to \nembed mbeddr code as images or as text. mbeddr visualizations can also be \nrendered in real-time and embedded into the document. Documents can be output\nto HTML and Latex. The document you are currently reading is is itself written \nwith the documentation language: another extension module can be used to \ndocument itself by embedding documentation language code into documentation\ndocuments." />
@@ -428,7 +433,7 @@
           <node concept="3SGHZ$" id="7$DvC4gPWkb" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gR7z8" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gR7z8" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gR7z9" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gR7za" role="19SJt6">
                 <property role="19SUeA" value="An example section from a document. It is embedded as an image." />
@@ -490,7 +495,7 @@
           <node concept="3SGHZ$" id="7$DvC4gRlCW" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gRlCO" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gRlCO" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gRlCP" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gRlCQ" role="19SJt6">
                 <property role="19SUeA" value="This paragraph shows how to format text." />
@@ -528,7 +533,7 @@
             <property role="2Sb_kV" value="ash26.png" />
             <ref role="2Sb_kU" node="7$DvC4gRmn2" resolve="images" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gRmnh" role="2SaI5j">
+          <node concept="26shno" id="7$DvC4gRmnh" role="2SaI5j">
             <node concept="19SGf9" id="7$DvC4gRmni" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gRmnj" role="19SJt6">
                 <property role="19SUeA" value="An ASH 26E glider." />
@@ -546,7 +551,7 @@
           <node concept="3SGHZ$" id="7$DvC4gRmCw" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gRmnw" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gRmnw" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gRmnx" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gRmny" role="19SJt6">
                 <property role="19SUeA" value="The code that embeds an image" />
@@ -581,7 +586,7 @@
           <node concept="3SGHZ$" id="7$DvC4gRtRb" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gRnzm" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gRnzm" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gRnzn" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gRnzo" role="19SJt6">
                 <property role="19SUeA" value="An example document configuration with path definitions." />
@@ -631,7 +636,7 @@
           <property role="TrG5h" value="root" />
           <ref role="1DZJkt" node="7$DvC4gPSI3" resolve="Root" />
           <ref role="1Ae1fW" node="7$DvC4gPWka" resolve="imgTemp" />
-          <node concept="OjmMv" id="7$DvC4gRvLY" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gRvLY" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gRvLZ" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gRvM0" role="19SJt6">
                 <property role="19SUeA" value="A root document that includes other documents in a specific order." />
@@ -668,7 +673,7 @@
           <node concept="3SGHZ$" id="7$DvC4gRwzl" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gRwzm" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gRwzm" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gRwzn" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gRwzo" role="19SJt6">
                 <property role="19SUeA" value="The export configuration for this document." />
@@ -685,7 +690,7 @@
         </node>
         <node concept="3X6WG5" id="7$DvC4gRwzy" role="1_0VJ0">
           <node concept="3X6T9g" id="7$DvC4gRwzz" role="3Xp5NH">
-            <node concept="OjmMv" id="7$DvC4gRwz$" role="3X6T9h">
+            <node concept="26shno" id="7$DvC4gRwz$" role="3X6T9h">
               <node concept="19SGf9" id="7$DvC4gRwz_" role="OjmMu">
                 <node concept="19SUe$" id="7$DvC4gRwzA" role="19SJt6">
                   <property role="19SUeA" value="For Latex, you specify a document class as well as a prolog file. \nThe prolog file is included at the beginning of the document, and it\ncan define all the style customizations you want." />
@@ -694,7 +699,7 @@
             </node>
           </node>
           <node concept="3X6T9g" id="7$DvC4gRwzB" role="3Xp5NH">
-            <node concept="OjmMv" id="7$DvC4gRwzC" role="3X6T9h">
+            <node concept="26shno" id="7$DvC4gRwzC" role="3X6T9h">
               <node concept="19SGf9" id="7$DvC4gRwzD" role="OjmMu">
                 <node concept="19SUe$" id="7$DvC4gRwzE" role="19SJt6">
                   <property role="19SUeA" value="For HTML, you specify a style sheet. This style sheet can format the\nHTML code in any way you want. Take a look at the generated HTML to \nlearn about the style classes used in the generated HTML." />
@@ -854,7 +859,7 @@
           <node concept="3SGHZ$" id="519ky_SmA8A" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="519ky_SmA8B" role="1DWI4Y">
+          <node concept="26shno" id="519ky_SmA8B" role="1DWI4Y">
             <node concept="19SGf9" id="519ky_SmA8C" role="OjmMu">
               <node concept="19SUe$" id="519ky_SmA8D" role="19SJt6">
                 <property role="19SUeA" value="The code for writing tables." />
@@ -1047,7 +1052,7 @@
         <node concept="3z_lpz" id="7$DvC4gSHKy" role="1_0VJ0">
           <property role="TrG5h" value="calculator" />
           <ref role="3z_lp$" node="7$DvC4gPWka" resolve="imgTemp" />
-          <node concept="OjmMv" id="7$DvC4gSHKz" role="3z_lpS">
+          <node concept="26shno" id="7$DvC4gSHKz" role="3z_lpS">
             <node concept="19SGf9" id="7$DvC4gSHK$" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gSHK_" role="19SJt6">
                 <property role="19SUeA" value="An interface with a marker on a precondition, so it can be referenced. " />
@@ -1101,7 +1106,7 @@
           <node concept="3SGHZ$" id="7$DvC4gSOoz" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gSOo$" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gSOo$" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gSOo_" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gSOoA" role="19SJt6">
                 <property role="19SUeA" value="Example code for referencing C code from documents. " />
@@ -1164,7 +1169,7 @@
         <node concept="3z_lpz" id="7$DvC4gSPb$" role="1_0VJ0">
           <property role="TrG5h" value="addOp" />
           <ref role="3z_lp$" node="7$DvC4gPWka" resolve="imgTemp" />
-          <node concept="OjmMv" id="7$DvC4gSPb_" role="3z_lpS">
+          <node concept="26shno" id="7$DvC4gSPb_" role="3z_lpS">
             <node concept="19SGf9" id="7$DvC4gSPbA" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gSPbB" role="19SJt6">
                 <property role="19SUeA" value="An example of how to embed only a part of a module content as an image." />
@@ -1244,7 +1249,7 @@
           <node concept="3SGHZ$" id="7$DvC4gSPbJ" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gSPbK" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gSPbK" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gSPbL" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gSPbM" role="19SJt6">
                 <property role="19SUeA" value="An example of how to embed only the " />
@@ -1326,7 +1331,7 @@
           <property role="tKoif" value="statechart (2D)" />
           <property role="TrG5h" value="tl" />
           <ref role="tKoie" node="7$DvC4gPWka" resolve="imgTemp" />
-          <node concept="OjmMv" id="7$DvC4gTG_T" role="tKoid">
+          <node concept="26shno" id="7$DvC4gTG_T" role="tKoid">
             <node concept="19SGf9" id="7$DvC4gTG_U" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gTG_V" role="19SJt6">
                 <property role="19SUeA" value="The  state machine as a graph." />
@@ -1352,7 +1357,7 @@
           <node concept="3SGHZ$" id="7$DvC4gTG_N" role="3SH_4S">
             <property role="3SGHZ_" value="100" />
           </node>
-          <node concept="OjmMv" id="7$DvC4gTG_O" role="1DWI4Y">
+          <node concept="26shno" id="7$DvC4gTG_O" role="1DWI4Y">
             <node concept="19SGf9" id="7$DvC4gTG_P" role="OjmMu">
               <node concept="19SUe$" id="7$DvC4gTG_Q" role="19SJt6">
                 <property role="19SUeA" value="Example document code to embed a visualization." />
@@ -1624,7 +1629,7 @@
       </node>
       <node concept="2zgYhy" id="7rXn3flJGna" role="1_0VJ0">
         <property role="2zgYhw" value="Car" />
-        <node concept="OjmMv" id="7rXn3flJGnb" role="2zgYhB">
+        <node concept="26shno" id="7rXn3flJGnb" role="2zgYhB">
           <node concept="19SGf9" id="7rXn3flJGnc" role="OjmMu">
             <node concept="19SUe$" id="7rXn3flJGnd" role="19SJt6">
               <property role="19SUeA" value="A Car is a thing with four " />
@@ -1650,7 +1655,7 @@
       </node>
       <node concept="2zgYhy" id="7rXn3flJGUi" role="1_0VJ0">
         <property role="2zgYhw" value="Wheel" />
-        <node concept="OjmMv" id="7rXn3flJGUj" role="2zgYhB">
+        <node concept="26shno" id="7rXn3flJGUj" role="2zgYhB">
           <node concept="19SGf9" id="7rXn3flJGUk" role="OjmMu">
             <node concept="19SUe$" id="7rXn3flJGUl" role="19SJt6">
               <property role="19SUeA" value="A wheel is the thing a " />
@@ -1675,7 +1680,7 @@
       </node>
       <node concept="2zgYhy" id="14uWAurimD6" role="1_0VJ0">
         <property role="2zgYhw" value="Vehicle" />
-        <node concept="OjmMv" id="14uWAurimD7" role="2zgYhB">
+        <node concept="26shno" id="14uWAurimD7" role="2zgYhB">
           <node concept="19SGf9" id="14uWAurimD8" role="OjmMu">
             <node concept="19SUe$" id="14uWAurimD9" role="19SJt6">
               <property role="19SUeA" value="A vehicle is " />
@@ -1705,7 +1710,7 @@
           <property role="2Sb_kV" value="ash26.png" />
           <ref role="2Sb_kU" node="7$DvC4gRmn2" resolve="images" />
         </node>
-        <node concept="OjmMv" id="7rXn3flJM4D" role="2SaI5j">
+        <node concept="26shno" id="7rXn3flJM4D" role="2SaI5j">
           <node concept="19SGf9" id="7rXn3flJM4E" role="OjmMu">
             <node concept="19SUe$" id="7rXn3flJM4F" role="19SJt6" />
           </node>
@@ -1716,7 +1721,7 @@
       </node>
       <node concept="2zgYhy" id="3EwB7OlCLeg" role="1_0VJ0">
         <property role="2zgYhw" value="Engine" />
-        <node concept="OjmMv" id="3EwB7OlCLeh" role="2zgYhB">
+        <node concept="26shno" id="3EwB7OlCLeh" role="2zgYhB">
           <node concept="19SGf9" id="3EwB7OlCLei" role="OjmMu">
             <node concept="19SUe$" id="3EwB7OlCLej" role="19SJt6">
               <property role="19SUeA" value="An engine is the thing that drives the " />
@@ -1755,7 +1760,7 @@
       </node>
       <node concept="2zgYhy" id="3EwB7OlCM08" role="1_0VJ0">
         <property role="2zgYhw" value="Driver" />
-        <node concept="OjmMv" id="3EwB7OlCM09" role="2zgYhB">
+        <node concept="26shno" id="3EwB7OlCM09" role="2zgYhB">
           <node concept="19SGf9" id="3EwB7OlCM0a" role="OjmMu">
             <node concept="19SUe$" id="3EwB7OlCM0b" role="19SJt6">
               <property role="19SUeA" value="A driver is actually a " />
@@ -1774,7 +1779,7 @@
       </node>
       <node concept="2zgYhy" id="3EwB7OlCYQE" role="1_0VJ0">
         <property role="2zgYhw" value="Person" />
-        <node concept="OjmMv" id="3EwB7OlCYQF" role="2zgYhB">
+        <node concept="26shno" id="3EwB7OlCYQF" role="2zgYhB">
           <node concept="19SGf9" id="3EwB7OlCYQG" role="OjmMu">
             <node concept="19SUe$" id="3EwB7OlCYQH" role="19SJt6">
               <property role="19SUeA" value="This is a human. Not explained any further. A person " />
@@ -1801,7 +1806,7 @@
         <property role="tKoif" value="term dependencies" />
         <property role="TrG5h" value="termDeps" />
         <ref role="tKoie" node="7$DvC4gPWka" resolve="imgTemp" />
-        <node concept="OjmMv" id="2nGCZEu8Nx_" role="tKoid">
+        <node concept="26shno" id="2nGCZEu8Nx_" role="tKoid">
           <node concept="19SGf9" id="2nGCZEu8NxA" role="OjmMu">
             <node concept="19SUe$" id="2nGCZEu8NxB" role="19SJt6">
               <property role="19SUeA" value="The relationships between the terms can also be shown as a diagram." />

@@ -302,9 +302,6 @@
       </concept>
       <concept id="4040588429969069898" name="jetbrains.mps.lang.smodel.structure.LanguageReferenceExpression" flags="nn" index="3rNLEe" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
-      <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
-        <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -4860,22 +4857,9 @@
       <node concept="2OqwBi" id="66D23jCbmQf" role="33vP2m">
         <node concept="1bVj0M" id="66D23jCbmFq" role="2Oq$k0">
           <node concept="3clFbS" id="66D23jCbmFs" role="1bW5cS">
-            <node concept="3SKdUt" id="66D23jCbnnr" role="3cqZAp">
-              <node concept="3SKWN0" id="66D23jCbnns" role="3SKWNk">
-                <node concept="3clFbF" id="66D23jCbmIJ" role="3SKWNf">
-                  <node concept="2YIFZM" id="66D23jC5ZyV" role="3clFbG">
-                    <ref role="37wK5l" to="cu2c:~Language.getLanguageFor(org.jetbrains.mps.openapi.model.SModel):jetbrains.mps.smodel.Language" resolve="getLanguageFor" />
-                    <ref role="1Pybhc" to="cu2c:~Language" resolve="Language" />
-                    <node concept="2JrnkZ" id="66D23jC5ZyW" role="37wK5m">
-                      <node concept="2OqwBi" id="66D23jC5ZyX" role="2JrQYb">
-                        <node concept="3TUQnm" id="66D23jC5ZyY" role="2Oq$k0">
-                          <ref role="3TV0OU" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
-                        </node>
-                        <node concept="I4A8Y" id="66D23jC5ZyZ" role="2OqNvi" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
+            <node concept="3SKdUt" id="2VeGfuGs3Ll" role="3cqZAp">
+              <node concept="3SKdUq" id="2VeGfuGs3PC" role="3SKWNk">
+                <property role="3SKdUp" value="Language.getLanguageFor(conceptNode/IIdentifierNamedConcept/.model/);" />
               </node>
             </node>
             <node concept="3clFbF" id="Fe6ew7U3Us" role="3cqZAp">

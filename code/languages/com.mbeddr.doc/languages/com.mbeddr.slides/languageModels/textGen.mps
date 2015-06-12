@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:ad3bea09-31d3-444f-ab79-366696027ef1(com.mbeddr.slides.textGen)">
+<model ref="94daa6eb-e6a4-4b9f-90b6-4b23682ca120/r:ad3bea09-31d3-444f-ab79-366696027ef1(com.mbeddr.slides/com.mbeddr.slides.textGen)">
   <persistence version="9" />
   <languages>
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="apd" ref="r:3f86baf5-195f-493c-8564-191d759abee5(com.mbeddr.slides.structure)" />
-    <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" implicit="true" />
+    <import index="apd" ref="94daa6eb-e6a4-4b9f-90b6-4b23682ca120/r:3f86baf5-195f-493c-8564-191d759abee5(com.mbeddr.slides/com.mbeddr.slides.structure)" />
+    <import index="iuxj" ref="479c7a8c-02f9-43b5-9139-d910cb22f298/r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml/jetbrains.mps.core.xml.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

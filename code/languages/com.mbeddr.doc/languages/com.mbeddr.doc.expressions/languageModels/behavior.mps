@@ -11,6 +11,7 @@
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="qcz6" ref="r:fed04d41-4377-4850-a51c-7fc6e291d3e5(com.mbeddr.mpsutil.chunk.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -122,7 +123,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="target" />
-      <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
+      <ref role="13i0hy" to="qcz6:66D23jC7zf0" resolve="target" />
       <node concept="3Tm1VV" id="70kXLV5z8So" role="1B3o_S" />
       <node concept="3clFbS" id="70kXLV5z8Sr" role="3clF47">
         <node concept="3clFbF" id="70kXLV5z8YD" role="3cqZAp">

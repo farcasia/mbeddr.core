@@ -9,6 +9,7 @@
     <import index="2c95" ref="r:5f7188a9-e7b4-4a2e-bef9-38d2cf379fdc(com.mbeddr.doc.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -42,8 +43,8 @@
     <property role="R4oN_" value="defines an inline variable" />
     <property role="34LRSv" value="$var" />
     <ref role="1TJDcQ" to="2c95:2TZO3DbvhAy" resolve="DocumentWord" />
-    <node concept="PrWs8" id="4E$PniRKKrZ" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    <node concept="PrWs8" id="54zREDj8oSu" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC3js$" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="4E$PniRKKsf" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -76,8 +77,8 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4E$PniRKKrW" resolve="VariableDef" />
     </node>
-    <node concept="PrWs8" id="70kXLV5z8M7" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:70kXLV4LLzw" resolve="IReference" />
+    <node concept="PrWs8" id="54zREDj8oSq" role="PzmwI">
+      <ref role="PrY4T" to="v6ji:66D23jC7zeY" resolve="IReference" />
     </node>
   </node>
 </model>

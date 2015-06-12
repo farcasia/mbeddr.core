@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6dfc533c-9e3b-4d5e-b950-90f8ce29851b(com.mbeddr.doc.gen_xhtml.behavior)">
+<model ref="2dec0852-3a21-4c4e-a68c-b05236cc37f2/r:6dfc533c-9e3b-4d5e-b950-90f8ce29851b(com.mbeddr.doc.gen_xhtml/com.mbeddr.doc.gen_xhtml.behavior)">
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="t7at" ref="r:d4d8dc74-6f4e-4494-bacc-55342de185e1(jetbrains.mps.core.xml.behavior)" />
-    <import index="lsus" ref="r:25d6e7db-06a4-44ee-83aa-8c5bf17f3b3a(com.mbeddr.doc.gen_xhtml.structure)" implicit="true" />
+    <import index="t7at" ref="479c7a8c-02f9-43b5-9139-d910cb22f298/r:d4d8dc74-6f4e-4494-bacc-55342de185e1(jetbrains.mps.core.xml/jetbrains.mps.core.xml.behavior)" />
+    <import index="lsus" ref="2dec0852-3a21-4c4e-a68c-b05236cc37f2/r:25d6e7db-06a4-44ee-83aa-8c5bf17f3b3a(com.mbeddr.doc.gen_xhtml/com.mbeddr.doc.gen_xhtml.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">

@@ -20,10 +20,11 @@
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="nx1" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
     <import index="5xh9" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.actions(MPS.Platform/jetbrains.mps.ide.actions@java_stub)" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
+    <import index="uplv" ref="r:d1b2d3c7-0ecf-4fac-9278-71146d3d535c(com.mbeddr.mpsutil.pathAndFile.structure)" />
+    <import index="ig80" ref="r:6bc19ef2-309e-4b12-b22d-df3533476275(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="4gky" ref="r:e1dfab1d-c7a7-43e7-9f26-028afd483e82(com.mbeddr.doc.behavior)" implicit="true" />
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" implicit="true" />
+    <import index="4gky" ref="r:e1dfab1d-c7a7-43e7-9f26-028afd483e82(com.mbeddr.doc.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -1600,8 +1601,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="2Y27DzrvF82" role="2f5YQi">
-      <ref role="tU$_T" to="d244:53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
-      <ref role="2f8Tey" to="d244:53G_t0FcvgX" resolve="mbeddrPlatformEditorPopupExtensions" />
+      <ref role="tU$_T" to="ig80:66D23jC6bmS" resolve="mbeddrPlatformEditorPopupGroup" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bmV" resolve="mbeddrPlatformEditorPopupExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="627_yy3hjzE">
@@ -1631,12 +1632,12 @@
           <node concept="3cpWsn" id="627_yy3isYa" role="3cpWs9">
             <property role="TrG5h" value="w" />
             <node concept="3Tqbb2" id="627_yy3isY8" role="1tU5fm">
-              <ref role="ehGHo" to="2c95:627_yy34G1m" resolve="CodeRefWord" />
+              <ref role="ehGHo" to="2c95:627_yy34G1m" resolve="ModelContentRefWord" />
             </node>
             <node concept="2ShNRf" id="627_yy3isYb" role="33vP2m">
               <node concept="3zrR0B" id="627_yy3isYc" role="2ShVmc">
                 <node concept="3Tqbb2" id="627_yy3isYd" role="3zrR0E">
-                  <ref role="ehGHo" to="2c95:627_yy34G1m" resolve="CodeRefWord" />
+                  <ref role="ehGHo" to="2c95:627_yy34G1m" resolve="ModelContentRefWord" />
                 </node>
               </node>
             </node>
@@ -1769,12 +1770,12 @@
           <node concept="3cpWsn" id="4KbglN$U7c8" role="3cpWs9">
             <property role="TrG5h" value="w" />
             <node concept="3Tqbb2" id="4KbglN$U7c9" role="1tU5fm">
-              <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+              <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
             </node>
             <node concept="2ShNRf" id="4KbglN$U7ca" role="33vP2m">
               <node concept="3zrR0B" id="4KbglN$U7cb" role="2ShVmc">
                 <node concept="3Tqbb2" id="4KbglN$U7cc" role="3zrR0E">
-                  <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="CCodeParagraph" />
+                  <ref role="ehGHo" to="2c95:627_yy34G1i" resolve="ModelContentAsTextParagraph" />
                 </node>
               </node>
             </node>
@@ -1958,12 +1959,12 @@
           <node concept="3cpWsn" id="4KbglN$W6re" role="3cpWs9">
             <property role="TrG5h" value="w" />
             <node concept="3Tqbb2" id="4KbglN$W6rf" role="1tU5fm">
-              <ref role="ehGHo" to="2c95:627_yy34G1b" resolve="CCodeAsImageParagraph" />
+              <ref role="ehGHo" to="2c95:627_yy34G1b" resolve="ModelContentAsImageParagraph" />
             </node>
             <node concept="2ShNRf" id="4KbglN$W6rg" role="33vP2m">
               <node concept="2fJWfE" id="4KbglN$WIqT" role="2ShVmc">
                 <node concept="3Tqbb2" id="4KbglN$WIqV" role="3zrR0E">
-                  <ref role="ehGHo" to="2c95:627_yy34G1b" resolve="CCodeAsImageParagraph" />
+                  <ref role="ehGHo" to="2c95:627_yy34G1b" resolve="ModelContentAsImageParagraph" />
                 </node>
               </node>
             </node>
@@ -2219,9 +2220,9 @@
                     <node concept="2pIpSj" id="3$GaJTCV37r" role="2pJxcM">
                       <ref role="2pIpSl" to="2c95:2iGZqsHuOq2" />
                       <node concept="2pJPED" id="3$GaJTCV387" role="2pJxcZ">
-                        <ref role="2pJxaS" to="vs0r:2iGZqsHuOWj" resolve="SolutionRelativeDirPicker" />
+                        <ref role="2pJxaS" to="uplv:66D23jC0kgs" resolve="SolutionRelativeDirPicker" />
                         <node concept="2pJxcG" id="3$GaJTCV3m_" role="2pJxcM">
-                          <ref role="2pJxcJ" to="vs0r:5lKnBeAtODI" resolve="path" />
+                          <ref role="2pJxcJ" to="uplv:66D23jC0kgj" resolve="path" />
                           <node concept="Xl_RD" id="3$GaJTCV3n5" role="2pJxcZ">
                             <property role="Xl_RC" value="temp" />
                           </node>
@@ -2396,8 +2397,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="3$GaJTCVkrE" role="2f5YQi">
-      <ref role="tU$_T" to="d244:goNQ8fyUy3" resolve="mbeddrPlatformWizards" />
-      <ref role="2f8Tey" to="d244:goNQ8fyUy5" resolve="mbeddrPlatformWizards" />
+      <ref role="tU$_T" to="ig80:66D23jC6bnd" resolve="mbeddrPlatformWizards" />
+      <ref role="2f8Tey" to="ig80:66D23jC6bnf" resolve="mbeddrPlatformWizards" />
     </node>
   </node>
 </model>
