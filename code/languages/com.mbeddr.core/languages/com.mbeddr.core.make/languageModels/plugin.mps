@@ -26,10 +26,12 @@
     <import index="51te" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.extapi.model(MPS.Core/jetbrains.mps.extapi.model@java_stub)" />
     <import index="i2y7" ref="r:098cbe90-1cfd-414a-b5e8-aca28752df17(com.mbeddr.core.make.structure)" />
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <import index="yo81" ref="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)" />
+    <import index="x3yd" ref="r:35144171-bbda-419f-9015-4d1f075e1db4(com.mbeddr.core.runconfiguration.pluginSolution.plugin)" />
+    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="vog7" ref="r:eaa106c6-4c8f-4807-a686-9c6a09ced82c(com.mbeddr.core.make.behavior)" />
     <import index="kqhl" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project.structure.modules(MPS.Core/jetbrains.mps.project.structure.modules@java_stub)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="y5px" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator(MPS.Core/jetbrains.mps.generator@java_stub)" implicit="true" />
-    <import index="vog7" ref="r:eaa106c6-4c8f-4807-a686-9c6a09ced82c(com.mbeddr.core.make.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -265,6 +267,7 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
@@ -484,11 +487,11 @@
                       <node concept="3clFbF" id="bq6A3e6kCw" role="3cqZAp">
                         <node concept="2OqwBi" id="bq6A3e6kCB" role="3clFbG">
                           <node concept="2OqwBi" id="bq6A3e6kCy" role="2Oq$k0">
-                            <node concept="37vLTw" id="5HxjapwgH1A" role="2Oq$k0">
-                              <ref role="3cqZAo" node="bq6A3e6jgf" resolve="res" />
-                            </node>
                             <node concept="2sxana" id="bq6A3e6kCA" role="2OqNvi">
                               <ref role="2sxfKC" to="fn29:1Xl3kQ1uadN" resolve="models" />
+                            </node>
+                            <node concept="37vLTw" id="5HxjapwgH1A" role="2Oq$k0">
+                              <ref role="3cqZAo" node="bq6A3e6jgf" resolve="res" />
                             </node>
                           </node>
                           <node concept="2es0OD" id="bq6A3e6kCF" role="2OqNvi">
@@ -572,6 +575,43 @@
                                       <ref role="ehGHo" to="i2y7:3s1LyzGeK9o" resolve="IMakePathProvider" />
                                     </node>
                                     <node concept="10Nm6u" id="3s1LyzGlv21" role="33vP2m" />
+                                  </node>
+                                </node>
+                                <node concept="3clFbJ" id="6u9b70KZ2Eu" role="3cqZAp">
+                                  <node concept="3clFbS" id="6u9b70KZ2Ew" role="3clFbx">
+                                    <node concept="3clFbF" id="6u9b70KXYN6" role="3cqZAp">
+                                      <node concept="37vLTI" id="6u9b70KY06a" role="3clFbG">
+                                        <node concept="1aIXbY" id="6u9b70KXYN2" role="37vLTJ">
+                                          <node concept="1aIXbZ" id="6u9b70KXYN1" role="2Oq$k0" />
+                                          <node concept="2sxana" id="6u9b70KXYN5" role="2OqNvi">
+                                            <ref role="2sxfKC" node="6u9b70KWW8z" resolve="targetToInvoke" />
+                                          </node>
+                                        </node>
+                                        <node concept="2OqwBi" id="6u9b70KZxWG" role="37vLTx">
+                                          <node concept="1eOMI4" id="6u9b70KZx7L" role="2Oq$k0">
+                                            <node concept="10QFUN" id="6u9b70KZvLR" role="1eOMHV">
+                                              <node concept="37vLTw" id="6u9b70KZxy9" role="10QFUP">
+                                                <ref role="3cqZAo" node="bq6A3e6jgc" resolve="inpt" />
+                                              </node>
+                                              <node concept="3uibUv" id="6u9b70KZwfG" role="10QFUM">
+                                                <ref role="3uigEE" node="6u9b70KjWXk" resolve="IExecuteSpecificTargetOnMResource" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="6u9b70KZyDN" role="2OqNvi">
+                                            <ref role="37wK5l" node="6u9b70Kl0US" resolve="getTargetToExecute" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="2ZW3vV" id="6u9b70KZ1v3" role="3clFbw">
+                                    <node concept="3uibUv" id="6u9b70KZ1WB" role="2ZW6by">
+                                      <ref role="3uigEE" node="6u9b70KjWXk" resolve="IExecuteSpecificTargetOnMResource" />
+                                    </node>
+                                    <node concept="37vLTw" id="6u9b70KYX94" role="2ZW6bz">
+                                      <ref role="3cqZAo" node="bq6A3e6jgc" resolve="inpt" />
+                                    </node>
                                   </node>
                                 </node>
                                 <node concept="1QHqEK" id="3s1LyzGlw3V" role="3cqZAp">
@@ -683,6 +723,11 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="2lGYhJ" id="6u9b70KWW8z" role="2pHZQ9">
+          <property role="3dDGau" value="false" />
+          <property role="TrG5h" value="targetToInvoke" />
+          <node concept="17QB3L" id="6u9b70KWX0F" role="2lK19J" />
         </node>
       </node>
     </node>
@@ -938,11 +983,61 @@
                         <node concept="3uibUv" id="5zgShfbCz4I" role="1tU5fm">
                           <ref role="3uigEE" to="e2lb:~ProcessBuilder" resolve="ProcessBuilder" />
                         </node>
-                        <node concept="2ShNRf" id="5zgShfbCz4J" role="33vP2m">
-                          <node concept="1pGfFk" id="5zgShfbCz4K" role="2ShVmc">
-                            <ref role="37wK5l" to="e2lb:~ProcessBuilder.&lt;init&gt;(java.lang.String...)" resolve="ProcessBuilder" />
-                            <node concept="37vLTw" id="3s1LyzGrtxC" role="37wK5m">
-                              <ref role="3cqZAo" node="3s1LyzGriHV" resolve="pathToMake" />
+                        <node concept="10Nm6u" id="3mb2T8bX$Gb" role="33vP2m" />
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="3mb2T8bXvb9" role="3cqZAp">
+                      <node concept="3clFbS" id="3mb2T8bXvbb" role="3clFbx">
+                        <node concept="3clFbF" id="3mb2T8bXABH" role="3cqZAp">
+                          <node concept="37vLTI" id="3mb2T8bXAC9" role="3clFbG">
+                            <node concept="37vLTw" id="3mb2T8bXABF" role="37vLTJ">
+                              <ref role="3cqZAo" node="5zgShfbCz4H" resolve="pb" />
+                            </node>
+                            <node concept="2ShNRf" id="5zgShfbCz4J" role="37vLTx">
+                              <node concept="1pGfFk" id="5zgShfbCz4K" role="2ShVmc">
+                                <ref role="37wK5l" to="e2lb:~ProcessBuilder.&lt;init&gt;(java.lang.String...)" resolve="ProcessBuilder" />
+                                <node concept="37vLTw" id="3s1LyzGrtxC" role="37wK5m">
+                                  <ref role="3cqZAo" node="3s1LyzGriHV" resolve="pathToMake" />
+                                </node>
+                                <node concept="2bn25q" id="3mb2T8bXAZE" role="37wK5m">
+                                  <node concept="2bn25r" id="3mb2T8bXAZF" role="2Oq$k0">
+                                    <ref role="2bn25l" node="bq6A3e6cTK" resolve="collectPathes" />
+                                  </node>
+                                  <node concept="2sxana" id="3mb2T8bXAZG" role="2OqNvi">
+                                    <ref role="2sxfKC" node="6u9b70KWW8z" resolve="targetToInvoke" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3y3z36" id="3mb2T8bXxaX" role="3clFbw">
+                        <node concept="2bn25q" id="3mb2T8bXvC4" role="3uHU7B">
+                          <node concept="2bn25r" id="3mb2T8bXvC2" role="2Oq$k0">
+                            <ref role="2bn25l" node="bq6A3e6cTK" resolve="collectPathes" />
+                          </node>
+                          <node concept="2sxana" id="3mb2T8bXvC3" role="2OqNvi">
+                            <ref role="2sxfKC" node="6u9b70KWW8z" resolve="targetToInvoke" />
+                          </node>
+                        </node>
+                        <node concept="10Nm6u" id="3mb2T8bXx5O" role="3uHU7w" />
+                      </node>
+                      <node concept="9aQIb" id="3mb2T8bXxgs" role="9aQIa">
+                        <node concept="3clFbS" id="3mb2T8bXxgt" role="9aQI4">
+                          <node concept="3clFbF" id="3mb2T8bXALh" role="3cqZAp">
+                            <node concept="37vLTI" id="3mb2T8bXALi" role="3clFbG">
+                              <node concept="37vLTw" id="3mb2T8bXALj" role="37vLTJ">
+                                <ref role="3cqZAo" node="5zgShfbCz4H" resolve="pb" />
+                              </node>
+                              <node concept="2ShNRf" id="3mb2T8bXALk" role="37vLTx">
+                                <node concept="1pGfFk" id="3mb2T8bXALl" role="2ShVmc">
+                                  <ref role="37wK5l" to="e2lb:~ProcessBuilder.&lt;init&gt;(java.lang.String...)" resolve="ProcessBuilder" />
+                                  <node concept="37vLTw" id="3mb2T8bXALm" role="37wK5m">
+                                    <ref role="3cqZAo" node="3s1LyzGriHV" resolve="pathToMake" />
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -3119,6 +3214,20 @@
     <node concept="2tJIrI" id="1dvvq0Z5uUm" role="jymVt" />
     <node concept="2tJIrI" id="1dvvq0Z5uUt" role="jymVt" />
     <node concept="3Tm1VV" id="1dvvq0Z5uU2" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="6u9b70KjWXk">
+    <property role="TrG5h" value="IExecuteSpecificTargetOnMResource" />
+    <node concept="3clFb_" id="6u9b70Kl0US" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getTargetToExecute" />
+      <node concept="17QB3L" id="6u9b70KJDVf" role="3clF45" />
+      <node concept="3Tm1VV" id="6u9b70Kl0UV" role="1B3o_S" />
+      <node concept="3clFbS" id="6u9b70Kl0UW" role="3clF47" />
+      <node concept="2AHcQZ" id="6u9b70KJDVu" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="6u9b70KjWXl" role="1B3o_S" />
   </node>
 </model>
 
