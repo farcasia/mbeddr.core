@@ -11,6 +11,8 @@
     <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="f51m" ref="r:19b7b05f-dbd5-4092-a914-d308e39e428f(com.mbeddr.mpsutil.paragraph.structure)" />
     <import index="c9ir" ref="r:6c0adec9-f600-4822-be96-08f45bb1ef2c(com.mbeddr.mpsutil.ideEnhancement.structure)" />
+    <import index="f3vd" ref="r:611f14fe-4279-44db-8c4d-7ce73d2fba9b(com.mbeddr.mpsutil.externalReference.structure)" />
+    <import index="m1h3" ref="r:49c7d5e8-b972-4c96-bf1a-d592531ec21b(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -287,6 +289,44 @@
     <node concept="1TJgyi" id="66D23jBKIgG" role="1TKVEl">
       <property role="TrG5h" value="data" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="50hCaSyrAjM">
+    <property role="3GE5qa" value="exref" />
+    <property role="TrG5h" value="CheckHashAssessmentQuery" />
+    <property role="34LRSv" value="check external references" />
+    <ref role="1TJDcQ" node="66D23jBKIgp" resolve="AssessmentQuery" />
+  </node>
+  <node concept="1TIwiD" id="50hCaSyrAjN">
+    <property role="3GE5qa" value="exref" />
+    <property role="TrG5h" value="CheckHashAssessmentResult" />
+    <ref role="1TJDcQ" node="66D23jBKIgq" resolve="AssessmentResult" />
+    <node concept="1TJgyi" id="50hCaSyrAjO" role="1TKVEl">
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" to="f3vd:66D23jC0ddJ" resolve="ResultKind" />
+    </node>
+    <node concept="1TJgyj" id="50hCaSyrAjP" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="exref" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="f3vd:66D23jC0ddF" resolve="IExtRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24No0XnuWnC">
+    <property role="3GE5qa" value="controlledName" />
+    <property role="TrG5h" value="ControlledNameAssQuery" />
+    <property role="34LRSv" value="controlled names with own names" />
+    <ref role="1TJDcQ" node="66D23jBKIgp" resolve="AssessmentQuery" />
+  </node>
+  <node concept="1TIwiD" id="24No0XnuWnD">
+    <property role="3GE5qa" value="controlledName" />
+    <property role="TrG5h" value="ControlledNameAssResult" />
+    <ref role="1TJDcQ" node="66D23jBKIgq" resolve="AssessmentResult" />
+    <node concept="1TJgyj" id="24No0XnuWnE" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="cnc" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="m1h3:66D23jBZN3A" resolve="IControlledNamedConcept" />
     </node>
   </node>
 </model>

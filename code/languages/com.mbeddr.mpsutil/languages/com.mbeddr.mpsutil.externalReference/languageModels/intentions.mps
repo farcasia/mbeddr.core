@@ -44,61 +44,13 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
-      <concept id="1140133623887" name="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation" flags="nn" index="1PgB_6" />
-      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
-        <reference id="1138056516764" name="link" index="3Tt5mk" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
-  <node concept="2S6QgY" id="66D23jC0ibl">
-    <property role="3GE5qa" value="exref" />
-    <property role="TrG5h" value="updateHashForAssessmentResult" />
-    <ref role="2ZfgGC" to="f3vd:66D23jC0ddC" resolve="CheckHashAssessmentResult" />
-    <node concept="2S6ZIM" id="66D23jC0ibm" role="2ZfVej">
-      <node concept="3clFbS" id="66D23jC0ibn" role="2VODD2">
-        <node concept="3clFbF" id="66D23jC0ibo" role="3cqZAp">
-          <node concept="Xl_RD" id="66D23jC0ibp" role="3clFbG">
-            <property role="Xl_RC" value="Update External Reference" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="66D23jC0ibq" role="2ZfgGD">
-      <node concept="3clFbS" id="66D23jC0ibr" role="2VODD2">
-        <node concept="3clFbF" id="66D23jC0ibs" role="3cqZAp">
-          <node concept="2OqwBi" id="66D23jC0ibt" role="3clFbG">
-            <node concept="2OqwBi" id="66D23jC0ibu" role="2Oq$k0">
-              <node concept="2Sf5sV" id="66D23jC0ibv" role="2Oq$k0" />
-              <node concept="3TrEf2" id="66D23jC0ibw" role="2OqNvi">
-                <ref role="3Tt5mk" to="f3vd:66D23jC0ddE" />
-              </node>
-            </node>
-            <node concept="2qgKlT" id="66D23jC0ibx" role="2OqNvi">
-              <ref role="37wK5l" to="errz:66D23jC0hbx" resolve="update" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="66D23jC0iby" role="3cqZAp">
-          <node concept="2OqwBi" id="66D23jC0ibz" role="3clFbG">
-            <node concept="2OqwBi" id="66D23jC0ib$" role="2Oq$k0">
-              <node concept="2Sf5sV" id="66D23jC0ib_" role="2Oq$k0" />
-              <node concept="1mfA1w" id="66D23jC0ibA" role="2OqNvi" />
-            </node>
-            <node concept="1PgB_6" id="66D23jC0ibB" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="2S6QgY" id="2JUQ7aepOkO">
     <property role="TrG5h" value="updateHashForIExtRef" />
     <ref role="2ZfgGC" to="f3vd:66D23jC0ddF" resolve="IExtRef" />

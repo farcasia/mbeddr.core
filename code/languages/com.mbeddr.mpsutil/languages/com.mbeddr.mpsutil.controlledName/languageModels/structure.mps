@@ -6,7 +6,6 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="5vfd" ref="r:0c2e4b65-88f2-4040-962b-35eed850c792(com.mbeddr.mpsutil.assessment.structure)" />
     <import index="v6ji" ref="r:50faf963-78de-4001-b6e7-eda5975ba519(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -20,7 +19,6 @@
         <child id="7588428831947959310" name="attributed" index="EQaZv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
-        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -53,23 +51,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="66D23jBZN3r">
-    <property role="3GE5qa" value="controlledName" />
-    <property role="TrG5h" value="ControlledNameAssQuery" />
-    <property role="34LRSv" value="controlled names with own names" />
-    <ref role="1TJDcQ" to="5vfd:66D23jBKIgp" resolve="AssessmentQuery" />
-  </node>
-  <node concept="1TIwiD" id="66D23jBZN3s">
-    <property role="3GE5qa" value="controlledName" />
-    <property role="TrG5h" value="ControlledNameAssResult" />
-    <ref role="1TJDcQ" to="5vfd:66D23jBKIgq" resolve="AssessmentResult" />
-    <node concept="1TJgyj" id="66D23jBZN3t" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="cnc" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="66D23jBZN3A" resolve="IControlledNamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="66D23jBZN3u">
     <property role="3GE5qa" value="controlledName" />
     <property role="TrG5h" value="ControlledNameAttribute" />
