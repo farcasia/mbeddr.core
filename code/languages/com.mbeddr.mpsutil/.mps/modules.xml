@@ -3,7 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/com.mbeddr.commenting.devkit" folder="margincell_review" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.assessment/com.mbeddr.mpsutil.assessment.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.assessment/com.mbeddr.mpsutil.assessment.mpl" folder="base.assessment" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.bldoc/com.mbeddr.mpsutil.bldoc.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.blutil/blutil.mpl" folder="blutil" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.blutil/solutions/com.mbeddr.mpsutil.blutil.rt.msd" folder="blutil" />
@@ -11,7 +11,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.breadcrumb/com.mbeddr.mpsutil.breadcrumb.mpl" folder="breadcrumb" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.buildutil/com.mbeddr.mpsutil.buildutil.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.chunk/com.mbeddr.mpsutil.chunk.mpl" folder="base" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.codereview/com.mbeddr.mpsutil.codereview.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.codereview/com.mbeddr.mpsutil.codereview.mpl" folder="base.codereview" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.commentable/com.mbeddr.mpsutil.commentable.mpl" folder="base.commentable" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.compare/compare.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.configItem/com.mbeddr.mpsutil.configItem.mpl" folder="base" />
@@ -19,7 +19,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.controlledName/com.mbeddr.mpsutil.controlledName.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.datepicker.sandbox/com.mbeddr.mpsutil.datepicker.sandbox.mpl" folder="datePicker" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.datepicker/com.mbeddr.mpsutil.datepicker.mpl" folder="datePicker" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.documentable/com.mbeddr.mpsutil.documentable.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.documentable/com.mbeddr.mpsutil.documentable.mpl" folder="base.documentable" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.querylist.demolang/com.mbeddr.mpsutil.editor.querylist.demolang.mpl" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.editor.querylist/com.mbeddr.mpsutil.editor.querylist.mpl" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.emf.rt/com.mbeddr.mpsutil.emf.rt.msd" folder="emf" />
@@ -29,7 +29,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.genutil/genutil.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.httpsupport/com.mbeddr.mpsutil.httpsupport.mpl" folder="httpSupport" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.hyperlink/com.mbeddr.mpsutil.hyperlink.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.ideEnhancement/com.mbeddr.mpsutil.ideEnhancement.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.ideEnhancement/com.mbeddr.mpsutil.ideEnhancement.mpl" folder="base.ideEnhancement" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.interpreter.test/com.mbeddr.mpsutil.interpreter.test.mpl" folder="interpreter" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.interpreter/com.mbeddr.mpsutil.interpreter.mpl" folder="interpreter" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.interpreter/runtime/com.mbeddr.mpsutil.interpreter.runtime.msd" folder="interpreter" />
@@ -54,9 +54,9 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.paragraph/com.mbeddr.mpsutil.paragraph.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.pathAndFile/com.mbeddr.mpsutil.pathAndFile.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.mpl" folder="plantuml" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.platform/com.mbeddr.mpsutil.platform.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.platform/com.mbeddr.mpsutil.platform.mpl" folder="base.platform" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.preferenceform/com.mbeddr.mpsutil.preferenceform.mpl" folder="preferenceform" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.presentationMode/com.mbeddr.mpsutil.presentationMode.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.presentationMode/com.mbeddr.mpsutil.presentationMode.mpl" folder="base.presentationMode" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.propertydefault/com.mbeddr.mpsutil.propertydefault.mpl" folder="propertydefault" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.refactoring.rt/rt.msd" folder="refactoring" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.refactoring/refactoring.mpl" folder="refactoring" />
@@ -65,10 +65,10 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.review/com.mbeddr.mpsutil.review.mpl" folder="margincell_review" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.richstring/com.mbeddr.mpsutil.richstring.mpl" folder="richstring" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.runconfiguration/com.mbeddr.mpsutil.runconfiguration.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.search/com.mbeddr.mpsutil.search.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.search/com.mbeddr.mpsutil.search.mpl" folder="base.search" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.spreferences.context/com.mbeddr.mpsutil.spreferences.context.mpl" folder="spreferences" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.spreferences/com.mbeddr.mpsutil.spreferences.mpl" folder="spreferences" />
-      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.tree/com.mbeddr.mpsutil.tree.mpl" folder="base" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.tree/com.mbeddr.mpsutil.tree.mpl" folder="base.tree" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.typsystem.trace/com.mbeddr.mpsutil.typsystem.trace.mpl" folder="typesystem.trace" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.uniquenames/com.mbeddr.mpsutil.uniquenames.mpl" folder="uniqueNames" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.valueDebugger/com.mbeddr.mpsutil.valueDebugger.mpl" folder="base" />
