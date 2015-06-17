@@ -28,9 +28,6 @@
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
     </language>
-    <language id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone">
-      <concept id="7520713872864775836" name="jetbrains.mps.lang.plugin.standalone.structure.StandalonePluginDescriptor" flags="ng" index="2DaZZR" />
-    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -44,6 +41,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -145,6 +145,12 @@
         <reference id="5615086488402976569" name="preferencePage" index="9Hxhg" />
         <child id="5615086488402986988" name="module" index="9HWM5" />
       </concept>
+      <concept id="5299504751977339944" name="com.mbeddr.mpsutil.spreferences.structure.Parameter_IsInit" flags="ng" index="U$gdm" />
+      <concept id="6044976435766352430" name="com.mbeddr.mpsutil.spreferences.structure.InitPageNode" flags="ig" index="U$sw$" />
+      <concept id="6547806146467473938" name="com.mbeddr.mpsutil.spreferences.structure.PreferencePageDescription" flags="ng" index="30z_3H">
+        <reference id="6547806146467491221" name="rootConcept" index="30zxtE" />
+        <child id="6044976435766357656" name="initFunction" index="U$vMi" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -154,7 +160,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
     </language>
   </registry>
-  <node concept="2DaZZR" id="7TKfdqdYW5E" />
   <node concept="312cEu" id="7TKfdqdYXqA">
     <property role="3GE5qa" value="codereview" />
     <property role="TrG5h" value="CodeReviewProvider" />
@@ -194,7 +199,7 @@
             <node concept="2OqwBi" id="7TKfdqdYXqR" role="3clFbG">
               <node concept="2OqwBi" id="7TKfdqdYXqS" role="2Oq$k0">
                 <node concept="9H$SH" id="7TKfdqdYXqT" role="2Oq$k0">
-                  <ref role="9Hxhg" to="qjdu:4lLcfuhScHr" resolve="Code Review Preferences" />
+                  <ref role="9Hxhg" node="7TKfdqe68ef" resolve="Code Review Preferences" />
                   <node concept="2OqwBi" id="7TKfdqdYXqU" role="9HWM5">
                     <node concept="2OqwBi" id="7TKfdqdYXqV" role="2Oq$k0">
                       <node concept="37vLTw" id="7TKfdqdYXqW" role="2Oq$k0">
@@ -284,6 +289,18 @@
     <node concept="tT9cl" id="7TKfdqdYXrr" role="2hfP89">
       <ref role="tU$_T" to="2tui:7TKfdqdXb0E" resolve="mbeddrPlatformProjectionModeGroup" />
       <ref role="2f8Tey" to="2tui:7TKfdqdXb0G" resolve="mbeddrPlatformProjectionModes" />
+    </node>
+  </node>
+  <node concept="30z_3H" id="7TKfdqe68ef">
+    <property role="TrG5h" value="Code Review Preferences" />
+    <ref role="30zxtE" to="g6wb:1SzZzyB_YfS" resolve="CodeReviewConfig" />
+    <node concept="U$sw$" id="7TKfdqe68eg" role="U$vMi">
+      <node concept="3clFbS" id="7TKfdqe68eh" role="2VODD2">
+        <node concept="3clFbJ" id="7TKfdqe68ei" role="3cqZAp">
+          <node concept="3clFbS" id="7TKfdqe68ej" role="3clFbx" />
+          <node concept="U$gdm" id="7TKfdqe68ek" role="3clFbw" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

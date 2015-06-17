@@ -7,7 +7,6 @@
   </models>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</dependency>
     <dependency reexport="false">18999642-10b3-43ff-bf94-d6ea7ee64fe8(com.mbeddr.mpsutil.codereview)</dependency>
     <dependency reexport="false">dbd01f1f-9071-44eb-995e-775f0f308135(com.mbeddr.mpsutil.chunk)</dependency>
     <dependency reexport="false">cb3ed6d5-2296-4bab-831f-14ce5cb7209f(com.mbeddr.mpsutil.platform.pluginSolution)</dependency>
