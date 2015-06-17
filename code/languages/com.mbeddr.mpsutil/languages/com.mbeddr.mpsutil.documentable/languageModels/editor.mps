@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
-    <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="gfgu" ref="r:4080e295-b8b9-4a0d-a15d-9a189c23b5ce(com.mbeddr.mpsutil.paragraph.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>

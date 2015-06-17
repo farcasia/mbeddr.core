@@ -8,7 +8,6 @@
   <imports>
     <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
     <import index="dieh" ref="r:164854dd-6f40-455c-9bd3-2427b8abb0cf(com.mbeddr.mpsutil.assessment.structure)" />
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="rf8p" ref="r:0fdb109c-527d-46e7-a2f8-602e47a0c9bc(com.mbeddr.mpsutil.assessment.behavior)" implicit="true" />
   </imports>
   <registry>
