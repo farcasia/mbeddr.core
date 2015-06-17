@@ -17,6 +17,8 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -476,7 +478,7 @@
                     <ref role="2Gs0qQ" node="3ZdGyCQXLtR" resolve="cna" />
                   </node>
                   <node concept="2qgKlT" id="3ZdGyCQXLtY" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:2tP2JaaH8i3" resolve="effectiveName" />
+                    <ref role="37wK5l" to="2mtg:1SzZzyB$cUB" resolve="effectiveName" />
                   </node>
                 </node>
               </node>
@@ -485,10 +487,10 @@
               <node concept="3cpWsn" id="3ZdGyCQXLu0" role="3cpWs9">
                 <property role="TrG5h" value="cnc" />
                 <node concept="3Tqbb2" id="3ZdGyCQXLu1" role="1tU5fm">
-                  <ref role="ehGHo" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+                  <ref role="ehGHo" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
                 </node>
                 <node concept="1PxgMI" id="3ZdGyCQXLu2" role="33vP2m">
-                  <ref role="1PxNhF" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+                  <ref role="1PxNhF" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
                   <node concept="2OqwBi" id="3ZdGyCQXLu3" role="1PxMeX">
                     <node concept="2GrUjf" id="3ZdGyCQXLu4" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="3ZdGyCQXLtR" resolve="cna" />
@@ -504,7 +506,7 @@
                   <ref role="2Gs0qQ" node="3ZdGyCQXLtR" resolve="cna" />
                 </node>
                 <node concept="2qgKlT" id="5oJ9AK5FhUn" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:5oJ9AK5Fdpm" resolve="genHandleDeletion" />
+                  <ref role="37wK5l" to="2mtg:1SzZzyB$cV7" resolve="genHandleDeletion" />
                   <node concept="37vLTw" id="5oJ9AK5FhXF" role="37wK5m">
                     <ref role="3cqZAo" node="3ZdGyCQXLu0" resolve="cnc" />
                   </node>
@@ -538,7 +540,7 @@
           <node concept="2OqwBi" id="3ZdGyCQXLug" role="2GsD0m">
             <node concept="1Q6Npb" id="3ZdGyCQXLuh" role="2Oq$k0" />
             <node concept="2SmgA7" id="3ZdGyCQXLui" role="2OqNvi">
-              <ref role="2SmgA8" to="vs0r:2GIWVTRHgNL" resolve="ControlledNameAttribute" />
+              <ref role="2SmgA8" to="n4qw:1SzZzyB$cOg" resolve="ControlledNameAttribute" />
             </node>
           </node>
         </node>

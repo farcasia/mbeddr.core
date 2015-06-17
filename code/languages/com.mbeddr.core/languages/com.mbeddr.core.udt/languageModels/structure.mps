@@ -14,6 +14,7 @@
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -150,7 +151,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="IrwlmWyJ33" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cO_" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="2ofiXe_tTI6" role="PzmwI">
       <ref role="PrY4T" to="x27k:2ofiXe_tTHX" resolve="ICanMangleNames" />
@@ -248,7 +249,7 @@
       <ref role="PrY4T" to="c4fa:4Ixybz5aK1O" resolve="IValueLike" />
     </node>
     <node concept="PrWs8" id="2tP2Jab8eO9" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="56ytRgsLodU">
@@ -296,7 +297,7 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="7TdHRrCvnnh" resolve="SUContent" />
     <node concept="PrWs8" id="6a5SBPfXGBS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cO_" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="6brBMefRP3m" role="PzmwI">
       <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />

@@ -44,6 +44,7 @@
     <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -4773,7 +4774,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getUniquelyNamedElements" />
-      <ref role="13i0hy" to="hwgx:4qSf1u1TRfj" resolve="getUniquelyNamedElements" />
+      <ref role="13i0hy" to="2mtg:1SzZzyB$cSt" resolve="getUniquelyNamedElements" />
       <node concept="3Tm1VV" id="6A4xWqfT6__" role="1B3o_S" />
       <node concept="3clFbS" id="6A4xWqfT6_A" role="3clF47">
         <node concept="3cpWs8" id="3U3EZ$DPgzj" role="3cqZAp">
@@ -5819,7 +5820,7 @@
     </node>
     <node concept="13i0hz" id="2wGmDEJGTKu" role="13h7CS">
       <property role="TrG5h" value="getUniquelyNamedElements" />
-      <ref role="13i0hy" to="hwgx:4qSf1u1TRfj" resolve="getUniquelyNamedElements" />
+      <ref role="13i0hy" to="2mtg:1SzZzyB$cSt" resolve="getUniquelyNamedElements" />
       <node concept="3clFbS" id="2wGmDEJGTKx" role="3clF47">
         <node concept="3clFbF" id="2wGmDEJH1G0" role="3cqZAp">
           <node concept="2OqwBi" id="2wGmDEJHdpp" role="3clFbG">
@@ -13360,7 +13361,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getUniquelyNamedElements" />
-      <ref role="13i0hy" to="hwgx:4qSf1u1TRfj" resolve="getUniquelyNamedElements" />
+      <ref role="13i0hy" to="2mtg:1SzZzyB$cSt" resolve="getUniquelyNamedElements" />
       <node concept="3Tm1VV" id="1frRXyHDna5" role="1B3o_S" />
       <node concept="3clFbS" id="1frRXyHDna9" role="3clF47">
         <node concept="3clFbF" id="1frRXyHDpew" role="3cqZAp">
@@ -13858,7 +13859,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getUniquelyNamedElements" />
-      <ref role="13i0hy" to="hwgx:4qSf1u1TRfj" resolve="getUniquelyNamedElements" />
+      <ref role="13i0hy" to="2mtg:1SzZzyB$cSt" resolve="getUniquelyNamedElements" />
       <node concept="3Tm1VV" id="1PvAkX2u37A" role="1B3o_S" />
       <node concept="3clFbS" id="1PvAkX2u37B" role="3clF47">
         <node concept="3cpWs6" id="1PvAkX2u37E" role="3cqZAp">

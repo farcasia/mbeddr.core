@@ -46,6 +46,7 @@
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -5203,7 +5204,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="constantsOnly" />
-      <ref role="13i0hy" to="hwgx:2tP2Jab4RYq" resolve="constantsOnly" />
+      <ref role="13i0hy" to="2mtg:1SzZzyB$cTE" resolve="constantsOnly" />
       <node concept="3Tm1VV" id="2tP2Jab4SqX" role="1B3o_S" />
       <node concept="3clFbS" id="2tP2Jab4Sr2" role="3clF47">
         <node concept="3clFbF" id="2tP2Jab4TS4" role="3cqZAp">
@@ -7239,7 +7240,7 @@
     </node>
     <node concept="13i0hz" id="4qSf1u1Vs0E" role="13h7CS">
       <property role="TrG5h" value="getUniquelyNamedElements" />
-      <ref role="13i0hy" to="hwgx:4qSf1u1TRfj" resolve="getUniquelyNamedElements" />
+      <ref role="13i0hy" to="2mtg:1SzZzyB$cSt" resolve="getUniquelyNamedElements" />
       <node concept="3clFbS" id="4qSf1u1Vs0H" role="3clF47">
         <node concept="3cpWs6" id="4qSf1u1Vs0L" role="3cqZAp">
           <node concept="2OqwBi" id="4qSf1u1Vs0V" role="3cqZAk">

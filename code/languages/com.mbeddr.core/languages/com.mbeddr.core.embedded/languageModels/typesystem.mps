@@ -12,6 +12,8 @@
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -868,10 +870,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCqk8Q" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCqk2Y" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCqkpY" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCqMVO" role="37wK5m">
               <ref role="1YBMHb" node="5W7baq$62P9" resolve="assignmentExpr" />
             </node>

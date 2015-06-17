@@ -19,6 +19,7 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -389,7 +390,7 @@
       <ref role="PrY4T" node="5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="4k0bDztzd$w" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
     </node>
     <node concept="PrWs8" id="5Oog2UbPwj5" role="PzmwI">
       <ref role="PrY4T" node="5Oog2UbPmsI" resolve="IExternable" />
@@ -445,7 +446,7 @@
       <ref role="PrY4T" node="2ofiXe_tTHX" resolve="ICanMangleNames" />
     </node>
     <node concept="PrWs8" id="2tP2JaaUkdw" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5IYyAOzCwFE">
@@ -617,7 +618,7 @@
       <ref role="PrY4T" to="mj1l:6mfXVgRsmwb" resolve="IVoidTypeContainer" />
     </node>
     <node concept="PrWs8" id="4qSf1u1Vs1s" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cO_" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="1DVNPtFQl$H" role="PrDN$">
       <ref role="PrY4T" to="m3g7:1SzZzyBvwuI" resolve="IShowUpInOutline" />
@@ -685,7 +686,7 @@
       <ref role="20lvS9" node="L2WnbQO1DI" resolve="ArgumentKindContainer" />
     </node>
     <node concept="PrWs8" id="4k0bDztzB$z" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
     </node>
     <node concept="PrWs8" id="4WTYg$PM6TH" role="PrDN$">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -989,7 +990,7 @@
       <ref role="PrY4T" node="5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="2VsHNE70LB7" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7uYRIghZq9c" resolve="INameAllUpperCase" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cOv" resolve="INameAllUpperCase" />
     </node>
     <node concept="PrWs8" id="2VsHNE70LB8" role="PzmwI">
       <ref role="PrY4T" to="mj1l:7oI7FI6oqPw" resolve="IInitializationContext" />

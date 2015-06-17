@@ -25,6 +25,8 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -4687,10 +4689,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCD9U5" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCD9U6" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCD9U7" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCDalR" role="37wK5m">
               <ref role="1YBMHb" node="57eqSrvw6ie" resolve="ic" />
             </node>
@@ -5097,10 +5099,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCCTzL" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCCTtT" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCCTOT" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCD9AR" role="37wK5m">
               <ref role="1YBMHb" node="3PT6Z48IMC4" resolve="irc" />
             </node>

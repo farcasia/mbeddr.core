@@ -17,6 +17,7 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -96,27 +97,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3R$6B6bKw0C" resolve="IConfigurationItem" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="7uYRIghZpWq">
-    <property role="TrG5h" value="INameFirstCharLowerCase" />
-    <node concept="PrWs8" id="7uYRIghZpWr" role="PrDN$">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7uYRIghZq9a">
-    <property role="TrG5h" value="INameFirstCharUpperCase" />
-    <node concept="PrWs8" id="7uYRIghZq9b" role="PrDN$">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7uYRIghZq9c">
-    <property role="TrG5h" value="INameAllUpperCase" />
-    <node concept="PrWs8" id="7uYRIghZq9d" role="PrDN$">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="4qSf1u1TQeO">
-    <property role="TrG5h" value="IContainerOfUniqueNames" />
   </node>
   <node concept="PlHQZ" id="4qSf1u208SI">
     <property role="3GE5qa" value="config" />
@@ -347,46 +327,6 @@
   <node concept="PlHQZ" id="7RHXOmw3XK2">
     <property role="TrG5h" value="IRequiresHeaderImport" />
   </node>
-  <node concept="PlHQZ" id="2GIWVTRH8Wo">
-    <property role="TrG5h" value="IControlledNamedConcept" />
-    <property role="3GE5qa" value="controlledName" />
-    <node concept="PrWs8" id="2GIWVTRHg35" role="PrDN$">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2GIWVTRHgNL">
-    <property role="3GE5qa" value="controlledName" />
-    <property role="TrG5h" value="ControlledNameAttribute" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDm" resolve="PropertyAttribute" />
-    <node concept="1TJgyj" id="2tP2JaaEptS" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="suffix" />
-      <ref role="20lvS9" node="2tP2JaaEnNL" resolve="NameSuffix" />
-    </node>
-    <node concept="M6xJ_" id="2GIWVTRHgNM" role="lGtFl">
-      <property role="Hh88m" value="controlledName" />
-      <node concept="trNpa" id="2GIWVTRHgOq" role="EQaZv">
-        <ref role="trN6q" node="2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
-      </node>
-    </node>
-    <node concept="1TJgyj" id="2GIWVTRHgZp" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="nameController" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2GIWVTRHgZm" resolve="IControlledName" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="2GIWVTRHgZm">
-    <property role="3GE5qa" value="controlledName" />
-    <property role="TrG5h" value="IControlledName" />
-    <node concept="PrWs8" id="2GIWVTRHgZn" role="PrDN$">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="2GIWVTRLmhU">
-    <property role="3GE5qa" value="controlledName" />
-    <property role="TrG5h" value="IControlledNameProvider" />
-  </node>
   <node concept="1TIwiD" id="7ii2FhSRITu">
     <property role="3GE5qa" value="controlledName" />
     <property role="TrG5h" value="ControlledNameAssQuery" />
@@ -401,16 +341,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="cnc" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2tP2JaaEnNL">
-    <property role="3GE5qa" value="controlledName" />
-    <property role="TrG5h" value="NameSuffix" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="2tP2JaaEo0u" role="1TKVEl">
-      <property role="TrG5h" value="suffix" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="20lvS9" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="GKLijSvTd0">
@@ -432,16 +363,6 @@
       <property role="20kJfa" value="exref" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="smpy:1SzZzyBttVo" resolve="IExtRef" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6Kj2zNC66Q5">
-    <property role="TrG5h" value="SuppressWarnings" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="6Kj2zNC68yj" role="lGtFl">
-      <property role="Hh88m" value="suppressWarning" />
-      <node concept="trNpa" id="6Kj2zNC68yl" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="3VlwR$fEpF9">

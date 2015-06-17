@@ -34,6 +34,8 @@
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
   </imports>
   <registry>
     <language id="97a52717-898f-4598-8150-573d9fd03868" name="jetbrains.mps.lang.dataFlow.analyzers">
@@ -1372,10 +1374,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCr69E" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCr69F" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCr69G" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCr6BL" role="37wK5m">
               <ref role="1YBMHb" node="6OxpEKG0kA5" resolve="mod" />
             </node>
@@ -2816,10 +2818,10 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCr57O" role="3clFbw">
           <node concept="3TUQnm" id="6Kj2zNCr57P" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="6Kj2zNCr57Q" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCr5z9" role="37wK5m">
               <ref role="1YBMHb" node="1f0gqNzC5NN" resolve="em" />
             </node>
@@ -4697,13 +4699,13 @@
         </node>
         <node concept="2OqwBi" id="6Kj2zNCqk8Q" role="3clFbw">
           <node concept="2qgKlT" id="6Kj2zNCqkpY" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="6Kj2zNCr42v" role="37wK5m">
               <ref role="1YBMHb" node="1Hy0xSl8DRS" resolve="expression" />
             </node>
           </node>
           <node concept="35c_gC" id="3wq4PrUP$LK" role="2Oq$k0">
-            <ref role="35c_gD" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="35c_gD" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
           </node>
         </node>
       </node>
@@ -5793,10 +5795,10 @@
                       </node>
                       <node concept="2OqwBi" id="6Kj2zNCr8WQ" role="3clFbw">
                         <node concept="3TUQnm" id="6Kj2zNCr8WR" role="2Oq$k0">
-                          <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+                          <ref role="3TV0OU" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
                         </node>
                         <node concept="2qgKlT" id="6Kj2zNCr8WS" role="2OqNvi">
-                          <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+                          <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
                           <node concept="1YBJjd" id="6Kj2zNCra4A" role="37wK5m">
                             <ref role="1YBMHb" node="6o2p2Z1typp" resolve="f" />
                           </node>
@@ -6276,10 +6278,10 @@
         </node>
         <node concept="2OqwBi" id="2QNVH28Tiwz" role="3clFbw">
           <node concept="3TUQnm" id="2QNVH28Tiw$" role="2Oq$k0">
-            <ref role="3TV0OU" to="vs0r:6Kj2zNC66Q5" resolve="SuppressWarnings" />
+            <ref role="3TV0OU" to="n4qw:1SzZzyB$cOs" resolve="SuppressWarnings" />
           </node>
           <node concept="2qgKlT" id="2QNVH28Tiw_" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:6Kj2zNCop_9" resolve="isNotSupprressed" />
+            <ref role="37wK5l" to="2mtg:1SzZzyB$cVn" resolve="isNotSupprressed" />
             <node concept="1YBJjd" id="2QNVH28TiwA" role="37wK5m">
               <ref role="1YBMHb" node="2QNVH28TiwB" resolve="sc" />
             </node>

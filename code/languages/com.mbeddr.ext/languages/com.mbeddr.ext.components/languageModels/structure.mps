@@ -19,6 +19,7 @@
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -102,7 +103,7 @@
       <ref role="PrY4T" to="2gv2:3SnnFeub0mq" resolve="IWatchablesProviderContext" />
     </node>
     <node concept="PrWs8" id="1frRXyHLIkI" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cO_" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="5hYHEwZIyLc" role="PzmwI">
       <ref role="PrY4T" node="5hYHEwZIii2" resolve="IComponentIDAware" />
@@ -546,7 +547,7 @@
       <ref role="PrY4T" to="2gv2:2R5TvtOlFs8" resolve="ISteppableContext" />
     </node>
     <node concept="PrWs8" id="2wGmDEJGuZS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cO_" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="2h5hmpsJSwC" role="PzmwI">
       <ref role="PrY4T" to="x27k:2h5hmpsyQcW" resolve="IFunctionLikeReducedToSingleFunction" />
@@ -1447,7 +1448,7 @@
       <ref role="PrY4T" to="356a:4pl5GY7LKmz" resolve="TraceableConcept" />
     </node>
     <node concept="PrWs8" id="1frRXyHDlT_" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cO_" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="1TJgyj" id="6JVEnxIhBcl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1490,7 +1491,7 @@
       <ref role="20lvS9" node="RsLjUnMNva" resolve="DataElement" />
     </node>
     <node concept="PrWs8" id="1PvAkX2u37$" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cO_" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="j_pDIZ$0kZ" role="PzmwI">
       <ref role="PrY4T" to="clbe:IPRL99KNBJ" resolve="IValueStructure" />
@@ -1508,7 +1509,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="7NyyyjNnqgr" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:2GIWVTRH8Wo" resolve="IControlledNamedConcept" />
+      <ref role="PrY4T" to="n4qw:1SzZzyB$cOo" resolve="IControlledNamedConcept" />
     </node>
     <node concept="PrWs8" id="RsLjUnMNvd" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />

@@ -31,6 +31,7 @@
     <import index="9a8" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="8hbn" ref="r:7cf39074-dd4c-4a82-a0ed-da646fa0dd21(com.mbeddr.mpsutil.controlledName.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1248,7 +1249,7 @@
         <ref role="1k5W1q" to="r4b4:2CEi94dhDT6" resolve="Parameter" />
         <node concept="OXEIz" id="1AGZLa8nZnu" role="P5bDN">
           <node concept="1Y$tRT" id="4k0bDztzCA6" role="OY2wv">
-            <ref role="1Y$EBa" to="r4b4:3VMeFNyYP4F" resolve="controlledNameStuff" />
+            <ref role="1Y$EBa" to="8hbn:1SzZzyB$cRJ" resolve="controlledNameStuff" />
           </node>
           <node concept="PvTIS" id="1AGZLa8nZnv" role="OY2wv">
             <node concept="MLZmj" id="1AGZLa8nZnw" role="PvTIR">
@@ -2204,7 +2205,7 @@
           <ref role="1k5W1q" to="r4b4:2CEi94dhBxG" resolve="GlobalVariable" />
           <node concept="OXEIz" id="1AGZLa8nZn3" role="P5bDN">
             <node concept="1Y$tRT" id="4k0bDztzpYa" role="OY2wv">
-              <ref role="1Y$EBa" to="r4b4:3VMeFNyYP4F" resolve="controlledNameStuff" />
+              <ref role="1Y$EBa" to="8hbn:1SzZzyB$cRJ" resolve="controlledNameStuff" />
             </node>
             <node concept="PvTIS" id="1AGZLa8nZn4" role="OY2wv">
               <node concept="MLZmj" id="1AGZLa8nZn5" role="PvTIR">
@@ -3985,7 +3986,7 @@
         <ref role="1k5W1q" to="r4b4:2CEi94dhBxG" resolve="GlobalVariable" />
         <node concept="OXEIz" id="2tP2JaaUlNZ" role="P5bDN">
           <node concept="1Y$tRT" id="2tP2JaaUlWn" role="OY2wv">
-            <ref role="1Y$EBa" to="r4b4:3VMeFNyYP4F" resolve="controlledNameStuff" />
+            <ref role="1Y$EBa" to="8hbn:1SzZzyB$cRJ" resolve="controlledNameStuff" />
           </node>
         </node>
       </node>

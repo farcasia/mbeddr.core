@@ -14,6 +14,7 @@
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
+    <import index="8hbn" ref="r:7cf39074-dd4c-4a82-a0ed-da646fa0dd21(com.mbeddr.mpsutil.controlledName.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -385,7 +386,7 @@
         </node>
         <node concept="OXEIz" id="1AGZLa8nZn3" role="P5bDN">
           <node concept="1Y$tRT" id="4k0bDztzpYa" role="OY2wv">
-            <ref role="1Y$EBa" to="r4b4:3VMeFNyYP4F" resolve="controlledNameStuff" />
+            <ref role="1Y$EBa" to="8hbn:1SzZzyB$cRJ" resolve="controlledNameStuff" />
           </node>
           <node concept="PvTIS" id="1AGZLa8nZn4" role="OY2wv">
             <node concept="MLZmj" id="1AGZLa8nZn5" role="PvTIR">

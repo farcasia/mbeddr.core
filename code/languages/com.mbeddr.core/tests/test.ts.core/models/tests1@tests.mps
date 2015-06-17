@@ -13,6 +13,7 @@
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <use id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" name="com.mbeddr.mpsutil.documentable" version="0" />
+    <use id="5192cf4a-63c7-438e-bed4-687010981d34" name="com.mbeddr.mpsutil.controlledName" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -25,6 +26,7 @@
     <import index="9zoj" ref="r:1b0f275e-bd62-4f6e-8c4b-51b05d651a63(com.mbeddr.core.base.typesystem)" />
     <import index="fvu6" ref="r:8c46b4ec-76a7-4335-baef-93cb86f4b0fc(com.mbeddr.core.udt.typesystem)" />
     <import index="1ok9" ref="r:a604a9bb-58f8-4cf0-a289-ef69bb1576bb(com.mbeddr.core.__spreferences.PlatformTemplates)" />
+    <import index="tbjm" ref="r:d157c88d-2f2b-4067-8cb3-c1ae32158ff6(com.mbeddr.mpsutil.controlledName.typesystem)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -109,6 +111,9 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+    </language>
+    <language id="5192cf4a-63c7-438e-bed4-687010981d34" name="com.mbeddr.mpsutil.controlledName">
+      <concept id="2171858964605619484" name="com.mbeddr.mpsutil.controlledName.structure.SuppressWarnings" flags="ng" index="2TGNc$" />
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
       <concept id="8441331188640899788" name="com.mbeddr.core.statements.structure.DoWhileStatement" flags="ng" index="27u4cL">
@@ -297,7 +302,6 @@
       </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="7787579437361950085" name="com.mbeddr.core.base.structure.SuppressWarnings" flags="ng" index="242QuT" />
       <concept id="7024921229556133803" name="com.mbeddr.core.base.structure.ICommentedCode" flags="ng" index="vHEs8">
         <child id="7024921229556133804" name="commentedCode" index="vHEsf" />
       </concept>
@@ -3628,7 +3632,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="242QuT" id="6Kj2zNCASyT" role="lGtFl" />
+              <node concept="2TGNc$" id="6Kj2zNCASyT" role="lGtFl" />
             </node>
             <node concept="3XISUE" id="6Kj2zNCAPTQ" role="3XIRFZ" />
             <node concept="1_9egQ" id="6uZAbUKdzoh" role="3XIRFZ">
@@ -21260,7 +21264,7 @@
               <node concept="7CXmI" id="7ya9dte7Wdn" role="lGtFl">
                 <node concept="1TM$A" id="7ya9dte7Wdo" role="7EUXB">
                   <node concept="2PYRI3" id="7ya9dte8h2z" role="3lydEf">
-                    <ref role="39XzEq" to="9zoj:4qSf1u1TRgo" />
+                    <ref role="39XzEq" to="tbjm:1SzZzyB$d29" />
                   </node>
                 </node>
               </node>
@@ -21311,7 +21315,7 @@
               <node concept="7CXmI" id="7ya9dteeleA" role="lGtFl">
                 <node concept="1TM$A" id="7ya9dteeleB" role="7EUXB">
                   <node concept="2PYRI3" id="7ya9dteeleS" role="3lydEf">
-                    <ref role="39XzEq" to="9zoj:4qSf1u1TRgo" />
+                    <ref role="39XzEq" to="tbjm:1SzZzyB$d29" />
                   </node>
                 </node>
               </node>
