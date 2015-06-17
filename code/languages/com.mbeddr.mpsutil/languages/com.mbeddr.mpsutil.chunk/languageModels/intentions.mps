@@ -9,6 +9,8 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="g6wb" ref="r:4500f164-29e8-4bd7-84b3-6ea98f547ff1(com.mbeddr.mpsutil.codereview.structure)" />
+    <import index="sy9s" ref="r:3268ba08-154d-462d-95ad-4d58b0f305fd(com.mbeddr.mpsutil.codereview.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -161,7 +163,7 @@
               <node concept="2Rf3mk" id="1SzZzyBxjiF" role="2OqNvi">
                 <node concept="1xMEDy" id="1SzZzyBxjiG" role="1xVPHs">
                   <node concept="chp4Y" id="1SzZzyBxjiH" role="ri$Ld">
-                    <ref role="cht4Q" to="vs0r:4g52gaNN$a$" resolve="CodeReviewData" />
+                    <ref role="cht4Q" to="g6wb:1SzZzyB_YfU" resolve="CodeReviewData" />
                   </node>
                 </node>
               </node>
@@ -171,8 +173,8 @@
                 <node concept="3clFbS" id="1SzZzyBxjiK" role="1bW5cS">
                   <node concept="3clFbF" id="1SzZzyBxjiL" role="3cqZAp">
                     <node concept="2YIFZM" id="1SzZzyBxjiM" role="3clFbG">
-                      <ref role="37wK5l" to="hwgx:1tDstbgCHog" resolve="reevaluateReviewData" />
-                      <ref role="1Pybhc" to="hwgx:1tDstbgCbvP" resolve="ReviewHelper" />
+                      <ref role="37wK5l" to="sy9s:1SzZzyBAap_" resolve="reevaluateReviewData" />
+                      <ref role="1Pybhc" to="sy9s:1SzZzyBAalm" resolve="ReviewHelper" />
                       <node concept="2OqwBi" id="1SzZzyBxjiN" role="37wK5m">
                         <node concept="37vLTw" id="1SzZzyBxjiO" role="2Oq$k0">
                           <ref role="3cqZAo" node="1SzZzyBxjiQ" resolve="it" />
@@ -201,7 +203,7 @@
               <node concept="2Rf3mk" id="1SzZzyBxjiY" role="2OqNvi">
                 <node concept="1xMEDy" id="1SzZzyBxjiZ" role="1xVPHs">
                   <node concept="chp4Y" id="1SzZzyBxjj0" role="ri$Ld">
-                    <ref role="cht4Q" to="vs0r:4g52gaNN$a$" resolve="CodeReviewData" />
+                    <ref role="cht4Q" to="g6wb:1SzZzyB_YfU" resolve="CodeReviewData" />
                   </node>
                 </node>
               </node>

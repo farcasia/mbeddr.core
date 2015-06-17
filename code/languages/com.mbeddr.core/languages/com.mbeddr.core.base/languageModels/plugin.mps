@@ -10,6 +10,7 @@
   <imports>
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <import index="g6wb" ref="r:4500f164-29e8-4bd7-84b3-6ea98f547ff1(com.mbeddr.mpsutil.codereview.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -40,7 +41,7 @@
   </registry>
   <node concept="30z_3H" id="4lLcfuhScHr">
     <property role="TrG5h" value="Code Review Preferences" />
-    <ref role="30zxtE" to="vs0r:gjBy3TfZQv" resolve="CodeReviewConfig" />
+    <ref role="30zxtE" to="g6wb:1SzZzyB_YfS" resolve="CodeReviewConfig" />
     <node concept="U$sw$" id="3s$9DObTnhP" role="U$vMi">
       <node concept="3clFbS" id="3s$9DObTnhQ" role="2VODD2">
         <node concept="3clFbJ" id="3s$9DObToDB" role="3cqZAp">

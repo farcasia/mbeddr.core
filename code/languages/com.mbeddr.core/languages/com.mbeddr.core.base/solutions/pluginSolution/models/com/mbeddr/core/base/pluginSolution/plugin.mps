@@ -109,6 +109,8 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="j0wp" ref="r:0541b35c-f3cf-42ea-bfe7-5b78945f0597(com.mbeddr.mpsutil.documentable.refactorings)" />
+    <import index="g6wb" ref="r:4500f164-29e8-4bd7-84b3-6ea98f547ff1(com.mbeddr.mpsutil.codereview.structure)" />
+    <import index="7t3h" ref="r:db75bd6e-5066-4520-9b37-4506b0f4c545(com.mbeddr.mpsutil.codereview.editor)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -18994,8 +18996,8 @@
     <property role="TrG5h" value="codeReviewState" />
     <node concept="33gmoH" id="4ZN$fokgymH" role="2hfSGL">
       <property role="33g7Lv" value="Code Review State" />
-      <ref role="33glcW" to="r4b4:4ZN$fokcCTa" resolve="codereview" />
-      <ref role="33glcY" to="r4b4:4ZN$fokcCTb" resolve="showReviewState" />
+      <ref role="33glcW" to="7t3h:1SzZzyBAal7" resolve="codereview" />
+      <ref role="33glcY" to="7t3h:1SzZzyBAal8" resolve="showReviewState" />
     </node>
     <node concept="tT9cl" id="4ZN$fokgymI" role="2hfP89">
       <ref role="tU$_T" node="goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />
@@ -19057,7 +19059,7 @@
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="6hoQ$huavVt" role="2OqNvi">
-                  <ref role="3TtcxE" to="vs0r:gjBy3ThgKr" />
+                  <ref role="3TtcxE" to="g6wb:1SzZzyB_YfT" />
                 </node>
               </node>
               <node concept="2HwmR7" id="6hoQ$huaVMa" role="2OqNvi">
@@ -19070,7 +19072,7 @@
                             <ref role="3cqZAo" node="6hoQ$huaVMe" resolve="it" />
                           </node>
                           <node concept="3TrEf2" id="5MRtgLPLDVv" role="2OqNvi">
-                            <ref role="3Tt5mk" to="vs0r:4uR15_er0pl" />
+                            <ref role="3Tt5mk" to="g6wb:1SzZzyB_Yg4" />
                           </node>
                         </node>
                         <node concept="liA8E" id="6hoQ$huaZb_" role="2OqNvi">

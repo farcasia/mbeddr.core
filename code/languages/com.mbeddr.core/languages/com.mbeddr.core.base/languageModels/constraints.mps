@@ -24,7 +24,7 @@
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="g6wb" ref="r:4500f164-29e8-4bd7-84b3-6ea98f547ff1(com.mbeddr.mpsutil.codereview.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -361,24 +361,6 @@
               <node concept="1Q6Npb" id="7nkDZJXlDDi" role="2Oq$k0" />
               <node concept="1j9C0f" id="7nkDZJXlDQA" role="2OqNvi">
                 <ref role="1j9C0d" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="gjBy3ThgJB">
-    <ref role="1M2myG" to="vs0r:gjBy3ThgJz" resolve="ConceptDeclarationReference" />
-    <node concept="1N5Pfh" id="4uR15_er0x3" role="1Mr941">
-      <ref role="1N5Vy1" to="vs0r:4uR15_er0pl" />
-      <node concept="1MUpDS" id="4uR15_erk3i" role="1N6uqs">
-        <node concept="3clFbS" id="4uR15_erk3j" role="2VODD2">
-          <node concept="3clFbF" id="4uR15_etubD" role="3cqZAp">
-            <node concept="2OqwBi" id="4uR15_etumQ" role="3clFbG">
-              <node concept="1Q6Npb" id="4uR15_etujp" role="2Oq$k0" />
-              <node concept="1j9C0f" id="4uR15_etuwy" role="2OqNvi">
-                <ref role="1j9C0d" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
               </node>
             </node>
           </node>
