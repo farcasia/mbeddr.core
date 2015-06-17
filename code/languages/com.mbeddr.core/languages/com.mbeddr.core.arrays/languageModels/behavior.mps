@@ -28,6 +28,7 @@
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="bt5b" ref="r:10548ca1-8094-4342-a65a-87d986241875(com.mbeddr.core.pointers.utils)" />
+    <import index="wyx5" ref="r:bc1c316f-907f-4249-837f-bb1f2c3a50f0(com.mbeddr.mpsutil.search.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -141,7 +142,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -3270,7 +3271,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="containsText" />
-      <ref role="13i0hy" to="hwgx:jpyKDg1onB" resolve="containsText" />
+      <ref role="13i0hy" to="wyx5:1SzZzyBvYl3" resolve="containsText" />
       <node concept="3Tm1VV" id="5MaVmNI51Wh" role="1B3o_S" />
       <node concept="3clFbS" id="5MaVmNI51Wm" role="3clF47">
         <node concept="3clFbF" id="5MaVmNI5n1_" role="3cqZAp">
@@ -3300,7 +3301,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="resultName" />
-      <ref role="13i0hy" to="hwgx:jpyKDg1pW5" resolve="resultName" />
+      <ref role="13i0hy" to="wyx5:1SzZzyBvYlf" resolve="resultName" />
       <node concept="3Tm1VV" id="5MaVmNI5y3A" role="1B3o_S" />
       <node concept="3clFbS" id="5MaVmNI5y3D" role="3clF47">
         <node concept="3clFbF" id="5MaVmNI5yl9" role="3cqZAp">
@@ -3328,7 +3329,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="resultNamespace" />
-      <ref role="13i0hy" to="hwgx:jpyKDg2TXB" resolve="resultNamespace" />
+      <ref role="13i0hy" to="wyx5:1SzZzyBvYlj" resolve="resultNamespace" />
       <node concept="3Tm1VV" id="5MaVmNI5CU3" role="1B3o_S" />
       <node concept="3clFbS" id="5MaVmNI5CU6" role="3clF47">
         <node concept="3cpWs8" id="1ki5dbA8JW3" role="3cqZAp">

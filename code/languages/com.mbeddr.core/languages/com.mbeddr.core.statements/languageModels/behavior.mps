@@ -30,6 +30,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" />
+    <import index="wyx5" ref="r:bc1c316f-907f-4249-837f-bb1f2c3a50f0(com.mbeddr.mpsutil.search.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -5713,7 +5714,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="containsText" />
-      <ref role="13i0hy" to="hwgx:jpyKDg1onB" resolve="containsText" />
+      <ref role="13i0hy" to="wyx5:1SzZzyBvYl3" resolve="containsText" />
       <node concept="3Tm1VV" id="4ueXZrqtevi" role="1B3o_S" />
       <node concept="3clFbS" id="4ueXZrqtevj" role="3clF47">
         <node concept="3clFbF" id="4ueXZrqtevy" role="3cqZAp">
@@ -5743,7 +5744,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="resultName" />
-      <ref role="13i0hy" to="hwgx:jpyKDg1pW5" resolve="resultName" />
+      <ref role="13i0hy" to="wyx5:1SzZzyBvYlf" resolve="resultName" />
       <node concept="3Tm1VV" id="4ueXZrqtevq" role="1B3o_S" />
       <node concept="3clFbS" id="4ueXZrqtevr" role="3clF47">
         <node concept="3clFbF" id="4ueXZrqtews" role="3cqZAp">
@@ -5758,7 +5759,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="resultQualifiedName" />
-      <ref role="13i0hy" to="hwgx:jpyKDg2TXB" resolve="resultNamespace" />
+      <ref role="13i0hy" to="wyx5:1SzZzyBvYlj" resolve="resultNamespace" />
       <node concept="3Tm1VV" id="4ueXZrqtevu" role="1B3o_S" />
       <node concept="3clFbS" id="4ueXZrqtevv" role="3clF47">
         <node concept="3clFbF" id="4ueXZrqtewu" role="3cqZAp">

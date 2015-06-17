@@ -12,6 +12,7 @@
     <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
     <import index="10jo" ref="r:6e32694b-6dd1-4530-b48f-4e3bf97b2744(com.mbeddr.mpsutil.jung.structure)" />
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
+    <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -244,7 +245,7 @@
       <ref role="PrY4T" node="7uLL3Mf3udZ" resolve="ITextBlockOwner" />
     </node>
     <node concept="PrWs8" id="4ueXZrqtwBO" role="PzmwI">
-      <ref role="PrY4T" node="jpyKDg1onz" resolve="ISearchSupport" />
+      <ref role="PrY4T" to="bze9:1SzZzyBvYl1" resolve="ISearchSupport" />
     </node>
     <node concept="PrWs8" id="6wvhQs7n6SX" role="PzmwI">
       <ref role="PrY4T" node="6yeRgC0uAED" resolve="IIsDocumentationComment" />
@@ -908,10 +909,6 @@
   <node concept="PlHQZ" id="7uLL3Mf3udZ">
     <property role="3GE5qa" value="paragraphs" />
     <property role="TrG5h" value="ITextBlockOwner" />
-  </node>
-  <node concept="PlHQZ" id="jpyKDg1onz">
-    <property role="TrG5h" value="ISearchSupport" />
-    <property role="3GE5qa" value="search" />
   </node>
   <node concept="PlHQZ" id="3Y7ywckEJZi">
     <property role="TrG5h" value="IKeepAliveInGeneration" />

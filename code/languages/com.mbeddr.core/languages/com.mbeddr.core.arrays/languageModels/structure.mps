@@ -9,6 +9,7 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -185,7 +186,7 @@
     <property role="34LRSv" value="&quot;" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrDq" resolve="Literal" />
     <node concept="PrWs8" id="5MaVmNI4zkR" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+      <ref role="PrY4T" to="bze9:1SzZzyBvYl1" resolve="ISearchSupport" />
     </node>
     <node concept="PrWs8" id="6bzSKoI1uD7" role="PzmwI">
       <ref role="PrY4T" node="6bzSKoI1uCr" resolve="IStringLiteralLike" />

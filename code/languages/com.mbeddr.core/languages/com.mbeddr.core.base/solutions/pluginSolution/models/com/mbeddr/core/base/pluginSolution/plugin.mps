@@ -101,6 +101,8 @@
     <import index="dhny" ref="r:be9b22ba-834b-4050-a519-5e70518fab34(com.mbeddr.mpsutil.presentationMode.editor)" />
     <import index="z20a" ref="r:096ea6ec-2c32-4660-b175-107c62e0871a(com.mbeddr.mpsutil.outline.behavior)" />
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
+    <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
+    <import index="wyx5" ref="r:bc1c316f-907f-4249-837f-bb1f2c3a50f0(com.mbeddr.mpsutil.search.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -4906,14 +4908,14 @@
                                 <node concept="3cpWsn" id="4Q2Vz3i$q4B" role="3cpWs9">
                                   <property role="TrG5h" value="allSearchSupport" />
                                   <node concept="2I9FWS" id="4Q2Vz3i$q4C" role="1tU5fm">
-                                    <ref role="2I9WkF" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+                                    <ref role="2I9WkF" to="bze9:1SzZzyBvYl1" resolve="ISearchSupport" />
                                   </node>
                                   <node concept="2OqwBi" id="4Q2Vz3i$q4D" role="33vP2m">
                                     <node concept="3cpWs2" id="4Q2Vz3i$q4E" role="2Oq$k0">
                                       <ref role="3cqZAo" node="4Q2Vz3i$q7T" resolve="m" />
                                     </node>
                                     <node concept="2SmgA7" id="4Q2Vz3i$q4F" role="2OqNvi">
-                                      <ref role="2SmgA8" to="vs0r:jpyKDg1onz" resolve="ISearchSupport" />
+                                      <ref role="2SmgA8" to="bze9:1SzZzyBvYl1" resolve="ISearchSupport" />
                                     </node>
                                   </node>
                                 </node>
@@ -4989,7 +4991,7 @@
                                               <ref role="3cqZAo" node="4Q2Vz3i$q5h" resolve="it" />
                                             </node>
                                             <node concept="2qgKlT" id="4Q2Vz3i$q5f" role="2OqNvi">
-                                              <ref role="37wK5l" to="hwgx:jpyKDg1onB" resolve="containsText" />
+                                              <ref role="37wK5l" to="wyx5:1SzZzyBvYl3" resolve="containsText" />
                                               <node concept="3cpWs2" id="4Q2Vz3i$q5g" role="37wK5m">
                                                 <ref role="3cqZAo" node="4Q2Vz3i$q7V" resolve="text" />
                                               </node>
@@ -5058,7 +5060,7 @@
                                           <ref role="2Gs0qQ" node="4Q2Vz3i$q57" resolve="it" />
                                         </node>
                                         <node concept="2qgKlT" id="4Q2Vz3i$q5G" role="2OqNvi">
-                                          <ref role="37wK5l" to="hwgx:4ueXZrqtaGB" resolve="getResultNode" />
+                                          <ref role="37wK5l" to="wyx5:1SzZzyBvYl9" resolve="getResultNode" />
                                         </node>
                                       </node>
                                     </node>
@@ -5100,7 +5102,7 @@
                                                 <ref role="2Gs0qQ" node="4Q2Vz3i$q57" resolve="it" />
                                               </node>
                                               <node concept="2qgKlT" id="4Q2Vz3i$q5X" role="2OqNvi">
-                                                <ref role="37wK5l" to="hwgx:jpyKDg1pW5" resolve="resultName" />
+                                                <ref role="37wK5l" to="wyx5:1SzZzyBvYlf" resolve="resultName" />
                                               </node>
                                             </node>
                                             <node concept="3P9mCS" id="4Q2Vz3i$q5Y" role="37wK5m">
@@ -5114,7 +5116,7 @@
                                                 <ref role="2Gs0qQ" node="4Q2Vz3i$q57" resolve="it" />
                                               </node>
                                               <node concept="2qgKlT" id="4Q2Vz3i$q62" role="2OqNvi">
-                                                <ref role="37wK5l" to="hwgx:jpyKDg2TXB" resolve="resultNamespace" />
+                                                <ref role="37wK5l" to="wyx5:1SzZzyBvYlj" resolve="resultNamespace" />
                                               </node>
                                             </node>
                                           </node>
