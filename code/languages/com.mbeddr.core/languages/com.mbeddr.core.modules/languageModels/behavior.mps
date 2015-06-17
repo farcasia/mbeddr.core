@@ -47,6 +47,7 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
+    <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -9406,7 +9407,7 @@
     <ref role="13h7C2" to="x27k:4qSf1u209eG" resolve="InlineConfigItem" />
     <node concept="13i0hz" id="4qSf1u209eM" role="13h7CS">
       <property role="TrG5h" value="preprocess" />
-      <ref role="13i0hy" to="hwgx:4qSf1u208SQ" resolve="preprocess" />
+      <ref role="13i0hy" to="j0y:1SzZzyB_gyS" resolve="preprocess" />
       <node concept="3clFbS" id="4qSf1u209eP" role="3clF47">
         <node concept="3clFbJ" id="4qSf1u20km4" role="3cqZAp">
           <node concept="3clFbS" id="4qSf1u20km5" role="3clFbx">

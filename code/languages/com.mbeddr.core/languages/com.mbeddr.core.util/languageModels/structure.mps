@@ -13,6 +13,7 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -330,7 +331,7 @@
       <ref role="PrY4T" to="x27k:2lgwE2U4_F1" resolve="ICodeLocationAware" />
     </node>
     <node concept="PrWs8" id="1rXJcsmEEPs" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="2lgwE2U3cEn">
@@ -521,7 +522,7 @@
       <ref role="20lvS9" node="3R$6B6bKEUa" resolve="ReportingStrategy" />
     </node>
     <node concept="PrWs8" id="3R$6B6bKETI" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="3R$6B6bKEUa">
@@ -652,7 +653,7 @@
     <property role="34LRSv" value="convert named struct init to positional stuct init" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3_EX3Wi7Hiz" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
     </node>
     <node concept="1TJgyi" id="79_VoWRWiUx" role="1TKVEl">
       <property role="TrG5h" value="replaceMissingWithDefaultValues" />
@@ -699,7 +700,7 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="69lKCLH$b90" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="69lKCLH$b91">
@@ -954,7 +955,7 @@
       <ref role="20lvS9" node="1M41OHtH7dU" resolve="DLGenStrategy" />
     </node>
     <node concept="PrWs8" id="1M41OHtH7cW" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="1M41OHtH7dU">

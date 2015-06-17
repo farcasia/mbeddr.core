@@ -22,6 +22,7 @@
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="nx1" ref="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
     <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -863,7 +864,7 @@
                 <ref role="3cqZAo" node="3eWkbyCTB_u" resolve="bc" />
               </node>
               <node concept="3Tsc0h" id="3eWkbyCTB_J" role="2OqNvi">
-                <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                <ref role="3TtcxE" to="ahe9:1SzZzyB_gxH" />
               </node>
             </node>
             <node concept="WFELt" id="3eWkbyCTB_K" role="2OqNvi">

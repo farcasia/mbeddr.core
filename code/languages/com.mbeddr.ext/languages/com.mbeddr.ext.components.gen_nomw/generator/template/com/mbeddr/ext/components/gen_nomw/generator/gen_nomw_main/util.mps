@@ -13,6 +13,8 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="p7vm" ref="r:28fa862e-f94d-4c39-bdf7-a4bdbc773888(com.mbeddr.ext.components.gen_nomw.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -485,13 +487,13 @@
                             <node concept="I4A8Y" id="7JSQgVGJjTu" role="2OqNvi" />
                           </node>
                           <node concept="2RRcyG" id="7JSQgVGJjTv" role="2OqNvi">
-                            <ref role="2RRcyH" to="vs0r:3R$6B6bKw0D" resolve="IConfigurationContainer" />
+                            <ref role="2RRcyH" to="ahe9:1SzZzyB_gxG" resolve="IConfigurationContainer" />
                           </node>
                         </node>
                         <node concept="1uHKPH" id="7JSQgVGJjTw" role="2OqNvi" />
                       </node>
                       <node concept="2qgKlT" id="7JSQgVGJjTx" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:3R$6B6bL1DB" resolve="findItemOfType" />
+                        <ref role="37wK5l" to="j0y:1SzZzyB_gyv" resolve="findItemOfType" />
                         <node concept="3TUQnm" id="7JSQgVGJjTy" role="37wK5m">
                           <ref role="3TV0OU" to="v7ag:1OLGDVfeZ18" resolve="ComponentsConfigItem" />
                         </node>
@@ -683,13 +685,13 @@
                             <node concept="I4A8Y" id="7UUkaBfaV$o" role="2OqNvi" />
                           </node>
                           <node concept="2RRcyG" id="7UUkaBfaV$p" role="2OqNvi">
-                            <ref role="2RRcyH" to="vs0r:3R$6B6bKw0D" resolve="IConfigurationContainer" />
+                            <ref role="2RRcyH" to="ahe9:1SzZzyB_gxG" resolve="IConfigurationContainer" />
                           </node>
                         </node>
                         <node concept="1uHKPH" id="7UUkaBfaV$q" role="2OqNvi" />
                       </node>
                       <node concept="2qgKlT" id="7UUkaBfaV$r" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:3R$6B6bL1DB" resolve="findItemOfType" />
+                        <ref role="37wK5l" to="j0y:1SzZzyB_gyv" resolve="findItemOfType" />
                         <node concept="3TUQnm" id="7UUkaBfaV$s" role="37wK5m">
                           <ref role="3TV0OU" to="v7ag:1OLGDVfeZ18" resolve="ComponentsConfigItem" />
                         </node>
@@ -832,7 +834,7 @@
                     <node concept="2OqwBi" id="4rpFIBbVXRU" role="2Oq$k0">
                       <node concept="2OqwBi" id="4rpFIBbVXRV" role="2Oq$k0">
                         <node concept="2RRcyG" id="4rpFIBbVXRZ" role="2OqNvi">
-                          <ref role="2RRcyH" to="vs0r:3R$6B6bKw0D" resolve="IConfigurationContainer" />
+                          <ref role="2RRcyH" to="ahe9:1SzZzyB_gxG" resolve="IConfigurationContainer" />
                         </node>
                         <node concept="37vLTw" id="4rpFIBbVZ5l" role="2Oq$k0">
                           <ref role="3cqZAo" node="4rpFIBbVXS5" resolve="ctx" />
@@ -841,7 +843,7 @@
                       <node concept="1uHKPH" id="4rpFIBbVXS0" role="2OqNvi" />
                     </node>
                     <node concept="2qgKlT" id="4rpFIBbVXS1" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:3R$6B6bL1DB" resolve="findItemOfType" />
+                      <ref role="37wK5l" to="j0y:1SzZzyB_gyv" resolve="findItemOfType" />
                       <node concept="3TUQnm" id="4rpFIBbVXS2" role="37wK5m">
                         <ref role="3TV0OU" to="v7ag:1OLGDVfeZ18" resolve="ComponentsConfigItem" />
                       </node>
@@ -889,13 +891,13 @@
                       <ref role="3cqZAo" node="4rpFIBbP$jc" resolve="m" />
                     </node>
                     <node concept="2RRcyG" id="4rpFIBbP$i0" role="2OqNvi">
-                      <ref role="2RRcyH" to="vs0r:3R$6B6bKw0D" resolve="IConfigurationContainer" />
+                      <ref role="2RRcyH" to="ahe9:1SzZzyB_gxG" resolve="IConfigurationContainer" />
                     </node>
                   </node>
                   <node concept="1uHKPH" id="4rpFIBbP$i1" role="2OqNvi" />
                 </node>
                 <node concept="2qgKlT" id="4rpFIBbP$i2" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:3R$6B6bL1DB" resolve="findItemOfType" />
+                  <ref role="37wK5l" to="j0y:1SzZzyB_gyv" resolve="findItemOfType" />
                   <node concept="3TUQnm" id="4rpFIBbP$i3" role="37wK5m">
                     <ref role="3TV0OU" to="v7ag:1OLGDVfeZ18" resolve="ComponentsConfigItem" />
                   </node>

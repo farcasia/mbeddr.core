@@ -42,6 +42,8 @@
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -3465,7 +3467,7 @@
                   <ref role="3cqZAo" node="78Ts1skprjn" resolve="bc" />
                 </node>
                 <node concept="3Tsc0h" id="3_DQCSSLAcL" role="2OqNvi">
-                  <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                  <ref role="3TtcxE" to="ahe9:1SzZzyB_gxH" />
                 </node>
               </node>
               <node concept="3zZkjj" id="3_DQCSSLAcM" role="2OqNvi">
@@ -3478,7 +3480,7 @@
                         </node>
                         <node concept="1mIQ4w" id="3_DQCSSLAcS" role="2OqNvi">
                           <node concept="chp4Y" id="3_DQCSSLAcT" role="cj9EA">
-                            <ref role="cht4Q" to="vs0r:7P$_wJpwSfc" resolve="IConfigurationItemWithImport" />
+                            <ref role="cht4Q" to="ahe9:1SzZzyB_gxL" resolve="IConfigurationItemWithImport" />
                           </node>
                         </node>
                       </node>
@@ -3502,13 +3504,13 @@
                       <node concept="X8dFx" id="3_DQCSSLD8X" role="2OqNvi">
                         <node concept="2OqwBi" id="3_DQCSSLAd0" role="25WWJ7">
                           <node concept="1PxgMI" id="3_DQCSSLAd1" role="2Oq$k0">
-                            <ref role="1PxNhF" to="vs0r:7P$_wJpwSfc" resolve="IConfigurationItemWithImport" />
+                            <ref role="1PxNhF" to="ahe9:1SzZzyB_gxL" resolve="IConfigurationItemWithImport" />
                             <node concept="3cpWs2" id="3_DQCSSLAd2" role="1PxMeX">
                               <ref role="3cqZAo" node="3_DQCSSLAd6" resolve="it" />
                             </node>
                           </node>
                           <node concept="2qgKlT" id="3_DQCSSLAd3" role="2OqNvi">
-                            <ref role="37wK5l" to="hwgx:7P$_wJpwTgl" resolve="getNodesToImportNodes" />
+                            <ref role="37wK5l" to="j0y:1SzZzyB_gz1" resolve="getNodesToImportNodes" />
                             <node concept="3cpWsa" id="3_DQCSSLAd5" role="37wK5m">
                               <ref role="3cqZAo" node="78Ts1skprjn" resolve="bc" />
                             </node>
@@ -3601,13 +3603,13 @@
             <property role="TrG5h" value="reqConceptItemConcepts" />
             <node concept="2hMVRd" id="2bm5KFZB4an" role="1tU5fm">
               <node concept="3THzug" id="2bm5KFZB4ap" role="2hN53Y">
-                <ref role="3qa414" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+                <ref role="3qa414" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
               </node>
             </node>
             <node concept="2ShNRf" id="2bm5KFZB4ar" role="33vP2m">
               <node concept="2i4dXS" id="2bm5KFZB6BS" role="2ShVmc">
                 <node concept="3THzug" id="2bm5KFZB6BU" role="HW$YZ">
-                  <ref role="3qa414" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+                  <ref role="3qa414" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
                 </node>
               </node>
             </node>
@@ -3618,7 +3620,7 @@
             <node concept="2OqwBi" id="2bm5KFZBqKQ" role="2Oq$k0">
               <node concept="1Q6Npb" id="2bm5KFZBqKw" role="2Oq$k0" />
               <node concept="2SmgA7" id="2bm5KFZBqKX" role="2OqNvi">
-                <ref role="2SmgA8" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+                <ref role="2SmgA8" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
               </node>
             </node>
             <node concept="2es0OD" id="2bm5KFZB6DV" role="2OqNvi">
@@ -3732,7 +3734,7 @@
                     <ref role="2Gs0qQ" node="2bm5KFZAWpT" resolve="requiringConcept" />
                   </node>
                   <node concept="2qgKlT" id="4s9iNoGBiWt" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+                    <ref role="37wK5l" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
                   </node>
                 </node>
               </node>
@@ -3766,7 +3768,7 @@
                           <ref role="3cqZAo" node="78Ts1skprjn" resolve="bc" />
                         </node>
                         <node concept="3Tsc0h" id="2bm5KFZB6HP" role="2OqNvi">
-                          <ref role="3TtcxE" to="vs0r:3R$6B6bKw0E" />
+                          <ref role="3TtcxE" to="ahe9:1SzZzyB_gxH" />
                         </node>
                       </node>
                       <node concept="2HwmR7" id="2bm5KFZB6HQ" role="2OqNvi">

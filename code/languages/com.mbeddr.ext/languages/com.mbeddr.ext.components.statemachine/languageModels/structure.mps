@@ -10,6 +10,7 @@
     <import index="clqz" ref="r:5ebcdb77-81e9-4964-beae-35bd9a2f28b5(com.mbeddr.ext.statemachines.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -57,7 +58,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj13" resolve="IVisibleElementAdapter" />
     </node>
     <node concept="PrWs8" id="1rXJcsmD0Mo" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="5lunSHimOp8" role="PzmwI">
       <ref role="PrY4T" to="clqz:5lunSHimOk2" resolve="IStatemachineNamePrefixProvider" />
@@ -86,7 +87,7 @@
     <property role="R4oN_" value="use state machine in components" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1rXJcsmC_Z3" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="3U_nJP167$n">

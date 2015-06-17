@@ -14,6 +14,8 @@
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -232,7 +234,7 @@
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+      <ref role="13i0hy" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
       <node concept="3Tm1VV" id="7X9xw2qIAUh" role="1B3o_S" />
       <node concept="3clFbS" id="7X9xw2qIAUi" role="3clF47">
         <node concept="3cpWs8" id="7X9xw2qIAUj" role="3cqZAp">
@@ -245,10 +247,10 @@
             </node>
             <node concept="2OqwBi" id="7X9xw2qIAUn" role="33vP2m">
               <node concept="13iAh5" id="7X9xw2qIAUo" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+                <ref role="3eA5LN" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
               </node>
               <node concept="2qgKlT" id="7X9xw2qIAUp" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+                <ref role="37wK5l" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
               </node>
             </node>
           </node>
@@ -287,7 +289,7 @@
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+      <ref role="13i0hy" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
       <node concept="3Tm1VV" id="7X9xw2qEeHa" role="1B3o_S" />
       <node concept="3clFbS" id="7X9xw2qEeHb" role="3clF47">
         <node concept="3cpWs8" id="7X9xw2qEeHc" role="3cqZAp">
@@ -300,10 +302,10 @@
             </node>
             <node concept="2OqwBi" id="7X9xw2qEeHg" role="33vP2m">
               <node concept="13iAh5" id="7X9xw2qEeHh" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+                <ref role="3eA5LN" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
               </node>
               <node concept="2qgKlT" id="7X9xw2qEeHi" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+                <ref role="37wK5l" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
               </node>
             </node>
           </node>

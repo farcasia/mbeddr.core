@@ -36,6 +36,7 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -543,7 +544,7 @@
           <node concept="3cpWsn" id="7X9xw2qE_zy" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="7X9xw2qE_zz" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="7X9xw2qE_z$" role="33vP2m">
               <ref role="37wK5l" to="ahli:78Ts1skpDBH" resolve="expectBCConfigItem" />
@@ -1980,7 +1981,7 @@
           <node concept="3cpWsn" id="to$mQWqqaa" role="3cpWs9">
             <property role="TrG5h" value="rc" />
             <node concept="3Tqbb2" id="to$mQWqqab" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+              <ref role="ehGHo" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
             </node>
             <node concept="2YIFZM" id="to$mQWqqac" role="33vP2m">
               <ref role="1Pybhc" to="ahli:78Ts1skprjP" resolve="BCHelper" />

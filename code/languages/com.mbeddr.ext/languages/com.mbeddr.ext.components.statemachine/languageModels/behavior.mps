@@ -22,6 +22,8 @@
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -227,7 +229,7 @@
       <property role="2Ki8OM" value="true" />
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+      <ref role="13i0hy" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
       <node concept="3Tm1VV" id="20ezT9ZDJpZ" role="1B3o_S" />
       <node concept="_YKpA" id="20ezT9ZDJpW" role="3clF45">
         <node concept="3Tqbb2" id="20ezT9ZDJpX" role="_ZDj9">
@@ -245,10 +247,10 @@
             </node>
             <node concept="2OqwBi" id="20ezT9ZDJqa" role="33vP2m">
               <node concept="13iAh5" id="20ezT9ZDJq5" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+                <ref role="3eA5LN" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
               </node>
               <node concept="2qgKlT" id="20ezT9ZDJq4" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+                <ref role="37wK5l" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
               </node>
             </node>
           </node>

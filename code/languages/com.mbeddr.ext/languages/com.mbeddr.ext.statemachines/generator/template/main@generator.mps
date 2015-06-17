@@ -39,6 +39,8 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="byxr" ref="r:0408ee73-1f2e-4dd0-8c67-48f28bb6adce(com.mbeddr.ext.statemachines.utils)" />
     <import index="ierg" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.textgen.trace(MPS.Core/jetbrains.mps.textgen.trace@java_stub)" />
+    <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -3181,7 +3183,7 @@
                             <node concept="3cpWsn" id="5jCi3tKdhtH" role="3cpWs9">
                               <property role="TrG5h" value="sci" />
                               <node concept="3Tqbb2" id="5jCi3tKdhtI" role="1tU5fm">
-                                <ref role="ehGHo" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+                                <ref role="ehGHo" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
                               </node>
                               <node concept="2OqwBi" id="5jCi3tKdhtJ" role="33vP2m">
                                 <node concept="2OqwBi" id="5jCi3tKdhtK" role="2Oq$k0">
@@ -3191,13 +3193,13 @@
                                       <node concept="I4A8Y" id="5jCi3tKdhtO" role="2OqNvi" />
                                     </node>
                                     <node concept="2RRcyG" id="5jCi3tKdhtP" role="2OqNvi">
-                                      <ref role="2RRcyH" to="vs0r:3R$6B6bKw0D" resolve="IConfigurationContainer" />
+                                      <ref role="2RRcyH" to="ahe9:1SzZzyB_gxG" resolve="IConfigurationContainer" />
                                     </node>
                                   </node>
                                   <node concept="1uHKPH" id="5jCi3tKdhtQ" role="2OqNvi" />
                                 </node>
                                 <node concept="2qgKlT" id="5jCi3tKdhtR" role="2OqNvi">
-                                  <ref role="37wK5l" to="hwgx:3R$6B6bL1DB" resolve="findItemOfType" />
+                                  <ref role="37wK5l" to="j0y:1SzZzyB_gyv" resolve="findItemOfType" />
                                   <node concept="3TUQnm" id="5jCi3tKdhtS" role="37wK5m">
                                     <ref role="3TV0OU" to="clqz:45sewQzW4pZ" resolve="StatemachineConfigItem" />
                                   </node>

@@ -78,44 +78,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="PlHQZ" id="3R$6B6bKw0C">
-    <property role="TrG5h" value="IConfigurationItem" />
-    <property role="3GE5qa" value="config" />
-    <node concept="PrWs8" id="77mJsGsFMiN" role="PrDN$">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
-    </node>
-    <node concept="PrWs8" id="5$VhGzCH_36" role="PrDN$">
-      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="3R$6B6bKw0D">
-    <property role="TrG5h" value="IConfigurationContainer" />
-    <property role="3GE5qa" value="config" />
-    <node concept="1TJgyj" id="3R$6B6bKw0E" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="configurationItems" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3R$6B6bKw0C" resolve="IConfigurationItem" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="4qSf1u208SI">
-    <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IConfigurationItemWithProcessor" />
-    <node concept="PrWs8" id="4qSf1u208SJ" role="PrDN$">
-      <ref role="PrY4T" node="3R$6B6bKw0C" resolve="IConfigurationItem" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="1rXJcsmD0fG">
-    <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IRequiresConfigItem" />
-  </node>
-  <node concept="PlHQZ" id="7P$_wJpwSfc">
-    <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IConfigurationItemWithImport" />
-    <node concept="PrWs8" id="7P$_wJpwSfd" role="PrDN$">
-      <ref role="PrY4T" node="3R$6B6bKw0C" resolve="IConfigurationItem" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="7jSUHHvkAp9">
     <property role="TrG5h" value="IModuleContentRef" />
     <node concept="PrWs8" id="70kXLV4K0vZ" role="PrDN$">

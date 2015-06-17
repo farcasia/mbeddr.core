@@ -12,6 +12,7 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="2gv2" ref="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -85,7 +86,7 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="5W7baq$5gqA" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="5W7baq$5gqB" role="PzmwI">
       <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
@@ -171,7 +172,7 @@
       <ref role="20lvS9" node="5W7baq$aGq_" resolve="AbstractRegisterTransformationKind" />
     </node>
     <node concept="PrWs8" id="5W7baq$5xJi" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="5W7baq$5xJp">
@@ -275,7 +276,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="7X9xw2qEetx" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="7FgMBfg9sEu" role="PzmwI">
       <ref role="PrY4T" to="x27k:2h5hmpsyQcW" resolve="IFunctionLikeReducedToSingleFunction" />
@@ -306,7 +307,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="7X9xw2qEcuj" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="5eiKWfwhgsS" role="PzmwI">
       <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
@@ -323,7 +324,7 @@
       <ref role="20lvS9" node="SwwM9UHwwI" resolve="Isr" />
     </node>
     <node concept="PrWs8" id="7X9xw2qD1CD" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxP" resolve="IRequiresConfigItem" />
     </node>
     <node concept="PrWs8" id="34EVIEX$uM" role="PzmwI">
       <ref role="PrY4T" to="2gv2:2R5TvtOl$CY" resolve="IStepIntoable" />
@@ -342,7 +343,7 @@
       <ref role="20lvS9" node="7X9xw2qCZP5" resolve="AbstractInterruptKind" />
     </node>
     <node concept="PrWs8" id="7X9xw2qCSja" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3R$6B6bKw0C" resolve="IConfigurationItem" />
+      <ref role="PrY4T" to="ahe9:1SzZzyB_gxI" resolve="IConfigurationItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="7X9xw2qCZP5">

@@ -29,6 +29,7 @@
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
+    <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -2177,7 +2178,7 @@
       <property role="2Ki8OM" value="true" />
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+      <ref role="13i0hy" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
       <node concept="3Tm1VV" id="20ezT9ZDJwb" role="1B3o_S" />
       <node concept="_YKpA" id="20ezT9ZDJw8" role="3clF45">
         <node concept="3Tqbb2" id="20ezT9ZDJw9" role="_ZDj9">
@@ -2198,7 +2199,7 @@
                 <ref role="3eA5LN" to="v7ag:3TmmsQkCzn9" resolve="Component" />
               </node>
               <node concept="2qgKlT" id="20ezT9ZDJwg" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqMb" resolve="getConfigItem" />
+                <ref role="37wK5l" to="j0y:1SzZzyB_gzd" resolve="getConfigItem" />
               </node>
             </node>
           </node>
