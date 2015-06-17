@@ -7,7 +7,8 @@
   </languages>
   <imports>
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
-    <import index="nm5n" ref="r:efe730f6-11b1-4178-b6ef-cb812b43cfe4(test.lang.hierchicalstructure.structure)" implicit="true" />
+    <import index="nm5n" ref="r:efe730f6-11b1-4178-b6ef-cb812b43cfe4(test.lang.hierchicalstructure.structure)" />
+    <import index="86rq" ref="r:4c910bb7-9710-455e-974d-c806d65739a9(com.mbeddr.mpsutil.tree.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -61,7 +62,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="showInHierchicalStructure" />
-      <ref role="13i0hy" to="hwgx:1pmorAatV7O" resolve="showInHierchicalStructure" />
+      <ref role="13i0hy" to="86rq:1SzZzyBwEs_" resolve="showInHierchicalStructure" />
       <node concept="3Tm1VV" id="1pmorAa_QXc" role="1B3o_S" />
       <node concept="3clFbS" id="1pmorAa_QXh" role="3clF47">
         <node concept="3clFbF" id="1pmorAa_QYY" role="3cqZAp">
@@ -82,7 +83,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="showInHierchicalStructure" />
-      <ref role="13i0hy" to="hwgx:1pmorAatV7O" resolve="showInHierchicalStructure" />
+      <ref role="13i0hy" to="86rq:1SzZzyBwEs_" resolve="showInHierchicalStructure" />
       <node concept="3Tm1VV" id="3$xysz6OjGt" role="1B3o_S" />
       <node concept="3clFbS" id="3$xysz6OjGy" role="3clF47">
         <node concept="3clFbF" id="3$xysz6OjJd" role="3cqZAp">
@@ -100,7 +101,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="showInHierchicalStructure" />
-      <ref role="13i0hy" to="hwgx:1pmorAatV7O" resolve="showInHierchicalStructure" />
+      <ref role="13i0hy" to="86rq:1SzZzyBwEs_" resolve="showInHierchicalStructure" />
       <node concept="3Tm1VV" id="3$xysz6OmAZ" role="1B3o_S" />
       <node concept="3clFbS" id="3$xysz6OmB0" role="3clF47">
         <node concept="3clFbF" id="3$xysz6OmB1" role="3cqZAp">

@@ -13,6 +13,7 @@
     <import index="10jo" ref="r:6e32694b-6dd1-4530-b48f-4e3bf97b2744(com.mbeddr.mpsutil.jung.structure)" />
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
+    <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -1131,7 +1132,7 @@
       <ref role="PrY4T" node="6brBMefRfNW" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="7dSitqLXJAo" role="PzmwI">
-      <ref role="PrY4T" node="9MiAwFsXp0" resolve="ITreeViewRoot" />
+      <ref role="PrY4T" to="r1oh:1SzZzyBwEpZ" resolve="ITreeViewRoot" />
     </node>
     <node concept="PrWs8" id="59HbAIP5roq" role="PzmwI">
       <ref role="PrY4T" node="59HbAIOYkEn" resolve="IDetectCycle" />
@@ -1255,17 +1256,6 @@
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="PlHQZ" id="7NyyyjNt9Bq">
-    <property role="TrG5h" value="ITreeViewable" />
-    <property role="3GE5qa" value="tree" />
-  </node>
-  <node concept="PlHQZ" id="9MiAwFsXp0">
-    <property role="3GE5qa" value="tree" />
-    <property role="TrG5h" value="ITreeViewRoot" />
-    <node concept="PrWs8" id="9MiAwFsXuS" role="PrDN$">
-      <ref role="PrY4T" node="7NyyyjNt9Bq" resolve="ITreeViewable" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="GKLijSvTd0">
     <property role="3GE5qa" value="exref" />
     <property role="TrG5h" value="CheckHashAssessmentQuery" />
@@ -1308,33 +1298,6 @@
   </node>
   <node concept="PlHQZ" id="39ze6xJWX1e">
     <property role="TrG5h" value="ITemporaryConcept" />
-  </node>
-  <node concept="PlHQZ" id="6SQk4GjI9n5">
-    <property role="3GE5qa" value="tree.hierarchicalstructure" />
-    <property role="TrG5h" value="IHierarchicalStructure" />
-    <node concept="PrWs8" id="6SQk4GjInaQ" role="PrDN$">
-      <ref role="PrY4T" node="6SQk4GjV1Md" resolve="IHierarchicalStructureBase" />
-    </node>
-    <node concept="PrWs8" id="6SQk4GjJG$Z" role="PrDN$">
-      <ref role="PrY4T" to="570t:3JrMqIyfmMY" resolve="IBreadcrumb" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="6SQk4GjUJRB">
-    <property role="3GE5qa" value="tree.hierarchicalstructure" />
-    <property role="TrG5h" value="IHierarchicalStructureRoot" />
-    <node concept="PrWs8" id="6SQk4GjVnFP" role="PrDN$">
-      <ref role="PrY4T" node="6SQk4GjV1Md" resolve="IHierarchicalStructureBase" />
-    </node>
-    <node concept="PrWs8" id="6SQk4GjUJRD" role="PrDN$">
-      <ref role="PrY4T" node="9MiAwFsXp0" resolve="ITreeViewRoot" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="6SQk4GjV1Md">
-    <property role="3GE5qa" value="tree.hierarchicalstructure" />
-    <property role="TrG5h" value="IHierarchicalStructureBase" />
-    <node concept="PrWs8" id="6SQk4GjVdlt" role="PrDN$">
-      <ref role="PrY4T" node="7NyyyjNt9Bq" resolve="ITreeViewable" />
-    </node>
   </node>
   <node concept="1TIwiD" id="4g52gaNPZ6t">
     <property role="3GE5qa" value="codereview" />

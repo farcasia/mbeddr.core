@@ -15,6 +15,7 @@
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
+    <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -208,7 +209,7 @@
       <ref role="PrY4T" to="356a:4pl5GY7LKmz" resolve="TraceableConcept" />
     </node>
     <node concept="PrWs8" id="bhVSeEmowR" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:9MiAwFsXp0" resolve="ITreeViewRoot" />
+      <ref role="PrY4T" to="r1oh:1SzZzyBwEpZ" resolve="ITreeViewRoot" />
     </node>
   </node>
   <node concept="1TIwiD" id="5_l8w1EmTvw">

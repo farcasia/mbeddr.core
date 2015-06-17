@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -49,7 +50,7 @@
       <ref role="20lvS9" node="1pmorAa_L6X" resolve="TestHierarchicalStructureHidden" />
     </node>
     <node concept="PrWs8" id="1pmorAa_Kkq" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6SQk4GjUJRB" resolve="IHierarchicalStructureRoot" />
+      <ref role="PrY4T" to="r1oh:1SzZzyBwEq5" resolve="IHierarchicalStructureRoot" />
     </node>
     <node concept="PrWs8" id="1pmorAa_Lbh" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -79,7 +80,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="1pmorAa_L6Y" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6SQk4GjI9n5" resolve="IHierarchicalStructure" />
+      <ref role="PrY4T" to="r1oh:1SzZzyBwEq2" resolve="IHierarchicalStructure" />
     </node>
   </node>
   <node concept="1TIwiD" id="1pmorAa_R3X">

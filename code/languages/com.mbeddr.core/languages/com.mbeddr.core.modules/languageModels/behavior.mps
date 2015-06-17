@@ -42,6 +42,7 @@
     <import index="dd55" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.cache(MPS.Core/jetbrains.mps.generator.cache@java_stub)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" />
+    <import index="86rq" ref="r:4c910bb7-9710-455e-974d-c806d65739a9(com.mbeddr.mpsutil.tree.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -2141,7 +2142,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getTreeCategories" />
-      <ref role="13i0hy" to="hwgx:7NyyyjNtbmX" resolve="getTreeCategories" />
+      <ref role="13i0hy" to="86rq:1SzZzyBwEqq" resolve="getTreeCategories" />
       <node concept="3Tm1VV" id="bhVSeElkbY" role="1B3o_S" />
       <node concept="3clFbS" id="bhVSeElkc2" role="3clF47">
         <node concept="3clFbF" id="bhVSeElvrF" role="3cqZAp">
@@ -2163,7 +2164,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getTreeNode" />
-      <ref role="13i0hy" to="hwgx:7NyyyjNtbn2" resolve="getTreeNode" />
+      <ref role="13i0hy" to="86rq:1SzZzyBwEqh" resolve="getTreeNode" />
       <node concept="3Tm1VV" id="bhVSeElkc6" role="1B3o_S" />
       <node concept="3clFbS" id="bhVSeElkcb" role="3clF47">
         <node concept="3clFbJ" id="33WP3AMWr2N" role="3cqZAp">
@@ -2173,14 +2174,14 @@
                 <property role="TrG5h" value="p" />
                 <property role="3TUv4t" value="true" />
                 <node concept="3uibUv" id="5EE0R5HzIkA" role="1tU5fm">
-                  <ref role="3uigEE" to="hwgx:7NyyyjNtce8" resolve="NodeTreeViewNode" />
+                  <ref role="3uigEE" to="86rq:1SzZzyBxbAU" resolve="NodeTreeViewNode" />
                 </node>
                 <node concept="2ShNRf" id="5EE0R5HzIkD" role="33vP2m">
                   <node concept="YeOm9" id="5EE0R5HzIkE" role="2ShVmc">
                     <node concept="1Y3b0j" id="5EE0R5HzIkF" role="YeSDq">
                       <property role="2bfB8j" value="true" />
-                      <ref role="1Y3XeK" to="hwgx:7NyyyjNtce8" resolve="NodeTreeViewNode" />
-                      <ref role="37wK5l" to="hwgx:9MiAwFBo2R" resolve="NodeTreeViewNode" />
+                      <ref role="1Y3XeK" to="86rq:1SzZzyBxbAU" resolve="NodeTreeViewNode" />
+                      <ref role="37wK5l" to="86rq:1SzZzyBxbBE" resolve="NodeTreeViewNode" />
                       <node concept="3Tm1VV" id="5EE0R5HzIkG" role="1B3o_S" />
                       <node concept="3clFb_" id="5EE0R5HzIkH" role="jymVt">
                         <property role="TrG5h" value="getChildCountFromModel" />
@@ -2194,7 +2195,7 @@
                                 <node concept="1PxgMI" id="5EE0R5HzIkO" role="2Oq$k0">
                                   <ref role="1PxNhF" to="x27k:5_l8w1EmTvt" resolve="FunctionSignature" />
                                   <node concept="1rXfSq" id="5EE0R5HzIkP" role="1PxMeX">
-                                    <ref role="37wK5l" to="hwgx:7NyyyjNyzs8" resolve="getProgramNode" />
+                                    <ref role="37wK5l" to="86rq:1SzZzyBxbDX" resolve="getProgramNode" />
                                   </node>
                                 </node>
                                 <node concept="2Rf3mk" id="5EE0R5HzIkQ" role="2OqNvi">
@@ -2215,7 +2216,7 @@
                         <property role="1EzhhJ" value="false" />
                         <node concept="_YKpA" id="5EE0R5HzIkV" role="3clF45">
                           <node concept="3uibUv" id="5EE0R5HzIkW" role="_ZDj9">
-                            <ref role="3uigEE" to="hwgx:2bPPn51Sxsu" resolve="AbstractTreeViewNode" />
+                            <ref role="3uigEE" to="86rq:1SzZzyBxbsG" resolve="AbstractTreeViewNode" />
                           </node>
                         </node>
                         <node concept="3Tm1VV" id="5EE0R5HzIkX" role="1B3o_S" />
@@ -2227,7 +2228,7 @@
                                   <node concept="1PxgMI" id="5EE0R5HzIl3" role="2Oq$k0">
                                     <ref role="1PxNhF" to="x27k:5_l8w1EmTvt" resolve="FunctionSignature" />
                                     <node concept="1rXfSq" id="5EE0R5HzIl4" role="1PxMeX">
-                                      <ref role="37wK5l" to="hwgx:7NyyyjNyzs8" resolve="getProgramNode" />
+                                      <ref role="37wK5l" to="86rq:1SzZzyBxbDX" resolve="getProgramNode" />
                                     </node>
                                   </node>
                                   <node concept="2Rf3mk" id="5EE0R5HzIl5" role="2OqNvi">
@@ -2248,8 +2249,8 @@
                                               <node concept="YeOm9" id="5EE0R5HzIlg" role="2ShVmc">
                                                 <node concept="1Y3b0j" id="5EE0R5HzIlh" role="YeSDq">
                                                   <property role="2bfB8j" value="true" />
-                                                  <ref role="1Y3XeK" to="hwgx:7NyyyjNtce8" resolve="NodeTreeViewNode" />
-                                                  <ref role="37wK5l" to="hwgx:bhVSeEXl2r" resolve="NodeTreeViewNode" />
+                                                  <ref role="1Y3XeK" to="86rq:1SzZzyBxbAU" resolve="NodeTreeViewNode" />
+                                                  <ref role="37wK5l" to="86rq:1SzZzyBxbCm" resolve="NodeTreeViewNode" />
                                                   <node concept="3Tm1VV" id="5EE0R5HzIli" role="1B3o_S" />
                                                   <node concept="3clFb_" id="5EE0R5HzIlj" role="jymVt">
                                                     <property role="TrG5h" value="getChildCountFromModel" />
@@ -2269,19 +2270,19 @@
                                                     <property role="1EzhhJ" value="false" />
                                                     <node concept="_YKpA" id="5EE0R5HzIlq" role="3clF45">
                                                       <node concept="3uibUv" id="5EE0R5HzIlr" role="_ZDj9">
-                                                        <ref role="3uigEE" to="hwgx:2bPPn51Sxsu" resolve="AbstractTreeViewNode" />
+                                                        <ref role="3uigEE" to="86rq:1SzZzyBxbsG" resolve="AbstractTreeViewNode" />
                                                       </node>
                                                     </node>
                                                     <node concept="3Tm1VV" id="5EE0R5HzIls" role="1B3o_S" />
                                                     <node concept="3clFbS" id="5EE0R5HzIlt" role="3clF47">
                                                       <node concept="3clFbF" id="5EE0R5HzIlu" role="3cqZAp">
                                                         <node concept="1rXfSq" id="5EE0R5HzIlv" role="3clFbG">
-                                                          <ref role="37wK5l" to="hwgx:bhVSeEzlB1" resolve="getItsTreeNodes" />
+                                                          <ref role="37wK5l" to="86rq:1SzZzyBxbyb" resolve="getItsTreeNodes" />
                                                           <node concept="2OqwBi" id="5EE0R5HzIlw" role="37wK5m">
                                                             <node concept="1PxgMI" id="5EE0R5HzIlx" role="2Oq$k0">
                                                               <ref role="1PxNhF" to="x27k:5ak6HMA0rec" resolve="FunctionCall" />
                                                               <node concept="1rXfSq" id="5EE0R5HzIly" role="1PxMeX">
-                                                                <ref role="37wK5l" to="hwgx:7NyyyjNyzs8" resolve="getProgramNode" />
+                                                                <ref role="37wK5l" to="86rq:1SzZzyBxbDX" resolve="getProgramNode" />
                                                               </node>
                                                             </node>
                                                             <node concept="3TrEf2" id="5EE0R5HzIlz" role="2OqNvi">
@@ -2289,7 +2290,7 @@
                                                             </node>
                                                           </node>
                                                           <node concept="37vLTw" id="5EE0R5HzIl$" role="37wK5m">
-                                                            <ref role="3cqZAo" to="hwgx:7NyyyjOcUiI" resolve="category" />
+                                                            <ref role="3cqZAo" to="86rq:1SzZzyBxbsU" resolve="category" />
                                                           </node>
                                                         </node>
                                                       </node>
@@ -2307,7 +2308,7 @@
                                                     </node>
                                                   </node>
                                                   <node concept="1rXfSq" id="5EE0R5HzIlD" role="37wK5m">
-                                                    <ref role="37wK5l" to="hwgx:bhVSeEVB6v" resolve="loadIconFromNodesModule" />
+                                                    <ref role="37wK5l" to="86rq:1SzZzyBxbyr" resolve="loadIconFromNodesModule" />
                                                     <node concept="2OqwBi" id="5EE0R5HzIlE" role="37wK5m">
                                                       <node concept="37vLTw" id="5EE0R5HzIlF" role="2Oq$k0">
                                                         <ref role="3cqZAo" node="5EE0R5HzIlN" resolve="it" />
@@ -2319,14 +2320,14 @@
                                                     </node>
                                                   </node>
                                                   <node concept="37vLTw" id="5EE0R5HzIlI" role="37wK5m">
-                                                    <ref role="3cqZAo" to="hwgx:7NyyyjOcUiI" resolve="category" />
+                                                    <ref role="3cqZAo" to="86rq:1SzZzyBxbsU" resolve="category" />
                                                   </node>
                                                   <node concept="10Nm6u" id="5EE0R5HzIlJ" role="37wK5m" />
                                                 </node>
                                               </node>
                                             </node>
                                             <node concept="3uibUv" id="5EE0R5HzIlK" role="10QFUM">
-                                              <ref role="3uigEE" to="hwgx:2bPPn51Sxsu" resolve="AbstractTreeViewNode" />
+                                              <ref role="3uigEE" to="86rq:1SzZzyBxbsG" resolve="AbstractTreeViewNode" />
                                             </node>
                                           </node>
                                         </node>
@@ -2357,7 +2358,7 @@
                       <node concept="2OqwBi" id="5EE0R5HzIlV" role="37wK5m">
                         <node concept="13iPFW" id="5EE0R5HzIlW" role="2Oq$k0" />
                         <node concept="2qgKlT" id="5EE0R5HzIlX" role="2OqNvi">
-                          <ref role="37wK5l" to="hwgx:7NyyyjNtbmX" resolve="getTreeCategories" />
+                          <ref role="37wK5l" to="86rq:1SzZzyBwEqq" resolve="getTreeCategories" />
                         </node>
                       </node>
                     </node>
@@ -2393,7 +2394,7 @@
         <node concept="17QB3L" id="bhVSeElkcd" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="bhVSeElkce" role="3clF45">
-        <ref role="3uigEE" to="hwgx:7NyyyjNtce8" resolve="NodeTreeViewNode" />
+        <ref role="3uigEE" to="86rq:1SzZzyBxbAU" resolve="NodeTreeViewNode" />
       </node>
     </node>
     <node concept="13hLZK" id="19a6$uAAazq" role="13h7CW">
