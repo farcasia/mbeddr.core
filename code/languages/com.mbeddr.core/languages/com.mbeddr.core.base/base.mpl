@@ -63,6 +63,7 @@
     <dependency reexport="false">5454dbfd-2075-4de0-b85e-fa645eb6957e(com.mbeddr.mpsutil.serializer.xml)</dependency>
     <dependency reexport="false">019b622b-0aef-4dd3-86d0-4eef01f3f6bb(jetbrains.mps.ide)</dependency>
     <dependency reexport="false">edbf7309-1f99-41ae-b728-0faf793461e1(com.mbeddr.mpsutil.valueDebugger)</dependency>
+    <dependency reexport="false">8c69e1b7-ded6-44a8-a7d1-7234c8521c73(com.mbeddr.mpsutil.externalReference)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>
@@ -146,6 +147,7 @@
     <extendedLanguage>a482b416-d0c9-473f-8f67-725ed642b3f3(com.mbeddr.mpsutil.breadcrumb)</extendedLanguage>
     <extendedLanguage>d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)</extendedLanguage>
     <extendedLanguage>b4d28e19-7d2d-47e9-943e-3a41f97a0e52(com.mbeddr.mpsutil.plantuml.node)</extendedLanguage>
+    <extendedLanguage>8c69e1b7-ded6-44a8-a7d1-7234c8521c73(com.mbeddr.mpsutil.externalReference)</extendedLanguage>
   </extendedLanguages>
 </language>
 

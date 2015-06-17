@@ -9,9 +9,10 @@
     <import index="87nw" ref="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" />
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
+    <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
+    <import index="10jo" ref="r:6e32694b-6dd1-4530-b48f-4e3bf97b2744(com.mbeddr.mpsutil.jung.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="10jo" ref="r:6e32694b-6dd1-4530-b48f-4e3bf97b2744(com.mbeddr.mpsutil.jung.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1346,42 +1347,13 @@
     <ref role="1TJDcQ" node="K292flwHw9" resolve="AssessmentResult" />
     <node concept="1TJgyi" id="GKLijSwpYL" role="1TKVEl">
       <property role="TrG5h" value="kind" />
-      <ref role="AX2Wp" node="GKLijSwpYG" resolve="ResultKind" />
+      <ref role="AX2Wp" to="smpy:1SzZzyBtDaZ" resolve="ResultKind" />
     </node>
     <node concept="1TJgyj" id="GKLijSwa$m" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="exref" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="GKLijS$AT1" resolve="IExtRef" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="GKLijSwpYG">
-    <property role="3GE5qa" value="exref" />
-    <property role="TrG5h" value="ResultKind" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="GKLijSwpYH" role="M5hS2">
-      <property role="1uS6qv" value="invalidID" />
-      <property role="1uS6qo" value="invalidID" />
-    </node>
-    <node concept="M4N5e" id="GKLijSwpYI" role="M5hS2">
-      <property role="1uS6qo" value="outdatedHash" />
-      <property role="1uS6qv" value="outdatedHash" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="GKLijS$AT1">
-    <property role="3GE5qa" value="exref" />
-    <property role="TrG5h" value="IExtRef" />
-    <node concept="1TJgyi" id="GKLijS$DFv" role="1TKVEl">
-      <property role="TrG5h" value="extID" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="GKLijS$DFw" role="1TKVEl">
-      <property role="TrG5h" value="hash" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="GKLijTbrTL" role="1TKVEl">
-      <property role="TrG5h" value="lastUpdated" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="20lvS9" to="smpy:1SzZzyBttVo" resolve="IExtRef" />
     </node>
   </node>
   <node concept="PlHQZ" id="59HbAIOYkEn">
@@ -1627,7 +1599,7 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="1JcbkuyFnZT" role="PzmwI">
-      <ref role="PrY4T" node="GKLijS$AT1" resolve="IExtRef" />
+      <ref role="PrY4T" to="smpy:1SzZzyBttVo" resolve="IExtRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="5stuwjVkYpE">

@@ -20,6 +20,8 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="jfwg" ref="r:d3af6c4d-9630-4c7f-8b7f-62ceed04bfbc(com.mbeddr.mpsutil.valueDebugger.behavior)" />
     <import index="wzft" ref="r:b095f810-fbed-4d10-a085-2182aeb89aeb(com.mbeddr.mpsutil.valueDebugger.structure)" />
+    <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
+    <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1209,7 +1211,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="GKLijTgrrz" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:GKLijS$FKV" resolve="update" />
+              <ref role="37wK5l" to="sv2b:1SzZzyBttWZ" resolve="update" />
             </node>
           </node>
         </node>
@@ -1220,31 +1222,6 @@
               <node concept="1mfA1w" id="GKLijTgrRB" role="2OqNvi" />
             </node>
             <node concept="1PgB_6" id="GKLijTgshK" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="GKLijTgoaG">
-    <property role="TrG5h" value="updateHashForIExtRef" />
-    <ref role="2ZfgGC" to="vs0r:GKLijS$AT1" resolve="IExtRef" />
-    <node concept="2S6ZIM" id="GKLijTgoaH" role="2ZfVej">
-      <node concept="3clFbS" id="GKLijTgoaI" role="2VODD2">
-        <node concept="3clFbF" id="GKLijTgoaJ" role="3cqZAp">
-          <node concept="Xl_RD" id="GKLijTgoaK" role="3clFbG">
-            <property role="Xl_RC" value="Update External Reference" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="GKLijTgoaL" role="2ZfgGD">
-      <node concept="3clFbS" id="GKLijTgoaM" role="2VODD2">
-        <node concept="3clFbF" id="GKLijTgoaN" role="3cqZAp">
-          <node concept="2OqwBi" id="GKLijTgoaO" role="3clFbG">
-            <node concept="2Sf5sV" id="GKLijTgoaP" role="2Oq$k0" />
-            <node concept="2qgKlT" id="GKLijTgoaQ" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:GKLijS$FKV" resolve="update" />
-            </node>
           </node>
         </node>
       </node>

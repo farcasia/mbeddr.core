@@ -44,6 +44,8 @@
     <import index="ar19" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(java.awt.geom@java_stub)" />
     <import index="4lbv" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.update(MPS.Editor/jetbrains.mps.openapi.editor.update@java_stub)" />
     <import index="wzft" ref="r:b095f810-fbed-4d10-a085-2182aeb89aeb(com.mbeddr.mpsutil.valueDebugger.structure)" />
+    <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
+    <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -9476,7 +9478,7 @@
                         <node concept="2OqwBi" id="GKLijSwgfN" role="33vP2m">
                           <node concept="pncrf" id="GKLijSwfmn" role="2Oq$k0" />
                           <node concept="3TrcHB" id="GKLijSwh$3" role="2OqNvi">
-                            <ref role="3TsBF5" to="vs0r:GKLijS$DFv" resolve="extID" />
+                            <ref role="3TsBF5" to="smpy:1SzZzyBttVp" resolve="extID" />
                           </node>
                         </node>
                       </node>
@@ -9527,7 +9529,7 @@
                         </node>
                       </node>
                       <node concept="2qgKlT" id="1Jcbkuz04af" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:1JcbkuyZZUz" resolve="getFullExternalResourceName" />
+                        <ref role="37wK5l" to="sv2b:1SzZzyBttVt" resolve="getFullExternalResourceName" />
                       </node>
                     </node>
                   </node>
@@ -9554,7 +9556,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="GKLijT3XtD" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:GKLijSNXOH" resolve="getStoredDescription" />
+                      <ref role="37wK5l" to="sv2b:1SzZzyBttVT" resolve="getStoredDescription" />
                     </node>
                   </node>
                 </node>
@@ -9604,7 +9606,7 @@
                         </node>
                       </node>
                       <node concept="3TrcHB" id="3Pz_UaK8xgr" role="2OqNvi">
-                        <ref role="3TsBF5" to="vs0r:GKLijTbrTL" resolve="lastUpdated" />
+                        <ref role="3TsBF5" to="smpy:1SzZzyBttVr" resolve="lastUpdated" />
                       </node>
                     </node>
                   </node>
@@ -9663,7 +9665,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="GKLijTfQKN" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:GKLijSNXOH" resolve="getStoredDescription" />
+                      <ref role="37wK5l" to="sv2b:1SzZzyBttVT" resolve="getStoredDescription" />
                     </node>
                   </node>
                 </node>
@@ -9690,7 +9692,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="GKLijSV7Av" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:GKLijS$FKh" resolve="getExternalDescription" />
+                      <ref role="37wK5l" to="sv2b:1SzZzyBttVN" resolve="getExternalDescription" />
                       <node concept="2OqwBi" id="GKLijSV7RG" role="37wK5m">
                         <node concept="2OqwBi" id="GKLijTfS3u" role="2Oq$k0">
                           <node concept="pncrf" id="GKLijSV7MX" role="2Oq$k0" />
@@ -9699,7 +9701,7 @@
                           </node>
                         </node>
                         <node concept="3TrcHB" id="GKLijTfSTy" role="2OqNvi">
-                          <ref role="3TsBF5" to="vs0r:GKLijS$DFv" resolve="extID" />
+                          <ref role="3TsBF5" to="smpy:1SzZzyBttVp" resolve="extID" />
                         </node>
                       </node>
                     </node>

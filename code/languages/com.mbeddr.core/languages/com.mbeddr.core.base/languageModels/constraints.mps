@@ -15,6 +15,8 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="jfwg" ref="r:d3af6c4d-9630-4c7f-8b7f-62ceed04bfbc(com.mbeddr.mpsutil.valueDebugger.behavior)" />
     <import index="wzft" ref="r:b095f810-fbed-4d10-a085-2182aeb89aeb(com.mbeddr.mpsutil.valueDebugger.structure)" />
+    <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
+    <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -819,36 +821,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="GKLijSKPAR">
-    <property role="3GE5qa" value="exref" />
-    <ref role="1M2myG" to="vs0r:GKLijS$AT1" resolve="IExtRef" />
-    <node concept="EnEH3" id="GKLijSKPGj" role="1MhHOB">
-      <ref role="EomxK" to="vs0r:GKLijS$DFv" resolve="extID" />
-      <node concept="1LLf8_" id="GKLijSKPGl" role="1LXaQT">
-        <node concept="3clFbS" id="GKLijSKPGm" role="2VODD2">
-          <node concept="3clFbF" id="GKLijSKSjP" role="3cqZAp">
-            <node concept="37vLTI" id="GKLijSKSLj" role="3clFbG">
-              <node concept="1Wqviy" id="GKLijSKSUF" role="37vLTx" />
-              <node concept="2OqwBi" id="GKLijSKSl2" role="37vLTJ">
-                <node concept="EsrRn" id="GKLijSKSjN" role="2Oq$k0" />
-                <node concept="3TrcHB" id="GKLijSKS$e" role="2OqNvi">
-                  <ref role="3TsBF5" to="vs0r:GKLijS$DFv" resolve="extID" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="GKLijSKPGu" role="3cqZAp">
-            <node concept="2OqwBi" id="GKLijSKPHN" role="3clFbG">
-              <node concept="EsrRn" id="GKLijSKPGt" role="2Oq$k0" />
-              <node concept="2qgKlT" id="GKLijSKSi5" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:GKLijS$FKV" resolve="update" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="6Zp2pzGHrx3">
     <property role="3GE5qa" value="nodelist" />
     <ref role="1M2myG" to="vs0r:6Zp2pzGHhAE" resolve="NodeListItem" />
@@ -937,7 +909,7 @@
               <node concept="2OqwBi" id="1JcbkuyW0ll" role="37vLTJ">
                 <node concept="EsrRn" id="1JcbkuyW0bp" role="2Oq$k0" />
                 <node concept="3TrcHB" id="1JcbkuyW14E" role="2OqNvi">
-                  <ref role="3TsBF5" to="vs0r:GKLijS$DFv" resolve="extID" />
+                  <ref role="3TsBF5" to="smpy:1SzZzyBttVp" resolve="extID" />
                 </node>
               </node>
             </node>
@@ -956,7 +928,7 @@
               <node concept="2OqwBi" id="1JcbkuyR7vm" role="37vLTJ">
                 <node concept="EsrRn" id="1JcbkuyR7sU" role="2Oq$k0" />
                 <node concept="3TrcHB" id="1JcbkuyR7YY" role="2OqNvi">
-                  <ref role="3TsBF5" to="vs0r:GKLijTbrTL" resolve="lastUpdated" />
+                  <ref role="3TsBF5" to="smpy:1SzZzyBttVr" resolve="lastUpdated" />
                 </node>
               </node>
             </node>
