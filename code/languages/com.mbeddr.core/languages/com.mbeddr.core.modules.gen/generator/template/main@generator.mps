@@ -38,6 +38,7 @@
     <import index="2rho" ref="r:4e770e63-2ef5-4a0d-b2e8-c5c1a1565703(com.mbeddr.core.udt.behavior)" />
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -2483,7 +2484,7 @@
     <property role="3GE5qa" value="topPrioStuff" />
     <node concept="3aamgX" id="65XyadYMWeC" role="3acgRq">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="30HIoZ" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
       <node concept="b5Tf3" id="65XyadYMWeE" role="1lVwrX" />
     </node>
     <node concept="3aamgX" id="Ug1QzfiBwI" role="3acgRq">

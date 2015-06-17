@@ -17,6 +17,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1273,7 +1274,7 @@
                       <ref role="3cqZAo" node="4LLYoS7j3P" resolve="cs" />
                     </node>
                     <node concept="3TrEf2" id="4LLYoS7kac" role="2OqNvi">
-                      <ref role="3Tt5mk" to="vs0r:65XyadYMMYG" />
+                      <ref role="3Tt5mk" to="qxxd:1SzZzyBtKMi" />
                     </node>
                   </node>
                 </node>
@@ -1433,7 +1434,7 @@
                 <node concept="2OqwBi" id="4LLYoS6N4b" role="37vLTJ">
                   <node concept="E3gs8" id="4LLYoS6N4c" role="2Oq$k0" />
                   <node concept="3TrEf2" id="4LLYoS6N4d" role="2OqNvi">
-                    <ref role="3Tt5mk" to="vs0r:65XyadYMMYG" />
+                    <ref role="3Tt5mk" to="qxxd:1SzZzyBtKMi" />
                   </node>
                 </node>
                 <node concept="Cj7Ep" id="4LLYoS6N4e" role="37vLTx" />
@@ -1500,7 +1501,7 @@
                       <ref role="3cqZAo" node="4LLYoS6QXK" resolve="cs" />
                     </node>
                     <node concept="3TrEf2" id="4LLYoS6QXU" role="2OqNvi">
-                      <ref role="3Tt5mk" to="vs0r:65XyadYMMYG" />
+                      <ref role="3Tt5mk" to="qxxd:1SzZzyBtKMi" />
                     </node>
                   </node>
                 </node>

@@ -29,7 +29,8 @@
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="ar19" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" />
     <import index="7ou7" ref="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" />
-    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -3062,7 +3063,7 @@
     <property role="3GE5qa" value="comp.ports" />
     <ref role="1XX52x" to="v7ag:58NNGt3cxey" resolve="CommentedConfigContent" />
     <node concept="PMmxH" id="58NNGt3cxFF" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="bvnq:1SzZzyBtKOg" resolve="commentedCodeDefault" />
     </node>
   </node>
   <node concept="24kQdi" id="5Xnv3$QABtE">
@@ -7641,14 +7642,14 @@
     <property role="3GE5qa" value="intf.cs" />
     <ref role="1XX52x" to="v7ag:3RtPbXKO3Xq" resolve="CommentedCSInterfaceContent" />
     <node concept="PMmxH" id="3RtPbXKO5Ij" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="bvnq:1SzZzyBtKOg" resolve="commentedCodeDefault" />
     </node>
   </node>
   <node concept="24kQdi" id="7oI7FI6qb0g">
     <property role="3GE5qa" value="comp" />
     <ref role="1XX52x" to="v7ag:7oI7FI6qb0b" resolve="CommentedComponentContent" />
     <node concept="PMmxH" id="65XyadYMXis" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="bvnq:1SzZzyBtKOg" resolve="commentedCodeDefault" />
       <node concept="VPM3Z" id="6A4xWqfT4vk" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>

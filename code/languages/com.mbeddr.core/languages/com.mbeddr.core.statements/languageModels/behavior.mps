@@ -28,6 +28,8 @@
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -3784,7 +3786,7 @@
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
       <property role="TrG5h" value="getCommentConcept" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+      <ref role="13i0hy" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
       <node concept="3Tm1VV" id="5Hxjapwguon" role="1B3o_S" />
       <node concept="3clFbS" id="5Hxjapwguoq" role="3clF47">
         <node concept="3cpWs8" id="5Hxjapwguou" role="3cqZAp">
@@ -3792,10 +3794,10 @@
             <property role="TrG5h" value="result" />
             <node concept="2OqwBi" id="5Hxjapwguoy" role="33vP2m">
               <node concept="13iAh5" id="5Hxjapwguot" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+                <ref role="3eA5LN" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
               </node>
               <node concept="2qgKlT" id="5Hxjapwguos" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+                <ref role="37wK5l" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
               </node>
             </node>
             <node concept="_YKpA" id="3RtPbXKRAng" role="1tU5fm">
@@ -4532,7 +4534,7 @@
       <property role="2Ki8OM" value="true" />
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+      <ref role="13i0hy" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
       <node concept="3Tm1VV" id="5HxjapwgupI" role="1B3o_S" />
       <node concept="3clFbS" id="5HxjapwgupL" role="3clF47">
         <node concept="3cpWs8" id="5HxjapwgupP" role="3cqZAp">
@@ -4540,10 +4542,10 @@
             <property role="TrG5h" value="result" />
             <node concept="2OqwBi" id="5HxjapwgupT" role="33vP2m">
               <node concept="13iAh5" id="5HxjapwgupO" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+                <ref role="3eA5LN" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
               </node>
               <node concept="2qgKlT" id="5HxjapwgupN" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+                <ref role="37wK5l" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
               </node>
             </node>
             <node concept="_YKpA" id="3RtPbXKRzYj" role="1tU5fm">
@@ -4577,17 +4579,17 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="isCommentable" />
-      <ref role="13i0hy" to="hwgx:3RtPbXKOu_B" resolve="isCommentable" />
+      <ref role="13i0hy" to="z7d7:1SzZzyBtKOX" resolve="isCommentable" />
       <node concept="3Tm1VV" id="4rAJNZmTpS_" role="1B3o_S" />
       <node concept="3clFbS" id="4rAJNZmTpSO" role="3clF47">
         <node concept="3clFbF" id="4rAJNZmTpSW" role="3cqZAp">
           <node concept="1Wc70l" id="4rAJNZmTqa3" role="3clFbG">
             <node concept="2OqwBi" id="4rAJNZmTpST" role="3uHU7B">
               <node concept="13iAh5" id="4rAJNZmTpSU" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+                <ref role="3eA5LN" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
               </node>
               <node concept="2qgKlT" id="4rAJNZmTpSV" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:3RtPbXKOu_B" resolve="isCommentable" />
+                <ref role="37wK5l" to="z7d7:1SzZzyBtKOX" resolve="isCommentable" />
                 <node concept="37vLTw" id="4rAJNZmTpSS" role="37wK5m">
                   <ref role="3cqZAo" node="4rAJNZmTpSP" resolve="trigger" />
                 </node>
@@ -4755,7 +4757,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="isCommentable" />
-      <ref role="13i0hy" to="hwgx:3RtPbXKOu_B" resolve="isCommentable" />
+      <ref role="13i0hy" to="z7d7:1SzZzyBtKOX" resolve="isCommentable" />
       <node concept="3Tm1VV" id="3RtPbXKPvp7" role="1B3o_S" />
       <node concept="3clFbS" id="3RtPbXKPvpe" role="3clF47">
         <node concept="3SKdUt" id="3RtPbXKPCOx" role="3cqZAp">

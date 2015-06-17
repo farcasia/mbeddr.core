@@ -16,6 +16,7 @@
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -182,7 +183,7 @@
       </concept>
     </language>
     <language id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool">
-      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" index="27S6Sx" />
+      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" stub="416014060004381438" index="27S6Sx" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -819,7 +820,7 @@
     <property role="3GE5qa" value="binary" />
     <ref role="1XX52x" to="51wr:65XyadYPO6o" resolve="CommentedExecutable" />
     <node concept="PMmxH" id="65XyadYPOIS" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="bvnq:1SzZzyBtKOg" resolve="commentedCodeDefault" />
       <node concept="VPM3Z" id="6A4xWqfT4vk" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>
@@ -829,7 +830,7 @@
     <property role="3GE5qa" value="binary" />
     <ref role="1XX52x" to="51wr:65XyadYP0CJ" resolve="CommentedModuleRef" />
     <node concept="PMmxH" id="65XyadYP3jw" role="2wV5jI">
-      <ref role="PMmxG" to="r4b4:65XyadYMSRq" resolve="commentedCodeDefault" />
+      <ref role="PMmxG" to="bvnq:1SzZzyBtKOg" resolve="commentedCodeDefault" />
       <node concept="VPM3Z" id="6A4xWqfT4vl" role="3F10Kt">
         <property role="VOm3f" value="false" />
       </node>

@@ -15,6 +15,7 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -576,7 +577,7 @@
       <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="7oI7FI6qbsr" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="5hYHEwZXRHC" role="PrDN$">
       <ref role="PrY4T" node="5hYHEwZIii2" resolve="IComponentIDAware" />
@@ -1177,7 +1178,7 @@
     <property role="3GE5qa" value="comp.instances" />
     <property role="TrG5h" value="InstanceConfigContents" />
     <node concept="PrWs8" id="58NNGt3cGlo" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="6brBMefUdsW" role="PrDN$">
       <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
@@ -1208,7 +1209,7 @@
       <ref role="PrY4T" node="5fn4FV$bX67" resolve="InstanceConfigContents" />
     </node>
     <node concept="PrWs8" id="58NNGt3cxe$" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="13C5RDfCfJy" role="PzmwI">
       <ref role="PrY4T" to="2gv2:vymDPxT3Jf" resolve="ISteppable" />
@@ -1221,7 +1222,7 @@
     <property role="3GE5qa" value="intf.cs" />
     <property role="TrG5h" value="ICSInterfaceContents" />
     <node concept="PrWs8" id="3RtPbXKO1Z4" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="5Xnv3$QABtA">
@@ -1705,7 +1706,7 @@
       <ref role="PrY4T" node="5Xnv3$Q_DjT" resolve="ICSInterfaceContents" />
     </node>
     <node concept="PrWs8" id="3RtPbXKO4cI" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="3RtPbXKO4cV" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -1719,7 +1720,7 @@
       <ref role="PrY4T" node="71UKpntm630" resolve="IComponentContent" />
     </node>
     <node concept="PrWs8" id="7oI7FI6qb0e" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="20ezT9ZDJ3l" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />

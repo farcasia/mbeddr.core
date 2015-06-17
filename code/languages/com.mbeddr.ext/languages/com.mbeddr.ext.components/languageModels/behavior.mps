@@ -39,7 +39,9 @@
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="y5px" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator(MPS.Core/jetbrains.mps.generator@java_stub)" />
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
+    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -8586,7 +8588,7 @@
       <property role="2Ki8OM" value="true" />
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+      <ref role="13i0hy" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
       <node concept="3Tm1VV" id="20ezT9ZDJxO" role="1B3o_S" />
       <node concept="3clFbS" id="20ezT9ZDJxR" role="3clF47">
         <node concept="3cpWs8" id="20ezT9ZDJxV" role="3cqZAp">
@@ -8594,10 +8596,10 @@
             <property role="TrG5h" value="result" />
             <node concept="2OqwBi" id="20ezT9ZDJxZ" role="33vP2m">
               <node concept="13iAh5" id="20ezT9ZDJxU" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+                <ref role="3eA5LN" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
               </node>
               <node concept="2qgKlT" id="20ezT9ZDJxT" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+                <ref role="37wK5l" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
               </node>
             </node>
             <node concept="_YKpA" id="3RtPbXKRotE" role="1tU5fm">
@@ -17076,7 +17078,7 @@
       <property role="2Ki8OM" value="true" />
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+      <ref role="13i0hy" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
       <node concept="3Tm1VV" id="20ezT9ZDJuO" role="1B3o_S" />
       <node concept="3clFbS" id="20ezT9ZDJuR" role="3clF47">
         <node concept="3cpWs8" id="20ezT9ZDJuV" role="3cqZAp">
@@ -17084,10 +17086,10 @@
             <property role="TrG5h" value="result" />
             <node concept="2OqwBi" id="20ezT9ZDJuZ" role="33vP2m">
               <node concept="13iAh5" id="20ezT9ZDJuU" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+                <ref role="3eA5LN" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
               </node>
               <node concept="2qgKlT" id="20ezT9ZDJuT" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+                <ref role="37wK5l" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
               </node>
             </node>
             <node concept="_YKpA" id="3RtPbXKRwjz" role="1tU5fm">
@@ -17551,7 +17553,7 @@
       <property role="13i0it" value="false" />
       <property role="13i0is" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+      <ref role="13i0hy" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
       <node concept="3Tm1VV" id="4rAJNZmA5J9" role="1B3o_S" />
       <node concept="3clFbS" id="4rAJNZmA5Jh" role="3clF47">
         <node concept="3cpWs8" id="4rAJNZmA9rb" role="3cqZAp">
@@ -17562,10 +17564,10 @@
             </node>
             <node concept="2OqwBi" id="4rAJNZmA9rd" role="33vP2m">
               <node concept="13iAh5" id="4rAJNZmA9re" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+                <ref role="3eA5LN" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
               </node>
               <node concept="2qgKlT" id="4rAJNZmA9rf" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+                <ref role="37wK5l" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
               </node>
             </node>
           </node>

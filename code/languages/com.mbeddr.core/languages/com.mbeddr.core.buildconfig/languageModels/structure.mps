@@ -9,6 +9,7 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="i2y7" ref="r:098cbe90-1cfd-414a-b5e8-aca28752df17(com.mbeddr.core.make.structure)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -113,7 +114,7 @@
       <ref role="PrY4T" to="x27k:5KH1ziO6mZv" resolve="IReferenceToModule" />
     </node>
     <node concept="PrWs8" id="65XyadYP0CI" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="4o9sgv8QoKi">
@@ -124,7 +125,7 @@
     <property role="3GE5qa" value="binary" />
     <ref role="1TJDcQ" node="4o9sgv8QoKk" resolve="Binary" />
     <node concept="PrWs8" id="65XyadYPO6n" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="77mJsGsFMiP" role="PzmwI">
       <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
@@ -163,7 +164,7 @@
       <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="65XyadYPOIU" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYC" resolve="ICommentable" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="6RCWEZG3saq" role="PzmwI">
       <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
@@ -189,7 +190,7 @@
       <ref role="20lvS9" to="x27k:5_l8w1EmTcX" resolve="Module" />
     </node>
     <node concept="PrWs8" id="65XyadYP2sC" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="5HxjapwgqUF" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -220,7 +221,7 @@
     <property role="3GE5qa" value="binary" />
     <ref role="1TJDcQ" node="4o9sgv8QoKk" resolve="Binary" />
     <node concept="PrWs8" id="65XyadYPO6p" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
     </node>
     <node concept="PrWs8" id="5HxjapwgqNT" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />

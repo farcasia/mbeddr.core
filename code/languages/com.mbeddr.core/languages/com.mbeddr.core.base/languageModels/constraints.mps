@@ -17,6 +17,7 @@
     <import index="wzft" ref="r:b095f810-fbed-4d10-a085-2182aeb89aeb(com.mbeddr.mpsutil.valueDebugger.structure)" />
     <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
     <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -290,7 +291,7 @@
               <node concept="EsrRn" id="65XyadYNwrz" role="2Oq$k0" />
               <node concept="1mIQ4w" id="65XyadYNwrC" role="2OqNvi">
                 <node concept="chp4Y" id="65XyadYNwrE" role="cj9EA">
-                  <ref role="cht4Q" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+                  <ref role="cht4Q" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
                 </node>
               </node>
             </node>

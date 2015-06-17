@@ -227,23 +227,6 @@
       <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
     </node>
   </node>
-  <node concept="PlHQZ" id="65XyadYMMYC">
-    <property role="TrG5h" value="ICommentable" />
-    <property role="3GE5qa" value="commenting" />
-  </node>
-  <node concept="PlHQZ" id="65XyadYMMYF">
-    <property role="TrG5h" value="ICommentedCode" />
-    <property role="3GE5qa" value="commenting" />
-    <node concept="1TJgyj" id="65XyadYMMYG" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="commentedCode" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-    <node concept="PrWs8" id="6VyEOEUl_66" role="PrDN$">
-      <ref role="PrY4T" to="tpck:2WmWrdnSpX3" resolve="ISuppressErrors" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3m8H$lmFM5W">
     <property role="TrG5h" value="ElementDocumentation" />
     <property role="3GE5qa" value="documentation" />
@@ -1654,10 +1637,6 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="5lKnBeAtNw8" resolve="AbstractPicker" />
-  </node>
-  <node concept="PlHQZ" id="3RtPbXOi5Ir">
-    <property role="3GE5qa" value="commenting" />
-    <property role="TrG5h" value="ITriggerCommenting" />
   </node>
 </model>
 

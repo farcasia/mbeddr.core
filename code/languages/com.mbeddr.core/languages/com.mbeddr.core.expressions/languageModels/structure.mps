@@ -10,6 +10,7 @@
     <import index="356a" ref="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="wzft" ref="r:b095f810-fbed-4d10-a085-2182aeb89aeb(com.mbeddr.mpsutil.valueDebugger.structure)" />
+    <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -133,7 +134,7 @@
       <ref role="PrY4T" to="tpck:hYa1RjM" resolve="IType" />
     </node>
     <node concept="PrWs8" id="3RtPbXOi6a7" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3RtPbXOi5Ir" resolve="ITriggerCommenting" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMk" resolve="ITriggerCommenting" />
     </node>
   </node>
   <node concept="1TIwiD" id="7FQByU3CrCS">
@@ -1406,7 +1407,7 @@
       <ref role="PrY4T" to="tpck:2WmWrdnSpX3" resolve="ISuppressErrors" />
     </node>
     <node concept="PrWs8" id="1h0uThiyP1Y" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYMMYF" resolve="ICommentedCode" />
+      <ref role="PrY4T" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
     </node>
   </node>
   <node concept="1TIwiD" id="1kFLyoDrd_s">

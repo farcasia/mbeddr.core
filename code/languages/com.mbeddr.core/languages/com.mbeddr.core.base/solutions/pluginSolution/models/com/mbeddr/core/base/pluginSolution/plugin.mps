@@ -97,6 +97,7 @@
     <import index="oxmj" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.ui.content.tabs(MPS.IDEA/com.intellij.ui.content.tabs@java_stub)" />
     <import index="z5os" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.ui.dialogs.properties.input(MPS.Platform/jetbrains.mps.ide.ui.dialogs.properties.input@java_stub)" />
     <import index="r9fo" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.util(MPS.OpenAPI/org.jetbrains.mps.util@java_stub)" />
+    <import index="ywu" ref="r:81a95cb9-e26a-4801-958d-58b4240e0bb2(com.mbeddr.mpsutil.commentable.refactorings)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -724,7 +725,7 @@
   <node concept="1lpA8v" id="6xlxoSXdgd1">
     <property role="TrG5h" value="Comment In" />
     <property role="3GE5qa" value="documentationStuff" />
-    <ref role="1lpA8s" to="fgky:65XyadYNwBF" resolve="commentBackInCode" />
+    <ref role="1lpA8s" to="ywu:1SzZzyBtKN_" resolve="commentBackInCode" />
     <node concept="pLAjd" id="6xlxoSXdgd2" role="1lpA8t">
       <property role="pLAjf" value="VK_C" />
       <property role="pLAjc" value="ctrl+alt" />
@@ -733,7 +734,7 @@
   <node concept="1lpA8v" id="6xlxoSXdgd3">
     <property role="TrG5h" value="Comment In" />
     <property role="3GE5qa" value="documentationStuff" />
-    <ref role="1lpA8s" to="fgky:MGIVVaAnY" resolve="commentBackInCodeOnOriginal" />
+    <ref role="1lpA8s" to="ywu:1SzZzyBtKNS" resolve="commentBackInCodeOnOriginal" />
     <node concept="pLAjd" id="6xlxoSXdgd4" role="1lpA8t">
       <property role="pLAjf" value="VK_C" />
       <property role="pLAjc" value="ctrl+alt" />
@@ -742,7 +743,7 @@
   <node concept="1lpA8v" id="6xlxoSXdgd7">
     <property role="TrG5h" value="Comment Out" />
     <property role="3GE5qa" value="documentationStuff" />
-    <ref role="1lpA8s" to="fgky:65XyadYMNlZ" resolve="commentedOutCode" />
+    <ref role="1lpA8s" to="ywu:1SzZzyBtKMl" resolve="commentedOutCode" />
     <node concept="pLAjd" id="6xlxoSXdgd8" role="1lpA8t">
       <property role="pLAjf" value="VK_C" />
       <property role="pLAjc" value="ctrl+alt" />
