@@ -20,7 +20,6 @@
     <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="6q2s" ref="r:c494e56d-2869-45d3-81d1-883ba2ef8f01(com.mbeddr.mpsutil.ideEnhancement.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -331,60 +330,6 @@
       <property role="20kJfa" value="scope" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7nkDZJXluO4" resolve="AssessmentScope" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6Zp2pzGGn8D">
-    <property role="TrG5h" value="NodeListContainer" />
-    <property role="3GE5qa" value="nodelist" />
-    <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/nodelist.png" />
-    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
-    <node concept="1TJgyj" id="6Zp2pzGGYPK" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="lists" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6Zp2pzGGYLx" resolve="NodeList" />
-    </node>
-    <node concept="PrWs8" id="6Zp2pzGGqbz" role="PzmwI">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
-    </node>
-    <node concept="PrWs8" id="6Zp2pzGGqb$" role="PzmwI">
-      <ref role="PrY4T" to="6q2s:3MfdKt5xVda" resolve="IMbeddrIDERoot" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6Zp2pzGGYLx">
-    <property role="3GE5qa" value="nodelist" />
-    <property role="TrG5h" value="NodeList" />
-    <property role="MwhBj" value="${module}/icons/nodelist.png" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6Zp2pzGHrnI" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="items" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6Zp2pzGHhAE" resolve="NodeListItem" />
-    </node>
-    <node concept="1TJgyj" id="6Zp2pzGH6Lk" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="scopeLimiter" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-    </node>
-    <node concept="PrWs8" id="6Zp2pzGGYPF" role="PzmwI">
-      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6Zp2pzGHhAE">
-    <property role="3GE5qa" value="nodelist" />
-    <property role="TrG5h" value="NodeListItem" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6Zp2pzGHhAP" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyi" id="6Zp2pzGHhAK" role="1TKVEl">
-      <property role="TrG5h" value="text" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="7nkDZJXluO4">
