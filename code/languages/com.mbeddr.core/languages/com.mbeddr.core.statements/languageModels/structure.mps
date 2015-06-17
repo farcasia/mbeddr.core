@@ -13,6 +13,7 @@
     <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -59,7 +60,7 @@
     <property role="R4oN_" value="an empty statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="jLLIdCm1p8" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="4AnlLd6svrQ" role="PzmwI">
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
@@ -409,7 +410,7 @@
       <ref role="PrY4T" node="5Xsg2EBpBVN" resolve="IStatmentListContainer" />
     </node>
     <node concept="PrWs8" id="67O0HaCxSNi" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="1pM_z_iJkXF" role="PzmwI">
       <ref role="PrY4T" to="2gv2:2R5TvtOlFs8" resolve="ISteppableContext" />
@@ -551,7 +552,7 @@
       <ref role="20lvS9" to="kbk3:1SzZzyByFB$" resolve="TextBlock" />
     </node>
     <node concept="PrWs8" id="6yeRgC0uAEH" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6yeRgC0uAED" resolve="IIsDocumentationComment" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwF" resolve="IIsDocumentationComment" />
     </node>
     <node concept="PrWs8" id="7uLL3Mf3Z6_" role="PzmwI">
       <ref role="PrY4T" to="kbk3:1SzZzyByFBz" resolve="ITextBlockOwner" />
@@ -690,7 +691,7 @@
       <ref role="PrY4T" to="mj1l:4usdeMNUjj3" resolve="IRequiresTypeToBeInferred" />
     </node>
     <node concept="PrWs8" id="1H6zsulMvPN" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="PlHQZ" id="4Ixybz5aK1O">

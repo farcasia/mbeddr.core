@@ -45,6 +45,7 @@
     <import index="86rq" ref="r:4c910bb7-9710-455e-974d-c806d65739a9(com.mbeddr.mpsutil.tree.behavior)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -7161,7 +7162,7 @@
                             </node>
                             <node concept="1mIQ4w" id="1w$GP05eO2O" role="2OqNvi">
                               <node concept="chp4Y" id="1w$GP05eO2P" role="cj9EA">
-                                <ref role="cht4Q" to="vs0r:6yeRgC0uAED" resolve="IIsDocumentationComment" />
+                                <ref role="cht4Q" to="td5:1SzZzyBzjwF" resolve="IIsDocumentationComment" />
                               </node>
                             </node>
                           </node>

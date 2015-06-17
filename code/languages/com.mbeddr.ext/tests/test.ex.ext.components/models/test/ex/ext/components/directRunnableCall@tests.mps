@@ -16,6 +16,7 @@
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
+    <use id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" name="com.mbeddr.mpsutil.documentable" version="0" />
   </languages>
   <imports />
   <registry>
@@ -139,6 +140,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" name="com.mbeddr.mpsutil.documentable">
+      <concept id="2171858964605384739" name="com.mbeddr.mpsutil.documentable.structure.ElementDocumentation" flags="ng" index="2TFGor" />
     </language>
     <language id="97d24244-51db-4e2e-97fc-7bd73b1f5f40" name="com.mbeddr.ext.components">
       <concept id="7780999115923942144" name="com.mbeddr.ext.components.structure.AbstractInstanceConfiguration" flags="ng" index="5Js9S">
@@ -310,7 +314,7 @@
             <ref role="1XX6Gs" node="78Ts1skplNa" resolve="c1" />
             <ref role="1XX6Gv" node="78Ts1skplN9" resolve="instances" />
           </node>
-          <node concept="1z9TsT" id="78Ts1skpoRP" role="lGtFl">
+          <node concept="2TFGor" id="78Ts1skpoRP" role="lGtFl">
             <node concept="2TEkvs" id="3mjVpLdxL0$" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxL0B" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxL0D" role="19SJt6">

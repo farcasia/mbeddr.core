@@ -32,6 +32,7 @@
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -8188,8 +8189,8 @@
             <node concept="3clFbF" id="2JIP8cA0DR5" role="3cqZAp">
               <node concept="37vLTI" id="2JIP8cA0DRr" role="3clFbG">
                 <node concept="2YIFZM" id="2JIP8cA0Udd" role="37vLTx">
-                  <ref role="1Pybhc" to="vs0r:8$8RMQYKSY" resolve="TextHelper" />
-                  <ref role="37wK5l" to="vs0r:2JIP8cA0Ucq" resolve="splitIntoMLStringWithExplicitNs" />
+                  <ref role="1Pybhc" to="td5:1SzZzyB$9Mt" resolve="TextHelper" />
+                  <ref role="37wK5l" to="td5:1SzZzyB$9Pg" resolve="splitIntoMLStringWithExplicitNs" />
                   <node concept="3cpWsa" id="2JIP8cA0Ude" role="37wK5m">
                     <ref role="3cqZAo" node="2JIP8cA0DQP" resolve="exprText" />
                   </node>

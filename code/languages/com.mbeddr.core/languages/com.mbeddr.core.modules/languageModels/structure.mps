@@ -18,6 +18,7 @@
     <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -127,7 +128,7 @@
     <property role="R4oN_" value="module encapsulating implementation code" />
     <ref role="1TJDcQ" node="5_l8w1EmTcX" resolve="Module" />
     <node concept="PrWs8" id="1OcdQnyTYX3" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="Dp4TemBBy$" role="PzmwI">
       <ref role="PrY4T" to="c4fa:5Xsg2EBpBVN" resolve="IStatmentListContainer" />
@@ -162,7 +163,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="1teBndx1W9j" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="65XyadYMXil" role="PrDN$">
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
@@ -239,7 +240,7 @@
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
     <node concept="PrWs8" id="1OcdQnyTYX0" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="Dp4TemBD31" role="PzmwI">
       <ref role="PrY4T" to="c4fa:5Xsg2EBpBVN" resolve="IStatmentListContainer" />
@@ -394,7 +395,7 @@
       <ref role="PrY4T" node="5Oog2UbPmsI" resolve="IExternable" />
     </node>
     <node concept="PrWs8" id="2oCAQmIHUv1" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="3pcBCY8vCbw" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -927,7 +928,7 @@
     <property role="TrG5h" value="ModuleContentRefWord" />
     <property role="R4oN_" value="references module contents" />
     <property role="34LRSv" value="@mc" />
-    <ref role="1TJDcQ" to="vs0r:3wX8xlocJcS" resolve="CDocWord" />
+    <ref role="1TJDcQ" to="td5:1SzZzyBzjwx" resolve="CDocWord" />
     <node concept="1TJgyj" id="3wX8xloeatx" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="mc" />
@@ -940,7 +941,7 @@
     <property role="3GE5qa" value="documentation.words" />
     <property role="R4oN_" value="references an argument" />
     <property role="34LRSv" value="@arg" />
-    <ref role="1TJDcQ" to="vs0r:3wX8xlocJcS" resolve="CDocWord" />
+    <ref role="1TJDcQ" to="td5:1SzZzyBzjwx" resolve="CDocWord" />
     <node concept="1TJgyj" id="3wX8xlocJd1" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="arg" />
@@ -953,7 +954,7 @@
     <property role="TrG5h" value="NamedSiblingRefWord" />
     <property role="R4oN_" value="references local named element" />
     <property role="34LRSv" value="@child" />
-    <ref role="1TJDcQ" to="vs0r:3wX8xlocJcS" resolve="CDocWord" />
+    <ref role="1TJDcQ" to="td5:1SzZzyBzjwx" resolve="CDocWord" />
     <node concept="1TJgyj" id="5gTlpakxlYb" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="sibling" />
@@ -966,7 +967,7 @@
     <property role="TrG5h" value="ModuleRefWord" />
     <property role="R4oN_" value="references a module" />
     <property role="34LRSv" value="@module" />
-    <ref role="1TJDcQ" to="vs0r:3wX8xlocJcS" resolve="CDocWord" />
+    <ref role="1TJDcQ" to="td5:1SzZzyBzjwx" resolve="CDocWord" />
     <node concept="1TJgyj" id="5gTlpakxN_T" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="module" />
@@ -1168,7 +1169,7 @@
     <property role="3GE5qa" value="documentation.words" />
     <property role="R4oN_" value="references a local variable" />
     <property role="34LRSv" value="@local" />
-    <ref role="1TJDcQ" to="vs0r:3wX8xlocJcS" resolve="CDocWord" />
+    <ref role="1TJDcQ" to="td5:1SzZzyBzjwx" resolve="CDocWord" />
     <node concept="1TJgyj" id="4IT6unsxcO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="lvd" />

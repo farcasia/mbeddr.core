@@ -18,6 +18,7 @@
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -216,7 +217,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="EZWYGad_xW" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="5Xnv3$Q_DjW" role="PzmwI">
       <ref role="PrY4T" node="5Xnv3$Q_DjT" resolve="ICSInterfaceContents" />
@@ -351,7 +352,7 @@
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
     </node>
     <node concept="PrWs8" id="4LpbtzntwjS" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="4LpbtznuboV" role="PzmwI">
       <ref role="PrY4T" to="c4fa:5Xsg2EBpBVN" resolve="IStatmentListContainer" />
@@ -449,7 +450,7 @@
       <ref role="PrY4T" node="5fn4FV$bX67" resolve="InstanceConfigContents" />
     </node>
     <node concept="PrWs8" id="5MS7_YHdTSs" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="70y00cdVbOD" role="PzmwI">
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
@@ -566,7 +567,7 @@
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
     </node>
     <node concept="PrWs8" id="4LpbtzntqlY" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="7$$5Stoo8RA" role="PzmwI">
       <ref role="PrY4T" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
@@ -738,7 +739,7 @@
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
     </node>
     <node concept="PrWs8" id="3$v$DpgFELE" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="6brBMefUdt8" role="PzmwI">
       <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
@@ -1516,7 +1517,7 @@
       <ref role="PrY4T" to="clbe:IPRL99KNBK" resolve="IValuedElement" />
     </node>
     <node concept="PrWs8" id="1sHR4zGRRg5" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="RsLjUnO2bV">

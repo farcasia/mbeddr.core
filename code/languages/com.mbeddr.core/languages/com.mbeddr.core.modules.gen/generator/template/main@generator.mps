@@ -41,6 +41,7 @@
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -5248,7 +5249,7 @@
                                 </node>
                                 <node concept="3CFZ6_" id="1teBndx4Inm" role="2OqNvi">
                                   <node concept="3CFYIy" id="1teBndx4Inn" role="3CFYIz">
-                                    <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                                    <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                                   </node>
                                 </node>
                               </node>
@@ -5293,7 +5294,7 @@
                     <node concept="2OqwBi" id="6byLOcR3kq0" role="37vLTx">
                       <node concept="2OqwBi" id="1teBndx4Io7" role="2Oq$k0">
                         <node concept="3TrEf2" id="6wvhQs7mLa4" role="2OqNvi">
-                          <ref role="3Tt5mk" to="vs0r:3wX8xlocnjN" />
+                          <ref role="3Tt5mk" to="td5:1SzZzyBzjw$" />
                         </node>
                         <node concept="2OqwBi" id="1teBndx4Io0" role="2Oq$k0">
                           <node concept="2GrUjf" id="1teBndx4InV" role="2Oq$k0">
@@ -5301,7 +5302,7 @@
                           </node>
                           <node concept="3CFZ6_" id="1teBndx4Io4" role="2OqNvi">
                             <node concept="3CFYIy" id="1teBndx4Io6" role="3CFYIz">
-                              <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                              <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                             </node>
                           </node>
                         </node>

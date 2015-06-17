@@ -5,6 +5,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
+    <use id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" name="com.mbeddr.mpsutil.documentable" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -221,6 +222,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" name="com.mbeddr.mpsutil.documentable">
+      <concept id="2171858964605384739" name="com.mbeddr.mpsutil.documentable.structure.ElementDocumentation" flags="ng" index="2TFGor" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618450" name="com.mbeddr.core.expressions.structure.UnsignedInt32tType" flags="ng" index="26Vqpb" />
@@ -1422,7 +1426,7 @@
               </node>
             </node>
           </node>
-          <node concept="1z9TsT" id="2N9rhKQvv0D" role="lGtFl">
+          <node concept="2TFGor" id="2N9rhKQvv0D" role="lGtFl">
             <node concept="2TEkvs" id="2N9rhKQvv0E" role="1w35rA">
               <node concept="19SGf9" id="2N9rhKQvv0F" role="OjmMu">
                 <node concept="19SUe$" id="2N9rhKQvv0G" role="19SJt6">
@@ -1471,7 +1475,7 @@
               </node>
             </node>
           </node>
-          <node concept="1z9TsT" id="2N9rhKQvsWJ" role="lGtFl">
+          <node concept="2TFGor" id="2N9rhKQvsWJ" role="lGtFl">
             <node concept="2TEkvs" id="2N9rhKQvsWK" role="1w35rA">
               <node concept="19SGf9" id="2N9rhKQvsWL" role="OjmMu">
                 <node concept="19SUe$" id="2N9rhKQvsWM" role="19SJt6">

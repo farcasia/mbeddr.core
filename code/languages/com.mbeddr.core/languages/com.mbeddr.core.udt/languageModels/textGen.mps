@@ -13,6 +13,7 @@
     <import index="2rho" ref="r:4e770e63-2ef5-4a0d-b2e8-c5c1a1565703(com.mbeddr.core.udt.behavior)" />
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -250,7 +251,7 @@
                   <node concept="117lpO" id="1teBndx2C26" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="1teBndx2C2b" role="2OqNvi">
                     <node concept="3CFYIy" id="1teBndx2C2d" role="3CFYIz">
-                      <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                      <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                     </node>
                   </node>
                 </node>
@@ -263,7 +264,7 @@
               <node concept="117lpO" id="1teBndx2BRv" role="2Oq$k0" />
               <node concept="3CFZ6_" id="1teBndx2BR$" role="2OqNvi">
                 <node concept="3CFYIy" id="1teBndx2BRA" role="3CFYIz">
-                  <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                  <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                 </node>
               </node>
             </node>
@@ -503,7 +504,7 @@
                   <node concept="117lpO" id="1teBndx2J6V" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="1teBndx2J6W" role="2OqNvi">
                     <node concept="3CFYIy" id="1teBndx2J6X" role="3CFYIz">
-                      <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                      <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                     </node>
                   </node>
                 </node>
@@ -516,7 +517,7 @@
               <node concept="117lpO" id="1teBndx2J71" role="2Oq$k0" />
               <node concept="3CFZ6_" id="1teBndx2J72" role="2OqNvi">
                 <node concept="3CFYIy" id="1teBndx2J73" role="3CFYIz">
-                  <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                  <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                 </node>
               </node>
             </node>
@@ -773,7 +774,7 @@
                   <node concept="117lpO" id="1teBndx3D5N" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="1teBndx3D5S" role="2OqNvi">
                     <node concept="3CFYIy" id="1teBndx3D5U" role="3CFYIz">
-                      <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                      <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                     </node>
                   </node>
                 </node>
@@ -786,7 +787,7 @@
               <node concept="117lpO" id="1teBndx3D5z" role="2Oq$k0" />
               <node concept="3CFZ6_" id="1teBndx3D5C" role="2OqNvi">
                 <node concept="3CFYIy" id="1teBndx3D5E" role="3CFYIz">
-                  <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                  <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                 </node>
               </node>
             </node>
@@ -1109,7 +1110,7 @@
                   <node concept="117lpO" id="6a5SBPfZFeh" role="2Oq$k0" />
                   <node concept="3CFZ6_" id="6a5SBPfZFei" role="2OqNvi">
                     <node concept="3CFYIy" id="6a5SBPfZFej" role="3CFYIz">
-                      <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                      <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                     </node>
                   </node>
                 </node>
@@ -1122,7 +1123,7 @@
               <node concept="117lpO" id="6a5SBPfZFen" role="2Oq$k0" />
               <node concept="3CFZ6_" id="6a5SBPfZFeo" role="2OqNvi">
                 <node concept="3CFYIy" id="6a5SBPfZFep" role="3CFYIz">
-                  <ref role="3CFYIx" to="vs0r:3m8H$lmFM5W" resolve="ElementDocumentation" />
+                  <ref role="3CFYIx" to="td5:1SzZzyBzjwz" resolve="ElementDocumentation" />
                 </node>
               </node>
             </node>

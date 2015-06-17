@@ -107,6 +107,8 @@
     <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
+    <import index="j0wp" ref="r:0541b35c-f3cf-42ea-bfe7-5b78945f0597(com.mbeddr.mpsutil.documentable.refactorings)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -725,7 +727,7 @@
   <node concept="1lpA8v" id="6xlxoSXdgcY">
     <property role="TrG5h" value="Add Documentation" />
     <property role="3GE5qa" value="documentationStuff" />
-    <ref role="1lpA8s" to="fgky:3m8H$lmIhYg" resolve="addDocuemntation" />
+    <ref role="1lpA8s" to="j0wp:1SzZzyBzjxi" resolve="addDocuemntation" />
     <node concept="pLAjd" id="6xlxoSXdgd0" role="1lpA8t">
       <property role="pLAjc" value="ctrl" />
       <property role="pLAjf" value="VK_A" />
@@ -823,7 +825,7 @@
                     <node concept="liA8E" id="5zgShfcdlTb" role="2OqNvi">
                       <ref role="37wK5l" to="t3eg:~SConceptRepository.getConcept(java.lang.String):org.jetbrains.mps.openapi.language.SAbstractConcept" resolve="getConcept" />
                       <node concept="3nh3qo" id="5zgShfcdm6r" role="37wK5m">
-                        <ref role="3nh3qp" to="vs0r:6yeRgC0uAED" resolve="IIsDocumentationComment" />
+                        <ref role="3nh3qp" to="td5:1SzZzyBzjwF" resolve="IIsDocumentationComment" />
                       </node>
                     </node>
                   </node>

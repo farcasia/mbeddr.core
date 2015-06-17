@@ -37,6 +37,7 @@
     <usedLanguage>5e845763-f4ca-40bf-b31f-74e236ffed75(com.mbeddr.mpsutil.spreferences.context)</usedLanguage>
     <usedLanguage>dbd01f1f-9071-44eb-995e-775f0f308135(com.mbeddr.mpsutil.chunk)</usedLanguage>
     <usedLanguage>337effeb-d191-46ed-969f-c98353f6f6ca(com.mbeddr.mpsutil.paragraph)</usedLanguage>
+    <usedLanguage>669d12f6-e2b3-4310-9b39-d8f8f6447beb(com.mbeddr.mpsutil.documentable)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)</usedDevKit>
@@ -61,6 +62,7 @@
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" fqName="com.mbeddr.core.util" version="0" />
     <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
     <language id="dbd01f1f-9071-44eb-995e-775f0f308135" fqName="com.mbeddr.mpsutil.chunk" version="-1" />
+    <language id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" fqName="com.mbeddr.mpsutil.documentable" version="-1" />
     <language id="8c69e1b7-ded6-44a8-a7d1-7234c8521c73" fqName="com.mbeddr.mpsutil.externalReference" version="-1" />
     <language id="47f075a6-558e-4640-a606-7ce0236c8023" fqName="com.mbeddr.mpsutil.interpreter" version="0" />
     <language id="1c897ba5-9d43-4035-ac7f-0306495743ac" fqName="com.mbeddr.mpsutil.interpreter.test" version="0" />

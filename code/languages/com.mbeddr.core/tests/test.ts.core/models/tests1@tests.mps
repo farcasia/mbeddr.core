@@ -12,6 +12,7 @@
     <use id="5e845763-f4ca-40bf-b31f-74e236ffed75" name="com.mbeddr.mpsutil.spreferences.context" version="-1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
+    <use id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" name="com.mbeddr.mpsutil.documentable" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -470,6 +471,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" name="com.mbeddr.mpsutil.documentable">
+      <concept id="2171858964605384739" name="com.mbeddr.mpsutil.documentable.structure.ElementDocumentation" flags="ng" index="2TFGor" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="7615572890648529894" name="com.mbeddr.core.expressions.structure.NotEqualsExpression" flags="ng" index="25Bbzn" />
@@ -17966,7 +17970,7 @@
               <ref role="1S7826" node="40dlgDM0W$G" resolve="garr" />
             </node>
           </node>
-          <node concept="1z9TsT" id="40dlgDM1dHW" role="lGtFl">
+          <node concept="2TFGor" id="40dlgDM1dHW" role="lGtFl">
             <node concept="2TEkvs" id="40dlgDM1dHX" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM1dHY" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM1dHZ" role="19SJt6">
@@ -18005,7 +18009,7 @@
               </node>
             </node>
           </node>
-          <node concept="1z9TsT" id="40dlgDM2JBI" role="lGtFl">
+          <node concept="2TFGor" id="40dlgDM2JBI" role="lGtFl">
             <node concept="2TEkvs" id="40dlgDM2JBJ" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM2JBK" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM2JBL" role="19SJt6">
@@ -18056,7 +18060,7 @@
               </node>
             </node>
           </node>
-          <node concept="1z9TsT" id="40dlgDM3hwF" role="lGtFl">
+          <node concept="2TFGor" id="40dlgDM3hwF" role="lGtFl">
             <node concept="2TEkvs" id="40dlgDM3hwG" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM3hwH" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM3hwI" role="19SJt6">
@@ -21538,7 +21542,7 @@
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
-          <node concept="1z9TsT" id="5WwC2ssWq0D" role="lGtFl">
+          <node concept="2TFGor" id="5WwC2ssWq0D" role="lGtFl">
             <node concept="2TEkvs" id="5WwC2ssWq0E" role="1w35rA">
               <node concept="19SGf9" id="5WwC2ssWq0F" role="OjmMu">
                 <node concept="19SUe$" id="5WwC2ssWq0G" role="19SJt6" />

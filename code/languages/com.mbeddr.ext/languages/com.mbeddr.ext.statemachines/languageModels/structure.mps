@@ -17,6 +17,7 @@
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -194,7 +195,7 @@
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
     </node>
     <node concept="PrWs8" id="4re0Y8A$dzx" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="6MWlM491tWH" role="PzmwI">
       <ref role="PrY4T" node="6MWlM491tWA" resolve="IStatemachineContents" />
@@ -478,7 +479,7 @@
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="70Kecf8IX7Z" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="7J_m0rEZ4_4">
@@ -499,7 +500,7 @@
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="70Kecf8IXX2" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="47Sr75PmDA0">
@@ -573,7 +574,7 @@
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="3FSHg1aADaB" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+      <ref role="PrY4T" to="td5:1SzZzyBzjwE" resolve="IDocumentable" />
     </node>
     <node concept="PrWs8" id="3FSHg1aBfpx" role="PzmwI">
       <ref role="PrY4T" node="47Sr75PmD_X" resolve="IStateContents" />

@@ -24,6 +24,7 @@
     <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>
     <usedLanguage>dbd01f1f-9071-44eb-995e-775f0f308135(com.mbeddr.mpsutil.chunk)</usedLanguage>
     <usedLanguage>337effeb-d191-46ed-969f-c98353f6f6ca(com.mbeddr.mpsutil.paragraph)</usedLanguage>
+    <usedLanguage>669d12f6-e2b3-4310-9b39-d8f8f6447beb(com.mbeddr.mpsutil.documentable)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)</usedDevKit>
@@ -59,6 +60,7 @@
     <language id="564e97d6-8fb7-41f5-bfc1-c7ed376efd62" fqName="com.mbeddr.ext.statemachines" version="0" />
     <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
     <language id="dbd01f1f-9071-44eb-995e-775f0f308135" fqName="com.mbeddr.mpsutil.chunk" version="-1" />
+    <language id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" fqName="com.mbeddr.mpsutil.documentable" version="-1" />
     <language id="8c69e1b7-ded6-44a8-a7d1-7234c8521c73" fqName="com.mbeddr.mpsutil.externalReference" version="-1" />
     <language id="1c897ba5-9d43-4035-ac7f-0306495743ac" fqName="com.mbeddr.mpsutil.interpreter.test" version="0" />
     <language id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" fqName="com.mbeddr.mpsutil.jung" version="0" />
