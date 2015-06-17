@@ -116,6 +116,7 @@
     <import index="dieh" ref="r:164854dd-6f40-455c-9bd3-2427b8abb0cf(com.mbeddr.mpsutil.assessment.structure)" />
     <import index="rf8p" ref="r:0fdb109c-527d-46e7-a2f8-602e47a0c9bc(com.mbeddr.mpsutil.assessment.behavior)" />
     <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
+    <import index="2tui" ref="r:1ffd937e-3bed-4e20-ba56-04ecb59da028(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -202,7 +203,6 @@
       <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
         <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
       </concept>
-      <concept id="1203680534665" name="jetbrains.mps.lang.plugin.structure.GroupAnchor" flags="ng" index="10WQ6h" />
       <concept id="1210179134063" name="jetbrains.mps.lang.plugin.structure.PreferencesComponentDeclaration" flags="ng" index="34j2dQ">
         <child id="1210179829398" name="persistenPropertyDeclaration" index="34lFYf" />
         <child id="1210684426855" name="preferencePage" index="3yq$HY" />
@@ -551,11 +551,6 @@
       </concept>
       <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
       <concept id="8974276187400348183" name="jetbrains.mps.lang.access.structure.ExecuteWriteActionStatement" flags="nn" index="1QHqEM" />
-    </language>
-    <language id="58e731a3-6aaa-444a-bf40-801b91c15878" name="com.mbeddr.mpsutil.lang.plugin.extensions">
-      <concept id="3826319847679748876" name="com.mbeddr.mpsutil.lang.plugin.extensions.structure.AddWithConstantArchor" flags="lg" index="30SVEG">
-        <property id="3826319847679982768" name="archor" index="30T2Og" />
-      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -2113,8 +2108,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="7uLL3Mf2Aq5" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fiE3l" resolve="mbeddrPlatformSolutionGroup" />
-      <ref role="2f8Tey" node="goNQ8fiE3o" resolve="mbeddrPlatformSolutionExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0I" resolve="mbeddrPlatformSolutionGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0L" resolve="mbeddrPlatformSolutionExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="7uLL3Mf2Fyf">
@@ -2863,8 +2858,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="7uLL3Mf2Po1" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fiCdc" resolve="mbeddrPlatformModelGroup" />
-      <ref role="2f8Tey" node="goNQ8fiCdf" resolve="mbeddrPlatformModelExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0_" resolve="mbeddrPlatformModelGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0C" resolve="mbeddrPlatformModelExtensions" />
     </node>
   </node>
   <node concept="sEfby" id="2HzhasNzNDO">
@@ -4548,8 +4543,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="2HzhasNzNK0" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fiCdc" resolve="mbeddrPlatformModelGroup" />
-      <ref role="2f8Tey" node="goNQ8fiCdf" resolve="mbeddrPlatformModelExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0_" resolve="mbeddrPlatformModelGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0C" resolve="mbeddrPlatformModelExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="2HzhasNzNK1">
@@ -6338,8 +6333,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="3jNX2XuMqRS" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fiCdc" resolve="mbeddrPlatformModelGroup" />
-      <ref role="2f8Tey" node="goNQ8fiCdf" resolve="mbeddrPlatformModelExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0_" resolve="mbeddrPlatformModelGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0C" resolve="mbeddrPlatformModelExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="3slbD0C6UdB">
@@ -6414,8 +6409,8 @@
       <node concept="2a7GMi" id="goNQ8fvP_X" role="ftvYc" />
     </node>
     <node concept="tT9cl" id="3slbD0C6VXx" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />
-      <ref role="2f8Tey" node="goNQ8fnbte" resolve="mbeddrPlatformProjectionModes" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0E" resolve="mbeddrPlatformProjectionModeGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0G" resolve="mbeddrPlatformProjectionModes" />
     </node>
   </node>
   <node concept="sE7Ow" id="3slbD0C7$An">
@@ -15871,8 +15866,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="7Q6Q5uyzQan" role="2f5YQi">
-      <ref role="tU$_T" node="53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
-      <ref role="2f8Tey" node="53G_t0FcvgX" resolve="mbeddrPlatformEditorPopupExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0u" resolve="mbeddrPlatformEditorPopupGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0x" resolve="mbeddrPlatformEditorPopupExtensions" />
     </node>
   </node>
   <node concept="Zd50a" id="Wvkle$RXGw">
@@ -15892,48 +15887,6 @@
       </node>
     </node>
   </node>
-  <node concept="tC5Ba" id="53G_t0FcvfX">
-    <property role="TrG5h" value="mbeddrPlatformEditorPopupGroup" />
-    <node concept="ftmFs" id="53G_t0FcvgP" role="ftER_">
-      <node concept="2a7GMi" id="53G_t0FcvgS" role="ftvYc" />
-      <node concept="10WQ6h" id="53G_t0FcvgX" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformEditorPopupExtensions" />
-      </node>
-      <node concept="2a7GMi" id="39c7fuKwbnb" role="ftvYc" />
-      <node concept="10WQ6h" id="39c7fuKwbnA" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformEditorPopupAnalysisExtensions" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="53G_t0Fcvh1" role="2f5YQi">
-      <ref role="tU$_T" to="ekwn:1xsN4xJX8VI" resolve="EditorPopup" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fiCdc">
-    <property role="TrG5h" value="mbeddrPlatformModelGroup" />
-    <node concept="ftmFs" id="goNQ8fiCdd" role="ftER_">
-      <node concept="2a7GMi" id="goNQ8fiCde" role="ftvYc" />
-      <node concept="10WQ6h" id="goNQ8fiCdf" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformModelExtensions" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="goNQ8fiCdg" role="2f5YQi">
-      <ref role="tU$_T" to="tprs:hyf4Hgq" resolve="ModelActions" />
-      <ref role="2f8Tey" to="tprs:2blMBvV$tE0" resolve="showHelp" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fiE3l">
-    <property role="TrG5h" value="mbeddrPlatformSolutionGroup" />
-    <node concept="ftmFs" id="goNQ8fiE3m" role="ftER_">
-      <node concept="2a7GMi" id="goNQ8fiE3n" role="ftvYc" />
-      <node concept="10WQ6h" id="goNQ8fiE3o" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformSolutionExtensions" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="goNQ8fiE3p" role="2f5YQi">
-      <ref role="tU$_T" to="tprs:hyf4Jd1" resolve="SolutionActions" />
-      <ref role="2f8Tey" to="tprs:1bRM4HyGOKI" resolve="contents" />
-    </node>
-  </node>
   <node concept="tC5Ba" id="goNQ8fiHkf">
     <property role="3GE5qa" value="search" />
     <property role="TrG5h" value="MbeddrSearchSolutionGroup" />
@@ -15943,52 +15896,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="goNQ8fiHkk" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fiE3l" resolve="mbeddrPlatformSolutionGroup" />
-      <ref role="2f8Tey" node="goNQ8fiE3o" resolve="mbeddrPlatformSolutionExtensions" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fnbtb">
-    <property role="TrG5h" value="mbeddrPlatformProjectionModeGroup" />
-    <property role="1XlLyE" value="true" />
-    <property role="2f7twF" value="Projection Mode" />
-    <node concept="ftmFs" id="goNQ8fnbtc" role="ftER_">
-      <node concept="10WQ6h" id="goNQ8fnbte" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformProjectionModes" />
-      </node>
-    </node>
-    <node concept="30SVEG" id="3kpOq3PZX3V" role="2f5YQi">
-      <property role="30T2Og" value="ViewMenu" />
-      <ref role="tU$_T" to="tprs:hF$pMQx" resolve="IDEAMainMenu" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fxK7J">
-    <property role="TrG5h" value="CodeMenuExtensions" />
-    <node concept="ftmFs" id="goNQ8fxK8l" role="ftER_">
-      <node concept="2a7GMi" id="goNQ8fyUxC" role="ftvYc" />
-      <node concept="10WQ6h" id="goNQ8fyUxT" role="ftvYc">
-        <property role="TrG5h" value="WizardStuff" />
-      </node>
-      <node concept="2a7GMi" id="goNQ8fxK8o" role="ftvYc" />
-      <node concept="10WQ6h" id="goNQ8fxK8w" role="ftvYc">
-        <property role="TrG5h" value="CodeMenuStuff" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="goNQ8fxK8A" role="2f5YQi">
-      <ref role="tU$_T" to="9oh:4vodOtydcQH" resolve="IDEACode" />
-    </node>
-  </node>
-  <node concept="tC5Ba" id="goNQ8fyUy3">
-    <property role="TrG5h" value="mbeddrPlatformWizards" />
-    <property role="1XlLyE" value="true" />
-    <property role="2f7twF" value="Wizards" />
-    <node concept="ftmFs" id="goNQ8fyUy4" role="ftER_">
-      <node concept="10WQ6h" id="goNQ8fyUy5" role="ftvYc">
-        <property role="TrG5h" value="mbeddrPlatformWizards" />
-      </node>
-    </node>
-    <node concept="tT9cl" id="goNQ8fyUy6" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fxK7J" resolve="CodeMenuExtensions" />
-      <ref role="2f8Tey" node="goNQ8fyUxT" resolve="WizardStuff" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0I" resolve="mbeddrPlatformSolutionGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0L" resolve="mbeddrPlatformSolutionExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="bhVSeFXdqL">
@@ -16137,8 +16046,8 @@
     <property role="2f7twF" value="Show Tree View ..." />
     <property role="1rdrE6" value="true" />
     <node concept="tT9cl" id="bhVSeFHkXT" role="2f5YQi">
-      <ref role="2f8Tey" node="53G_t0FcvgX" resolve="mbeddrPlatformEditorPopupExtensions" />
-      <ref role="tU$_T" node="53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0x" resolve="mbeddrPlatformEditorPopupExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0u" resolve="mbeddrPlatformEditorPopupGroup" />
     </node>
     <node concept="2OiAzN" id="bhVSeFRL8O" role="ftER_">
       <node concept="2OiTZ2" id="bhVSeFRL8P" role="2Oj6PV">
@@ -17622,8 +17531,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="2nGuY2QPdF$" role="2f5YQi">
-      <ref role="tU$_T" node="goNQ8fiE3l" resolve="mbeddrPlatformSolutionGroup" />
-      <ref role="2f8Tey" node="goNQ8fiE3o" resolve="mbeddrPlatformSolutionExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0I" resolve="mbeddrPlatformSolutionGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0L" resolve="mbeddrPlatformSolutionExtensions" />
     </node>
   </node>
   <node concept="sE7Ow" id="2nGuY2QOx22">
@@ -18992,8 +18901,8 @@
       <ref role="33glcY" to="dhny:1SzZzyBvmRO" resolve="presentationMode" />
     </node>
     <node concept="tT9cl" id="3onExzPnGun" role="2hfP89">
-      <ref role="tU$_T" node="goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />
-      <ref role="2f8Tey" node="goNQ8fnbte" resolve="mbeddrPlatformProjectionModes" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0E" resolve="mbeddrPlatformProjectionModeGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0G" resolve="mbeddrPlatformProjectionModes" />
     </node>
   </node>
   <node concept="33ghlw" id="4ZN$fokgymG">
@@ -19005,8 +18914,8 @@
       <ref role="33glcY" to="7t3h:1SzZzyBAal8" resolve="showReviewState" />
     </node>
     <node concept="tT9cl" id="4ZN$fokgymI" role="2hfP89">
-      <ref role="tU$_T" node="goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />
-      <ref role="2f8Tey" node="goNQ8fnbte" resolve="mbeddrPlatformProjectionModes" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0E" resolve="mbeddrPlatformProjectionModeGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0G" resolve="mbeddrPlatformProjectionModes" />
     </node>
   </node>
   <node concept="312cEu" id="6hoQ$hu7CJg">
@@ -19188,8 +19097,8 @@
       </node>
     </node>
     <node concept="tT9cl" id="2Y27DzrvF82" role="2f5YQi">
-      <ref role="2f8Tey" node="53G_t0FcvgX" resolve="mbeddrPlatformEditorPopupExtensions" />
-      <ref role="tU$_T" node="53G_t0FcvfX" resolve="mbeddrPlatformEditorPopupGroup" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0x" resolve="mbeddrPlatformEditorPopupExtensions" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0u" resolve="mbeddrPlatformEditorPopupGroup" />
     </node>
   </node>
 </model>

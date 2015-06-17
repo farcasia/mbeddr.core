@@ -22,6 +22,7 @@
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="d244" ref="r:0a882e21-5553-485b-8777-3b0ace5a0d84(com.mbeddr.core.base.pluginSolution.plugin)" />
     <import index="nx1" ref="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
+    <import index="2tui" ref="r:1ffd937e-3bed-4e20-ba56-04ecb59da028(com.mbeddr.mpsutil.platform.pluginSolution.plugin)" />
   </imports>
   <registry>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -519,8 +520,8 @@
   <node concept="tC5Ba" id="7Uz1bYM5D3e">
     <property role="TrG5h" value="moreMbeddrWizards" />
     <node concept="tT9cl" id="1ptFCtLqsyS" role="2f5YQi">
-      <ref role="tU$_T" to="d244:goNQ8fyUy3" resolve="mbeddrPlatformWizards" />
-      <ref role="2f8Tey" to="d244:goNQ8fyUy5" resolve="mbeddrPlatformWizards" />
+      <ref role="tU$_T" to="2tui:7TKfdqdXb0N" resolve="mbeddrPlatformWizards" />
+      <ref role="2f8Tey" to="2tui:7TKfdqdXb0P" resolve="mbeddrPlatformWizards" />
     </node>
     <node concept="ftmFs" id="7Uz1bYM5D3h" role="ftER_">
       <node concept="tCFHf" id="7Uz1bYM5D3i" role="ftvYc">
