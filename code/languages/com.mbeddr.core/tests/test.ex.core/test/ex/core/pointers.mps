@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -280,6 +281,9 @@
         <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
     </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
@@ -340,7 +344,7 @@
   </registry>
   <node concept="N3F5e" id="fwMInzpGLD">
     <property role="TrG5h" value="pointerStuff" />
-    <node concept="3GEVxB" id="3RllbSaBH9c" role="2OODSX">
+    <node concept="2TDGS2" id="3RllbSaBH9c" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5mGJ_8zvWiR" resolve="stdlib" />
     </node>
@@ -910,45 +914,45 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDlu" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDlu" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="21C9UXP8zu" resolve="arrayStuff" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDlZ" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDlZ" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="fwMInzpGLD" resolve="pointerStuff" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDjq" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDjq" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7qHzltJ0oHH" resolve="functionPointerStuff" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDkX" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDkX" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7apEgWbJpJu" resolve="ClosureTests" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDio" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDio" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3pWy65PLS9R" resolve="Functions" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDjV" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDjV" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="4VxFbWczdvs" resolve="Strings" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDks" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDks" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="eSkzRgLO1o" resolve="ArrayInitAndCompound" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDiT" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDiT" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3$tYuge5b4Z" resolve="StructAndUnionInitAndCompound" />
     </node>
-    <node concept="3GEVxB" id="6o2p2Z1mDpx" role="2OODSX">
+    <node concept="2TDGS2" id="6o2p2Z1mDpx" role="2OODSX">
       <ref role="3GEb4d" node="1exqRp90su" resolve="constVolatile" />
     </node>
-    <node concept="3GEVxB" id="7m5QaK8GCWK" role="2OODSX">
+    <node concept="2TDGS2" id="7m5QaK8GCWK" role="2OODSX">
       <ref role="3GEb4d" node="7m5QaK8sTi1" resolve="arraysAndPointers" />
     </node>
-    <node concept="3GEVxB" id="6Pt2vx4qeJf" role="2OODSX">
+    <node concept="2TDGS2" id="6Pt2vx4qeJf" role="2OODSX">
       <ref role="3GEb4d" node="6Pt2vx4lXtf" resolve="Concat" />
     </node>
   </node>
@@ -1920,11 +1924,11 @@
     <node concept="2NXPZ9" id="7JWieF82U$f" role="N3F5h">
       <property role="TrG5h" value="empty1326292240445" />
     </node>
-    <node concept="3GEVxB" id="6YocL3t7_Ao" role="2OODSX">
+    <node concept="2TDGS2" id="6YocL3t7_Ao" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7apEgWbJoRH" resolve="ClosureUtils" />
     </node>
-    <node concept="3GEVxB" id="6YocL3t7xGJ" role="2OODSX">
+    <node concept="2TDGS2" id="6YocL3t7xGJ" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5mGJ_8zvWiR" resolve="stdlib" />
     </node>
@@ -3780,7 +3784,7 @@
     <node concept="2NXPZ9" id="7V6bHlU_6po" role="N3F5h">
       <property role="TrG5h" value="empty_1413558905722_5" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ3u" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ3u" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3pWy65PLVjw" resolve="stdarg" />
     </node>
@@ -6340,7 +6344,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6Pt2vx4_4PF" role="2OODSX">
+    <node concept="2TDGS2" id="6Pt2vx4_4PF" role="2OODSX">
       <ref role="3GEb4d" node="6Pt2vx4_4hM" resolve="string" />
     </node>
   </node>

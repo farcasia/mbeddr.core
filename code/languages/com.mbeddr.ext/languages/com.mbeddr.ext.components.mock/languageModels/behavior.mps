@@ -27,6 +27,7 @@
     <import index="dbrf" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -4910,7 +4911,7 @@
     </node>
     <node concept="13i0hz" id="2XRfpKWzcOB" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3S" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="2XRfpKWzcOE" role="3clF47">
         <node concept="3clFbF" id="2XRfpKWzets" role="3cqZAp">
           <node concept="3cmrfG" id="2XRfpKWzetr" role="3clFbG">
@@ -4923,7 +4924,7 @@
     </node>
     <node concept="13i0hz" id="2XRfpKWzetG" role="13h7CS">
       <property role="TrG5h" value="getConceptToBeCounted" />
-      <ref role="13i0hy" to="hwgx:6brBMefSzRs" resolve="getConceptToBeCounted" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3Y" resolve="getConceptToBeCounted" />
       <node concept="3clFbS" id="2XRfpKWzetJ" role="3clF47">
         <node concept="3clFbF" id="2XRfpKWzgHc" role="3cqZAp">
           <node concept="3TUQnm" id="2XRfpKWzgHb" role="3clFbG">
@@ -6043,7 +6044,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="target" />
-      <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj4g" resolve="target" />
       <node concept="3Tm1VV" id="70kXLV5xdUL" role="1B3o_S" />
       <node concept="3clFbS" id="70kXLV5xdUO" role="3clF47">
         <node concept="3clFbF" id="70kXLV5xdUZ" role="3cqZAp">
@@ -6068,7 +6069,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="target" />
-      <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj4g" resolve="target" />
       <node concept="3Tm1VV" id="70kXLV5xmYb" role="1B3o_S" />
       <node concept="3clFbS" id="70kXLV5xmYe" role="3clF47">
         <node concept="3clFbF" id="70kXLV5xmYp" role="3cqZAp">

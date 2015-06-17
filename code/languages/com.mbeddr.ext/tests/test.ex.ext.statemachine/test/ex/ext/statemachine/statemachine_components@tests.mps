@@ -17,6 +17,7 @@
     <use id="97d24244-51db-4e2e-97fc-7bd73b1f5f40" name="com.mbeddr.ext.components" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -232,6 +233,9 @@
         <child id="8663730687027689238" name="machine" index="PP7oY" />
       </concept>
       <concept id="4514118643320650007" name="com.mbeddr.ext.components.statemachine.structure.ProvidedOperationBinding" flags="ng" index="1ZJivE" />
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -493,35 +497,35 @@
     <node concept="2NXPZ9" id="eSkzRgKoaI" role="N3F5h">
       <property role="TrG5h" value="empty_1359545912367_14" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsG" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsG" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="eSkzRgKoa6" resolve="PortOpCallInSM" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsy" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsy" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="41KMvfckyJs" resolve="StatemachineCompTests" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsI" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsI" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="eSkzRgLrpG" resolve="TestSMInComp" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsF" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsF" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="4paRqaMeTyB" resolve="WhenPortConnectedInSMGuard" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsD" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsD" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7z1efbQRTYN" resolve="WhenPortConnectedInSMGuardSRI" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsE" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsE" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="1_Q4fcrBdxd" resolve="RunnableCallsInSM" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsH" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsH" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5CDgsyZ1fG0" resolve="SMWithSenderReceiver" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRsJ" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRsJ" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6dhOyaM78sI" resolve="SMActionsInComponent" />
     </node>

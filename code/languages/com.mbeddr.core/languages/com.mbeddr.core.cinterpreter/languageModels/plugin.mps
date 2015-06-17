@@ -13,6 +13,7 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -1228,7 +1229,7 @@
           <node concept="2OqwBi" id="6CABoWpWVnT" role="oEb7h">
             <node concept="oxGPV" id="6CABoWpWVnU" role="2Oq$k0" />
             <node concept="2qgKlT" id="6CABoWpWVnV" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:70kXLV4LLzy" resolve="target" />
+              <ref role="37wK5l" to="lui5:1SzZzyBxj4g" resolve="target" />
             </node>
           </node>
         </node>

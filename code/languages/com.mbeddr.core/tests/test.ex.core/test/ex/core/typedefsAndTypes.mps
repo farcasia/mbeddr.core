@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -135,6 +136,9 @@
       <concept id="186853311768094629" name="com.mbeddr.core.unittest.structure.ExecuteTestExpression" flags="ng" index="3rBj6X">
         <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -327,18 +331,18 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4n" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ4n" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7lNBHBNC4_M" resolve="TypeDefFromExternalModule" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4g" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ4g" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7lNBHBNC4E9" resolve="TypeTest" />
     </node>
   </node>
   <node concept="N3F5e" id="7lNBHBNC4_M">
     <property role="TrG5h" value="TypeDefFromExternalModule" />
-    <node concept="3GEVxB" id="6uc_WDS6k43" role="2OODSX">
+    <node concept="2TDGS2" id="6uc_WDS6k43" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6FLcSer$fDs" resolve="ExtModuleUsesTypeDef" />
     </node>
@@ -685,7 +689,7 @@
       </node>
       <node concept="19Rifw" id="4WTYg$PSMq3" role="2C2TGm" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4o" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ4o" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7lNBHBNC4_M" resolve="TypeDefFromExternalModule" />
     </node>
@@ -711,7 +715,7 @@
   </node>
   <node concept="rcWEw" id="6FLcSer$fDs">
     <property role="TrG5h" value="ExtModuleUsesTypeDef" />
-    <node concept="3GEVxB" id="6uc_WDS6kq$" role="2OODSX">
+    <node concept="2TDGS2" id="6uc_WDS6kq$" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="6FLcSer$fDo" resolve="ExtModuleWithTypeDef3" />
     </node>

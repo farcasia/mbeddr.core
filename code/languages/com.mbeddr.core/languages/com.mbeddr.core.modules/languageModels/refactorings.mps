@@ -14,6 +14,7 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="7juq" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.lang.pattern.util(MPS.Core/jetbrains.mps.lang.pattern.util@java_stub)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -372,12 +373,12 @@
           <node concept="3cpWsn" id="3hgxKzbiFHp" role="3cpWs9">
             <property role="TrG5h" value="imp" />
             <node concept="3Tqbb2" id="3hgxKzbiFHq" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:DubiFAXpld" resolve="DefaultGenericChunkDependency" />
+              <ref role="ehGHo" to="42k1:1SzZzyBxj0U" resolve="DefaultGenericChunkDependency" />
             </node>
             <node concept="2ShNRf" id="3hgxKzbiFHs" role="33vP2m">
               <node concept="3zrR0B" id="3hgxKzbiFHt" role="2ShVmc">
                 <node concept="3Tqbb2" id="3hgxKzbiFHu" role="3zrR0E">
-                  <ref role="ehGHo" to="vs0r:DubiFAXpld" resolve="DefaultGenericChunkDependency" />
+                  <ref role="ehGHo" to="42k1:1SzZzyBxj0U" resolve="DefaultGenericChunkDependency" />
                 </node>
               </node>
             </node>
@@ -393,7 +394,7 @@
                 <ref role="3cqZAo" node="3hgxKzbiFHp" resolve="imp" />
               </node>
               <node concept="3TrEf2" id="5CXUFNJFHH4" role="2OqNvi">
-                <ref role="3Tt5mk" to="vs0r:DubiFAXDKB" />
+                <ref role="3Tt5mk" to="42k1:1SzZzyBxj0V" />
               </node>
             </node>
           </node>

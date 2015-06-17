@@ -12,6 +12,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -208,6 +209,9 @@
         <property id="4497436839299253153" name="writable" index="Cmx_r" />
         <child id="4643433264760912612" name="init" index="2cfFcn" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1496,27 +1500,27 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="WbtL4faBx" role="2OODSX">
+    <node concept="2TDGS2" id="WbtL4faBx" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3TE6JCmbYBD" resolve="AnotherOne" />
     </node>
-    <node concept="3GEVxB" id="WbtL4faCU" role="2OODSX">
+    <node concept="2TDGS2" id="WbtL4faCU" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="KU5KLY2jEQ" resolve="CheckEntryActionInInitialState" />
     </node>
-    <node concept="3GEVxB" id="WbtL4faEa" role="2OODSX">
+    <node concept="2TDGS2" id="WbtL4faEa" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7kKaL9x5o5C" resolve="HelloSMWorld" />
     </node>
-    <node concept="3GEVxB" id="WbtL4faBG" role="2OODSX">
+    <node concept="2TDGS2" id="WbtL4faBG" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5aNdPeN2Yz5" resolve="SelfTrigger" />
     </node>
-    <node concept="3GEVxB" id="WbtL4faCj" role="2OODSX">
+    <node concept="2TDGS2" id="WbtL4faCj" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7gVrg_0w_kB" resolve="SelfTriggerInInitial" />
     </node>
-    <node concept="3GEVxB" id="WbtL4faEO" role="2OODSX">
+    <node concept="2TDGS2" id="WbtL4faEO" role="2OODSX">
       <ref role="3GEb4d" node="WbtL46Mj5" resolve="EventsWithArg" />
     </node>
   </node>

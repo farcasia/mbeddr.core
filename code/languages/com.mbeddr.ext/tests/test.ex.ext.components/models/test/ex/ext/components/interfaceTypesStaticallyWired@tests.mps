@@ -13,6 +13,7 @@
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -119,6 +120,9 @@
       <concept id="186853311768094629" name="com.mbeddr.core.unittest.structure.ExecuteTestExpression" flags="ng" index="3rBj6X">
         <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -488,7 +492,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRnS" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRnS" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="61lw97Fte82" resolve="InterfaceTypesAsVar" />
     </node>

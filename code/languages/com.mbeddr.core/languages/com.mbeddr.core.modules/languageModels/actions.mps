@@ -18,10 +18,11 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="cl6c" ref="r:890ea833-37c9-445e-a04d-3b69ce24aa30(com.mbeddr.core.modules.editor)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1563,13 +1564,13 @@
                         <node concept="2Xjw5R" id="3o2OLGv7ueT" role="2OqNvi">
                           <node concept="1xMEDy" id="3o2OLGv7ueV" role="1xVPHs">
                             <node concept="chp4Y" id="3o2OLGv7uUT" role="ri$Ld">
-                              <ref role="cht4Q" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
+                              <ref role="cht4Q" to="42k1:1SzZzyBxj14" resolve="IVisibleElementProvider" />
                             </node>
                           </node>
                         </node>
                       </node>
                       <node concept="2qgKlT" id="3o2OLGv7w$0" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:6clJcrJXo2_" resolve="visibleContentsOfType" />
+                        <ref role="37wK5l" to="lui5:1SzZzyBxj4n" resolve="visibleContentsOfType" />
                         <node concept="3TUQnm" id="3o2OLGv7xjH" role="37wK5m">
                           <ref role="3TV0OU" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
                         </node>

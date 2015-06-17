@@ -50,6 +50,7 @@
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="dhny" ref="r:be9b22ba-834b-4050-a519-5e70518fab34(com.mbeddr.mpsutil.presentationMode.editor)" />
     <import index="jng8" ref="r:c3f3b7bd-e926-4f4c-950d-d899bfaca110(com.mbeddr.mpsutil.pathAndFile.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -5093,7 +5094,7 @@
         <node concept="2JrnkZ" id="4MTwk$13QoV" role="37wK5m">
           <node concept="2OqwBi" id="4MTwk$13QoW" role="2JrQYb">
             <node concept="3TUQnm" id="4MTwk$13QoX" role="2Oq$k0">
-              <ref role="3TV0OU" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+              <ref role="3TV0OU" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
             </node>
             <node concept="I4A8Y" id="4MTwk$13QoY" role="2OqNvi" />
           </node>
@@ -8037,88 +8038,6 @@
       <node concept="l2Vlx" id="2tP2JaaEsUi" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="DubiFAY26a">
-    <property role="3GE5qa" value="chunk" />
-    <ref role="1XX52x" to="vs0r:DubiFAXpld" resolve="DefaultGenericChunkDependency" />
-    <node concept="3EZMnI" id="DubiFAY4$e" role="2wV5jI">
-      <node concept="3EZMnI" id="DubiFBKmqi" role="3EZMnx">
-        <node concept="l2Vlx" id="DubiFBKmqj" role="2iSdaV" />
-        <node concept="gc7cB" id="DubiFB8AA9" role="3EZMnx">
-          <node concept="3VJUX4" id="DubiFB8AAb" role="3YsKMw">
-            <node concept="3clFbS" id="DubiFB8AAd" role="2VODD2">
-              <node concept="3clFbF" id="DubiFB8AHh" role="3cqZAp">
-                <node concept="2ShNRf" id="DubiFB8AHf" role="3clFbG">
-                  <node concept="1pGfFk" id="DubiFB8Bnp" role="2ShVmc">
-                    <ref role="37wK5l" node="DubiFB4e4X" resolve="IconCell" />
-                    <node concept="2OqwBi" id="DubiFBKjfp" role="37wK5m">
-                      <node concept="pncrf" id="DubiFB8Bpg" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="DubiFBKkcN" role="2OqNvi">
-                        <ref role="3Tt5mk" to="vs0r:DubiFAXDKB" />
-                      </node>
-                    </node>
-                    <node concept="3cmrfG" id="DubiFBVEEr" role="37wK5m">
-                      <property role="3cmrfH" value="3" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="VPM3Z" id="2A5UqXKzOz7" role="3F10Kt">
-            <property role="VOm3f" value="false" />
-          </node>
-        </node>
-        <node concept="pkWqt" id="DubiFBKmFc" role="pqm2j">
-          <node concept="3clFbS" id="DubiFBKmFd" role="2VODD2">
-            <node concept="3clFbF" id="DubiFBKmT9" role="3cqZAp">
-              <node concept="3y3z36" id="DubiFBKoO8" role="3clFbG">
-                <node concept="10Nm6u" id="DubiFBKoUB" role="3uHU7w" />
-                <node concept="2OqwBi" id="DubiFBKn3b" role="3uHU7B">
-                  <node concept="pncrf" id="DubiFBKmT8" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="DubiFBKo9n" role="2OqNvi">
-                    <ref role="3Tt5mk" to="vs0r:DubiFAXDKB" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="VPM3Z" id="2A5UqXKmD9O" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-      </node>
-      <node concept="1iCGBv" id="DubiFAY4$B" role="3EZMnx">
-        <ref role="1NtTu8" to="vs0r:DubiFAXDKB" />
-        <node concept="1sVBvm" id="DubiFAY4$C" role="1sWHZn">
-          <node concept="3F0A7n" id="DubiFB14kK" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="DubiFAY4$r" role="3EZMnx">
-        <property role="3F0ifm" value="reexport" />
-        <ref role="1ERwB7" node="2A5UqXKxor1" resolve="deleteReexport" />
-        <ref role="1k5W1q" node="2CEi94dgHKA" resolve="KW" />
-        <node concept="pkWqt" id="DubiFB14PZ" role="pqm2j">
-          <node concept="3clFbS" id="DubiFB14Q0" role="2VODD2">
-            <node concept="3clFbF" id="DubiFB150E" role="3cqZAp">
-              <node concept="2OqwBi" id="DubiFB1573" role="3clFbG">
-                <node concept="pncrf" id="DubiFB150D" role="2Oq$k0" />
-                <node concept="3TrcHB" id="DubiFB16ds" role="2OqNvi">
-                  <ref role="3TsBF5" to="vs0r:DubiFAXCMb" resolve="reexport" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2iRfu4" id="x1qBlZBqR" role="2iSdaV" />
-      <node concept="VPM3Z" id="2A5UqXKmDqO" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-    </node>
-  </node>
   <node concept="312cEu" id="DubiFB4e4O">
     <property role="TrG5h" value="IconCell" />
     <property role="3GE5qa" value="cells.other" />
@@ -8468,41 +8387,6 @@
         <ref role="1k5W1q" node="7TAjv1QUX$w" resolve="heading" />
       </node>
       <node concept="l2Vlx" id="2A5UqXJPGUf" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="1h_SRR" id="2A5UqXKxor1">
-    <property role="3GE5qa" value="chunk" />
-    <property role="TrG5h" value="deleteReexport" />
-    <ref role="1h_SK9" to="vs0r:DubiFAXpld" resolve="DefaultGenericChunkDependency" />
-    <node concept="1hA7zw" id="2A5UqXKxor2" role="1h_SK8">
-      <property role="1hAc7j" value="delete_action_id" />
-      <node concept="1hAIg9" id="2A5UqXKxor3" role="1hA7z_">
-        <node concept="3clFbS" id="2A5UqXKxor4" role="2VODD2">
-          <node concept="3clFbF" id="2A5UqXKxorf" role="3cqZAp">
-            <node concept="37vLTI" id="2A5UqXKxqSY" role="3clFbG">
-              <node concept="3clFbT" id="2A5UqXKxqTU" role="37vLTx">
-                <property role="3clFbU" value="false" />
-              </node>
-              <node concept="2OqwBi" id="2A5UqXKxou4" role="37vLTJ">
-                <node concept="0IXxy" id="2A5UqXKxore" role="2Oq$k0" />
-                <node concept="3TrcHB" id="2A5UqXKxppQ" role="2OqNvi">
-                  <ref role="3TsBF5" to="vs0r:DubiFAXCMb" resolve="reexport" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5Xe$YcRDfzK">
-    <property role="3GE5qa" value="chunk" />
-    <ref role="1XX52x" to="vs0r:5Xe$YcRDdel" resolve="EmptyChunkDependency" />
-    <node concept="3F0ifn" id="5Xe$YcRDgVT" role="2wV5jI">
-      <property role="3F0ifm" value="" />
-      <node concept="VPxyj" id="5Xe$YcRDgWF" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
     </node>
   </node>
   <node concept="312cEu" id="1uZspiYN_c0">

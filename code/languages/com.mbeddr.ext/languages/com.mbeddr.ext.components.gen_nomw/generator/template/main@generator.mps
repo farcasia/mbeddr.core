@@ -34,6 +34,7 @@
     <import index="k146" ref="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" />
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
     <import index="1s42" ref="r:d482a2e6-b3ef-4c45-883b-cf624a56b653(com.mbeddr.core.pointers.behavior)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1535,7 +1536,7 @@
                   </node>
                   <node concept="2OqwBi" id="3yeYUb91sth" role="3uHU7w">
                     <node concept="2qgKlT" id="3yeYUb91str" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:4JF77iuPCMH" resolve="qualifiedName" />
+                      <ref role="37wK5l" to="lui5:1SzZzyBxj26" resolve="qualifiedName" />
                     </node>
                     <node concept="30H73N" id="3yeYUb91stj" role="2Oq$k0" />
                   </node>

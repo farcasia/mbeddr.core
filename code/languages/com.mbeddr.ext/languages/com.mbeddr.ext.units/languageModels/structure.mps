@@ -10,6 +10,7 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -114,7 +115,7 @@
     <property role="TrG5h" value="IUnit" />
     <property role="3GE5qa" value="definition" />
     <node concept="PrWs8" id="79uxL3R55B5" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="4CUqBF4vMZG" role="PrDN$">
       <ref role="PrY4T" to="vs0r:1rXJcsmD0fG" resolve="IRequiresConfigItem" />
@@ -172,7 +173,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="definition" />
     <property role="MwhBj" value="${module}/icons/units.png" />
-    <ref role="1TJDcQ" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     <node concept="1TJgyj" id="7eOyx9r3jt0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="contents" />
@@ -183,10 +184,10 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="imports" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+      <ref role="20lvS9" to="42k1:1SzZzyBxj11" resolve="IChunkDependency" />
     </node>
     <node concept="PrWs8" id="5jgivonKjbk" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="5jgivonKjbw" role="PzmwI">
       <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />

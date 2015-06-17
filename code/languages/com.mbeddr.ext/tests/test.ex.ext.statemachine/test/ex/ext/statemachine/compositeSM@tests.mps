@@ -13,6 +13,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -213,6 +214,9 @@
       <concept id="5753290798453183908" name="com.mbeddr.ext.statemachines.structure.SmIsInStateTarget" flags="ng" index="3Ox9Vr">
         <reference id="5753290798453184116" name="state" index="3Ox9Ob" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -854,15 +858,15 @@
     <node concept="2NXPZ9" id="7Dny5nFzX0N" role="N3F5h">
       <property role="TrG5h" value="empty_1354197545534_2" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRqA" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRqA" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="3FSHg1aAZ2c" resolve="CompositeStateTest" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRq_" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRq_" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7Dny5nFzX0R" resolve="OrderingOfActionsTest" />
     </node>
-    <node concept="3GEVxB" id="4otgCcVJFuQ" role="2OODSX">
+    <node concept="2TDGS2" id="4otgCcVJFuQ" role="2OODSX">
       <ref role="3GEb4d" node="4otgCcVC3NM" resolve="Accent661" />
     </node>
   </node>

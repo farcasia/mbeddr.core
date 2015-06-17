@@ -19,6 +19,7 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
     <use id="896334f3-82ce-427b-bb47-ccd3131864a9" name="com.mbeddr.mpsutil.mappingLabels" version="0" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -367,6 +368,9 @@
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -527,7 +531,7 @@
       <node concept="1Koe21" id="2MbfxrZIJeL" role="1lVwrX">
         <node concept="N3F5e" id="2MbfxrZIJeN" role="1Koe22">
           <property role="TrG5h" value="Dummy" />
-          <node concept="3GEVxB" id="5usoWIKsNVe" role="2OODSX">
+          <node concept="2TDGS2" id="5usoWIKsNVe" role="2OODSX">
             <ref role="3GEb4d" to="9g8w:5usoWIKp1Ew" resolve="UnitTestMessages" />
           </node>
           <node concept="N3Fnx" id="2MbfxrZJ0wX" role="N3F5h">
@@ -827,7 +831,7 @@
       <node concept="1Koe21" id="3kEjc_WIGzZ" role="1lVwrX">
         <node concept="N3F5e" id="EAKPqgNx4U" role="1Koe22">
           <property role="TrG5h" value="dummy" />
-          <node concept="3GEVxB" id="5usoWIKsLBg" role="2OODSX">
+          <node concept="2TDGS2" id="5usoWIKsLBg" role="2OODSX">
             <ref role="3GEb4d" to="9g8w:5usoWIKp1Ew" resolve="UnitTestMessages" />
           </node>
           <node concept="N3Fnx" id="3kEjc_WIG$1" role="N3F5h">
@@ -967,7 +971,7 @@
       <node concept="1Koe21" id="6Iyv0noEGJb" role="1lVwrX">
         <node concept="N3F5e" id="6Iyv0noEGJc" role="1Koe22">
           <property role="TrG5h" value="dummy" />
-          <node concept="3GEVxB" id="5usoWIKsOjO" role="2OODSX">
+          <node concept="2TDGS2" id="5usoWIKsOjO" role="2OODSX">
             <ref role="3GEb4d" to="9g8w:5usoWIKp1Ew" resolve="UnitTestMessages" />
           </node>
           <node concept="N3Fnx" id="6Iyv0noEGJh" role="N3F5h">
@@ -1427,7 +1431,7 @@
       <node concept="1Koe21" id="O5IvPFxKQH" role="1lVwrX">
         <node concept="N3F5e" id="O5IvPFxL8u" role="1Koe22">
           <property role="TrG5h" value="dummy" />
-          <node concept="3GEVxB" id="5usoWIKsUQP" role="2OODSX">
+          <node concept="2TDGS2" id="5usoWIKsUQP" role="2OODSX">
             <ref role="3GEb4d" to="9g8w:5usoWIKp1Ew" resolve="UnitTestMessages" />
           </node>
           <node concept="2NXPZ9" id="O5IvPFxLek" role="N3F5h">
@@ -1989,7 +1993,7 @@
       <node concept="1Koe21" id="1FzLn6k6pgp" role="1lVwrX">
         <node concept="N3F5e" id="EAKPqgN$jo" role="1Koe22">
           <property role="TrG5h" value="dummy" />
-          <node concept="3GEVxB" id="5usoWIKsYHr" role="2OODSX">
+          <node concept="2TDGS2" id="5usoWIKsYHr" role="2OODSX">
             <ref role="3GEb4d" to="9g8w:5usoWIKp1Ew" resolve="UnitTestMessages" />
           </node>
           <node concept="N3Fnx" id="1FzLn6k6pgr" role="N3F5h">

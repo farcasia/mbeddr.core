@@ -2,6 +2,7 @@
 <model ref="r:38473f7d-c45e-4824-acd3-df88cee46048(test.ex.core.virtualpackage)">
   <persistence version="9" />
   <languages>
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -76,6 +77,9 @@
         <reference id="5950410542643524493" name="function" index="3O_q_h" />
       </concept>
     </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
@@ -135,7 +139,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ43" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ43" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6CpO2H4KiOH" resolve="AnotherModule" />
     </node>

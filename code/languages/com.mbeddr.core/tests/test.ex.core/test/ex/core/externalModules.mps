@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -159,6 +160,9 @@
         <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
     </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
@@ -222,7 +226,7 @@
   </node>
   <node concept="N3F5e" id="7RiewQ_kJAn">
     <property role="TrG5h" value="TestVaraArgs" />
-    <node concept="3GEVxB" id="6uc_WDS6q1X" role="2OODSX">
+    <node concept="2TDGS2" id="6uc_WDS6q1X" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7RiewQ_kqXY" resolve="std" />
     </node>
@@ -411,7 +415,7 @@
   </node>
   <node concept="N3F5e" id="6FLcSer$i9D">
     <property role="TrG5h" value="ModuleUsesTypeDef" />
-    <node concept="3GEVxB" id="6uc_WDS6n03" role="2OODSX">
+    <node concept="2TDGS2" id="6uc_WDS6n03" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6FLcSer$i9v" resolve="ModuleWithTypeDef" />
     </node>

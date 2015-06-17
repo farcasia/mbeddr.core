@@ -31,6 +31,8 @@
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" />
     <import index="wyx5" ref="r:bc1c316f-907f-4249-837f-bb1f2c3a50f0(com.mbeddr.mpsutil.search.behavior)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -3830,7 +3832,7 @@
     </node>
     <node concept="13i0hz" id="2XRfpKWxqRX" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3S" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="2XRfpKWxqS0" role="3clF47">
         <node concept="3clFbF" id="2XRfpKWxqSQ" role="3cqZAp">
           <node concept="3cmrfG" id="2XRfpKWxqSP" role="3clFbG">
@@ -3843,7 +3845,7 @@
     </node>
     <node concept="13i0hz" id="2XRfpKWxqT6" role="13h7CS">
       <property role="TrG5h" value="getConceptToBeCounted" />
-      <ref role="13i0hy" to="hwgx:6brBMefSzRs" resolve="getConceptToBeCounted" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3Y" resolve="getConceptToBeCounted" />
       <node concept="3clFbS" id="2XRfpKWxqT9" role="3clF47">
         <node concept="3clFbF" id="2XRfpKWxqUb" role="3cqZAp">
           <node concept="3TUQnm" id="2XRfpKWxqUa" role="3clFbG">
@@ -4469,7 +4471,7 @@
     </node>
     <node concept="13i0hz" id="6brBMefUbQ3" role="13h7CS">
       <property role="TrG5h" value="getConceptToBeCounted" />
-      <ref role="13i0hy" to="hwgx:6brBMefSzRs" resolve="getConceptToBeCounted" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3Y" resolve="getConceptToBeCounted" />
       <node concept="3clFbS" id="6brBMefUbQ6" role="3clF47">
         <node concept="3clFbF" id="6brBMefUbQ9" role="3cqZAp">
           <node concept="3TUQnm" id="6brBMefUbQa" role="3clFbG">
@@ -5769,13 +5771,13 @@
               <node concept="2Xjw5R" id="4ueXZrqtexe" role="2OqNvi">
                 <node concept="1xMEDy" id="4ueXZrqtexf" role="1xVPHs">
                   <node concept="chp4Y" id="4ueXZrqtexi" role="ri$Ld">
-                    <ref role="cht4Q" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+                    <ref role="cht4Q" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
                   </node>
                 </node>
               </node>
             </node>
             <node concept="2qgKlT" id="6wvhQs7nAwg" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:6wvhQs7n_YM" resolve="namespace" />
+              <ref role="37wK5l" to="lui5:1SzZzyBxj2L" resolve="namespace" />
             </node>
           </node>
         </node>

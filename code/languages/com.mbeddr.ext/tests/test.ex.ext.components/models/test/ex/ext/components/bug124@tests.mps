@@ -12,6 +12,7 @@
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -91,6 +92,9 @@
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -228,7 +232,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRmc" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRmc" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="73rdeY8Ye4k" resolve="components" />
     </node>
@@ -271,7 +275,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="6PCgYL5xRmj" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5xRmj" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="73rdeY8Ye4u" resolve="instances" />
     </node>

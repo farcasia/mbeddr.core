@@ -14,6 +14,7 @@
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports>
     <import index="cmgk" ref="r:679066bc-2da8-4932-a09c-5d2b3d47b911(com.mbeddr.ext.units.siunits)" />
@@ -222,6 +223,9 @@
         <child id="5098456557382006592" name="left" index="2zgELT" />
       </concept>
     </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
@@ -428,10 +432,10 @@
         <node concept="2NXPZ9" id="6CnXAkqOluN" role="N3F5h">
           <property role="TrG5h" value="empty_1410178812420_3" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxbqn" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxbqn" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxbqo" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxbqo" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
       </node>
@@ -442,10 +446,10 @@
     <node concept="1qefOq" id="7j7F_4oxbqq" role="1SKRRt">
       <node concept="N3F5e" id="7j7F_4oxbqr" role="1qenE9">
         <property role="TrG5h" value="TestModule" />
-        <node concept="3GEVxB" id="7j7F_4oxbqs" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxbqs" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxbqt" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxbqt" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="1S7NMz" id="7j7F_4oxbqu" role="N3F5h">
@@ -899,7 +903,7 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="7j7F_4oxd8d" role="7b7yl">
+    <node concept="2TDGS2" id="7j7F_4oxd8d" role="7b7yl">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
     </node>
@@ -1464,10 +1468,10 @@
         <node concept="2NXPZ9" id="7j7F_4oxwiR" role="N3F5h">
           <property role="TrG5h" value="empty_1407312745770_1" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxwiS" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxwiS" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxwiT" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxwiT" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="7j7F_4oxwiU" role="lGtFl">
@@ -2160,10 +2164,10 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxwms" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxwms" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxwmt" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxwmt" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="7j7F_4oxwmu" role="lGtFl">
@@ -3109,10 +3113,10 @@
         <node concept="2NXPZ9" id="7j7F_4oxN3P" role="N3F5h">
           <property role="TrG5h" value="empty_1406798657222_9" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxN3Q" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxN3Q" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="7j7F_4oxN3R" role="2OODSX">
+        <node concept="2TDGS2" id="7j7F_4oxN3R" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
       </node>
@@ -3251,10 +3255,10 @@
         <node concept="2NXPZ9" id="3KEQlYy6xfK" role="N3F5h">
           <property role="TrG5h" value="empty_1407412120067_13" />
         </node>
-        <node concept="3GEVxB" id="3KEQlYy6xfM" role="2OODSX">
+        <node concept="2TDGS2" id="3KEQlYy6xfM" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="3KEQlYy6xfN" role="2OODSX">
+        <node concept="2TDGS2" id="3KEQlYy6xfN" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="3KEQlYy6xfO" role="lGtFl">
@@ -3340,10 +3344,10 @@
         <node concept="2NXPZ9" id="SxgQQcXD_z" role="N3F5h">
           <property role="TrG5h" value="empty_1407412120067_13" />
         </node>
-        <node concept="3GEVxB" id="SxgQQcXD_$" role="2OODSX">
+        <node concept="2TDGS2" id="SxgQQcXD_$" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="SxgQQcXD__" role="2OODSX">
+        <node concept="2TDGS2" id="SxgQQcXD__" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="SxgQQcXD_A" role="lGtFl">
@@ -4167,10 +4171,10 @@
         <node concept="3xLA65" id="248BCjudQou" role="lGtFl">
           <property role="TrG5h" value="toCheckErrors" />
         </node>
-        <node concept="3GEVxB" id="248BCjudQov" role="2OODSX">
+        <node concept="2TDGS2" id="248BCjudQov" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="248BCjudQow" role="2OODSX">
+        <node concept="2TDGS2" id="248BCjudQow" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
       </node>
@@ -5240,10 +5244,10 @@
         <node concept="2NXPZ9" id="248BCjukcKb" role="N3F5h">
           <property role="TrG5h" value="empty_1406798657222_9" />
         </node>
-        <node concept="3GEVxB" id="248BCjukcKc" role="2OODSX">
+        <node concept="2TDGS2" id="248BCjukcKc" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="248BCjukcKd" role="2OODSX">
+        <node concept="2TDGS2" id="248BCjukcKd" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
       </node>
@@ -5581,10 +5585,10 @@
             </node>
           </node>
         </node>
-        <node concept="3GEVxB" id="4UqVSP8cU_I" role="2OODSX">
+        <node concept="2TDGS2" id="4UqVSP8cU_I" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="4UqVSP8cU_J" role="2OODSX">
+        <node concept="2TDGS2" id="4UqVSP8cU_J" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
       </node>
@@ -5858,10 +5862,10 @@
         <node concept="2NXPZ9" id="4UqVSP8i7rv" role="N3F5h">
           <property role="TrG5h" value="empty_1412765291223_3" />
         </node>
-        <node concept="3GEVxB" id="4UqVSP8hBt_" role="2OODSX">
+        <node concept="2TDGS2" id="4UqVSP8hBt_" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="4UqVSP8hBtA" role="2OODSX">
+        <node concept="2TDGS2" id="4UqVSP8hBtA" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="4UqVSP8hBtB" role="lGtFl">
@@ -6165,10 +6169,10 @@
             </node>
           </node>
         </node>
-        <node concept="3GEVxB" id="4UqVSP8hBxq" role="2OODSX">
+        <node concept="2TDGS2" id="4UqVSP8hBxq" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="4UqVSP8hBxr" role="2OODSX">
+        <node concept="2TDGS2" id="4UqVSP8hBxr" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="4UqVSP8hBxs" role="lGtFl">
@@ -6263,10 +6267,10 @@
             </node>
           </node>
         </node>
-        <node concept="3GEVxB" id="6hWxniPEwn0" role="2OODSX">
+        <node concept="2TDGS2" id="6hWxniPEwn0" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="6hWxniPEwn1" role="2OODSX">
+        <node concept="2TDGS2" id="6hWxniPEwn1" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="6hWxniPEwn2" role="lGtFl">
@@ -6339,10 +6343,10 @@
             </node>
           </node>
         </node>
-        <node concept="3GEVxB" id="6hWxniPEwoW" role="2OODSX">
+        <node concept="2TDGS2" id="6hWxniPEwoW" role="2OODSX">
           <ref role="3GEb4d" node="7j7F_4oxd7n" resolve="DefaultUnits" />
         </node>
-        <node concept="3GEVxB" id="6hWxniPEwoX" role="2OODSX">
+        <node concept="2TDGS2" id="6hWxniPEwoX" role="2OODSX">
           <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
         </node>
         <node concept="3xLA65" id="6hWxniPEwoY" role="lGtFl">

@@ -10,6 +10,7 @@
     <import index="356a" ref="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="clbe" ref="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -66,7 +67,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="module" />
     <property role="R4oN_" value="--" />
-    <ref role="1TJDcQ" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     <node concept="1TJgyi" id="3N$tYyGbKra" role="1TKVEl">
       <property role="TrG5h" value="fileExtension" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -101,7 +102,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="module" />
     <property role="R4oN_" value="--" />
-    <ref role="1TJDcQ" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     <node concept="1TJgyj" id="4Pack3zOoGA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="headerImports" />
@@ -130,7 +131,7 @@
       <ref role="20lvS9" node="1x_Jrt9Mwpu" resolve="GenModuleH" />
     </node>
     <node concept="PrWs8" id="6clJcrKkzPu" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj11" resolve="IChunkDependency" />
     </node>
   </node>
   <node concept="1TIwiD" id="3kEjc_WIMEE">
@@ -149,7 +150,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="module" />
     <property role="R4oN_" value="--" />
-    <ref role="1TJDcQ" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     <node concept="1TJgyj" id="3BLvzpMQtkP" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="headers" />
@@ -178,7 +179,7 @@
       <ref role="20lvS9" node="7RiewQ_kN5M" resolve="GenExtModule" />
     </node>
     <node concept="PrWs8" id="6clJcrKkyyF" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj11" resolve="IChunkDependency" />
     </node>
   </node>
   <node concept="1TIwiD" id="1qFzXhg_UxG">
@@ -255,7 +256,7 @@
         <property role="tnX3d" value="false" />
       </node>
       <node concept="trNpa" id="5tbhN$5U4Te" role="EQaZv">
-        <ref role="trN6q" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+        <ref role="trN6q" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
       </node>
     </node>
   </node>

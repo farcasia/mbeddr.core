@@ -30,6 +30,7 @@
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="9a8" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -567,7 +568,7 @@
               <node concept="l2Vlx" id="7XSydqWSTP" role="2iSdaV" />
               <node concept="3F2HdR" id="7XSydqWUsS" role="3EZMnx">
                 <property role="2czwfO" value="," />
-                <ref role="1NtTu8" to="vs0r:7XSydqUV$I" />
+                <ref role="1NtTu8" to="42k1:1SzZzyBxj0N" />
                 <node concept="l2Vlx" id="7XSydqWUsT" role="2czzBx" />
                 <node concept="3F0ifn" id="7XSydqWVBM" role="2czzBI">
                   <property role="3F0ifm" value="" />
@@ -644,7 +645,7 @@
                       <node concept="2ShNRf" id="5Xe$YcRFTNy" role="3clFbG">
                         <node concept="3zrR0B" id="5Xe$YcRFZ6S" role="2ShVmc">
                           <node concept="3Tqbb2" id="5Xe$YcRFZ6U" role="3zrR0E">
-                            <ref role="ehGHo" to="vs0r:5Xe$YcRDdel" resolve="EmptyChunkDependency" />
+                            <ref role="ehGHo" to="42k1:1SzZzyBxj0Y" resolve="EmptyChunkDependency" />
                           </node>
                         </node>
                       </node>

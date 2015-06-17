@@ -9,6 +9,7 @@
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="-1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports>
     <import index="3y0n" ref="r:d4d16117-20fb-4ba8-a1b2-1598e121e1d0(com.mbeddr.core.stdlib)" />
@@ -114,6 +115,9 @@
       <concept id="6437088627575724000" name="com.mbeddr.core.modules.structure.FunctionPrototype" flags="ng" index="N3Fnw" />
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -412,23 +416,23 @@
   </node>
   <node concept="rcWEw" id="137zkozyjOG">
     <property role="TrG5h" value="pthread" />
-    <node concept="3GEVxB" id="137zkozyk7x" role="2OODSX">
+    <node concept="2TDGS2" id="137zkozyk7x" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="137zkozyk4o" resolve="types" />
     </node>
-    <node concept="3GEVxB" id="137zkozyk7y" role="2OODSX">
+    <node concept="2TDGS2" id="137zkozyk7y" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" to="3y0n:137zkozycQo" resolve="signal" />
     </node>
-    <node concept="3GEVxB" id="om3tjyLAHr" role="2OODSX">
+    <node concept="2TDGS2" id="om3tjyLAHr" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" to="3y0n:137zkozyc$V" resolve="time" />
     </node>
-    <node concept="3GEVxB" id="om3tjyLGL7" role="2OODSX">
+    <node concept="2TDGS2" id="om3tjyLGL7" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="om3tjyLFjY" resolve="sched" />
     </node>
-    <node concept="3GEVxB" id="om3tjyLPah" role="2OODSX">
+    <node concept="2TDGS2" id="om3tjyLPah" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" to="3y0n:137zkozycQo" resolve="signal" />
     </node>

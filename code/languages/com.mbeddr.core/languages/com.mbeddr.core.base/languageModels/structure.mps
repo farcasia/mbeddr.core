@@ -14,6 +14,7 @@
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
     <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -221,15 +222,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="PlHQZ" id="65XyadYKJgN">
-    <property role="TrG5h" value="IIdentifierNamedConcept" />
-    <node concept="PrWs8" id="65XyadYKJgO" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="65XyadYKJgP" role="PrDN$">
-      <ref role="PrY4T" to="tpck:hqLv6T6" resolve="IResolveInfo" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3m8H$lmFM5W">
     <property role="TrG5h" value="ElementDocumentation" />
     <property role="3GE5qa" value="documentation" />
@@ -266,7 +258,7 @@
     <property role="TrG5h" value="IConfigurationItem" />
     <property role="3GE5qa" value="config" />
     <node concept="PrWs8" id="77mJsGsFMiN" role="PrDN$">
-      <ref role="PrY4T" node="6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="5$VhGzCH_36" role="PrDN$">
       <ref role="PrY4T" node="3m8H$lmFM60" resolve="IDocumentable" />
@@ -285,19 +277,19 @@
   <node concept="PlHQZ" id="7uYRIghZpWq">
     <property role="TrG5h" value="INameFirstCharLowerCase" />
     <node concept="PrWs8" id="7uYRIghZpWr" role="PrDN$">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="7uYRIghZq9a">
     <property role="TrG5h" value="INameFirstCharUpperCase" />
     <node concept="PrWs8" id="7uYRIghZq9b" role="PrDN$">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="7uYRIghZq9c">
     <property role="TrG5h" value="INameAllUpperCase" />
     <node concept="PrWs8" id="7uYRIghZq9d" role="PrDN$">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="4qSf1u1TQeO">
@@ -834,18 +826,6 @@
     <property role="3GE5qa" value="documentation" />
     <property role="TrG5h" value="IIsDocumentationComment" />
   </node>
-  <node concept="PlHQZ" id="Ug1QzfhXN3">
-    <property role="TrG5h" value="IEmpty" />
-    <node concept="PrWs8" id="Ug1QzfimbU" role="PrDN$">
-      <ref role="PrY4T" to="tpck:2WmWrdnSpX3" resolve="ISuppressErrors" />
-    </node>
-    <node concept="PrWs8" id="7katCQkBK3h" role="PrDN$">
-      <ref role="PrY4T" to="m3g7:1SzZzyBvwuG" resolve="IHideFromOutline" />
-    </node>
-    <node concept="PrWs8" id="2AZbPfMcw3J" role="PrDN$">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="1rXJcsmD0fG">
     <property role="3GE5qa" value="config" />
     <property role="TrG5h" value="IRequiresConfigItem" />
@@ -857,30 +837,16 @@
       <ref role="PrY4T" node="3R$6B6bKw0C" resolve="IConfigurationItem" />
     </node>
   </node>
-  <node concept="PlHQZ" id="6brBMefRfNW">
-    <property role="TrG5h" value="ILOCCountProvider" />
-  </node>
   <node concept="PlHQZ" id="7jSUHHvkAp9">
     <property role="TrG5h" value="IModuleContentRef" />
     <node concept="PrWs8" id="70kXLV4K0vZ" role="PrDN$">
-      <ref role="PrY4T" node="70kXLV4LLzw" resolve="IReference" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1g" resolve="IReference" />
     </node>
   </node>
   <node concept="PlHQZ" id="36EXhjbTUWn">
     <property role="TrG5h" value="IGeneratesCodeForIDE" />
     <node concept="PrWs8" id="3Y7ywckEJZj" role="PrDN$">
       <ref role="PrY4T" node="3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5aNdPeN2PoY">
-    <property role="TrG5h" value="VisibilityControllingAttribute" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="M6xJ_" id="5GEPw8vx$dB" role="lGtFl">
-      <property role="Hh88m" value="visibilityController" />
-      <node concept="trNpa" id="5GEPw8vx$dC" role="EQaZv">
-        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
-      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="6xkj9mMr79">
@@ -919,7 +885,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="assessment" />
     <property role="MwhBj" value="${module}/icons/assessment.png" />
-    <ref role="1TJDcQ" node="6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     <node concept="1TJgyj" id="K292flwCEX" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="assessments" />
@@ -927,7 +893,7 @@
       <ref role="20lvS9" node="K292flwCEW" resolve="Assessment" />
     </node>
     <node concept="PrWs8" id="K292flwD4k" role="PzmwI">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="58M63C2eomB" role="PzmwI">
       <ref role="PrY4T" node="IviauXabd" resolve="IMbeddrIDERoot" />
@@ -985,7 +951,7 @@
       <ref role="20lvS9" node="_gCXGjnZUS" resolve="AssessmentSummary" />
     </node>
     <node concept="PrWs8" id="K292flwD4u" role="PzmwI">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="E67pIUGCcj" role="PzmwI">
       <ref role="PrY4T" node="3m8H$lmFM60" resolve="IDocumentable" />
@@ -1103,55 +1069,6 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
-  <node concept="PlHQZ" id="70kXLV4LLzw">
-    <property role="TrG5h" value="IReference" />
-  </node>
-  <node concept="PlHQZ" id="6clJcrJXo2z">
-    <property role="TrG5h" value="IVisibleElementProvider" />
-    <property role="3GE5qa" value="chunk" />
-  </node>
-  <node concept="1TIwiD" id="6clJcrJYOUA">
-    <property role="TrG5h" value="Chunk" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <property role="3GE5qa" value="chunk" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7XSydqUV$I" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="constraints" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="7XSydqUPm9" resolve="ChunkDependencyConstraint" />
-    </node>
-    <node concept="PrWs8" id="6clJcrJYOZW" role="PzmwI">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
-    </node>
-    <node concept="PrWs8" id="6clJcrJYP01" role="PzmwI">
-      <ref role="PrY4T" node="6clJcrJXo2z" resolve="IVisibleElementProvider" />
-    </node>
-    <node concept="PrWs8" id="2XRfpKVZNC9" role="PzmwI">
-      <ref role="PrY4T" node="6brBMefRfNW" resolve="ILOCCountProvider" />
-    </node>
-    <node concept="PrWs8" id="7dSitqLXJAo" role="PzmwI">
-      <ref role="PrY4T" to="r1oh:1SzZzyBwEpZ" resolve="ITreeViewRoot" />
-    </node>
-    <node concept="PrWs8" id="59HbAIP5roq" role="PzmwI">
-      <ref role="PrY4T" node="59HbAIOYkEn" resolve="IDetectCycle" />
-    </node>
-    <node concept="PrWs8" id="5yCuRHcfn$L" role="PzmwI">
-      <ref role="PrY4T" to="10jo:5yCuRHcawFz" resolve="IJGraphProvider" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="6clJcrJZLbn">
-    <property role="3GE5qa" value="chunk" />
-    <property role="TrG5h" value="IChunkDependency" />
-    <node concept="PrWs8" id="2XRfpKW0heR" role="PrDN$">
-      <ref role="PrY4T" node="6brBMefRfNW" resolve="ILOCCountProvider" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="6clJcrKm6q5">
-    <property role="TrG5h" value="IVisibleElementAdapter" />
-    <property role="3GE5qa" value="chunk" />
-  </node>
   <node concept="PlHQZ" id="7RHXOmw3XK2">
     <property role="TrG5h" value="IRequiresHeaderImport" />
   </node>
@@ -1159,7 +1076,7 @@
     <property role="TrG5h" value="IControlledNamedConcept" />
     <property role="3GE5qa" value="controlledName" />
     <node concept="PrWs8" id="2GIWVTRHg35" role="PrDN$">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="2GIWVTRHgNL">
@@ -1188,7 +1105,7 @@
     <property role="3GE5qa" value="controlledName" />
     <property role="TrG5h" value="IControlledName" />
     <node concept="PrWs8" id="2GIWVTRHgZn" role="PrDN$">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="2GIWVTRLmhU">
@@ -1221,41 +1138,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="DubiFAXpld">
-    <property role="3GE5qa" value="chunk" />
-    <property role="TrG5h" value="DefaultGenericChunkDependency" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="DubiFAXDKB" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="chunk" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6clJcrJYOUA" resolve="Chunk" />
-    </node>
-    <node concept="1TJgyi" id="DubiFAXCMb" role="1TKVEl">
-      <property role="TrG5h" value="reexport" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="DubiFAXB5X" role="PzmwI">
-      <ref role="PrY4T" node="6clJcrJZLbn" resolve="IChunkDependency" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5Xe$YcRDdel">
-    <property role="3GE5qa" value="chunk" />
-    <property role="TrG5h" value="EmptyChunkDependency" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5Xe$YcRDdk8" role="PzmwI">
-      <ref role="PrY4T" node="Ug1QzfhXN3" resolve="IEmpty" />
-    </node>
-    <node concept="PrWs8" id="5Xe$YcRDdkd" role="PzmwI">
-      <ref role="PrY4T" node="6clJcrJZLbn" resolve="IChunkDependency" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7XSydqUPm9">
-    <property role="TrG5h" value="ChunkDependencyConstraint" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="1TIwiD" id="GKLijSvTd0">
     <property role="3GE5qa" value="exref" />
     <property role="TrG5h" value="CheckHashAssessmentQuery" />
@@ -1275,12 +1157,6 @@
       <property role="20kJfa" value="exref" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="smpy:1SzZzyBttVo" resolve="IExtRef" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="59HbAIOYkEn">
-    <property role="TrG5h" value="IDetectCycle" />
-    <node concept="PrWs8" id="59HbAIP50Wn" role="PrDN$">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="6Kj2zNC66Q5">
@@ -1366,7 +1242,7 @@
     <property role="3GE5qa" value="nodelist" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/nodelist.png" />
-    <ref role="1TJDcQ" node="6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     <node concept="1TJgyj" id="6Zp2pzGGYPK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="lists" />
@@ -1374,7 +1250,7 @@
       <ref role="20lvS9" node="6Zp2pzGGYLx" resolve="NodeList" />
     </node>
     <node concept="PrWs8" id="6Zp2pzGGqbz" role="PzmwI">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="6Zp2pzGGqb$" role="PzmwI">
       <ref role="PrY4T" node="IviauXabd" resolve="IMbeddrIDERoot" />
@@ -1397,7 +1273,7 @@
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
     <node concept="PrWs8" id="6Zp2pzGGYPF" role="PzmwI">
-      <ref role="PrY4T" node="65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="6Zp2pzGHhAE">
@@ -1443,7 +1319,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="chunk" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6clJcrJYOUA" resolve="Chunk" />
+      <ref role="20lvS9" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     </node>
   </node>
   <node concept="1TIwiD" id="gjBy3TfZQv">

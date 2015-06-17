@@ -2,6 +2,7 @@
 <model ref="r:7ab2ee3d-7358-499f-855a-eae8063a0d64(test.ex.core.structsAndEnums)">
   <persistence version="9" />
   <languages>
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -192,6 +193,9 @@
       <concept id="186853311768094629" name="com.mbeddr.core.unittest.structure.ExecuteTestExpression" flags="ng" index="3rBj6X">
         <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1298,7 +1302,7 @@
     <node concept="2NXPZ9" id="2EBw14y1Xqb" role="N3F5h">
       <property role="TrG5h" value="empty_1342017394647_3" />
     </node>
-    <node concept="3GEVxB" id="61nbyEXEoLW" role="2OODSX">
+    <node concept="2TDGS2" id="61nbyEXEoLW" role="2OODSX">
       <ref role="3GEb4d" node="Dp4TemCcb7" resolve="AnotherStructContainer" />
     </node>
   </node>
@@ -1967,30 +1971,30 @@
   </node>
   <node concept="N3F5e" id="61nbyEXDWR0">
     <property role="TrG5h" value="Driver" />
-    <node concept="3GEVxB" id="61nbyEXEAfk" role="2OODSX">
+    <node concept="2TDGS2" id="61nbyEXEAfk" role="2OODSX">
       <ref role="3GEb4d" node="Dp4TemBR04" resolve="StructTest" />
     </node>
-    <node concept="3GEVxB" id="4bSv2xZdYgY" role="2OODSX">
+    <node concept="2TDGS2" id="4bSv2xZdYgY" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7D99css6UeO" resolve="EnumTest" />
     </node>
-    <node concept="3GEVxB" id="4bSv2xZdXgY" role="2OODSX">
+    <node concept="2TDGS2" id="4bSv2xZdXgY" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5nhrDHCiiST" resolve="BitFieldTest" />
     </node>
-    <node concept="3GEVxB" id="61nbyEXEEaU" role="2OODSX">
+    <node concept="2TDGS2" id="61nbyEXEEaU" role="2OODSX">
       <ref role="3GEb4d" node="61nbyEXDw2x" resolve="Bug1126" />
     </node>
-    <node concept="3GEVxB" id="4LLYoRUOFl" role="2OODSX">
+    <node concept="2TDGS2" id="4LLYoRUOFl" role="2OODSX">
       <ref role="3GEb4d" node="4LLYoRUvhs" resolve="Bug1133" />
     </node>
-    <node concept="3GEVxB" id="6QawkaKeukv" role="2OODSX">
+    <node concept="2TDGS2" id="6QawkaKeukv" role="2OODSX">
       <ref role="3GEb4d" node="6QawkaJVOQE" resolve="AnonymousStructs1" />
     </node>
-    <node concept="3GEVxB" id="6QawkaKn6BK" role="2OODSX">
+    <node concept="2TDGS2" id="6QawkaKn6BK" role="2OODSX">
       <ref role="3GEb4d" node="6QawkaKiIVk" resolve="AnonymousStructs2" />
     </node>
-    <node concept="3GEVxB" id="5CurKCJbZs0" role="2OODSX">
+    <node concept="2TDGS2" id="5CurKCJbZs0" role="2OODSX">
       <ref role="3GEb4d" node="5CurKCJbWjD" resolve="NestedTransparentStructs" />
     </node>
     <node concept="N3Fnx" id="Dp4TemBRYR" role="N3F5h">

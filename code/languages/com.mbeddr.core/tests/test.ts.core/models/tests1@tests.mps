@@ -10,6 +10,7 @@
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="5e845763-f4ca-40bf-b31f-74e236ffed75" name="com.mbeddr.mpsutil.spreferences.context" version="-1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -424,6 +425,9 @@
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -3460,7 +3464,7 @@
     <node concept="1qefOq" id="4fD91B_pzl9" role="1SKRRt">
       <node concept="N3F5e" id="4fD91B_pzEM" role="1qenE9">
         <property role="TrG5h" value="dummy" />
-        <node concept="3GEVxB" id="4fD91B_pAjl" role="2OODSX">
+        <node concept="2TDGS2" id="4fD91B_pAjl" role="2OODSX">
           <ref role="3GEb4d" node="6GXPbpLibrC" resolve="stdio_stub" />
         </node>
         <node concept="N3Fnx" id="4fD91B_pAjr" role="N3F5h">
@@ -17736,7 +17740,7 @@
         <node concept="7CXmI" id="3PT6Z48Ks7T" role="lGtFl">
           <node concept="7OXhh" id="3PT6Z48Ks7U" role="7EUXB" />
         </node>
-        <node concept="3GEVxB" id="aFniQED_rJ" role="2OODSX">
+        <node concept="2TDGS2" id="aFniQED_rJ" role="2OODSX">
           <ref role="3GEb4d" node="aFniQED$A8" resolve="RegularCDataTypes" />
         </node>
       </node>
@@ -21321,7 +21325,7 @@
     <node concept="1qefOq" id="7ya9dtelRMk" role="1SKRRt">
       <node concept="N3F5e" id="7ya9dtelRNH" role="1qenE9">
         <property role="TrG5h" value="dummy" />
-        <node concept="3GEVxB" id="7ya9dtelRNK" role="2OODSX">
+        <node concept="2TDGS2" id="7ya9dtelRNK" role="2OODSX">
           <ref role="3GEb4d" node="7ya9dtegY_S" resolve="ExternalTest" />
         </node>
         <node concept="N3Fnx" id="7ya9dtelRNN" role="N3F5h">
@@ -22113,7 +22117,7 @@
     <node concept="1qefOq" id="12K3RfpFMIx" role="1SKRRt">
       <node concept="N3F5e" id="12K3RfpFMIz" role="1qenE9">
         <property role="TrG5h" value="TestModule" />
-        <node concept="3GEVxB" id="12K3RfpFMI_" role="2OODSX">
+        <node concept="2TDGS2" id="12K3RfpFMI_" role="2OODSX">
           <ref role="3GEb4d" node="12K3RfpFq2T" resolve="Operators_External" />
         </node>
         <node concept="N3Fnx" id="12K3RfpFMPb" role="N3F5h">

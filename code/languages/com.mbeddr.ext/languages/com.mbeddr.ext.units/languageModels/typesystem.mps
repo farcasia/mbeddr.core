@@ -25,6 +25,7 @@
     <import index="cetu" ref="r:fc1ad1dc-45eb-4f99-8b2c-fbe60e6e91b1(com.mbeddr.ext.math.structure)" />
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
     <import index="tpy3" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.tempmodel(MPS.Core/jetbrains.mps.smodel.tempmodel@java_stub)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -5852,7 +5853,7 @@
                               <node concept="2Xjw5R" id="52UOzzPqSzq" role="2OqNvi">
                                 <node concept="1xMEDy" id="52UOzzPqSzs" role="1xVPHs">
                                   <node concept="chp4Y" id="52UOzzPqS_V" role="ri$Ld">
-                                    <ref role="cht4Q" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+                                    <ref role="cht4Q" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
                                   </node>
                                 </node>
                                 <node concept="1xIGOp" id="52UOzzPqSCS" role="1xVPHs" />

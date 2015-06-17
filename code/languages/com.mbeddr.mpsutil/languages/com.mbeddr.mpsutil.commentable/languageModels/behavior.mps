@@ -8,6 +8,7 @@
   <imports>
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -180,7 +181,7 @@
                 </node>
                 <node concept="1mIQ4w" id="1SzZzyBtKP8" role="2OqNvi">
                   <node concept="chp4Y" id="1SzZzyBtKP9" role="cj9EA">
-                    <ref role="cht4Q" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+                    <ref role="cht4Q" to="42k1:1SzZzyBxj15" resolve="IEmpty" />
                   </node>
                 </node>
               </node>

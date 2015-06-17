@@ -31,6 +31,7 @@
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="jfwg" ref="r:d3af6c4d-9630-4c7f-8b7f-62ceed04bfbc(com.mbeddr.mpsutil.valueDebugger.behavior)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -4616,7 +4617,7 @@
     </node>
     <node concept="13i0hz" id="77mJsGsFMcZ" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3S" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="77mJsGsFMd2" role="3clF47">
         <node concept="3cpWs6" id="77mJsGsFMd5" role="3cqZAp">
           <node concept="3cpWs3" id="77mJsGsFMeG" role="3cqZAk">
@@ -19832,7 +19833,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="target" />
-      <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj4g" resolve="target" />
       <node concept="3Tm1VV" id="1LDGRqyQFAk" role="1B3o_S" />
       <node concept="3clFbS" id="1LDGRqyQFAl" role="3clF47">
         <node concept="3clFbF" id="1LDGRqyQFAm" role="3cqZAp">

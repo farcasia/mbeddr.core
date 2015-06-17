@@ -15,6 +15,7 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1338,7 +1339,7 @@
                                 </node>
                               </node>
                               <node concept="2qgKlT" id="7bjxLYAbwPO" role="2OqNvi">
-                                <ref role="37wK5l" to="hwgx:70kXLV4LLzy" resolve="target" />
+                                <ref role="37wK5l" to="lui5:1SzZzyBxj4g" resolve="target" />
                               </node>
                             </node>
                             <node concept="2OqwBi" id="7bjxLYAbrM5" role="3uHU7w">
@@ -1349,7 +1350,7 @@
                                 </node>
                               </node>
                               <node concept="2qgKlT" id="7bjxLYAbrM8" role="2OqNvi">
-                                <ref role="37wK5l" to="hwgx:70kXLV4LLzy" resolve="target" />
+                                <ref role="37wK5l" to="lui5:1SzZzyBxj4g" resolve="target" />
                               </node>
                             </node>
                           </node>

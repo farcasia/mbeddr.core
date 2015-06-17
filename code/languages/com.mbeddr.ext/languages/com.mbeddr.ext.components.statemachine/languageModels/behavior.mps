@@ -21,6 +21,7 @@
     <import index="eup9" ref="r:ab391014-3e08-4918-9cc5-1c93e3a55c72(com.mbeddr.ext.components.behavior)" />
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -158,7 +159,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getAdaptedElement" />
-      <ref role="13i0hy" to="hwgx:6clJcrKm6q7" resolve="getAdaptedElement" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxjfU" resolve="getAdaptedElement" />
       <node concept="3Tm1VV" id="41KMvfckCvB" role="1B3o_S" />
       <node concept="3clFbS" id="41KMvfckCvC" role="3clF47">
         <node concept="3cpWs6" id="41KMvfckCvE" role="3cqZAp">
@@ -305,7 +306,7 @@
           <node concept="2OqwBi" id="hDImLk4kQD" role="2QERvC">
             <node concept="13iPFW" id="hDImLk4kQE" role="2Oq$k0" />
             <node concept="2qgKlT" id="hDImLk4kQF" role="2OqNvi">
-              <ref role="37wK5l" to="eup9:5hYHEwZIiiW" resolve="IDName" />
+              <ref role="37wK5l" to="eup9:5hYHEwZIiiW" resolve="genLocalIDVarName" />
             </node>
           </node>
         </node>
@@ -314,7 +315,7 @@
           <node concept="2OqwBi" id="hDImLk71Il" role="2QERvC">
             <node concept="13iPFW" id="hDImLk71Im" role="2Oq$k0" />
             <node concept="2qgKlT" id="hDImLk72E$" role="2OqNvi">
-              <ref role="37wK5l" to="eup9:5hYHEwZIiiQ" resolve="componentIDName" />
+              <ref role="37wK5l" to="eup9:5hYHEwZIiiQ" resolve="genLocalCIDVarName" />
             </node>
           </node>
         </node>

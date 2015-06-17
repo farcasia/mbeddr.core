@@ -2,6 +2,7 @@
 <model ref="r:30bd260c-eeef-48cc-bdac-128d01e18a6f(aLibrary.lib)">
   <persistence version="9" />
   <languages>
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -83,6 +84,9 @@
         <reference id="2093108837558505659" name="arg" index="3ZUYvu" />
       </concept>
     </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -130,7 +134,7 @@
   </node>
   <node concept="N3F5e" id="58DJDcMiMVu">
     <property role="TrG5h" value="Dummy" />
-    <node concept="3GEVxB" id="58DJDcMiMVv" role="2OODSX">
+    <node concept="2TDGS2" id="58DJDcMiMVv" role="2OODSX">
       <ref role="3GEb4d" node="58DJDcMhRF1" resolve="HelperFunctions" />
     </node>
     <node concept="N3Fnx" id="58DJDcMiPK2" role="N3F5h">

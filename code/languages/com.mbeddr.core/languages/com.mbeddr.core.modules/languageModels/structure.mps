@@ -16,6 +16,7 @@
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -85,7 +86,7 @@
     <property role="19KtqR" value="false" />
     <property role="R4oN_" value="--" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+    <ref role="1TJDcQ" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
     <node concept="1TJgyj" id="5_l8w1EmTdh" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="contents" />
@@ -96,7 +97,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="imports" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+      <ref role="20lvS9" to="42k1:1SzZzyBxj11" resolve="IChunkDependency" />
     </node>
     <node concept="1TJgyj" id="7RHXOmw8ILd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -157,7 +158,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="5_l8w1EmTdg" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="1teBndx1W9j" role="PrDN$">
       <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
@@ -220,7 +221,7 @@
     <property role="34LRSv" value="function prototype" />
     <ref role="1TJDcQ" node="5_l8w1EmTvt" resolve="FunctionSignature" />
     <node concept="PrWs8" id="6brBMefRP1F" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="5_l8w1EmTvx">
@@ -246,7 +247,7 @@
       <ref role="PrY4T" node="71UKpntnl7M" resolve="IFunctionLike" />
     </node>
     <node concept="PrWs8" id="6brBMefROYF" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="2ofiXe_tTI3" role="PzmwI">
       <ref role="PrY4T" node="2ofiXe_tTHX" resolve="ICanMangleNames" />
@@ -292,7 +293,7 @@
   <node concept="PlHQZ" id="19a6$uAAqkn">
     <property role="TrG5h" value="IModuleContentContainer" />
     <node concept="PrWs8" id="19a6$uAAqkM" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3kEjc_WIKGf">
@@ -323,7 +324,7 @@
       <ref role="20lvS9" node="5jyom5fOqJe" resolve="ExternalResourceDescriptor" />
     </node>
     <node concept="PrWs8" id="6brBMefVLOU" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="IviauXuKR" role="PzmwI">
       <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
@@ -425,7 +426,7 @@
       <ref role="PrY4T" to="c4fa:4Ixybz5aK1O" resolve="IValueLike" />
     </node>
     <node concept="PrWs8" id="2XRfpKWFG9m" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="3ilck8KpYYm">
@@ -556,7 +557,7 @@
     <property role="R4oN_" value="an argument for a closure" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7apEgWbIQg5" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="7Jr7T0w731A" role="PzmwI">
       <ref role="PrY4T" to="2gv2:7QLGLLtiESZ" resolve="IWatchablesProvider" />
@@ -574,7 +575,7 @@
       <ref role="20lvS9" node="7apEgWbIQfE" resolve="ClosureParameter" />
     </node>
     <node concept="PrWs8" id="70kXLV4KbxP" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:70kXLV4LLzw" resolve="IReference" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1g" resolve="IReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="7hIwPwVQD7C">
@@ -605,7 +606,7 @@
       <ref role="20lvS9" node="7kKaL9x4DZT" resolve="IArgumentLike" />
     </node>
     <node concept="PrWs8" id="2lgwE2U46wq" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="4WTYg$PPBc7" role="PrDN$">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -744,7 +745,7 @@
     <property role="R4oN_" value="a label to jump to via a goto" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="PrWs8" id="5HTuIUPB$3$" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5HTuIUPB$3w">
@@ -787,7 +788,7 @@
       <ref role="PrY4T" node="5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="3PT6Z48KINi" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj15" resolve="IEmpty" />
     </node>
     <node concept="PrWs8" id="1DVNPtFPUDG" role="PzmwI">
       <ref role="PrY4T" to="m3g7:1SzZzyBvwuG" resolve="IHideFromOutline" />
@@ -808,7 +809,7 @@
       <ref role="PrY4T" node="5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="2XRfpKX0WPs" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="5eg$WPOtR8F">
@@ -840,7 +841,7 @@
       <ref role="PrY4T" node="2ofiXe_tTHX" resolve="ICanMangleNames" />
     </node>
     <node concept="PrWs8" id="2XRfpKWFGdY" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="3pWy65PNHJx">
@@ -872,7 +873,7 @@
       <ref role="20lvS9" node="5eg$WPOtR8F" resolve="GlobalConstantFunctionDeclaration" />
     </node>
     <node concept="PrWs8" id="70kXLV5wf5D" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:70kXLV4LLzw" resolve="IReference" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1g" resolve="IReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="5eg$WPOuoHl">
@@ -880,7 +881,7 @@
     <property role="TrG5h" value="GlobalConstantFunctionArgument" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6lGvXEGPoIs" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="2jhjVayuujp" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -956,7 +957,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="sibling" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="20lvS9" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5gTlpakxN_S">
@@ -992,7 +993,7 @@
       <ref role="PrY4T" to="mj1l:7oI7FI6oqPw" resolve="IInitializationContext" />
     </node>
     <node concept="PrWs8" id="2VsHNE70LB9" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="1TJgyj" id="2VsHNE717Q8" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1039,7 +1040,7 @@
       <ref role="20lvS9" node="5eg$WPOuoHl" resolve="GlobalConstantFunctionArgument" />
     </node>
     <node concept="PrWs8" id="70kXLV5wkMA" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:70kXLV4LLzw" resolve="IReference" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1g" resolve="IReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="59zzgFRcVlI">
@@ -1097,7 +1098,7 @@
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7Vd878lGmVo" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj11" resolve="IChunkDependency" />
     </node>
   </node>
   <node concept="1TIwiD" id="6o2p2Z1sBzI">

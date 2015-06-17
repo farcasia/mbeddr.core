@@ -2,6 +2,7 @@
 <model ref="r:d215b8f7-1b72-4e36-87a9-58966caafe13(test.ex.core.importAndReexport)">
   <persistence version="9" />
   <languages>
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -101,6 +102,9 @@
         <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
     </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -176,11 +180,11 @@
     <node concept="2NXPZ9" id="6uZAbUKexSG" role="N3F5h">
       <property role="TrG5h" value="empty_1364212237400_2" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4p" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ4p" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6uZAbUKexTN" resolve="M2" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4q" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ4q" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="6uZAbUKeCcu" resolve="M3" />
     </node>
@@ -238,7 +242,7 @@
     <node concept="2NXPZ9" id="6uZAbUKeCc_" role="N3F5h">
       <property role="TrG5h" value="empty_1364212442558_11" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4r" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ4r" role="2OODSX">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" node="6uZAbUKf2l4" resolve="M4" />
     </node>
@@ -362,7 +366,7 @@
     <node concept="2NXPZ9" id="6uZAbUKfmom" role="N3F5h">
       <property role="TrG5h" value="empty_1364222192358_6" />
     </node>
-    <node concept="3GEVxB" id="6PCgYL5qJ4s" role="2OODSX">
+    <node concept="2TDGS2" id="6PCgYL5qJ4s" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6uZAbUKexSE" resolve="M1" />
     </node>

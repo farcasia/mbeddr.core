@@ -19,6 +19,7 @@
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <import index="vsqj" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
     <import index="51te" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.extapi.model(MPS.Core/jetbrains.mps.extapi.model@java_stub)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -514,7 +515,7 @@
           <property role="TrG5h" value="allIncludedModules" />
           <node concept="A3Dl8" id="94IdDJzljI" role="1tU5fm">
             <node concept="3Tqbb2" id="94IdDJ_iKz" role="A3Ik2">
-              <ref role="ehGHo" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+              <ref role="ehGHo" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
             </node>
           </node>
           <node concept="2OqwBi" id="5Xe$YcRib4Q" role="33vP2m">

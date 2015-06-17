@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   </languages>
@@ -179,6 +180,9 @@
         <reference id="4859596973185114238" name="providedPort" index="1DcY7d" />
         <reference id="4859596973183806321" name="instance" index="1DnYF2" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -627,46 +631,46 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="734bZETuhPE" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhPE" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="34XnDxOSMEh" resolve="WiringWithOneInstances" />
     </node>
-    <node concept="3GEVxB" id="734bZETuhNS" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhNS" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="223R3D2fOIE" resolve="WiringWithOneInstancesAndAdapter" />
     </node>
-    <node concept="3GEVxB" id="734bZETuh$q" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuh$q" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="34XnDxOSOaX" resolve="WiringWithMultipleInstances" />
     </node>
-    <node concept="3GEVxB" id="734bZETuhP4" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhP4" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="34XnDxOSOv0" resolve="WiringWithAssemblyConnector" />
     </node>
-    <node concept="3GEVxB" id="734bZETuhOb" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhOb" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="34XnDxOSPy4" resolve="WiringWith2Levels" />
     </node>
-    <node concept="3GEVxB" id="734bZETuhPn" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhPn" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="223R3D2fZyN" resolve="WiringWith2LevelsAndAdapters" />
     </node>
-    <node concept="3GEVxB" id="734bZETuhOL" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhOL" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="7M388_Gyoub" resolve="ConstructorCallOneInstance" />
     </node>
-    <node concept="3GEVxB" id="734bZETuhOu" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhOu" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="2LSSMkCIRwc" resolve="ConstructorCallMultipleInstances" />
     </node>
-    <node concept="3GEVxB" id="734bZETuhKT" role="2OODSX">
+    <node concept="2TDGS2" id="734bZETuhKT" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="6JVEnxIhjQ3" resolve="InitParameters" />
     </node>
-    <node concept="3GEVxB" id="7mgpfAOksof" role="2OODSX">
+    <node concept="2TDGS2" id="7mgpfAOksof" role="2OODSX">
       <ref role="3GEb4d" node="7mgpfAOjgy_" resolve="ConstructorCallAbstractComponent" />
     </node>
-    <node concept="3GEVxB" id="7kKzL6whUXn" role="2OODSX">
+    <node concept="2TDGS2" id="7kKzL6whUXn" role="2OODSX">
       <ref role="3GEb4d" node="7kKzL6whEdw" resolve="CompositeComponentImplementsProvidedPort" />
     </node>
   </node>

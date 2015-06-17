@@ -36,6 +36,7 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="d0vh" ref="r:9488318d-ce46-4320-b4e7-2566a511c366(com.mbeddr.core.modules.gen.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -16321,7 +16322,7 @@
             <node concept="2OqwBi" id="5tbhN$5UT4p" role="2Oq$k0">
               <node concept="1Q6Npb" id="5tbhN$5UT3W" role="2Oq$k0" />
               <node concept="2RRcyG" id="5tbhN$5UTcO" role="2OqNvi">
-                <ref role="2RRcyH" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+                <ref role="2RRcyH" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
               </node>
             </node>
             <node concept="2es0OD" id="5tbhN$5V43F" role="2OqNvi">

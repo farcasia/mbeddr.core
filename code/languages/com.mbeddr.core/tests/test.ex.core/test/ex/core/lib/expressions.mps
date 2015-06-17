@@ -11,6 +11,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt" version="1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports>
     <import index="1ok9" ref="r:a604a9bb-58f8-4cf0-a289-ef69bb1576bb(com.mbeddr.core.__spreferences.PlatformTemplates)" />
@@ -147,6 +148,9 @@
       <concept id="186853311768094629" name="com.mbeddr.core.unittest.structure.ExecuteTestExpression" flags="ng" index="3rBj6X">
         <child id="5686538669182341016" name="tests" index="3cM6Hi" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -414,29 +418,29 @@
         </node>
       </node>
     </node>
-    <node concept="3GEVxB" id="3SmHfhIKNpD" role="2OODSX">
+    <node concept="2TDGS2" id="3SmHfhIKNpD" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5CQ$U_OAkYT" resolve="ExpressionTests1" />
     </node>
-    <node concept="3GEVxB" id="3SmHfhIKNpn" role="2OODSX">
+    <node concept="2TDGS2" id="3SmHfhIKNpn" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5CQ$U_OAl2u" resolve="ExpressionTests2" />
     </node>
-    <node concept="3GEVxB" id="3SmHfhIKNs9" role="2OODSX">
+    <node concept="2TDGS2" id="3SmHfhIKNs9" role="2OODSX">
       <ref role="3GEb4d" node="3SmHfhIAKpv" resolve="FloatTest" />
     </node>
-    <node concept="3GEVxB" id="3SmHfhIKNpw" role="2OODSX">
+    <node concept="2TDGS2" id="3SmHfhIKNpw" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5CQ$U_OAl33" resolve="OperatorsTest" />
     </node>
-    <node concept="3GEVxB" id="3SmHfhIKNpM" role="2OODSX">
+    <node concept="2TDGS2" id="3SmHfhIKNpM" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="5CQ$U_OAlq6" resolve="UnaryOperatorsTest" />
     </node>
   </node>
   <node concept="N3F5e" id="5CQ$U_OAkYT">
     <property role="TrG5h" value="ExpressionTests1" />
-    <node concept="3GEVxB" id="3SmHfhIEGQq" role="2OODSX">
+    <node concept="2TDGS2" id="3SmHfhIEGQq" role="2OODSX">
       <property role="3GEa6x" value="false" />
       <ref role="3GEb4d" node="58DJDcMhRF1" resolve="HelperFunctions" />
     </node>

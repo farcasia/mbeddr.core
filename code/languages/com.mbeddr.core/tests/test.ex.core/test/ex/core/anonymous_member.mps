@@ -2,6 +2,7 @@
 <model ref="r:028f3179-2429-49c7-a1e9-3479afedebac(test.ex.core.anonymous_member)">
   <persistence version="9" />
   <languages>
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports />
@@ -109,6 +110,9 @@
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -263,7 +267,7 @@
   </node>
   <node concept="N3F5e" id="5WwC2ssWwAt">
     <property role="TrG5h" value="main" />
-    <node concept="3GEVxB" id="5WwC2ssWwBE" role="2OODSX">
+    <node concept="2TDGS2" id="5WwC2ssWwBE" role="2OODSX">
       <ref role="3GEb4d" node="5WwC2ssWtXx" resolve="ExternalStuff" />
     </node>
     <node concept="1sgJKc" id="5WwC2ssX6mY" role="N3F5h">

@@ -18,6 +18,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="x30c" ref="r:04a32be8-7074-4c9c-b2f8-77d4a01a19dc(com.mbeddr.core.debug.debugger)" />
     <import index="exl8" ref="r:9058158e-0926-42f8-8d00-d1d86f1ff722(com.mbeddr.core.debug.behavior)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -319,7 +320,7 @@
     </node>
     <node concept="13i0hz" id="5W7baq$5gJ8" role="13h7CS">
       <property role="TrG5h" value="getConceptToBeCounted" />
-      <ref role="13i0hy" to="hwgx:6brBMefSzRs" resolve="getConceptToBeCounted" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3Y" resolve="getConceptToBeCounted" />
       <node concept="3clFbS" id="5W7baq$5gJ9" role="3clF47">
         <node concept="3clFbF" id="5W7baq$5gJa" role="3cqZAp">
           <node concept="3TUQnm" id="5W7baq$5gJb" role="3clFbG">
@@ -871,7 +872,7 @@
     </node>
     <node concept="13i0hz" id="SwwM9UHwxD" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3S" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="SwwM9UHwxE" role="3clF47">
         <node concept="3clFbF" id="SwwM9UHwxF" role="3cqZAp">
           <node concept="3cmrfG" id="SwwM9UHwxG" role="3clFbG">

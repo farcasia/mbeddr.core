@@ -13,8 +13,10 @@
     <import index="l32i" ref="r:a53d514e-fb89-4e83-a4ec-6d837bef2684(com.mbeddr.ext.compositecomponents.behavior)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -357,7 +359,7 @@
           </node>
           <node concept="A3Dl8" id="6qL8nDXpI$Z" role="1tU5fm">
             <node concept="3Tqbb2" id="6qL8nDXpI_0" role="A3Ik2">
-              <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+              <ref role="ehGHo" to="42k1:1SzZzyBxj11" resolve="IChunkDependency" />
             </node>
           </node>
         </node>
@@ -419,7 +421,7 @@
                           <node concept="3fqX7Q" id="6qL8nDXpIDo" role="3uHU7w">
                             <node concept="2OqwBi" id="6qL8nDXpIDp" role="3fr31v">
                               <node concept="2qgKlT" id="36a7yl96xY_" role="2OqNvi">
-                                <ref role="37wK5l" to="hwgx:6clJcrKt_a0" resolve="isReexported" />
+                                <ref role="37wK5l" to="lui5:1SzZzyBxjfv" resolve="isReexported" />
                               </node>
                               <node concept="3cpWs2" id="6qL8nDXpIDq" role="2Oq$k0">
                                 <ref role="3cqZAo" node="6qL8nDXpIAe" resolve="it" />
@@ -429,7 +431,7 @@
                           <node concept="3clFbC" id="6qL8nDXpIB2" role="3uHU7B">
                             <node concept="2OqwBi" id="6qL8nDXpIAA" role="3uHU7B">
                               <node concept="2qgKlT" id="36a7yl96wYt" role="2OqNvi">
-                                <ref role="37wK5l" to="hwgx:6clJcrJZN1z" resolve="chunk" />
+                                <ref role="37wK5l" to="lui5:1SzZzyBxjfr" resolve="chunk" />
                               </node>
                               <node concept="3cpWs2" id="6qL8nDXpIAh" role="2Oq$k0">
                                 <ref role="3cqZAo" node="6qL8nDXpIAe" resolve="it" />
@@ -1124,7 +1126,7 @@
               <ref role="QwW4h" node="6qL8nDXpIFf" resolve="import" />
             </node>
             <node concept="2qgKlT" id="36a7yl97JTS" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:36a7yl97ppK" resolve="setReexportedIfPossible" />
+              <ref role="37wK5l" to="lui5:1SzZzyBxjfz" resolve="setReexportedIfPossible" />
               <node concept="3clFbT" id="36a7yl97KaV" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -1136,7 +1138,7 @@
     <node concept="Q6JDH" id="6qL8nDXpIFf" role="Q6Id_">
       <property role="TrG5h" value="import" />
       <node concept="3Tqbb2" id="6qL8nDXpIFh" role="Q6QK4">
-        <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+        <ref role="ehGHo" to="42k1:1SzZzyBxj11" resolve="IChunkDependency" />
       </node>
     </node>
     <node concept="QznSV" id="6qL8nDXpIG8" role="QzAvj">
@@ -1149,7 +1151,7 @@
                   <ref role="QwW4h" node="6qL8nDXpIFf" resolve="import" />
                 </node>
                 <node concept="2qgKlT" id="5CXUFNJmRT9" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:6clJcrJZN1z" resolve="chunk" />
+                  <ref role="37wK5l" to="lui5:1SzZzyBxjfr" resolve="chunk" />
                 </node>
               </node>
               <node concept="3TrcHB" id="6qL8nDXpIHI" role="2OqNvi">

@@ -10,6 +10,7 @@
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
   </languages>
   <imports />
   <registry>
@@ -113,6 +114,9 @@
       <concept id="8720844099624588923" name="com.mbeddr.core.legacy.structure.OpaqueTextWithType" flags="ng" index="2iEvZV">
         <property id="5443628787102794761" name="value" index="rOue3" />
       </concept>
+    </language>
+    <language id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk">
+      <concept id="2171858964604858426" name="com.mbeddr.mpsutil.chunk.structure.DefaultGenericChunkDependency" flags="ng" index="2TDGS2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -1685,7 +1689,7 @@
     <node concept="rcWE1" id="1WTn9U1aZnj" role="rcWEr">
       <property role="rcWEL" value="&lt;stdio.h&gt;" />
     </node>
-    <node concept="3GEVxB" id="om3tjyp6SR" role="2OODSX">
+    <node concept="2TDGS2" id="om3tjyp6SR" role="2OODSX">
       <ref role="3GEb4d" node="137zkozycPF" resolve="stdarg" />
     </node>
   </node>

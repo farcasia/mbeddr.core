@@ -10,6 +10,7 @@
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="i2y7" ref="r:098cbe90-1cfd-414a-b5e8-aca28752df17(com.mbeddr.core.make.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -90,7 +91,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="77mJsGsFMfC" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="IviauYa__" role="PzmwI">
       <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
@@ -128,7 +129,7 @@
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="77mJsGsFMiP" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="1TJgyi" id="2YvytGXjVmW" role="1TKVEl">
       <property role="TrG5h" value="isTest" />
@@ -161,7 +162,7 @@
       <ref role="20lvS9" node="4aYGoLbxbUW" resolve="Linkable" />
     </node>
     <node concept="PrWs8" id="1YUFCeFKT9R" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="65XyadYPOIU" role="PzmwI">
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
@@ -251,7 +252,7 @@
     <property role="3GE5qa" value="platform" />
     <ref role="1TJDcQ" node="4BxItZJ4BoF" resolve="Platform" />
     <node concept="PrWs8" id="77mJsGsFMiE" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:6brBMefRfNW" resolve="ILOCCountProvider" />
+      <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="2nSRgleEPDE" role="PzmwI">
       <ref role="PrY4T" node="2nSRgleEPDw" resolve="IDebuggablePlatform" />

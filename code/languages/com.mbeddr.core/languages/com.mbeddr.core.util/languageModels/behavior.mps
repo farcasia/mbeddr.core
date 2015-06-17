@@ -31,7 +31,9 @@
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="ierg" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.textgen.trace(MPS.Core/jetbrains.mps.textgen.trace@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="dd55" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.cache(MPS.Core/jetbrains.mps.generator.cache@java_stub)" implicit="true" />
+    <import index="dd55" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.cache(MPS.Core/jetbrains.mps.generator.cache@java_stub)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -1120,14 +1122,14 @@
           <node concept="3cpWsn" id="2edJ9sqlyQ" role="3cpWs9">
             <property role="TrG5h" value="chunk" />
             <node concept="3Tqbb2" id="2edJ9sqlyO" role="1tU5fm">
-              <ref role="ehGHo" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+              <ref role="ehGHo" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
             </node>
             <node concept="2OqwBi" id="2edJ9sqlyR" role="33vP2m">
               <node concept="13iPFW" id="2edJ9sqlyS" role="2Oq$k0" />
               <node concept="2Xjw5R" id="2edJ9sqlyT" role="2OqNvi">
                 <node concept="1xMEDy" id="2edJ9sqlyU" role="1xVPHs">
                   <node concept="chp4Y" id="2edJ9sqlyV" role="ri$Ld">
-                    <ref role="cht4Q" to="vs0r:6clJcrJYOUA" resolve="Chunk" />
+                    <ref role="cht4Q" to="42k1:1SzZzyBxj0M" resolve="Chunk" />
                   </node>
                 </node>
               </node>
@@ -3190,7 +3192,7 @@
     <ref role="13h7C2" to="k146:2lgwE2U2X_H" resolve="MessageDefinitionTable" />
     <node concept="13i0hz" id="6brBMefRP1X" role="13h7CS">
       <property role="TrG5h" value="getLOCEquivalent" />
-      <ref role="13i0hy" to="hwgx:6brBMefRfO0" resolve="getLOCEquivalent" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj3S" resolve="getLOCEquivalent" />
       <node concept="3clFbS" id="6brBMefRP20" role="3clF47">
         <node concept="3clFbF" id="6brBMefRP23" role="3cqZAp">
           <node concept="3cpWs3" id="6brBMefRP2p" role="3clFbG">
@@ -5219,7 +5221,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="target" />
-      <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj4g" resolve="target" />
       <node concept="3Tm1VV" id="70kXLV4Ku8e" role="1B3o_S" />
       <node concept="3clFbS" id="70kXLV4Ku8h" role="3clF47">
         <node concept="3clFbF" id="70kXLV4KLhX" role="3cqZAp">
@@ -5431,7 +5433,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="target" />
-      <ref role="13i0hy" to="hwgx:70kXLV4LLzy" resolve="target" />
+      <ref role="13i0hy" to="lui5:1SzZzyBxj4g" resolve="target" />
       <node concept="3Tm1VV" id="70kXLV4LGVx" role="1B3o_S" />
       <node concept="3clFbS" id="70kXLV4LGV$" role="3clF47">
         <node concept="3clFbF" id="70kXLV4LGVJ" role="3cqZAp">

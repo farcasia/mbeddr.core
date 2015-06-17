@@ -11,6 +11,8 @@
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -318,7 +320,7 @@
                                 </node>
                                 <node concept="3CFZ6_" id="4OlFaNL4VbP" role="2OqNvi">
                                   <node concept="3CFYIy" id="4OlFaNL4VbQ" role="3CFYIz">
-                                    <ref role="3CFYIx" to="vs0r:5aNdPeN2PoY" resolve="VisibilityControllingAttribute" />
+                                    <ref role="3CFYIx" to="42k1:1SzZzyBxj1h" resolve="VisibilityControllingAttribute" />
                                   </node>
                                 </node>
                               </node>
@@ -332,12 +334,12 @@
                                   </node>
                                   <node concept="3CFZ6_" id="4OlFaNL4VbW" role="2OqNvi">
                                     <node concept="3CFYIy" id="4OlFaNL4VbX" role="3CFYIz">
-                                      <ref role="3CFYIx" to="vs0r:5aNdPeN2PoY" resolve="VisibilityControllingAttribute" />
+                                      <ref role="3CFYIx" to="42k1:1SzZzyBxj1h" resolve="VisibilityControllingAttribute" />
                                     </node>
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="4OlFaNL4VbY" role="2OqNvi">
-                                  <ref role="37wK5l" to="hwgx:5aNdPeN2Pp4" resolve="isCurrentlyVisible" />
+                                  <ref role="37wK5l" to="lui5:1SzZzyBxj49" resolve="isCurrentlyVisible" />
                                 </node>
                               </node>
                             </node>
@@ -411,7 +413,7 @@
             <node concept="2OqwBi" id="4JF77iuSise" role="3clFbG">
               <node concept="EsrRn" id="4JF77iuSisd" role="2Oq$k0" />
               <node concept="2qgKlT" id="4JF77iuSisi" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:4JF77iuPRBw" resolve="shortDescriptionForCCMenu" />
+                <ref role="37wK5l" to="lui5:1SzZzyBxj3f" resolve="shortDescriptionForCCMenu" />
               </node>
             </node>
           </node>
