@@ -20,6 +20,7 @@
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -360,7 +361,7 @@
       <concept id="1515263624310660132" name="de.slisson.mps.tables.structure.HeaderQuery_Delete" flags="ig" index="3x7d0o" />
     </language>
     <language id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool">
-      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" index="27S6Sx" />
+      <concept id="4900677560559655527" name="de.itemis.mps.editor.bool.structure.CellModel_Checkbox" flags="sg" stub="416014060004381438" index="27S6Sx" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -439,7 +440,7 @@
       <node concept="l2Vlx" id="5oGU$loBUUH" role="2iSdaV" />
       <node concept="3F0ifn" id="5oGU$loBUUG" role="3EZMnx">
         <property role="3F0ifm" value="blockexpr" />
-        <ref role="1k5W1q" to="r4b4:2$$_2GR98qK" resolve="nothing" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4Te" resolve="nothing" />
       </node>
       <node concept="3F1sOY" id="4VEDcE28xXU" role="3EZMnx">
         <ref role="1NtTu8" to="k146:4VEDcE28so5" />
@@ -3570,7 +3571,7 @@
         <node concept="Vb9p2" id="2Td8scy67U4" role="3F10Kt" />
       </node>
       <node concept="1HlG4h" id="7CzZuMWStkP" role="3EZMnx">
-        <ref role="1k5W1q" to="r4b4:2$$_2GR98qK" resolve="nothing" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4Te" resolve="nothing" />
         <node concept="1HfYo3" id="7CzZuMWStkQ" role="1HlULh">
           <node concept="3TQlhw" id="7CzZuMWStkR" role="1Hhtcw">
             <node concept="3clFbS" id="7CzZuMWStkS" role="2VODD2">

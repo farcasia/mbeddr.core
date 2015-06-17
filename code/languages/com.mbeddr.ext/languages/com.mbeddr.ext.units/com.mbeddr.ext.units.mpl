@@ -100,6 +100,7 @@
     <dependency reexport="false">7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</dependency>
     <dependency reexport="false">20c6e580-bdc5-4067-8049-d7e3265a86de(jetbrains.mps.typesystemEngine)</dependency>
     <dependency reexport="false">9d21f1e2-f166-4944-8405-b9fab3610a93(com.mbeddr.mpsutil.configItem)</dependency>
+    <dependency reexport="false">4ebd4c03-8d31-474d-8f79-c3cc581ab5a4(com.mbeddr.mpsutil.platform)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</usedLanguage>

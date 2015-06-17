@@ -18,6 +18,7 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -286,7 +287,7 @@
       </node>
       <node concept="3F0ifn" id="5S6wb2j5pgC" role="3EZMnx">
         <property role="3F0ifm" value="Platform" />
-        <ref role="1k5W1q" to="r4b4:7TAjv1QUX$w" resolve="heading" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4T8" resolve="heading" />
         <node concept="pVoyu" id="3R$6B6bPuJ8" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -344,7 +345,7 @@
       </node>
       <node concept="3F0ifn" id="3R$6B6bKxEE" role="3EZMnx">
         <property role="3F0ifm" value="Configuration Items" />
-        <ref role="1k5W1q" to="r4b4:7TAjv1QUX$w" resolve="heading" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4T8" resolve="heading" />
       </node>
       <node concept="gc7cB" id="2cCHKvAEtr5" role="3EZMnx">
         <node concept="3VJUX4" id="2cCHKvAEtr6" role="3YsKMw">
@@ -409,7 +410,7 @@
       </node>
       <node concept="3F0ifn" id="5S6wb2j5pgt" role="3EZMnx">
         <property role="3F0ifm" value="Binaries" />
-        <ref role="1k5W1q" to="r4b4:7TAjv1QUX$w" resolve="heading" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4T8" resolve="heading" />
       </node>
       <node concept="gc7cB" id="2cCHKvAEtLL" role="3EZMnx">
         <node concept="3VJUX4" id="2cCHKvAEtLM" role="3YsKMw">
@@ -511,7 +512,7 @@
         </node>
       </node>
       <node concept="1HlG4h" id="4vuSA6yL5L2" role="3EZMnx">
-        <ref role="1k5W1q" to="r4b4:2$$_2GR98qM" resolve="gray" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4Tg" resolve="gray" />
         <node concept="1HfYo3" id="4vuSA6yL5L3" role="1HlULh">
           <node concept="3TQlhw" id="4vuSA6yL5L4" role="1Hhtcw">
             <node concept="3clFbS" id="4vuSA6yL5L5" role="2VODD2">
@@ -847,7 +848,7 @@
       </node>
       <node concept="3F0ifn" id="7c6uq_OtvlA" role="3EZMnx">
         <property role="3F0ifm" value="paths are not checked" />
-        <ref role="1k5W1q" to="r4b4:2$$_2GR98qO" resolve="readOnly" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4Ti" resolve="readOnly" />
       </node>
       <node concept="3F0ifn" id="4BxItZJ4Bp4" role="3EZMnx">
         <property role="3F0ifm" value="make:" />

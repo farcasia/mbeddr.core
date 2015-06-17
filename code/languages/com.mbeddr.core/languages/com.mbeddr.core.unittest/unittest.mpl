@@ -167,6 +167,7 @@
     <dependency reexport="false">61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</dependency>
     <dependency reexport="false">cc7da2f6-419f-4133-a811-31fcd3295a85(jetbrains.mps.debugger.api.api)</dependency>
     <dependency reexport="false">5192cf4a-63c7-438e-bed4-687010981d34(com.mbeddr.mpsutil.controlledName)</dependency>
+    <dependency reexport="false">4ebd4c03-8d31-474d-8f79-c3cc581ab5a4(com.mbeddr.mpsutil.platform)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</usedLanguage>

@@ -15,6 +15,7 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="8hbn" ref="r:7cf39074-dd4c-4a82-a0ed-da646fa0dd21(com.mbeddr.mpsutil.controlledName.editor)" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -562,7 +563,7 @@
         </node>
       </node>
       <node concept="1HlG4h" id="5Xsg2EBpBVY" role="3EZMnx">
-        <ref role="1k5W1q" to="r4b4:2$$_2GR98qK" resolve="nothing" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4Te" resolve="nothing" />
         <node concept="1HfYo3" id="5Xsg2EBpBVZ" role="1HlULh">
           <node concept="3TQlhw" id="5Xsg2EBpBW0" role="1Hhtcw">
             <node concept="3clFbS" id="5Xsg2EBpBW1" role="2VODD2">
@@ -1123,7 +1124,7 @@
       </node>
       <node concept="3F0ifn" id="Dp4TemB_1P" role="3EZMnx">
         <property role="3F0ifm" value="switch" />
-        <ref role="1k5W1q" to="r4b4:2$$_2GR98qK" resolve="nothing" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4Te" resolve="nothing" />
         <node concept="ljvvj" id="7apEgWbIHT$" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

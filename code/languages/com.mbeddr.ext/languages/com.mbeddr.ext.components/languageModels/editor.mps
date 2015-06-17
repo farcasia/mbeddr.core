@@ -31,6 +31,7 @@
     <import index="7ou7" ref="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" />
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -656,7 +657,7 @@
         </node>
       </node>
       <node concept="1HlG4h" id="1qK_mmzphmt" role="3EZMnx">
-        <ref role="1k5W1q" to="r4b4:2$$_2GR98qK" resolve="nothing" />
+        <ref role="1k5W1q" to="bfsu:1SzZzyBC4Te" resolve="nothing" />
         <node concept="VPM3Z" id="7rzoJWtpnCY" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>

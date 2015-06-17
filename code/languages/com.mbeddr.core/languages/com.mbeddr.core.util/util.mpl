@@ -325,6 +325,7 @@
     <dependency reexport="false">7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</dependency>
     <dependency reexport="false">5192cf4a-63c7-438e-bed4-687010981d34(com.mbeddr.mpsutil.controlledName)</dependency>
     <dependency reexport="false">9d21f1e2-f166-4944-8405-b9fab3610a93(com.mbeddr.mpsutil.configItem)</dependency>
+    <dependency reexport="false">4ebd4c03-8d31-474d-8f79-c3cc581ab5a4(com.mbeddr.mpsutil.platform)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ebb5e132-d298-4649-b320-b3f4d7f3acff(com.mbeddr.core.debug.blext)</usedLanguage>
