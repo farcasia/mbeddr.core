@@ -74,6 +74,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.valueDebugger/com.mbeddr.mpsutil.valueDebugger.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/doc.com.mbeddr.mpsutil.multilingual.lang/doc.com.mbeddr.mpsutil.multilingual.lang.mpl" folder="multilingual" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.breadcrumb.runtime/com.mbeddr.mpsutil.breadcrumb.runtime.msd" folder="breadcrumb" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.codereview.pluginSolution/com.mbeddr.mpsutil.codereview.pluginSolution.msd" folder="base.codereview" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.commentable.pluginSolution/com.mbeddr.mpsutil.commentable.pluginSolution.msd" folder="base.commentable" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.common/com.mbeddr.mpsutil.common.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.comparator/comparator.msd" folder="" />
