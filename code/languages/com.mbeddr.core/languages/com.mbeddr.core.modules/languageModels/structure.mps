@@ -21,6 +21,7 @@
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="6q2s" ref="r:c494e56d-2869-45d3-81d1-883ba2ef8f01(com.mbeddr.mpsutil.ideEnhancement.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -148,7 +149,7 @@
       <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
     </node>
     <node concept="PrWs8" id="IviauXcnd" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+      <ref role="PrY4T" to="6q2s:3MfdKt5xVda" resolve="IMbeddrIDERoot" />
     </node>
   </node>
   <node concept="PlHQZ" id="5_l8w1EmTdf">
@@ -331,7 +332,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1c" resolve="ILOCCountProvider" />
     </node>
     <node concept="PrWs8" id="IviauXuKR" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
+      <ref role="PrY4T" to="6q2s:3MfdKt5xVda" resolve="IMbeddrIDERoot" />
     </node>
   </node>
   <node concept="1TIwiD" id="5jyom5fOqJe">

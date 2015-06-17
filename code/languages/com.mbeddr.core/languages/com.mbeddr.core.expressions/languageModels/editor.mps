@@ -27,6 +27,7 @@
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="2hsb" ref="r:1c8ee40b-b4a3-4447-869d-2adafec4811d(com.mbeddr.mpsutil.ideEnhancement.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -1622,7 +1623,7 @@
     <node concept="3EZMnI" id="2TbP0WsJymh" role="2wV5jI">
       <node concept="2iRkQZ" id="2TbP0WsJymj" role="2iSdaV" />
       <node concept="PMmxH" id="2A5UqXK8_yN" role="3EZMnx">
-        <ref role="PMmxG" to="r4b4:2A5UqXJPGTA" resolve="iconAndNameCell" />
+        <ref role="PMmxG" to="2hsb:3MfdKt5xVet" resolve="iconAndNameCell" />
       </node>
       <node concept="gc7cB" id="3Dgh5aYj2Ho" role="3EZMnx">
         <node concept="3VJUX4" id="3Dgh5aYj2Hp" role="3YsKMw">

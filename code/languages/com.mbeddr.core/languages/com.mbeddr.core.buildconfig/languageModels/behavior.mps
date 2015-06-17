@@ -35,6 +35,7 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -500,7 +501,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getIDEDisplayString" />
-      <ref role="13i0hy" to="hwgx:IviauXb0g" resolve="getIDEDisplayString" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeT" resolve="getIDEDisplayString" />
       <node concept="3Tm1VV" id="IviauYgqR" role="1B3o_S" />
       <node concept="3clFbS" id="IviauYgqU" role="3clF47">
         <node concept="3clFbF" id="IviauYjS1" role="3cqZAp">
@@ -515,7 +516,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getSortOrder" />
-      <ref role="13i0hy" to="hwgx:1uL8CIs6rGR" resolve="getSortOrder" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeX" resolve="getSortOrder" />
       <node concept="3Tm1VV" id="1uL8CIsCyuB" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsCyuE" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsCAnT" role="3cqZAp">
@@ -530,7 +531,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getParentPopup" />
-      <ref role="13i0hy" to="hwgx:1uL8CIsKxiy" resolve="getParentPopup" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVf1" resolve="getParentPopup" />
       <node concept="3Tm1VV" id="1uL8CIsQ8Xm" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsQ8Xp" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsQbHh" role="3cqZAp">

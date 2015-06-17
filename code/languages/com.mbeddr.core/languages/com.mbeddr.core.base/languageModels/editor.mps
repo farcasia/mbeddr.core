@@ -60,6 +60,8 @@
     <import index="7t3h" ref="r:db75bd6e-5066-4520-9b37-4506b0f4c545(com.mbeddr.mpsutil.codereview.editor)" />
     <import index="sy9s" ref="r:3268ba08-154d-462d-95ad-4d58b0f305fd(com.mbeddr.mpsutil.codereview.behavior)" />
     <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
+    <import index="6q2s" ref="r:c494e56d-2869-45d3-81d1-883ba2ef8f01(com.mbeddr.mpsutil.ideEnhancement.structure)" />
+    <import index="2hsb" ref="r:1c8ee40b-b4a3-4447-869d-2adafec4811d(com.mbeddr.mpsutil.ideEnhancement.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -108,7 +110,6 @@
         <property id="1136923970224" name="keycode" index="2PWKIS" />
       </concept>
       <concept id="1136917288805" name="jetbrains.mps.lang.editor.structure.CellKeyMap_ExecuteFunction" flags="in" index="2PzhpH" />
-      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
@@ -186,7 +187,6 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
-        <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
         <reference id="1081339532145" name="keyMap" index="34QXea" />
         <reference id="1139959269582" name="actionMap" index="1ERwB7" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
@@ -2879,7 +2879,7 @@
     <node concept="3EZMnI" id="5_l8w1EmTdD" role="2wV5jI">
       <property role="S$Qs1" value="false" />
       <node concept="PMmxH" id="2A5UqXJRIPE" role="3EZMnx">
-        <ref role="PMmxG" node="2A5UqXJPGTA" resolve="iconAndNameCell" />
+        <ref role="PMmxG" to="2hsb:3MfdKt5xVet" resolve="iconAndNameCell" />
       </node>
       <node concept="gc7cB" id="3Dgh5aYj2Ho" role="3EZMnx">
         <node concept="3VJUX4" id="3Dgh5aYj2Hp" role="3YsKMw">
@@ -7397,41 +7397,6 @@
       <node concept="10Oyi0" id="DubiFBVAkz" role="1tU5fm" />
     </node>
   </node>
-  <node concept="PKFIW" id="2A5UqXJPGTA">
-    <property role="TrG5h" value="iconAndNameCell" />
-    <ref role="1XX52x" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
-    <node concept="3EZMnI" id="2A5UqXJPGU6" role="2wV5jI">
-      <node concept="VPM3Z" id="2A5UqXJPGU7" role="3F10Kt">
-        <property role="VOm3f" value="false" />
-      </node>
-      <node concept="gc7cB" id="2A5UqXJPGU8" role="3EZMnx">
-        <node concept="3VJUX4" id="2A5UqXJPGU9" role="3YsKMw">
-          <node concept="3clFbS" id="2A5UqXJPGUa" role="2VODD2">
-            <node concept="3clFbF" id="2A5UqXJPGUb" role="3cqZAp">
-              <node concept="2ShNRf" id="2A5UqXJPGUc" role="3clFbG">
-                <node concept="1pGfFk" id="2A5UqXJQ4wL" role="2ShVmc">
-                  <ref role="37wK5l" node="DubiFB4e4X" resolve="IconCell" />
-                  <node concept="pncrf" id="2A5UqXJQ4y$" role="37wK5m" />
-                  <node concept="3cmrfG" id="2A5UqXJQ4Cz" role="37wK5m">
-                    <property role="3cmrfH" value="3" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="VPM3Z" id="2A5UqXK_M76" role="3F10Kt">
-          <property role="VOm3f" value="false" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="2A5UqXJPGUe" role="3EZMnx">
-        <property role="1cu_pB" value="2" />
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" to="bfsu:1SzZzyBC4T8" resolve="heading" />
-      </node>
-      <node concept="l2Vlx" id="2A5UqXJPGUf" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="312cEu" id="1uZspiYN_c0">
     <property role="TrG5h" value="EmptyCell" />
     <property role="3GE5qa" value="cells.other" />
@@ -8636,7 +8601,7 @@
     <node concept="3EZMnI" id="6Zp2pzGH7XI" role="2wV5jI">
       <property role="S$Qs1" value="false" />
       <node concept="PMmxH" id="6Zp2pzGH7XJ" role="3EZMnx">
-        <ref role="PMmxG" node="2A5UqXJPGTA" resolve="iconAndNameCell" />
+        <ref role="PMmxG" to="2hsb:3MfdKt5xVet" resolve="iconAndNameCell" />
       </node>
       <node concept="gc7cB" id="6Zp2pzGH7XK" role="3EZMnx">
         <node concept="3VJUX4" id="6Zp2pzGH7XL" role="3YsKMw">

@@ -19,6 +19,7 @@
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
     <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
+    <import index="2hsb" ref="r:1c8ee40b-b4a3-4447-869d-2adafec4811d(com.mbeddr.mpsutil.ideEnhancement.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -220,7 +221,7 @@
     <ref role="1XX52x" to="51wr:6GqYvBOf2X8" resolve="BuildConfiguration" />
     <node concept="3EZMnI" id="6GqYvBOf2Xy" role="2wV5jI">
       <node concept="PMmxH" id="2A5UqXK9JKM" role="3EZMnx">
-        <ref role="PMmxG" to="r4b4:2A5UqXJPGTA" resolve="iconAndNameCell" />
+        <ref role="PMmxG" to="2hsb:3MfdKt5xVet" resolve="iconAndNameCell" />
         <node concept="pVoyu" id="2A5UqXK9K8l" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

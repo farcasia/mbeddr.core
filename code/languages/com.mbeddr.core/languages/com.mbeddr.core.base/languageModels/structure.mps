@@ -18,6 +18,7 @@
     <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
+    <import index="6q2s" ref="r:c494e56d-2869-45d3-81d1-883ba2ef8f01(com.mbeddr.mpsutil.ideEnhancement.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -75,18 +76,9 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1g" resolve="IReference" />
     </node>
   </node>
-  <node concept="PlHQZ" id="36EXhjbTUWn">
-    <property role="TrG5h" value="IGeneratesCodeForIDE" />
-    <node concept="PrWs8" id="3Y7ywckEJZj" role="PrDN$">
-      <ref role="PrY4T" node="3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="6xkj9mMr79">
     <property role="3GE5qa" value="vis" />
     <property role="TrG5h" value="IVisualizationParticipant" />
-  </node>
-  <node concept="PlHQZ" id="3Y7ywckEJZi">
-    <property role="TrG5h" value="IKeepAliveInGeneration" />
   </node>
   <node concept="1TIwiD" id="K292flwCEV">
     <property role="TrG5h" value="AssessmentContainer" />
@@ -104,10 +96,10 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="58M63C2eomB" role="PzmwI">
-      <ref role="PrY4T" node="IviauXabd" resolve="IMbeddrIDERoot" />
+      <ref role="PrY4T" to="6q2s:3MfdKt5xVda" resolve="IMbeddrIDERoot" />
     </node>
     <node concept="PrWs8" id="6iaOvgbfH65" role="PzmwI">
-      <ref role="PrY4T" node="3Y7ywckEJZi" resolve="IKeepAliveInGeneration" />
+      <ref role="PrY4T" to="6q2s:3MfdKt5xVd9" resolve="IKeepAliveInGeneration" />
     </node>
   </node>
   <node concept="1TIwiD" id="K292flwCEW">
@@ -271,12 +263,6 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
-  <node concept="PlHQZ" id="IviauXabd">
-    <property role="TrG5h" value="IMbeddrIDERoot" />
-    <node concept="PrWs8" id="2A5UqXJQ4F9" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="7RHXOmw3XK2">
     <property role="TrG5h" value="IRequiresHeaderImport" />
   </node>
@@ -363,7 +349,7 @@
       <ref role="PrY4T" to="42k1:1SzZzyBxj1d" resolve="IIdentifierNamedConcept" />
     </node>
     <node concept="PrWs8" id="6Zp2pzGGqb$" role="PzmwI">
-      <ref role="PrY4T" node="IviauXabd" resolve="IMbeddrIDERoot" />
+      <ref role="PrY4T" to="6q2s:3MfdKt5xVda" resolve="IMbeddrIDERoot" />
     </node>
   </node>
   <node concept="1TIwiD" id="6Zp2pzGGYLx">

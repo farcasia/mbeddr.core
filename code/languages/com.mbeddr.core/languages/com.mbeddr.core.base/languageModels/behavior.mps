@@ -78,6 +78,8 @@
     <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
     <import index="g6wb" ref="r:4500f164-29e8-4bd7-84b3-6ea98f547ff1(com.mbeddr.mpsutil.codereview.structure)" />
     <import index="sy9s" ref="r:3268ba08-154d-462d-95ad-4d58b0f305fd(com.mbeddr.mpsutil.codereview.behavior)" />
+    <import index="6q2s" ref="r:c494e56d-2869-45d3-81d1-883ba2ef8f01(com.mbeddr.mpsutil.ideEnhancement.structure)" />
+    <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -524,12 +526,6 @@
     </node>
     <node concept="13hLZK" id="7jSUHHvkApl" role="13h7CW">
       <node concept="3clFbS" id="7jSUHHvkApm" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="7H6_Qip5TrT">
-    <ref role="13h7C2" to="vs0r:36EXhjbTUWn" resolve="IGeneratesCodeForIDE" />
-    <node concept="13hLZK" id="7H6_Qip5TrU" role="13h7CW">
-      <node concept="3clFbS" id="7H6_Qip5TrV" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="6xkj9mMr7b">
@@ -2282,37 +2278,6 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="IviauXaxW">
-    <ref role="13h7C2" to="vs0r:IviauXabd" resolve="IMbeddrIDERoot" />
-    <node concept="13i0hz" id="IviauXb0g" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getIDEDisplayString" />
-      <property role="2Ki8OM" value="false" />
-      <node concept="3Tm1VV" id="IviauXb0h" role="1B3o_S" />
-      <node concept="17QB3L" id="IviauXb9z" role="3clF45" />
-      <node concept="3clFbS" id="IviauXb0j" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="1uL8CIs6rGR" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getSortOrder" />
-      <node concept="3Tm1VV" id="1uL8CIs6rLA" role="1B3o_S" />
-      <node concept="10Oyi0" id="1uL8CIs6rUS" role="3clF45" />
-      <node concept="3clFbS" id="1uL8CIs6rLC" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="1uL8CIsKxiy" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getParentPopup" />
-      <node concept="3Tm1VV" id="1uL8CIsKxiz" role="1B3o_S" />
-      <node concept="17QB3L" id="1uL8CIsKxIg" role="3clF45" />
-      <node concept="3clFbS" id="1uL8CIsKxi_" role="3clF47" />
-    </node>
-    <node concept="13hLZK" id="IviauXa$k" role="13h7CW">
-      <node concept="3clFbS" id="IviauXa$l" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="7RHXOmw3XK3">
     <ref role="13h7C2" to="vs0r:7RHXOmw3XK2" resolve="IRequiresHeaderImport" />
     <node concept="13i0hz" id="7RHXOmw3XK4" role="13h7CS">
@@ -2407,7 +2372,7 @@
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getIDEDisplayString" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="IviauXb0g" resolve="getIDEDisplayString" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeT" resolve="getIDEDisplayString" />
       <node concept="3Tm1VV" id="58M63C2eos5" role="1B3o_S" />
       <node concept="3clFbS" id="58M63C2eos8" role="3clF47">
         <node concept="3clFbF" id="58M63C2epi2" role="3cqZAp">
@@ -2422,7 +2387,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getParentPopup" />
-      <ref role="13i0hy" node="1uL8CIsKxiy" resolve="getParentPopup" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVf1" resolve="getParentPopup" />
       <node concept="3Tm1VV" id="58M63C2eosb" role="1B3o_S" />
       <node concept="3clFbS" id="58M63C2eose" role="3clF47">
         <node concept="3clFbF" id="58M63C2epjr" role="3cqZAp">
@@ -2452,7 +2417,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getSortOrder" />
-      <ref role="13i0hy" node="1uL8CIs6rGR" resolve="getSortOrder" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeX" resolve="getSortOrder" />
       <node concept="3Tm1VV" id="58M63C2eosh" role="1B3o_S" />
       <node concept="3clFbS" id="58M63C2eosk" role="3clF47">
         <node concept="3clFbF" id="58M63C2epl8" role="3cqZAp">
@@ -6476,7 +6441,7 @@
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getIDEDisplayString" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="IviauXb0g" resolve="getIDEDisplayString" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeT" resolve="getIDEDisplayString" />
       <node concept="3Tm1VV" id="6Zp2pzGGsdh" role="1B3o_S" />
       <node concept="3clFbS" id="6Zp2pzGGsdi" role="3clF47">
         <node concept="3clFbF" id="6Zp2pzGGsdj" role="3cqZAp">
@@ -6491,7 +6456,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getParentPopup" />
-      <ref role="13i0hy" node="1uL8CIsKxiy" resolve="getParentPopup" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVf1" resolve="getParentPopup" />
       <node concept="3Tm1VV" id="6Zp2pzGGsdn" role="1B3o_S" />
       <node concept="3clFbS" id="6Zp2pzGGsdo" role="3clF47">
         <node concept="3clFbF" id="6Zp2pzGGsdp" role="3cqZAp">
@@ -6521,7 +6486,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getSortOrder" />
-      <ref role="13i0hy" node="1uL8CIs6rGR" resolve="getSortOrder" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeX" resolve="getSortOrder" />
       <node concept="3Tm1VV" id="6Zp2pzGGsmj" role="1B3o_S" />
       <node concept="3clFbS" id="6Zp2pzGGsmk" role="3clF47">
         <node concept="3clFbF" id="6Zp2pzGGsml" role="3cqZAp">

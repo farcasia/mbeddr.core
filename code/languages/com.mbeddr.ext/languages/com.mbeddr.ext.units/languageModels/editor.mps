@@ -22,6 +22,7 @@
     <import index="19h7" ref="r:c367b380-739b-4331-a16f-a542455fc0c8(de.itemis.mps.editor.math.editor)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
+    <import index="2hsb" ref="r:1c8ee40b-b4a3-4447-869d-2adafec4811d(com.mbeddr.mpsutil.ideEnhancement.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1147,7 +1148,7 @@
             <property role="VOm3f" value="false" />
           </node>
           <node concept="PMmxH" id="2A5UqXJUtld" role="3EZMnx">
-            <ref role="PMmxG" to="r4b4:2A5UqXJPGTA" resolve="iconAndNameCell" />
+            <ref role="PMmxG" to="2hsb:3MfdKt5xVet" resolve="iconAndNameCell" />
             <node concept="pVoyu" id="2A5UqXJUy9h" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>

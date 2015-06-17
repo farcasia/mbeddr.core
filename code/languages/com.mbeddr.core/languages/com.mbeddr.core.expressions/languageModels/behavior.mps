@@ -32,6 +32,7 @@
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="jfwg" ref="r:d3af6c4d-9630-4c7f-8b7f-62ceed04bfbc(com.mbeddr.mpsutil.valueDebugger.behavior)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
+    <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -4666,7 +4667,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getIDEDisplayString" />
-      <ref role="13i0hy" to="hwgx:IviauXb0g" resolve="getIDEDisplayString" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeT" resolve="getIDEDisplayString" />
       <node concept="3Tm1VV" id="IviauXTX5" role="1B3o_S" />
       <node concept="3clFbS" id="IviauXTX8" role="3clF47">
         <node concept="3clFbF" id="IviauY3vY" role="3cqZAp">
@@ -4681,7 +4682,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getSortOrder" />
-      <ref role="13i0hy" to="hwgx:1uL8CIs6rGR" resolve="getSortOrder" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeX" resolve="getSortOrder" />
       <node concept="3Tm1VV" id="1uL8CIsblak" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsblan" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsbs1t" role="3cqZAp">
@@ -4696,7 +4697,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getParentPopup" />
-      <ref role="13i0hy" to="hwgx:1uL8CIsKxiy" resolve="getParentPopup" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVf1" resolve="getParentPopup" />
       <node concept="3Tm1VV" id="1uL8CIsPt0T" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsPt0W" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsPAZA" role="3cqZAp">

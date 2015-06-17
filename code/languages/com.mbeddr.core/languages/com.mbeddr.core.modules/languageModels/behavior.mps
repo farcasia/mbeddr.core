@@ -48,6 +48,7 @@
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
+    <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -3503,7 +3504,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getIDEDisplayString" />
-      <ref role="13i0hy" to="hwgx:IviauXb0g" resolve="getIDEDisplayString" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeT" resolve="getIDEDisplayString" />
       <node concept="3Tm1VV" id="IviauXy85" role="1B3o_S" />
       <node concept="3clFbS" id="IviauXy88" role="3clF47">
         <node concept="3clFbF" id="IviauXE3L" role="3cqZAp">
@@ -3518,7 +3519,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getSortOrder" />
-      <ref role="13i0hy" to="hwgx:1uL8CIs6rGR" resolve="getSortOrder" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeX" resolve="getSortOrder" />
       <node concept="3Tm1VV" id="1uL8CIsaSE5" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsaSE8" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsb2N9" role="3cqZAp">
@@ -3533,7 +3534,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getParentPopup" />
-      <ref role="13i0hy" to="hwgx:1uL8CIsKxiy" resolve="getParentPopup" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVf1" resolve="getParentPopup" />
       <node concept="3Tm1VV" id="1uL8CIsPEvN" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsPEvQ" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsPIrk" role="3cqZAp">
@@ -4899,7 +4900,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getIDEDisplayString" />
-      <ref role="13i0hy" to="hwgx:IviauXb0g" resolve="getIDEDisplayString" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeT" resolve="getIDEDisplayString" />
       <node concept="3Tm1VV" id="IviauXjZH" role="1B3o_S" />
       <node concept="3clFbS" id="IviauXjZK" role="3clF47">
         <node concept="3clFbF" id="IviauXuGk" role="3cqZAp">
@@ -4914,7 +4915,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getSortOrder" />
-      <ref role="13i0hy" to="hwgx:1uL8CIs6rGR" resolve="getSortOrder" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeX" resolve="getSortOrder" />
       <node concept="3Tm1VV" id="1uL8CIsbazc" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsbazf" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsbdsi" role="3cqZAp">
@@ -4929,7 +4930,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getParentPopup" />
-      <ref role="13i0hy" to="hwgx:1uL8CIsKxiy" resolve="getParentPopup" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVf1" resolve="getParentPopup" />
       <node concept="3Tm1VV" id="1uL8CIsQ1Tp" role="1B3o_S" />
       <node concept="3clFbS" id="1uL8CIsQ1Ts" role="3clF47">
         <node concept="3clFbF" id="1uL8CIsQ5g$" role="3cqZAp">

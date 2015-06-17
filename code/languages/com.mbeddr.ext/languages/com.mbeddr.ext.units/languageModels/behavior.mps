@@ -29,6 +29,7 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
     <import index="ahe9" ref="r:8fa58e65-ed29-4203-b80e-271ece710ce9(com.mbeddr.mpsutil.configItem.structure)" />
+    <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -2515,7 +2516,7 @@
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getIDEDisplayString" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" to="hwgx:IviauXb0g" resolve="getIDEDisplayString" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeT" resolve="getIDEDisplayString" />
       <node concept="3Tm1VV" id="5k9oiuIBJhW" role="1B3o_S" />
       <node concept="3clFbS" id="5k9oiuIBJhZ" role="3clF47">
         <node concept="3clFbF" id="5k9oiuIBZf8" role="3cqZAp">
@@ -2530,7 +2531,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getParentPopup" />
-      <ref role="13i0hy" to="hwgx:1uL8CIsKxiy" resolve="getParentPopup" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVf1" resolve="getParentPopup" />
       <node concept="3Tm1VV" id="5k9oiuIBJi2" role="1B3o_S" />
       <node concept="3clFbS" id="5k9oiuIBJi5" role="3clF47">
         <node concept="3clFbF" id="5k9oiuIBZgt" role="3cqZAp">
@@ -2545,7 +2546,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getSortOrder" />
-      <ref role="13i0hy" to="hwgx:1uL8CIs6rGR" resolve="getSortOrder" />
+      <ref role="13i0hy" to="m0ti:3MfdKt5xVeX" resolve="getSortOrder" />
       <node concept="3Tm1VV" id="5k9oiuIBJi8" role="1B3o_S" />
       <node concept="3clFbS" id="5k9oiuIBJib" role="3clF47">
         <node concept="3clFbF" id="5k9oiuIBZhW" role="3cqZAp">
