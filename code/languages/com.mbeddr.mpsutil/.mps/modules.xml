@@ -81,6 +81,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.contextsidebar.sandbox2/com.mbeddr.mpsutil.contextsidebar.sandbox2.msd" folder="contextsidebar" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.datepicker.runtime/com.mbeddr.mpsutil.datepicker.runtime.msd" folder="datePicker" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.datepicker.sandbox.demo/com.mbeddr.mpsutil.datepicker.sandbox.demo.msd" folder="datePicker" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.documentable.runtimeSolution/com.mbeddr.mpsutil.documentable.runtimeSolution.msd" folder="base.documentable" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.querylist.runtime/com.mbeddr.mpsutil.editor.querylist.runtime.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.querylist.sandbox/com.mbeddr.mpsutil.editor.querylist.sandbox.msd" folder="querylist" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.msd" folder="" />
