@@ -18,6 +18,8 @@
     <import index="dbrf" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="jfwg" ref="r:d3af6c4d-9630-4c7f-8b7f-62ceed04bfbc(com.mbeddr.mpsutil.valueDebugger.behavior)" />
+    <import index="wzft" ref="r:b095f810-fbed-4d10-a085-2182aeb89aeb(com.mbeddr.mpsutil.valueDebugger.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1177,110 +1179,6 @@
               <node concept="3TrcHB" id="2A5UqXKxlvK" role="2OqNvi">
                 <ref role="3TsBF5" to="vs0r:DubiFAXCMb" resolve="reexport" />
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="$bJ0jh_Ak9">
-    <property role="3GE5qa" value="valueDebugger" />
-    <property role="TrG5h" value="expandOne" />
-    <ref role="2ZfgGC" to="vs0r:$bJ0jgQ80g" resolve="ValueDebugger" />
-    <node concept="2S6ZIM" id="$bJ0jh_Aka" role="2ZfVej">
-      <node concept="3clFbS" id="$bJ0jh_Akb" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_Akc" role="3cqZAp">
-          <node concept="Xl_RD" id="$bJ0jh_Akd" role="3clFbG">
-            <property role="Xl_RC" value="Expand One Debugger Level" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="$bJ0jh_Ake" role="2ZfgGD">
-      <node concept="3clFbS" id="$bJ0jh_Akf" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_Akg" role="3cqZAp">
-          <node concept="2OqwBi" id="$bJ0jh_Akh" role="3clFbG">
-            <node concept="2Sf5sV" id="$bJ0jh_Aki" role="2Oq$k0" />
-            <node concept="2qgKlT" id="$bJ0jh_Akj" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:$bJ0jgQ845" resolve="expandOneLevel" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2SaL7w" id="$bJ0jh_Akk" role="2ZfVeh">
-      <node concept="3clFbS" id="$bJ0jh_Akl" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_Akm" role="3cqZAp">
-          <node concept="3fqX7Q" id="$bJ0jh_Akn" role="3clFbG">
-            <node concept="2OqwBi" id="$bJ0jh_Ako" role="3fr31v">
-              <node concept="2Sf5sV" id="$bJ0jh_Akp" role="2Oq$k0" />
-              <node concept="3TrcHB" id="$bJ0jh_Akq" role="2OqNvi">
-                <ref role="3TsBF5" to="vs0r:$bJ0jgQ80i" resolve="expanded" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="$bJ0jh_Akr">
-    <property role="3GE5qa" value="valueDebugger" />
-    <property role="TrG5h" value="expandAll" />
-    <ref role="2ZfgGC" to="vs0r:$bJ0jgQ80g" resolve="ValueDebugger" />
-    <node concept="2S6ZIM" id="$bJ0jh_Aks" role="2ZfVej">
-      <node concept="3clFbS" id="$bJ0jh_Akt" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_Aku" role="3cqZAp">
-          <node concept="Xl_RD" id="$bJ0jh_Akv" role="3clFbG">
-            <property role="Xl_RC" value="Expand All Debuggers" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="$bJ0jh_Akw" role="2ZfgGD">
-      <node concept="3clFbS" id="$bJ0jh_Akx" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_Aky" role="3cqZAp">
-          <node concept="2OqwBi" id="$bJ0jh_Akz" role="3clFbG">
-            <node concept="2Sf5sV" id="$bJ0jh_Ak$" role="2Oq$k0" />
-            <node concept="2qgKlT" id="$bJ0jh_Ak_" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:$bJ0jgQ84O" resolve="expandAllLevels" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="$bJ0jh_AkA">
-    <property role="3GE5qa" value="valueDebugger" />
-    <property role="TrG5h" value="collapse" />
-    <ref role="2ZfgGC" to="vs0r:$bJ0jgQ80g" resolve="ValueDebugger" />
-    <node concept="2S6ZIM" id="$bJ0jh_AkB" role="2ZfVej">
-      <node concept="3clFbS" id="$bJ0jh_AkC" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_AkD" role="3cqZAp">
-          <node concept="Xl_RD" id="$bJ0jh_AkE" role="3clFbG">
-            <property role="Xl_RC" value="Collapse Debuggers" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="$bJ0jh_AkF" role="2ZfgGD">
-      <node concept="3clFbS" id="$bJ0jh_AkG" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_AkH" role="3cqZAp">
-          <node concept="2OqwBi" id="$bJ0jh_AkI" role="3clFbG">
-            <node concept="2Sf5sV" id="$bJ0jh_AkJ" role="2Oq$k0" />
-            <node concept="2qgKlT" id="$bJ0jh_AkK" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:$bJ0jgQ83V" resolve="collapse" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2SaL7w" id="$bJ0jh_AkL" role="2ZfVeh">
-      <node concept="3clFbS" id="$bJ0jh_AkM" role="2VODD2">
-        <node concept="3clFbF" id="$bJ0jh_AkN" role="3cqZAp">
-          <node concept="2OqwBi" id="$bJ0jh_AkO" role="3clFbG">
-            <node concept="2Sf5sV" id="$bJ0jh_AkP" role="2Oq$k0" />
-            <node concept="3TrcHB" id="$bJ0jh_AkQ" role="2OqNvi">
-              <ref role="3TsBF5" to="vs0r:$bJ0jgQ80i" resolve="expanded" />
             </node>
           </node>
         </node>

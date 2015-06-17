@@ -29,7 +29,8 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(java.math@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
+    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="jfwg" ref="r:d3af6c4d-9630-4c7f-8b7f-62ceed04bfbc(com.mbeddr.mpsutil.valueDebugger.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -3350,7 +3351,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="isLiteral" />
-      <ref role="13i0hy" to="hwgx:$bJ0jgWtSA" resolve="doNotShowDebugger" />
+      <ref role="13i0hy" to="jfwg:1SzZzyBsdHZ" resolve="doNotShowDebugger" />
       <node concept="3Tm1VV" id="$bJ0jhqE9Z" role="1B3o_S" />
       <node concept="3clFbS" id="$bJ0jhqEa4" role="3clF47">
         <node concept="3clFbF" id="$bJ0jhqEa9" role="3cqZAp">
@@ -3537,7 +3538,7 @@
     </node>
     <node concept="13i0hz" id="PzX5j$kbmY" role="13h7CS">
       <property role="TrG5h" value="doNotShowDebugger" />
-      <ref role="13i0hy" to="hwgx:$bJ0jgWtSA" resolve="doNotShowDebugger" />
+      <ref role="13i0hy" to="jfwg:1SzZzyBsdHZ" resolve="doNotShowDebugger" />
       <node concept="3clFbS" id="PzX5j$kbn1" role="3clF47">
         <node concept="3clFbF" id="PzX5j$kdmf" role="3cqZAp">
           <node concept="3clFbT" id="PzX5j$kdme" role="3clFbG">
