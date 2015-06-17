@@ -1220,35 +1220,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5lKnBeAtNw8">
-    <property role="TrG5h" value="AbstractPicker" />
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5lKnBeAtODI" role="1TKVEl">
-      <property role="TrG5h" value="path" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="2mxBqli8MW4" role="1TKVEl">
-      <property role="TrG5h" value="pointOnlyToExistingFile" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="x1qBkorxt" role="1TKVEl">
-      <property role="TrG5h" value="mayBeEmpty" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5lKnBeAxLdJ">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="SolutionRelativeFilePicker" />
-    <ref role="1TJDcQ" node="5Wocj7wnotA" resolve="AbstractFilePicker" />
-  </node>
-  <node concept="1TIwiD" id="2iGZqsHuOWj">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="SolutionRelativeDirPicker" />
-    <ref role="1TJDcQ" node="5Wocj7wnolM" resolve="AbstractFolderPicker" />
-  </node>
   <node concept="1TIwiD" id="DubiFAXpld">
     <property role="3GE5qa" value="chunk" />
     <property role="TrG5h" value="DefaultGenericChunkDependency" />
@@ -1293,15 +1264,6 @@
     <property role="TrG5h" value="ITreeViewRoot" />
     <node concept="PrWs8" id="9MiAwFsXuS" role="PrDN$">
       <ref role="PrY4T" node="7NyyyjNt9Bq" resolve="ITreeViewable" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7c_RIoB8H2I">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="MacroFilePicker" />
-    <ref role="1TJDcQ" node="5Wocj7wnotA" resolve="AbstractFilePicker" />
-    <node concept="1TJgyi" id="7c_RIoB8OqH" role="1TKVEl">
-      <property role="TrG5h" value="macro" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="GKLijSvTd0">
@@ -1559,18 +1521,6 @@
       <property role="1uS6qo" value="reviewed" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1JcbkuyFcOM">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="SolutionRelativeHashedFilePicker" />
-    <ref role="1TJDcQ" node="5lKnBeAxLdJ" resolve="SolutionRelativeFilePicker" />
-    <node concept="1TJgyi" id="1JcbkuyFVAG" role="1TKVEl">
-      <property role="TrG5h" value="descr" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="PrWs8" id="1JcbkuyFnZT" role="PzmwI">
-      <ref role="PrY4T" to="smpy:1SzZzyBttVo" resolve="IExtRef" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="5stuwjVkYpE">
     <property role="3GE5qa" value="assessment.scope" />
     <property role="TrG5h" value="ProjectScope" />
@@ -1590,39 +1540,6 @@
   </node>
   <node concept="PlHQZ" id="6ucVliiGuzs">
     <property role="TrG5h" value="ISuppressStaticEvalWarnings" />
-  </node>
-  <node concept="1TIwiD" id="4eXJ6EO9ZKx">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="MacroFolderPicker" />
-    <ref role="1TJDcQ" node="5Wocj7wnolM" resolve="AbstractFolderPicker" />
-    <node concept="1TJgyi" id="4eXJ6EO9ZKy" role="1TKVEl">
-      <property role="TrG5h" value="macro" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4eXJ6EOwIAn">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="FileSystemDirPicker" />
-    <ref role="1TJDcQ" node="5Wocj7wnolM" resolve="AbstractFolderPicker" />
-  </node>
-  <node concept="1TIwiD" id="1jw2PJJHS3i">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="FileSystemFilePicker" />
-    <ref role="1TJDcQ" node="5lKnBeAtNw8" resolve="AbstractPicker" />
-  </node>
-  <node concept="1TIwiD" id="5Wocj7wnolM">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="AbstractFolderPicker" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="5lKnBeAtNw8" resolve="AbstractPicker" />
-  </node>
-  <node concept="1TIwiD" id="5Wocj7wnotA">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="AbstractFilePicker" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="5lKnBeAtNw8" resolve="AbstractPicker" />
   </node>
 </model>
 

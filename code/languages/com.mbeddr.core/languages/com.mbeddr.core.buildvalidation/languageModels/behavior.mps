@@ -15,6 +15,7 @@
     <import index="kdzh" ref="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="vbbt" ref="r:df40cc06-7605-45f2-ba8d-752ec6c121c3(com.mbeddr.mpsutil.pathAndFile.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -376,7 +377,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="7c_RIoBEJNf" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:5lKnBeAuKov" resolve="makeAbsolute" />
+              <ref role="37wK5l" to="vbbt:1SzZzyBwpn0" resolve="makeAbsolute" />
             </node>
           </node>
         </node>

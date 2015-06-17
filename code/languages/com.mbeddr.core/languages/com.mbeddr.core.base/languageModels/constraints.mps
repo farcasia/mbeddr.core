@@ -18,6 +18,7 @@
     <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
     <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="jng8" ref="r:c3f3b7bd-e926-4f4c-950d-d899bfaca110(com.mbeddr.mpsutil.pathAndFile.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -97,7 +98,6 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068581242874" name="jetbrains.mps.baseLanguage.structure.ParameterReference" flags="nn" index="3cpWs2" />
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -141,14 +141,12 @@
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1147468630220" name="propertyGetter" index="EtsB7" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
-        <child id="1152963095733" name="propertySetter" index="1LXaQT" />
       </concept>
       <concept id="1147467790433" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter" flags="in" index="Eqf_E" />
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
       <concept id="1163200368514" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSetHandler" flags="in" index="3k9gUc" />
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
-      <concept id="1152959968041" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" flags="in" index="1LLf8_" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="1213098023997" name="property" index="1MhHOB" />
@@ -874,63 +872,6 @@
               <node concept="1Q6Npb" id="4uR15_etujp" role="2Oq$k0" />
               <node concept="1j9C0f" id="4uR15_etuwy" role="2OqNvi">
                 <ref role="1j9C0d" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="1JcbkuyR6kS">
-    <property role="3GE5qa" value="pathAndFile" />
-    <ref role="1M2myG" to="vs0r:1JcbkuyFcOM" resolve="SolutionRelativeHashedFilePicker" />
-    <node concept="EnEH3" id="1JcbkuyR6qV" role="1MhHOB">
-      <ref role="EomxK" to="vs0r:5lKnBeAtODI" resolve="path" />
-      <node concept="1LLf8_" id="1JcbkuyR6qY" role="1LXaQT">
-        <node concept="3clFbS" id="1JcbkuyR6qZ" role="2VODD2">
-          <node concept="3clFbF" id="1JcbkuyR6rl" role="3cqZAp">
-            <node concept="37vLTI" id="1JcbkuyR78_" role="3clFbG">
-              <node concept="1Wqviy" id="1JcbkuyR7iu" role="37vLTx" />
-              <node concept="2OqwBi" id="1JcbkuyR6tz" role="37vLTJ">
-                <node concept="EsrRn" id="1JcbkuyR6rk" role="2Oq$k0" />
-                <node concept="3TrcHB" id="1JcbkuyR6Qk" role="2OqNvi">
-                  <ref role="3TsBF5" to="vs0r:5lKnBeAtODI" resolve="path" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="1JcbkuyW0br" role="3cqZAp">
-            <node concept="37vLTI" id="1JcbkuyW1oI" role="3clFbG">
-              <node concept="3cpWs3" id="1JcbkuyW1WC" role="37vLTx">
-                <node concept="1Wqviy" id="1JcbkuyW2sS" role="3uHU7w" />
-                <node concept="Xl_RD" id="1JcbkuyW1wt" role="3uHU7B">
-                  <property role="Xl_RC" value="file:" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1JcbkuyW0ll" role="37vLTJ">
-                <node concept="EsrRn" id="1JcbkuyW0bp" role="2Oq$k0" />
-                <node concept="3TrcHB" id="1JcbkuyW14E" role="2OqNvi">
-                  <ref role="3TsBF5" to="smpy:1SzZzyBttVp" resolve="extID" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="1JcbkuyR7sW" role="3cqZAp">
-            <node concept="37vLTI" id="1JcbkuyR8hf" role="3clFbG">
-              <node concept="3cpWs3" id="1JcbkuyR8Lm" role="37vLTx">
-                <node concept="Xl_RD" id="1JcbkuyR8Lr" role="3uHU7w">
-                  <property role="Xl_RC" value="" />
-                </node>
-                <node concept="2YIFZM" id="1JcbkuyR8ry" role="3uHU7B">
-                  <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
-                  <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1JcbkuyR7vm" role="37vLTJ">
-                <node concept="EsrRn" id="1JcbkuyR7sU" role="2Oq$k0" />
-                <node concept="3TrcHB" id="1JcbkuyR7YY" role="2OqNvi">
-                  <ref role="3TsBF5" to="smpy:1SzZzyBttVr" resolve="lastUpdated" />
-                </node>
               </node>
             </node>
           </node>

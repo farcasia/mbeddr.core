@@ -22,6 +22,8 @@
     <import index="wzft" ref="r:b095f810-fbed-4d10-a085-2182aeb89aeb(com.mbeddr.mpsutil.valueDebugger.structure)" />
     <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
     <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
+    <import index="jng8" ref="r:c3f3b7bd-e926-4f4c-950d-d899bfaca110(com.mbeddr.mpsutil.pathAndFile.structure)" />
+    <import index="vbbt" ref="r:df40cc06-7605-45f2-ba8d-752ec6c121c3(com.mbeddr.mpsutil.pathAndFile.behavior)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -62,9 +64,6 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -116,10 +115,6 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
-      </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
-      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
-        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -966,184 +961,6 @@
                     <node concept="2jxLKc" id="DXZ7aOBB1Z" role="1tU5fm" />
                   </node>
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="5lKnBeB0tzM">
-    <property role="3GE5qa" value="pathAndFile" />
-    <property role="TrG5h" value="openFileChooser" />
-    <ref role="2ZfgGC" to="vs0r:5lKnBeAtNw8" resolve="AbstractPicker" />
-    <node concept="2S6ZIM" id="5lKnBeB0tzN" role="2ZfVej">
-      <node concept="3clFbS" id="5lKnBeB0tzO" role="2VODD2">
-        <node concept="3clFbF" id="5lKnBeB0u1Y" role="3cqZAp">
-          <node concept="Xl_RD" id="5lKnBeB0u1X" role="3clFbG">
-            <property role="Xl_RC" value="Open File Chooser Dialog" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="5lKnBeB0tzP" role="2ZfgGD">
-      <node concept="3clFbS" id="5lKnBeB3Au4" role="2VODD2">
-        <node concept="3cpWs8" id="5lKnBeB4Zu5" role="3cqZAp">
-          <node concept="3cpWsn" id="5lKnBeB4Zu6" role="3cpWs9">
-            <property role="TrG5h" value="startPath" />
-            <node concept="17QB3L" id="5lKnBeB4Zu2" role="1tU5fm" />
-            <node concept="2OqwBi" id="5lKnBeB4Zu7" role="33vP2m">
-              <node concept="2Sf5sV" id="5lKnBeB4Zu8" role="2Oq$k0" />
-              <node concept="2qgKlT" id="5lKnBeB4Zu9" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5lKnBeAIfOh" resolve="absoluteBasePath" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="5lKnBeB54kQ" role="3cqZAp">
-          <node concept="3clFbS" id="5lKnBeB54kT" role="3clFbx">
-            <node concept="3clFbF" id="5lKnBeB56EN" role="3cqZAp">
-              <node concept="37vLTI" id="5lKnBeB56ZZ" role="3clFbG">
-                <node concept="2OqwBi" id="5lKnBeB573t" role="37vLTx">
-                  <node concept="2Sf5sV" id="5lKnBeB570n" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="5lKnBeB58i4" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:5lKnBeAuKov" resolve="makeAbsolute" />
-                  </node>
-                </node>
-                <node concept="37vLTw" id="5lKnBeB56EM" role="37vLTJ">
-                  <ref role="3cqZAo" node="5lKnBeB4Zu6" resolve="startPath" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="5lKnBeB54Gb" role="3clFbw">
-            <node concept="2Sf5sV" id="5lKnBeB54mP" role="2Oq$k0" />
-            <node concept="2qgKlT" id="5lKnBeB56dz" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:5lKnBeAuiv7" resolve="isValidDirectory" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="5lKnBeB3Exz" role="3cqZAp">
-          <node concept="3cpWsn" id="5lKnBeB3Ex$" role="3cpWs9">
-            <property role="TrG5h" value="fc" />
-            <node concept="3uibUv" id="5lKnBeB3Ex_" role="1tU5fm">
-              <ref role="3uigEE" to="dbrf:~JFileChooser" resolve="JFileChooser" />
-            </node>
-            <node concept="2ShNRf" id="5lKnBeB3EBH" role="33vP2m">
-              <node concept="1pGfFk" id="5lKnBeB3EBG" role="2ShVmc">
-                <ref role="37wK5l" to="dbrf:~JFileChooser.&lt;init&gt;(java.lang.String)" resolve="JFileChooser" />
-                <node concept="37vLTw" id="5lKnBeB4Zua" role="37wK5m">
-                  <ref role="3cqZAo" node="5lKnBeB4Zu6" resolve="startPath" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="5lKnBeB4gN0" role="3cqZAp">
-          <node concept="3clFbS" id="5lKnBeB4gN3" role="3clFbx">
-            <node concept="3clFbF" id="5lKnBeB4iNx" role="3cqZAp">
-              <node concept="2OqwBi" id="5lKnBeB4jdH" role="3clFbG">
-                <node concept="37vLTw" id="5lKnBeB4iNw" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5lKnBeB3Ex$" resolve="fc" />
-                </node>
-                <node concept="liA8E" id="5lKnBeB4syX" role="2OqNvi">
-                  <ref role="37wK5l" to="dbrf:~JFileChooser.setFileSelectionMode(int):void" resolve="setFileSelectionMode" />
-                  <node concept="10M0yZ" id="5lKnBeB4sIb" role="37wK5m">
-                    <ref role="1PxDUh" to="dbrf:~JFileChooser" resolve="JFileChooser" />
-                    <ref role="3cqZAo" to="dbrf:~JFileChooser.DIRECTORIES_ONLY" resolve="DIRECTORIES_ONLY" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="5Wocj7wunsh" role="3clFbw">
-            <node concept="2Sf5sV" id="5lKnBeB4hje" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="5Wocj7wunGD" role="2OqNvi">
-              <node concept="chp4Y" id="5Wocj7wunMf" role="cj9EA">
-                <ref role="cht4Q" to="vs0r:5Wocj7wnolM" resolve="AbstractFolderPicker" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="5lKnBeB45wq" role="3cqZAp">
-          <node concept="3clFbS" id="5lKnBeB45wt" role="3clFbx">
-            <node concept="3cpWs8" id="5lKnBeB4aqn" role="3cqZAp">
-              <node concept="3cpWsn" id="5lKnBeB4aqo" role="3cpWs9">
-                <property role="TrG5h" value="f" />
-                <node concept="3uibUv" id="5lKnBeB4aqp" role="1tU5fm">
-                  <ref role="3uigEE" to="fxg7:~File" resolve="File" />
-                </node>
-                <node concept="2OqwBi" id="5lKnBeB4btg" role="33vP2m">
-                  <node concept="37vLTw" id="5lKnBeB4ayj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5lKnBeB3Ex$" resolve="fc" />
-                  </node>
-                  <node concept="liA8E" id="5lKnBeB4gbW" role="2OqNvi">
-                    <ref role="37wK5l" to="dbrf:~JFileChooser.getSelectedFile():java.io.File" resolve="getSelectedFile" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="5lKnBeB4w0K" role="3cqZAp">
-              <node concept="3cpWsn" id="5lKnBeB4w0L" role="3cpWs9">
-                <property role="TrG5h" value="ap" />
-                <node concept="17QB3L" id="5lKnBeB4wNd" role="1tU5fm" />
-                <node concept="2OqwBi" id="5lKnBeB4w0M" role="33vP2m">
-                  <node concept="37vLTw" id="5lKnBeB4w0N" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5lKnBeB4aqo" resolve="f" />
-                  </node>
-                  <node concept="liA8E" id="5lKnBeB4w0O" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="5lKnBeB4xcd" role="3cqZAp">
-              <node concept="37vLTI" id="5lKnBeB4ySD" role="3clFbG">
-                <node concept="2OqwBi" id="5lKnBeB4zs_" role="37vLTx">
-                  <node concept="37vLTw" id="5lKnBeB4z8J" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5lKnBeB4w0L" resolve="ap" />
-                  </node>
-                  <node concept="liA8E" id="5lKnBeB4Aoi" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
-                    <node concept="3cpWs3" id="5lKnBeB4FZB" role="37wK5m">
-                      <node concept="3cmrfG" id="5lKnBeB4FZE" role="3uHU7w">
-                        <property role="3cmrfH" value="1" />
-                      </node>
-                      <node concept="2OqwBi" id="5lKnBeB4DeM" role="3uHU7B">
-                        <node concept="2OqwBi" id="5lKnBeB4ANo" role="2Oq$k0">
-                          <node concept="2Sf5sV" id="5lKnBeB4AK4" role="2Oq$k0" />
-                          <node concept="2qgKlT" id="5lKnBeB4BLQ" role="2OqNvi">
-                            <ref role="37wK5l" to="hwgx:5lKnBeAIfOh" resolve="absoluteBasePath" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="5lKnBeB4EUW" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="5lKnBeB4xfF" role="37vLTJ">
-                  <node concept="2Sf5sV" id="5lKnBeB4xca" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="5lKnBeB4y77" role="2OqNvi">
-                    <ref role="3TsBF5" to="vs0r:5lKnBeAtODI" resolve="path" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="5lKnBeB47Et" role="3clFbw">
-            <node concept="10M0yZ" id="5lKnBeB4862" role="3uHU7w">
-              <ref role="1PxDUh" to="dbrf:~JFileChooser" resolve="JFileChooser" />
-              <ref role="3cqZAo" to="dbrf:~JFileChooser.APPROVE_OPTION" resolve="APPROVE_OPTION" />
-            </node>
-            <node concept="2OqwBi" id="5lKnBeB3GCk" role="3uHU7B">
-              <node concept="37vLTw" id="5lKnBeB3Gdz" role="2Oq$k0">
-                <ref role="3cqZAo" node="5lKnBeB3Ex$" resolve="fc" />
-              </node>
-              <node concept="liA8E" id="5lKnBeB3LOH" role="2OqNvi">
-                <ref role="37wK5l" to="dbrf:~JFileChooser.showOpenDialog(java.awt.Component):int" resolve="showOpenDialog" />
-                <node concept="10Nm6u" id="5lKnBeB3Vct" role="37wK5m" />
               </node>
             </node>
           </node>
