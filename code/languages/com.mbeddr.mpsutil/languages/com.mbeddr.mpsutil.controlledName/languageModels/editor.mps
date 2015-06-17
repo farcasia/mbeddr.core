@@ -12,6 +12,7 @@
     <import index="9a8" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -269,7 +270,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyB$cOP" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:2GIWVTRHLfj" resolve="getControlledName" />
+                      <ref role="37wK5l" to="2mtg:1SzZzyB$cS_" resolve="getControlledName" />
                     </node>
                   </node>
                 </node>
@@ -297,7 +298,7 @@
                         </node>
                       </node>
                       <node concept="2qgKlT" id="1SzZzyB$cP3" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:3VMeFNzc6$L" resolve="getPrescribedType" />
+                        <ref role="37wK5l" to="2mtg:1SzZzyB$cSN" resolve="getPrescribedType" />
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyB$cP4" role="2OqNvi">
@@ -320,7 +321,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="1SzZzyB$cPc" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:3VMeFNzc5hU" resolve="prescribesType" />
+                  <ref role="37wK5l" to="2mtg:1SzZzyB$cSH" resolve="prescribesType" />
                 </node>
               </node>
             </node>
@@ -345,7 +346,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyB$cPp" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:58M63C2ArZb" resolve="description" />
+                      <ref role="37wK5l" to="2mtg:1SzZzyB$cSZ" resolve="description" />
                     </node>
                   </node>
                 </node>
@@ -384,7 +385,7 @@
                       <node concept="2OqwBi" id="1SzZzyB$cPB" role="3clFbG">
                         <node concept="pncrf" id="1SzZzyB$cPC" role="2Oq$k0" />
                         <node concept="2qgKlT" id="1SzZzyB$cPD" role="2OqNvi">
-                          <ref role="37wK5l" to="hwgx:2GIWVTRHLfj" resolve="getControlledName" />
+                          <ref role="37wK5l" to="2mtg:1SzZzyB$cS_" resolve="getControlledName" />
                         </node>
                       </node>
                     </node>
@@ -504,7 +505,7 @@
                         </node>
                       </node>
                       <node concept="2qgKlT" id="1SzZzyB$cQy" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:58M63C2ArZb" resolve="description" />
+                        <ref role="37wK5l" to="2mtg:1SzZzyB$cSZ" resolve="description" />
                       </node>
                     </node>
                   </node>
@@ -551,7 +552,7 @@
                           </node>
                         </node>
                         <node concept="2qgKlT" id="1SzZzyB$cQS" role="2OqNvi">
-                          <ref role="37wK5l" to="hwgx:3VMeFNzc6$L" resolve="getPrescribedType" />
+                          <ref role="37wK5l" to="2mtg:1SzZzyB$cSN" resolve="getPrescribedType" />
                         </node>
                       </node>
                     </node>
@@ -576,7 +577,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="1SzZzyB$cR2" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:3VMeFNzc5hU" resolve="prescribesType" />
+                    <ref role="37wK5l" to="2mtg:1SzZzyB$cSH" resolve="prescribesType" />
                   </node>
                 </node>
               </node>
@@ -608,7 +609,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyB$cRg" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:7WzG0mxhtEs" resolve="additionalTooltipNodes" />
+                      <ref role="37wK5l" to="2mtg:1SzZzyB$cT5" resolve="additionalTooltipNodes" />
                     </node>
                   </node>
                 </node>
@@ -640,7 +641,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="1SzZzyB$cRt" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:2GIWVTRHLfj" resolve="getControlledName" />
+                  <ref role="37wK5l" to="2mtg:1SzZzyB$cS_" resolve="getControlledName" />
                 </node>
               </node>
             </node>

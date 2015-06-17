@@ -23,6 +23,8 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
     <import index="2hsb" ref="r:1c8ee40b-b4a3-4447-869d-2adafec4811d(com.mbeddr.mpsutil.ideEnhancement.editor)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
+    <import index="fgbi" ref="r:8f61049c-b244-49f9-b150-aba3053af898(com.mbeddr.mpsutil.documentable.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -665,7 +667,7 @@
       </node>
       <node concept="3F0ifn" id="69uDFDbfr0t" role="3EZMnx">
         <property role="3F0ifm" value="unit" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="7eOyx9r3k5O" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -840,7 +842,7 @@
       <node concept="l2Vlx" id="25BDdv85fJJ" role="2iSdaV" />
       <node concept="3F0ifn" id="4vPcjvhSVb8" role="3EZMnx">
         <property role="3F0ifm" value="val" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="1HlG4h" id="25BDdv85oNe" role="3EZMnx">
         <ref role="1k5W1q" node="4M31vJayoGp" resolve="physicalUnits" />
@@ -956,7 +958,7 @@
         </node>
         <node concept="3F0ifn" id="20xYXnqnFTa" role="3EZMnx">
           <property role="3F0ifm" value="eager" />
-          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+          <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
           <node concept="pkWqt" id="20xYXnqpTX$" role="pqm2j">
             <node concept="3clFbS" id="20xYXnqpTX_" role="2VODD2">
               <node concept="3clFbF" id="20xYXnqpU8n" role="3cqZAp">
@@ -972,7 +974,7 @@
         </node>
         <node concept="3F0ifn" id="1NpnWezQFsD" role="3EZMnx">
           <property role="3F0ifm" value="conversion" />
-          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+          <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         </node>
         <node concept="1iCGBv" id="3$KQaHcaFU7" role="3EZMnx">
           <ref role="1NtTu8" to="qlb5:1wGuEUvXzlo" />
@@ -1024,7 +1026,7 @@
       <node concept="3F0ifn" id="3$KQaHc3BIq" role="3EZMnx">
         <property role="3F0ifm" value="convert" />
         <ref role="1ERwB7" node="1YBYCQ0Ts8S" resolve="delete_ConvertExpression" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         <node concept="11LMrY" id="3$KQaHc3HJC" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1268,7 +1270,7 @@
             </node>
             <node concept="3F0ifn" id="19a6$uAA8hM" role="3EZMnx">
               <property role="3F0ifm" value="imports" />
-              <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+              <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
             </node>
             <node concept="3F0ifn" id="7XSydqWWfC" role="3EZMnx">
               <property role="3F0ifm" value="   " />
@@ -1344,11 +1346,11 @@
             <node concept="3clFbF" id="3Dgh5aYijI8" role="3cqZAp">
               <node concept="2ShNRf" id="3Dgh5aYijI9" role="3clFbG">
                 <node concept="1pGfFk" id="3Dgh5aYiA9J" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:3Dgh5aYiKso" resolve="HorizLineCell" />
+                  <ref role="37wK5l" to="oq9k:3MfdKt5Bo4l" resolve="HorizLineCell" />
                   <node concept="pncrf" id="3Dgh5aYiKt7" role="37wK5m" />
                   <node concept="10M0yZ" id="3Dgh5aYiKt9" role="37wK5m">
-                    <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
-                    <ref role="3cqZAo" to="r4b4:2CEi94emCnI" resolve="KEYWORD_BLUE" />
+                    <ref role="1PxDUh" to="bfsu:3MfdKt5BAOb" resolve="BasicColors" />
+                    <ref role="3cqZAo" to="bfsu:3MfdKt5BAOA" resolve="KEYWORD_BLUE" />
                   </node>
                   <node concept="3cmrfG" id="3Dgh5aYiKtb" role="37wK5m">
                     <property role="3cmrfH" value="2" />
@@ -1417,7 +1419,7 @@
       <node concept="3F0ifn" id="yGiRIEU5xG" role="3EZMnx">
         <property role="3F0ifm" value="stripunit" />
         <ref role="1ERwB7" node="6TeNRL8ffPQ" resolve="delete_StripUnitExpression" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         <node concept="11LMrY" id="6TeNRL7Ze_r" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1475,7 +1477,7 @@
       <node concept="l2Vlx" id="1wGuEUvXtBK" role="2iSdaV" />
       <node concept="3F0ifn" id="1wGuEUvXtBF" role="3EZMnx">
         <property role="3F0ifm" value="val as" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F1sOY" id="1wGuEUwf34Q" role="3EZMnx">
         <ref role="1NtTu8" to="qlb5:1wGuEUwcwId" />
@@ -1593,11 +1595,11 @@
       <node concept="l2Vlx" id="6CnXAkqMGU8" role="2iSdaV" />
       <node concept="3F0ifn" id="6CnXAkqMGU3" role="3EZMnx">
         <property role="3F0ifm" value="//" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dprSJ" resolve="TextComment" />
+        <ref role="1k5W1q" to="fgbi:3MfdKt5BL9d" resolve="TextComment" />
       </node>
       <node concept="3F0A7n" id="6CnXAkqMGUm" role="3EZMnx">
         <ref role="1NtTu8" to="qlb5:6CnXAkqMGKL" resolve="text" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dprSJ" resolve="TextComment" />
+        <ref role="1k5W1q" to="fgbi:3MfdKt5BL9d" resolve="TextComment" />
       </node>
     </node>
   </node>

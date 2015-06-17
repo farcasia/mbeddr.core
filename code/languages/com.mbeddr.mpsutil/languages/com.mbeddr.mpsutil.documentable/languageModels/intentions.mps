@@ -13,6 +13,7 @@
     <import index="srng" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
     <import index="td5" ref="r:f7352529-f00b-4c0e-afe4-fe9af55b6d14(com.mbeddr.mpsutil.documentable.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="hw3" ref="r:8a9e3f7e-6ed5-47ac-94c0-ed6bc1177e2a(com.mbeddr.mpsutil.documentable.behavior)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -162,8 +163,8 @@
         <node concept="3clFbF" id="1SzZzyBzj_i" role="3cqZAp">
           <node concept="3cpWs3" id="1SzZzyBzj_j" role="3clFbG">
             <node concept="2YIFZM" id="1SzZzyBzj_k" role="3uHU7w">
-              <ref role="37wK5l" to="hwgx:48QUcYJUCkr" resolve="extractDisplayableName" />
-              <ref role="1Pybhc" to="hwgx:3Wi_6mkqAnn" resolve="NameExtractionHelper" />
+              <ref role="37wK5l" to="hw3:3MfdKt5BLIH" resolve="extractDisplayableName" />
+              <ref role="1Pybhc" to="hw3:3MfdKt5BLHW" resolve="NameExtractionHelper" />
               <node concept="2Sf5sV" id="1SzZzyBzj_l" role="37wK5m" />
             </node>
             <node concept="3cpWs3" id="1SzZzyBzj_m" role="3uHU7B">

@@ -12,6 +12,7 @@
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="7wpd" ref="c7a315e6-1d93-4186-85bc-2dfafd1ccc21/r:fb1c47d7-a72e-4e01-92dc-1e9f2ba4a118(com.mbeddr.mpsutil.common/com.mbeddr.mpsutil.common.util)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -1745,8 +1746,8 @@
               </node>
             </node>
             <node concept="2YIFZM" id="1SzZzyBAasr" role="37vLTx">
-              <ref role="37wK5l" to="hwgx:1tDstbgDG6a" resolve="getUserName" />
-              <ref role="1Pybhc" to="hwgx:1tDstbgDG3d" resolve="UserHelper" />
+              <ref role="37wK5l" to="7wpd:3MfdKt5BPi$" resolve="getUserName" />
+              <ref role="1Pybhc" to="7wpd:3MfdKt5BPiy" resolve="UserHelper" />
             </node>
           </node>
         </node>
@@ -2004,7 +2005,7 @@
               <ref role="3cqZAo" node="1SzZzyBAauz" resolve="n" />
             </node>
             <node concept="1mIQ4w" id="1SzZzyBAaub" role="2OqNvi">
-              <node concept="chp4Y" id="1SzZzyBAauc" role="cj9EA">
+              <node concept="chp4Y" id="3MfdKt5BUy7" role="cj9EA">
                 <ref role="cht4Q" to="42k1:1SzZzyBxj15" resolve="IEmpty" />
               </node>
             </node>

@@ -14,6 +14,7 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1402906326895675325" name="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" flags="nn" index="0IXxy" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
+      <concept id="2491174914159318432" name="jetbrains.mps.lang.editor.structure.DominatesRecord" flags="lg" index="2lhJJ2" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -26,9 +27,15 @@
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
+        <child id="1186403803051" name="query" index="VblUZ" />
+      </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
-      <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
+      <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt">
+        <child id="3383245079137422296" name="dominates" index="14Sbyx" />
+      </concept>
       <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
         <reference id="1139535219968" name="applicableConcept" index="1h_SK9" />
         <child id="1139535219969" name="item" index="1h_SK8" />
@@ -38,6 +45,9 @@
         <child id="1139535280620" name="executeFunction" index="1hA7z_" />
       </concept>
       <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
+      <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
+        <property id="1225456424731" name="value" index="1iTho6" />
+      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
@@ -123,12 +133,12 @@
       <node concept="3F0ifn" id="1SzZzyBtKOi" role="3EZMnx">
         <property role="3F0ifm" value="//" />
         <ref role="1ERwB7" node="1SzZzyBtKOl" resolve="removeComment" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dhncU" resolve="CodeComment" />
+        <ref role="1k5W1q" node="3MfdKt5AEpr" resolve="CodeComment" />
       </node>
       <node concept="2iRfu4" id="1SzZzyBtKOj" role="2iSdaV" />
       <node concept="3F1sOY" id="1SzZzyBtKOk" role="3EZMnx">
         <ref role="1NtTu8" to="qxxd:1SzZzyBtKMi" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dhncU" resolve="CodeComment" />
+        <ref role="1k5W1q" node="3MfdKt5AEpr" resolve="CodeComment" />
       </node>
     </node>
   </node>
@@ -189,6 +199,18 @@
       <node concept="VechU" id="1SzZzyBvcyt" role="3F10Kt">
         <property role="Vb096" value="gray" />
       </node>
+    </node>
+    <node concept="14StLt" id="3MfdKt5AEpr" role="V601i">
+      <property role="TrG5h" value="CodeComment" />
+      <node concept="Vb9p2" id="3MfdKt5AEps" role="3F10Kt">
+        <property role="Vbekb" value="ITALIC" />
+      </node>
+      <node concept="VechU" id="3MfdKt5AEpt" role="3F10Kt">
+        <node concept="1iSF2X" id="3MfdKt5AEpu" role="VblUZ">
+          <property role="1iTho6" value="808080" />
+        </node>
+      </node>
+      <node concept="2lhJJ2" id="3MfdKt5AEpv" role="14Sbyx" />
     </node>
   </node>
 </model>

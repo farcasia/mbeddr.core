@@ -9,8 +9,8 @@
     <import index="n4qw" ref="r:8c8b89cf-c079-46c6-8ee7-ae95766fc554(com.mbeddr.mpsutil.controlledName.structure)" />
     <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="9zoj" ref="r:1b0f275e-bd62-4f6e-8c4b-51b05d651a63(com.mbeddr.core.base.typesystem)" />
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="5c5e" ref="r:7a2f88d6-4108-4d29-b499-cc4de14ea970(com.mbeddr.core.base.constraints)" />
+    <import index="tbjm" ref="r:d157c88d-2f2b-4067-8cb3-c1ae32158ff6(com.mbeddr.mpsutil.controlledName.typesystem)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -65,9 +65,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -77,6 +74,12 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="1148934636683" name="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" flags="nn" index="21POm0" />
@@ -209,8 +212,8 @@
         <node concept="3clFbS" id="1SzZzyB$cZn" role="2VODD2">
           <node concept="3clFbF" id="1SzZzyB$cZo" role="3cqZAp">
             <node concept="2YIFZM" id="1SzZzyB$cZp" role="3clFbG">
-              <ref role="1Pybhc" to="9zoj:6sCGfm8n$Zj" resolve="TypesystemUtil" />
-              <ref role="37wK5l" to="9zoj:6sCGfm8nBYk" resolve="simulateF5ForRoot" />
+              <ref role="1Pybhc" to="tbjm:3MfdKt5BXZx" resolve="TypesystemUtil" />
+              <ref role="37wK5l" to="tbjm:3MfdKt5BXZz" resolve="simulateF5ForRoot" />
               <node concept="2OqwBi" id="1SzZzyB$cZq" role="37wK5m">
                 <node concept="3kakTB" id="1SzZzyB$cZr" role="2Oq$k0" />
                 <node concept="1mfA1w" id="1SzZzyB$cZs" role="2OqNvi" />
@@ -329,13 +332,14 @@
           </node>
           <node concept="3clFbJ" id="1SzZzyB$d0f" role="3cqZAp">
             <node concept="3clFbS" id="1SzZzyB$d0g" role="3clFbx">
+              <node concept="3SKdUt" id="3MfdKt5BYmA" role="3cqZAp">
+                <node concept="3SKdUq" id="3MfdKt5BYt2" role="3SKWNk">
+                  <property role="3SKdUp" value="return !CIdentifierHelper.isCKeyword(propertyValue);" />
+                </node>
+              </node>
               <node concept="3cpWs6" id="1SzZzyB$d0h" role="3cqZAp">
-                <node concept="3fqX7Q" id="1SzZzyB$d0i" role="3cqZAk">
-                  <node concept="2YIFZM" id="1SzZzyB$d0j" role="3fr31v">
-                    <ref role="1Pybhc" to="5c5e:4WLtQa9hIve" resolve="CIdentifierHelper" />
-                    <ref role="37wK5l" to="5c5e:4WLtQa9hIAy" resolve="isCKeyword" />
-                    <node concept="1Wqviy" id="1SzZzyB$d0k" role="37wK5m" />
-                  </node>
+                <node concept="3clFbT" id="3MfdKt5BY$N" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>

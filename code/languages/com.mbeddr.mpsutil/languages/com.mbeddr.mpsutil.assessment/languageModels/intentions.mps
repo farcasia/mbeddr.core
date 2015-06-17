@@ -9,6 +9,7 @@
     <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
     <import index="dieh" ref="r:164854dd-6f40-455c-9bd3-2427b8abb0cf(com.mbeddr.mpsutil.assessment.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="rf8p" ref="r:0fdb109c-527d-46e7-a2f8-602e47a0c9bc(com.mbeddr.mpsutil.assessment.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -112,7 +113,7 @@
           <node concept="2OqwBi" id="3MfdKt5$nap" role="3clFbG">
             <node concept="2Sf5sV" id="3MfdKt5$naq" role="2Oq$k0" />
             <node concept="2qgKlT" id="3MfdKt5$nar" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:3jNX2XuLy_p" resolve="update" />
+              <ref role="37wK5l" to="rf8p:3MfdKt5$nkd" resolve="update" />
             </node>
           </node>
         </node>
@@ -155,7 +156,7 @@
                         <ref role="3cqZAo" node="3MfdKt5$naL" resolve="it" />
                       </node>
                       <node concept="2qgKlT" id="3MfdKt5$naK" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:3jNX2XuLy_p" resolve="update" />
+                        <ref role="37wK5l" to="rf8p:3MfdKt5$nkd" resolve="update" />
                       </node>
                     </node>
                   </node>

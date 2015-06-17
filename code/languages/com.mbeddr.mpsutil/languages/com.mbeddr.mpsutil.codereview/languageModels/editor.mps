@@ -9,9 +9,9 @@
   <imports>
     <import index="g6wb" ref="r:4500f164-29e8-4bd7-84b3-6ea98f547ff1(com.mbeddr.mpsutil.codereview.structure)" />
     <import index="9a8" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" />
-    <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="sy9s" ref="r:3268ba08-154d-462d-95ad-4d58b0f305fd(com.mbeddr.mpsutil.codereview.behavior)" />
+    <import index="7wpd" ref="c7a315e6-1d93-4186-85bc-2dfafd1ccc21/r:fb1c47d7-a72e-4e01-92dc-1e9f2ba4a118(com.mbeddr.mpsutil.common/com.mbeddr.mpsutil.common.util)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -292,8 +292,8 @@
                 <node concept="3clFbS" id="1SzZzyB_YgR" role="2VODD2">
                   <node concept="3clFbF" id="1SzZzyB_YgS" role="3cqZAp">
                     <node concept="2YIFZM" id="1SzZzyB_YgT" role="3clFbG">
-                      <ref role="37wK5l" to="hwgx:gjBy3TcpAt" resolve="asReadableDeltaFromNow" />
-                      <ref role="1Pybhc" to="hwgx:3Pz_UaJQugP" resolve="TimeHelper" />
+                      <ref role="37wK5l" to="7wpd:3MfdKt5BWiF" resolve="asReadableDeltaFromNow" />
+                      <ref role="1Pybhc" to="7wpd:3MfdKt5BWeZ" resolve="TimeHelper" />
                       <node concept="2OqwBi" id="1SzZzyB_YgU" role="37wK5m">
                         <node concept="pncrf" id="1SzZzyB_YgV" role="2Oq$k0" />
                         <node concept="3TrcHB" id="1SzZzyB_YgW" role="2OqNvi">
@@ -403,8 +403,8 @@
                   <node concept="3clFbS" id="1SzZzyB_YhC" role="2VODD2">
                     <node concept="3clFbF" id="1SzZzyB_YhD" role="3cqZAp">
                       <node concept="2YIFZM" id="1SzZzyB_YhE" role="3clFbG">
-                        <ref role="37wK5l" to="hwgx:3Pz_UaK8cU3" resolve="asRelativeToNow" />
-                        <ref role="1Pybhc" to="hwgx:3Pz_UaJQugP" resolve="TimeHelper" />
+                        <ref role="37wK5l" to="7wpd:3MfdKt5BWkv" resolve="asRelativeToNow" />
+                        <ref role="1Pybhc" to="7wpd:3MfdKt5BWeZ" resolve="TimeHelper" />
                         <node concept="2OqwBi" id="1SzZzyB_YhF" role="37wK5m">
                           <node concept="pncrf" id="1SzZzyB_YhG" role="2Oq$k0" />
                           <node concept="3TrcHB" id="1SzZzyB_YhH" role="2OqNvi">

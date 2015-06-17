@@ -6,7 +6,8 @@
   </languages>
   <imports>
     <import index="8yj6" ref="r:b5ef41ef-8594-459c-bc08-a7e214c6fb43(com.mbeddr.ext.components.statemachine.structure)" />
-    <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" implicit="true" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
+    <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -88,7 +89,7 @@
     <node concept="3EZMnI" id="6xLvLBZYUC6" role="2wV5jI">
       <node concept="3F0ifn" id="6xLvLBZYUCd" role="3EZMnx">
         <property role="3F0ifm" value="op" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="1iCGBv" id="6xLvLBZYUCj" role="3EZMnx">
         <ref role="1NtTu8" to="8yj6:6xLvLBZYUAG" />

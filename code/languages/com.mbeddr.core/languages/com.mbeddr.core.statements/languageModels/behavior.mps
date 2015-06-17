@@ -34,6 +34,7 @@
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
     <import index="swq9" ref="r:39b5ac5d-5d44-4468-94c9-6ff9f5440d7d(com.mbeddr.mpsutil.paragraph.behavior)" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -5791,8 +5792,8 @@
       <node concept="3clFbS" id="BsHjoDSP5E" role="3clF47">
         <node concept="3cpWs6" id="BsHjoDSP5R" role="3cqZAp">
           <node concept="10M0yZ" id="4tRpPVPUEqf" role="3cqZAk">
-            <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
-            <ref role="3cqZAo" to="r4b4:2CEi94dud1E" resolve="COMMENT_GREY" />
+            <ref role="1PxDUh" to="bfsu:3MfdKt5BAOb" resolve="BasicColors" />
+            <ref role="3cqZAo" to="bfsu:3MfdKt5BAOu" resolve="COMMENT_GREY" />
           </node>
         </node>
       </node>
@@ -5807,8 +5808,8 @@
       <node concept="3clFbS" id="BsHjoDSP6D" role="3clF47">
         <node concept="3cpWs6" id="2ofiXe_ssdb" role="3cqZAp">
           <node concept="10M0yZ" id="2ofiXe_ssdc" role="3cqZAk">
-            <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
-            <ref role="3cqZAo" to="r4b4:2CEi94dud1E" resolve="COMMENT_GREY" />
+            <ref role="1PxDUh" to="bfsu:3MfdKt5BAOb" resolve="BasicColors" />
+            <ref role="3cqZAo" to="bfsu:3MfdKt5BAOu" resolve="COMMENT_GREY" />
           </node>
         </node>
       </node>

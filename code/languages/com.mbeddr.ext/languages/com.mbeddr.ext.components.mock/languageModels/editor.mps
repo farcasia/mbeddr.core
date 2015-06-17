@@ -15,6 +15,7 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -183,7 +184,7 @@
       </node>
       <node concept="3F0ifn" id="71UKpntmzO$" role="3EZMnx">
         <property role="3F0ifm" value="mock component" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="71UKpntmzOA" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -228,7 +229,7 @@
     <ref role="1XX52x" to="mxvz:1Rr52SXzvm4" resolve="ExpectNoCall" />
     <node concept="3F0ifn" id="1Rr52SXzvm8" role="2wV5jI">
       <property role="3F0ifm" value="no call" />
-      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
     </node>
   </node>
   <node concept="24kQdi" id="1Rr52SX$57u">
@@ -286,7 +287,7 @@
     <node concept="3EZMnI" id="4jc_TWT31oX" role="2wV5jI">
       <node concept="3F0ifn" id="4jc_TWT31p0" role="3EZMnx">
         <property role="3F0ifm" value="total no. of calls is" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="l2Vlx" id="4jc_TWT31oZ" role="2iSdaV" />
       <node concept="3F0A7n" id="4jc_TWT31p3" role="3EZMnx">
@@ -300,7 +301,7 @@
     <node concept="3EZMnI" id="4jc_TWT3779" role="2wV5jI">
       <node concept="3F0ifn" id="4jc_TWT377c" role="3EZMnx">
         <property role="3F0ifm" value="sequence" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="l2Vlx" id="4jc_TWT377b" role="2iSdaV" />
       <node concept="3F0ifn" id="4jc_TWT377e" role="3EZMnx">
@@ -332,7 +333,7 @@
     <node concept="3EZMnI" id="4jc_TWT377r" role="2wV5jI">
       <node concept="3F0ifn" id="7Uz1bYM5TNC" role="3EZMnx">
         <property role="3F0ifm" value="step" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="1HlG4h" id="4jc_TWT377u" role="3EZMnx">
         <node concept="1HfYo3" id="4jc_TWT377v" role="1HlULh">
@@ -400,7 +401,7 @@
         </node>
         <node concept="3F0ifn" id="4jc_TWT4rhH" role="3EZMnx">
           <property role="3F0ifm" value="return" />
-          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+          <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         </node>
         <node concept="l2Vlx" id="4jc_TWT4rhG" role="2iSdaV" />
         <node concept="3F1sOY" id="4jc_TWT4rhN" role="3EZMnx">
@@ -514,7 +515,7 @@
         <node concept="l2Vlx" id="4usdeMNUYPr" role="2iSdaV" />
         <node concept="3F0ifn" id="4usdeMNUWcI" role="3EZMnx">
           <property role="3F0ifm" value="do" />
-          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+          <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         </node>
         <node concept="3F1sOY" id="4usdeMNUWcG" role="3EZMnx">
           <ref role="1NtTu8" to="mxvz:4usdeMNUWcE" />
@@ -628,14 +629,14 @@
       </node>
       <node concept="3F0ifn" id="5u7uvg8pZU2" role="3EZMnx">
         <property role="3F0ifm" value="stub component" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="5u7uvg8pZU3" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="71UKpntmzX2" role="3EZMnx">
         <property role="3F0ifm" value="extends" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="1iCGBv" id="71UKpntmzX4" role="3EZMnx">
         <property role="1$x2rV" value="nothing" />
@@ -758,7 +759,7 @@
       <node concept="l2Vlx" id="20McjG52B$j" role="2iSdaV" />
       <node concept="3F0ifn" id="20McjG52B$m" role="3EZMnx">
         <property role="3F0ifm" value="phase" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         <node concept="11LMrY" id="20McjG52OrC" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -797,7 +798,7 @@
     <node concept="3EZMnI" id="20McjG52OWk" role="2wV5jI">
       <node concept="3F0ifn" id="20McjG52OWn" role="3EZMnx">
         <property role="3F0ifm" value="changephase(" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         <node concept="11LMrY" id="20McjG52OWz" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -855,7 +856,7 @@
     <ref role="1XX52x" to="mxvz:5vll4VdvOG4" resolve="PhaseChangeTrigger" />
     <node concept="3F0ifn" id="5vll4VdvOG8" role="2wV5jI">
       <property role="3F0ifm" value="phase change" />
-      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
     </node>
   </node>
   <node concept="24kQdi" id="5vll4Vdw71z">

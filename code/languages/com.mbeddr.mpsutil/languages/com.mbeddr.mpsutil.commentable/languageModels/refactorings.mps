@@ -11,6 +11,7 @@
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="z7d7" ref="r:1883cc93-2106-49aa-a928-659b691d30a9(com.mbeddr.mpsutil.commentable.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -66,11 +67,6 @@
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
-      </concept>
-    </language>
-    <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
-      <concept id="17217465924316850" name="com.mbeddr.mpsutil.blutil.structure.FilterOperation" flags="ng" index="2Gpcm3">
-        <reference id="17217465924316851" name="concept" index="2Gpcm2" />
       </concept>
     </language>
     <language id="3ecd7c84-cde3-45de-886c-135ecc69b742" name="jetbrains.mps.lang.refactoring">
@@ -198,7 +194,7 @@
                       <node concept="2yIwOk" id="1SzZzyBtKMH" role="2OqNvi" />
                     </node>
                     <node concept="2qgKlT" id="1SzZzyBtKMI" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:5HxjapwgqLb" resolve="getCommentConcept" />
+                      <ref role="37wK5l" to="z7d7:1SzZzyBtKOO" resolve="getCommentConcept" />
                     </node>
                   </node>
                   <node concept="1uHKPH" id="1SzZzyBtKMJ" role="2OqNvi" />
@@ -314,19 +310,14 @@
                   <ref role="3cqZAo" node="1SzZzyBtKMM" resolve="comment" />
                 </node>
                 <node concept="2qgKlT" id="1SzZzyBtKNv" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:65XyadYP4XN" resolve="setup" />
+                  <ref role="37wK5l" to="z7d7:1SzZzyBtKOF" resolve="setup" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1SzZzyBtKNw" role="2GsD0m">
-            <node concept="2OqwBi" id="1SzZzyBtKNx" role="2Oq$k0">
-              <node concept="50NuE" id="1SzZzyBtKNy" role="2Oq$k0" />
-              <node concept="50M6l" id="1SzZzyBtKNz" role="2OqNvi" />
-            </node>
-            <node concept="2Gpcm3" id="1SzZzyBtKN$" role="2OqNvi">
-              <ref role="2Gpcm2" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
-            </node>
+          <node concept="2OqwBi" id="1SzZzyBtKNx" role="2GsD0m">
+            <node concept="50NuE" id="1SzZzyBtKNy" role="2Oq$k0" />
+            <node concept="50M6l" id="1SzZzyBtKNz" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -357,7 +348,7 @@
                     <node concept="2GrUjf" id="1SzZzyBtKNL" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="1SzZzyBtKNE" resolve="commentedNode" />
                     </node>
-                    <node concept="3TrEf2" id="1SzZzyBtKNM" role="2OqNvi">
+                    <node concept="3TrEf2" id="3MfdKt5B8ym" role="2OqNvi">
                       <ref role="3Tt5mk" to="qxxd:1SzZzyBtKMi" />
                     </node>
                   </node>
@@ -365,14 +356,9 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1SzZzyBtKNN" role="2GsD0m">
-            <node concept="2OqwBi" id="1SzZzyBtKNO" role="2Oq$k0">
-              <node concept="50NuE" id="1SzZzyBtKNP" role="2Oq$k0" />
-              <node concept="50M6l" id="1SzZzyBtKNQ" role="2OqNvi" />
-            </node>
-            <node concept="2Gpcm3" id="1SzZzyBtKNR" role="2OqNvi">
-              <ref role="2Gpcm2" to="qxxd:1SzZzyBtKMh" resolve="ICommentedCode" />
-            </node>
+          <node concept="2OqwBi" id="1SzZzyBtKNO" role="2GsD0m">
+            <node concept="50NuE" id="1SzZzyBtKNP" role="2Oq$k0" />
+            <node concept="50M6l" id="1SzZzyBtKNQ" role="2OqNvi" />
           </node>
         </node>
       </node>

@@ -232,7 +232,7 @@
       </node>
       <node concept="3F0ifn" id="5so5TTr6RX$" role="3EZMnx">
         <property role="3F0ifm" value="testcase" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="5so5TTr6RXA" role="3EZMnx">
         <property role="1cu_pB" value="2" />
@@ -343,7 +343,7 @@
     <node concept="3EZMnI" id="anPxzp2IuD" role="2wV5jI">
       <node concept="3F0ifn" id="anPxzp2IuG" role="3EZMnx">
         <property role="3F0ifm" value="test" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="l2Vlx" id="anPxzp2IuF" role="2iSdaV" />
       <node concept="3F2HdR" id="4VEDcE28GYq" role="3EZMnx">
@@ -357,8 +357,8 @@
             <node concept="3clFbS" id="y826GHulZu" role="2VODD2">
               <node concept="3clFbF" id="y826GHumfc" role="3cqZAp">
                 <node concept="10M0yZ" id="y826GHumfb" role="3clFbG">
-                  <ref role="1PxDUh" to="r4b4:4tRpPVPUEa3" resolve="BasicColors" />
-                  <ref role="3cqZAo" to="r4b4:2CEi94emCnI" resolve="KEYWORD_BLUE" />
+                  <ref role="1PxDUh" to="bfsu:3MfdKt5BAOb" resolve="BasicColors" />
+                  <ref role="3cqZAo" to="bfsu:3MfdKt5BAOA" resolve="KEYWORD_BLUE" />
                 </node>
               </node>
             </node>
@@ -672,7 +672,7 @@
     <node concept="3EZMnI" id="1hJVKE8AFAM" role="2wV5jI">
       <node concept="3F0ifn" id="1hJVKE8AFAP" role="3EZMnx">
         <property role="3F0ifm" value="exprlist" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="1hJVKE8AFAR" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />

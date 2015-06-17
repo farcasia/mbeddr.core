@@ -9,6 +9,7 @@
     <import index="vsqj" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
     <import index="jng8" ref="r:c3f3b7bd-e926-4f4c-950d-d899bfaca110(com.mbeddr.mpsutil.pathAndFile.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+    <import index="vbbt" ref="r:df40cc06-7605-45f2-ba8d-752ec6c121c3(com.mbeddr.mpsutil.pathAndFile.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -198,7 +199,7 @@
                 <node concept="2OqwBi" id="1SzZzyBwpjr" role="3clFbG">
                   <node concept="pncrf" id="1SzZzyBwpjs" role="2Oq$k0" />
                   <node concept="2qgKlT" id="1SzZzyBwpjt" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:5lKnBeAuKov" resolve="makeAbsolute" />
+                    <ref role="37wK5l" to="vbbt:1SzZzyBwpn0" resolve="makeAbsolute" />
                   </node>
                 </node>
               </node>
@@ -235,7 +236,7 @@
                 <node concept="2OqwBi" id="1SzZzyBwpjH" role="3clFbG">
                   <node concept="pncrf" id="1SzZzyBwpjI" role="2Oq$k0" />
                   <node concept="2qgKlT" id="1SzZzyBwpjJ" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:5lKnBeAulu0" resolve="getPrefix" />
+                    <ref role="37wK5l" to="vbbt:1SzZzyBwpm7" resolve="getPrefix" />
                   </node>
                 </node>
               </node>
@@ -269,7 +270,7 @@
                   <node concept="2OqwBi" id="1SzZzyBwpjW" role="3clFbG">
                     <node concept="3GMtW1" id="1SzZzyBwpjX" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1SzZzyBwpjY" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:5lKnBeAuxBd" resolve="proposals" />
+                      <ref role="37wK5l" to="vbbt:1SzZzyBwpop" resolve="proposals" />
                     </node>
                   </node>
                 </node>
@@ -297,7 +298,7 @@
             <node concept="2OqwBi" id="1SzZzyBwpk5" role="3clFbG">
               <node concept="0GJ7k" id="1SzZzyBwpk6" role="2Oq$k0" />
               <node concept="2qgKlT" id="1SzZzyBwpk7" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:2HwAvL$nzbX" resolve="editWithSystemEditor" />
+                <ref role="37wK5l" to="vbbt:1SzZzyBwprr" resolve="editWithSystemEditor" />
               </node>
             </node>
           </node>
@@ -309,7 +310,7 @@
             <node concept="2OqwBi" id="1SzZzyBwpkb" role="3clFbG">
               <node concept="0GJ7k" id="1SzZzyBwpkc" role="2Oq$k0" />
               <node concept="2qgKlT" id="1SzZzyBwpkd" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5lKnBeAufga" resolve="isValidFile" />
+                <ref role="37wK5l" to="vbbt:1SzZzyBwpnx" resolve="isValidFile" />
               </node>
             </node>
           </node>
@@ -329,7 +330,7 @@
             <node concept="2OqwBi" id="1SzZzyBwpkj" role="3clFbG">
               <node concept="0GJ7k" id="1SzZzyBwpkk" role="2Oq$k0" />
               <node concept="2qgKlT" id="1SzZzyBwpkl" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:2HwAvL$nEXJ" resolve="openWithSystemEditor" />
+                <ref role="37wK5l" to="vbbt:1SzZzyBwps8" resolve="openWithSystemEditor" />
               </node>
             </node>
           </node>
@@ -341,7 +342,7 @@
             <node concept="2OqwBi" id="1SzZzyBwpkp" role="3clFbG">
               <node concept="0GJ7k" id="1SzZzyBwpkq" role="2Oq$k0" />
               <node concept="2qgKlT" id="1SzZzyBwpkr" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5lKnBeAufga" resolve="isValidFile" />
+                <ref role="37wK5l" to="vbbt:1SzZzyBwpnx" resolve="isValidFile" />
               </node>
             </node>
           </node>
@@ -361,7 +362,7 @@
             <node concept="2OqwBi" id="1SzZzyBwpkx" role="3clFbG">
               <node concept="0GJ7k" id="1SzZzyBwpky" role="2Oq$k0" />
               <node concept="2qgKlT" id="1SzZzyBwpkz" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:6uhyUqXhg1F" resolve="openWithSystemFileExplorer" />
+                <ref role="37wK5l" to="vbbt:1SzZzyBwpsP" resolve="openWithSystemFileExplorer" />
               </node>
             </node>
           </node>
@@ -373,7 +374,7 @@
             <node concept="2OqwBi" id="1SzZzyBwpkB" role="3clFbG">
               <node concept="0GJ7k" id="1SzZzyBwpkC" role="2Oq$k0" />
               <node concept="2qgKlT" id="1SzZzyBwpkD" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:5lKnBeAuiv7" resolve="isValidDirectory" />
+                <ref role="37wK5l" to="vbbt:1SzZzyBwpo7" resolve="isValidDirectory" />
               </node>
             </node>
           </node>
@@ -416,7 +417,7 @@
                   <node concept="2OqwBi" id="1SzZzyBwpkT" role="3clFbG">
                     <node concept="3GMtW1" id="1SzZzyBwpkU" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1SzZzyBwpkV" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:5lKnBeAuxBd" resolve="proposals" />
+                      <ref role="37wK5l" to="vbbt:1SzZzyBwpop" resolve="proposals" />
                     </node>
                   </node>
                 </node>
@@ -541,7 +542,7 @@
                   <node concept="2OqwBi" id="1SzZzyBwplJ" role="3clFbG">
                     <node concept="3GMtW1" id="1SzZzyBwplK" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1SzZzyBwplL" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:5lKnBeAuxBd" resolve="proposals" />
+                      <ref role="37wK5l" to="vbbt:1SzZzyBwpop" resolve="proposals" />
                     </node>
                   </node>
                 </node>

@@ -28,10 +28,11 @@
     <import index="7ou7" ref="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" />
     <import index="1t7x" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="ar19" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
-    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -488,11 +489,11 @@
       </node>
       <node concept="3F0ifn" id="71UKpntoZy7" role="3EZMnx">
         <property role="3F0ifm" value="composite" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F0ifn" id="71UKpntmzO$" role="3EZMnx">
         <property role="3F0ifm" value="component" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3F0A7n" id="71UKpntmzOA" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -545,7 +546,7 @@
       <node concept="l2Vlx" id="71UKpntobJ3" role="2iSdaV" />
       <node concept="3F0ifn" id="71UKpntobJ4" role="3EZMnx">
         <property role="3F0ifm" value="internal instances" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3EZMnI" id="6JVEnxIj0hD" role="3EZMnx">
         <node concept="3F0ifn" id="6JVEnxIj0hI" role="3EZMnx">
@@ -700,7 +701,7 @@
       <node concept="l2Vlx" id="6JVEnxIiE7b" role="2iSdaV" />
       <node concept="3F0ifn" id="6JVEnxIiE7c" role="3EZMnx">
         <property role="3F0ifm" value="delegate" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="1iCGBv" id="6JVEnxIiRt0" role="3EZMnx">
         <ref role="1NtTu8" to="g88q:6JVEnxIiE77" />
@@ -713,7 +714,7 @@
       </node>
       <node concept="3F0ifn" id="6JVEnxIiE7g" role="3EZMnx">
         <property role="3F0ifm" value="to" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="1iCGBv" id="6JVEnxIiRt6" role="3EZMnx">
         <ref role="1NtTu8" to="g88q:6JVEnxIiRsX" />
@@ -836,7 +837,7 @@
     <node concept="3EZMnI" id="6JVEnxIjbXB" role="2wV5jI">
       <node concept="3F0ifn" id="6JVEnxIjbXE" role="3EZMnx">
         <property role="3F0ifm" value="initialize internal instances" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3EZMnI" id="6JVEnxIjbXG" role="3EZMnx">
         <node concept="3F0ifn" id="6JVEnxIjbXL" role="3EZMnx">
@@ -1083,7 +1084,7 @@
       <node concept="l2Vlx" id="3nAucCghSvu" role="2iSdaV" />
       <node concept="3F0ifn" id="3nAucCghSvv" role="3EZMnx">
         <property role="3F0ifm" value="internal instances" />
-        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
       </node>
       <node concept="3EZMnI" id="3nAucCghSvw" role="3EZMnx">
         <node concept="3F0ifn" id="3nAucCghSvx" role="3EZMnx">
@@ -2156,7 +2157,7 @@
         </node>
         <node concept="3F0ifn" id="3nAucCghSwm" role="3EZMnx">
           <property role="3F0ifm" value="instance configuation" />
-          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+          <ref role="1k5W1q" to="bfsu:3MfdKt5BCa$" resolve="KW" />
         </node>
         <node concept="1HlG4h" id="3nAucCghSwn" role="3EZMnx">
           <ref role="1k5W1q" to="r4b4:2CEi94e3iKI" resolve="PassiveText" />

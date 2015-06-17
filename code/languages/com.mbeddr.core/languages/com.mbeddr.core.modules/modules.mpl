@@ -149,6 +149,7 @@
     <dependency reexport="false">9d21f1e2-f166-4944-8405-b9fab3610a93(com.mbeddr.mpsutil.configItem)</dependency>
     <dependency reexport="false">4ebd4c03-8d31-474d-8f79-c3cc581ab5a4(com.mbeddr.mpsutil.platform)</dependency>
     <dependency reexport="false">0cbb3d96-374f-41da-a8e7-33336d96a733(com.mbeddr.mpsutil.assessment)</dependency>
+    <dependency reexport="false">371850a9-2c5b-4e1d-a811-70d97e847917(com.mbeddr.mpsutil.editor.utils)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</usedLanguage>

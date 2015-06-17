@@ -115,6 +115,7 @@
     <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
     <import index="dieh" ref="r:164854dd-6f40-455c-9bd3-2427b8abb0cf(com.mbeddr.mpsutil.assessment.structure)" />
     <import index="rf8p" ref="r:0fdb109c-527d-46e7-a2f8-602e47a0c9bc(com.mbeddr.mpsutil.assessment.behavior)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -6359,8 +6360,8 @@
       <node concept="3clFbS" id="3slbD0C6UdH" role="2VODD2">
         <node concept="3clFbF" id="3slbD0C6UDH" role="3cqZAp">
           <node concept="2YIFZM" id="3slbD0C7$Al" role="3clFbG">
-            <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
-            <ref role="37wK5l" to="hwgx:3slbD0C6STV" resolve="showButtons" />
+            <ref role="1Pybhc" to="oq9k:3MfdKt5DKEi" resolve="EditorButtonHelper" />
+            <ref role="37wK5l" to="oq9k:3MfdKt5DKEA" resolve="showButtons" />
             <node concept="3clFbT" id="3slbD0C7$Am" role="37wK5m">
               <property role="3clFbU" value="true" />
             </node>
@@ -6392,8 +6393,8 @@
         <node concept="3clFbF" id="3slbD0C7$Af" role="3cqZAp">
           <node concept="3fqX7Q" id="3slbD0C7$Aj" role="3clFbG">
             <node concept="2YIFZM" id="3slbD0C7$Ak" role="3fr31v">
-              <ref role="37wK5l" to="hwgx:3slbD0C6STN" resolve="showButtons" />
-              <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
+              <ref role="37wK5l" to="oq9k:3MfdKt5DKEn" resolve="showButtons" />
+              <ref role="1Pybhc" to="oq9k:3MfdKt5DKEi" resolve="EditorButtonHelper" />
             </node>
           </node>
         </node>
@@ -6435,8 +6436,8 @@
       <node concept="3clFbS" id="3slbD0C7$Ar" role="2VODD2">
         <node concept="3clFbF" id="3slbD0C7$As" role="3cqZAp">
           <node concept="2YIFZM" id="3slbD0C7$At" role="3clFbG">
-            <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
-            <ref role="37wK5l" to="hwgx:3slbD0C6STV" resolve="showButtons" />
+            <ref role="1Pybhc" to="oq9k:3MfdKt5DKEi" resolve="EditorButtonHelper" />
+            <ref role="37wK5l" to="oq9k:3MfdKt5DKEA" resolve="showButtons" />
             <node concept="3clFbT" id="3slbD0C7$Au" role="37wK5m" />
           </node>
         </node>
@@ -6467,8 +6468,8 @@
       <node concept="3clFbS" id="3slbD0C7$Ax" role="2VODD2">
         <node concept="3clFbF" id="3slbD0C7$Ay" role="3cqZAp">
           <node concept="2YIFZM" id="3slbD0C7$A$" role="3clFbG">
-            <ref role="37wK5l" to="hwgx:3slbD0C6STN" resolve="showButtons" />
-            <ref role="1Pybhc" to="hwgx:3slbD0C6STH" resolve="EditorButtonHelper" />
+            <ref role="37wK5l" to="oq9k:3MfdKt5DKEn" resolve="showButtons" />
+            <ref role="1Pybhc" to="oq9k:3MfdKt5DKEi" resolve="EditorButtonHelper" />
           </node>
         </node>
       </node>

@@ -31,9 +31,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -68,6 +65,12 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -194,13 +197,14 @@
           </node>
           <node concept="3clFbJ" id="1SzZzyBxjj$" role="3cqZAp">
             <node concept="3clFbS" id="1SzZzyBxjj_" role="3clFbx">
-              <node concept="3cpWs6" id="1SzZzyBxjjA" role="3cqZAp">
-                <node concept="3fqX7Q" id="1SzZzyBxjjB" role="3cqZAk">
-                  <node concept="2YIFZM" id="1SzZzyBxjjC" role="3fr31v">
-                    <ref role="37wK5l" to="5c5e:4WLtQa9hIAy" resolve="isCKeyword" />
-                    <ref role="1Pybhc" to="5c5e:4WLtQa9hIve" resolve="CIdentifierHelper" />
-                    <node concept="1Wqviy" id="1SzZzyBxjjD" role="37wK5m" />
-                  </node>
+              <node concept="3SKdUt" id="3MfdKt5B_ST" role="3cqZAp">
+                <node concept="3SKdUq" id="3MfdKt5BA2T" role="3SKWNk">
+                  <property role="3SKdUp" value="return !CIdentifierHelper.isCKeyword(propertyValue);" />
+                </node>
+              </node>
+              <node concept="3cpWs6" id="3MfdKt5BAek" role="3cqZAp">
+                <node concept="3clFbT" id="3MfdKt5BAjY" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>

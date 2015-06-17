@@ -20,6 +20,7 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="jfwg" ref="r:d3af6c4d-9630-4c7f-8b7f-62ceed04bfbc(com.mbeddr.mpsutil.valueDebugger.behavior)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -248,11 +249,11 @@
                       <node concept="2OqwBi" id="1SzZzyBsaFS" role="2Oq$k0">
                         <node concept="pncrf" id="1SzZzyBsaFT" role="2Oq$k0" />
                         <node concept="2qgKlT" id="1SzZzyBsaFU" role="2OqNvi">
-                          <ref role="37wK5l" to="hwgx:4pIeJQAMBIp" resolve="getValueDebuggable" />
+                          <ref role="37wK5l" to="jfwg:1SzZzyBsdEM" resolve="getValueDebuggable" />
                         </node>
                       </node>
                       <node concept="2qgKlT" id="1SzZzyBsaFV" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:PzX5jzXl1d" resolve="getDebuggerColor" />
+                        <ref role="37wK5l" to="jfwg:1SzZzyBsdIZ" resolve="getDebuggerColor" />
                         <node concept="pncrf" id="1SzZzyBsaFW" role="37wK5m" />
                       </node>
                     </node>
@@ -291,11 +292,11 @@
                           <node concept="2OqwBi" id="1SzZzyBsaGc" role="2Oq$k0">
                             <node concept="pncrf" id="1SzZzyBsaGd" role="2Oq$k0" />
                             <node concept="2qgKlT" id="1SzZzyBsaGe" role="2OqNvi">
-                              <ref role="37wK5l" to="hwgx:4pIeJQAMBIp" resolve="getValueDebuggable" />
+                              <ref role="37wK5l" to="jfwg:1SzZzyBsdEM" resolve="getValueDebuggable" />
                             </node>
                           </node>
                           <node concept="2qgKlT" id="1SzZzyBsaGf" role="2OqNvi">
-                            <ref role="37wK5l" to="hwgx:2BbcAuIkRls" resolve="getDebuggerFontSize" />
+                            <ref role="37wK5l" to="jfwg:1SzZzyBsdJr" resolve="getDebuggerFontSize" />
                             <node concept="pncrf" id="1SzZzyBsaGg" role="37wK5m" />
                           </node>
                         </node>
@@ -342,7 +343,7 @@
                   <node concept="3clFbF" id="1SzZzyBsaGz" role="3cqZAp">
                     <node concept="2ShNRf" id="1SzZzyBsaG$" role="3clFbG">
                       <node concept="1pGfFk" id="1SzZzyBsaG_" role="2ShVmc">
-                        <ref role="37wK5l" to="r4b4:2iRSkE4DJ1K" resolve="LittlePlusCell" />
+                        <ref role="37wK5l" to="oq9k:3MfdKt5Bobd" resolve="LittlePlusCell" />
                         <node concept="pncrf" id="1SzZzyBsaGA" role="37wK5m" />
                         <node concept="10M0yZ" id="1SzZzyBsaGB" role="37wK5m">
                           <ref role="1PxDUh" to="1t7x:~Color" resolve="Color" />
@@ -407,7 +408,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyBsaH3" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:PzX5jzXl1d" resolve="getDebuggerColor" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdIZ" resolve="getDebuggerColor" />
                       <node concept="pncrf" id="1SzZzyBsaH4" role="37wK5m" />
                     </node>
                   </node>
@@ -418,7 +419,7 @@
                   <node concept="3cpWs6" id="1SzZzyBsaH7" role="3cqZAp">
                     <node concept="2ShNRf" id="1SzZzyBsaH8" role="3cqZAk">
                       <node concept="1pGfFk" id="1SzZzyBsaH9" role="2ShVmc">
-                        <ref role="37wK5l" to="r4b4:5gTlpakvelx" resolve="HorizLineCell" />
+                        <ref role="37wK5l" to="oq9k:3MfdKt5Bo3T" resolve="HorizLineCell" />
                         <node concept="pncrf" id="1SzZzyBsaHa" role="37wK5m" />
                         <node concept="37vLTw" id="1SzZzyBsaHb" role="37wK5m">
                           <ref role="3cqZAo" node="1SzZzyBsaGW" resolve="c" />
@@ -440,7 +441,7 @@
               <node concept="3clFbF" id="1SzZzyBsaHg" role="3cqZAp">
                 <node concept="2ShNRf" id="1SzZzyBsaHh" role="3clFbG">
                   <node concept="1pGfFk" id="1SzZzyBsaHi" role="2ShVmc">
-                    <ref role="37wK5l" to="r4b4:1uZspiYN_cl" resolve="EmptyCell" />
+                    <ref role="37wK5l" to="oq9k:3MfdKt5Bo82" resolve="EmptyCell" />
                     <node concept="pncrf" id="1SzZzyBsaHj" role="37wK5m" />
                   </node>
                 </node>
@@ -470,7 +471,7 @@
                   <node concept="2OqwBi" id="1SzZzyBsaHw" role="3fr31v">
                     <node concept="pncrf" id="1SzZzyBsaHx" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1SzZzyBsaHy" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:4T4eEoC7Jgg" resolve="doNotShowDebugger" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdEV" resolve="doNotShowDebugger" />
                     </node>
                   </node>
                 </node>
@@ -478,7 +479,7 @@
                   <node concept="2OqwBi" id="1SzZzyBsaH$" role="3fr31v">
                     <node concept="pncrf" id="1SzZzyBsaH_" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1SzZzyBsaHA" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:$bJ0jgQ85$" resolve="isHorizontal" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdG5" resolve="isHorizontal" />
                     </node>
                   </node>
                 </node>
@@ -504,11 +505,11 @@
                     <node concept="2OqwBi" id="1SzZzyBsaHJ" role="2Oq$k0">
                       <node concept="pncrf" id="1SzZzyBsaHK" role="2Oq$k0" />
                       <node concept="2qgKlT" id="1SzZzyBsaHL" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:4pIeJQAMBIp" resolve="getValueDebuggable" />
+                        <ref role="37wK5l" to="jfwg:1SzZzyBsdEM" resolve="getValueDebuggable" />
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyBsaHM" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:PzX5jzXl1d" resolve="getDebuggerColor" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdIZ" resolve="getDebuggerColor" />
                       <node concept="pncrf" id="1SzZzyBsaHN" role="37wK5m" />
                     </node>
                   </node>
@@ -530,11 +531,11 @@
                     <node concept="2OqwBi" id="1SzZzyBsaHV" role="2Oq$k0">
                       <node concept="pncrf" id="1SzZzyBsaHW" role="2Oq$k0" />
                       <node concept="2qgKlT" id="1SzZzyBsaHX" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:4pIeJQAMBIp" resolve="getValueDebuggable" />
+                        <ref role="37wK5l" to="jfwg:1SzZzyBsdEM" resolve="getValueDebuggable" />
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyBsaHY" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:2BbcAuIkRls" resolve="getDebuggerFontSize" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdJr" resolve="getDebuggerFontSize" />
                       <node concept="pncrf" id="1SzZzyBsaHZ" role="37wK5m" />
                     </node>
                   </node>
@@ -578,7 +579,7 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="1SzZzyBsaIj" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:PzX5jzXl1d" resolve="getDebuggerColor" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdIZ" resolve="getDebuggerColor" />
                       <node concept="pncrf" id="1SzZzyBsaIk" role="37wK5m" />
                     </node>
                   </node>
@@ -587,7 +588,7 @@
               <node concept="3clFbF" id="1SzZzyBsaIl" role="3cqZAp">
                 <node concept="2ShNRf" id="1SzZzyBsaIm" role="3clFbG">
                   <node concept="1pGfFk" id="1SzZzyBsaIn" role="2ShVmc">
-                    <ref role="37wK5l" to="r4b4:6Ce4x7KQbw2" resolve="ColoredVerticalBarCell" />
+                    <ref role="37wK5l" to="oq9k:3MfdKt5Bo0g" resolve="ColoredVerticalBarCell" />
                     <node concept="pncrf" id="1SzZzyBsaIo" role="37wK5m" />
                     <node concept="37vLTw" id="1SzZzyBsaIp" role="37wK5m">
                       <ref role="3cqZAo" node="1SzZzyBsaIc" resolve="c" />
@@ -620,14 +621,14 @@
                   <node concept="2OqwBi" id="1SzZzyBsaI_" role="3fr31v">
                     <node concept="pncrf" id="1SzZzyBsaIA" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1SzZzyBsaIB" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:4T4eEoC7Jgg" resolve="doNotShowDebugger" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdEV" resolve="doNotShowDebugger" />
                     </node>
                   </node>
                 </node>
                 <node concept="2OqwBi" id="1SzZzyBsaIC" role="3uHU7w">
                   <node concept="pncrf" id="1SzZzyBsaID" role="2Oq$k0" />
                   <node concept="2qgKlT" id="1SzZzyBsaIE" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:$bJ0jgQ85$" resolve="isHorizontal" />
+                    <ref role="37wK5l" to="jfwg:1SzZzyBsdG5" resolve="isHorizontal" />
                   </node>
                 </node>
               </node>
@@ -648,7 +649,7 @@
               <node concept="2OqwBi" id="1SzZzyBsaIM" role="3clFbG">
                 <node concept="pncrf" id="1SzZzyBsaIN" role="2Oq$k0" />
                 <node concept="2qgKlT" id="1SzZzyBsaIO" role="2OqNvi">
-                  <ref role="37wK5l" to="hwgx:4T4eEoC7Jgg" resolve="doNotShowDebugger" />
+                  <ref role="37wK5l" to="jfwg:1SzZzyBsdEV" resolve="doNotShowDebugger" />
                 </node>
               </node>
             </node>
@@ -672,7 +673,7 @@
                       <node concept="2OqwBi" id="1SzZzyBsaIZ" role="2Oq$k0">
                         <node concept="3GMtW1" id="1SzZzyBsaJ0" role="2Oq$k0" />
                         <node concept="2qgKlT" id="1SzZzyBsaJ1" role="2OqNvi">
-                          <ref role="37wK5l" to="hwgx:1c0z7yfF2FB" resolve="getValueSource" />
+                          <ref role="37wK5l" to="jfwg:1SzZzyBsdDY" resolve="getValueSource" />
                         </node>
                       </node>
                       <node concept="liA8E" id="1SzZzyBsaJ2" role="2OqNvi">
@@ -680,7 +681,7 @@
                         <node concept="2OqwBi" id="1SzZzyBsaJ3" role="37wK5m">
                           <node concept="3GMtW1" id="1SzZzyBsaJ4" role="2Oq$k0" />
                           <node concept="2qgKlT" id="1SzZzyBsaJ5" role="2OqNvi">
-                            <ref role="37wK5l" to="hwgx:4pIeJQAMBIp" resolve="getValueDebuggable" />
+                            <ref role="37wK5l" to="jfwg:1SzZzyBsdEM" resolve="getValueDebuggable" />
                           </node>
                         </node>
                       </node>
@@ -736,7 +737,7 @@
                           <node concept="2OqwBi" id="1SzZzyBsaJt" role="37wK5m">
                             <node concept="3GMtW1" id="1SzZzyBsaJu" role="2Oq$k0" />
                             <node concept="2qgKlT" id="1SzZzyBsaJv" role="2OqNvi">
-                              <ref role="37wK5l" to="hwgx:4pIeJQAMBIp" resolve="getValueDebuggable" />
+                              <ref role="37wK5l" to="jfwg:1SzZzyBsdEM" resolve="getValueDebuggable" />
                             </node>
                           </node>
                           <node concept="3clFbT" id="1SzZzyBsaJw" role="37wK5m">
@@ -827,7 +828,7 @@
                 <node concept="2OqwBi" id="1SzZzyBsaJZ" role="3clFbG">
                   <node concept="0GJ7k" id="1SzZzyBsaK0" role="2Oq$k0" />
                   <node concept="2qgKlT" id="1SzZzyBsaK1" role="2OqNvi">
-                    <ref role="37wK5l" to="hwgx:$bJ0jgQ83V" resolve="collapse" />
+                    <ref role="37wK5l" to="jfwg:1SzZzyBsdEC" resolve="collapse" />
                   </node>
                 </node>
               </node>
@@ -844,7 +845,7 @@
                   <node concept="2OqwBi" id="1SzZzyBsaK8" role="3clFbG">
                     <node concept="0GJ7k" id="1SzZzyBsaK9" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1SzZzyBsaKa" role="2OqNvi">
-                      <ref role="37wK5l" to="hwgx:$bJ0jgQ845" resolve="expandOneLevel" />
+                      <ref role="37wK5l" to="jfwg:1SzZzyBsdF3" resolve="expandOneLevel" />
                     </node>
                   </node>
                 </node>

@@ -20,6 +20,7 @@
     <import index="oobn" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.navigation(MPS.Editor/jetbrains.mps.openapi.navigation@java_stub)" />
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <import index="vbbt" ref="r:df40cc06-7605-45f2-ba8d-752ec6c121c3(com.mbeddr.mpsutil.pathAndFile.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
@@ -1597,8 +1598,8 @@
             <property role="TrG5h" value="solPath" />
             <node concept="17QB3L" id="1SzZzyBxbyx" role="1tU5fm" />
             <node concept="2YIFZM" id="1SzZzyBxbyy" role="33vP2m">
-              <ref role="37wK5l" to="hwgx:4Wn4fzjJqEM" resolve="getSolutionRootPathForNode" />
-              <ref role="1Pybhc" to="hwgx:4Wn4fzjJqEK" resolve="SolutionPathUtil" />
+              <ref role="37wK5l" to="vbbt:3MfdKt5BaoB" resolve="getSolutionRootPathForNode" />
+              <ref role="1Pybhc" to="vbbt:3MfdKt5Bao_" resolve="SolutionPathUtil" />
               <node concept="37vLTw" id="1SzZzyBxbyz" role="37wK5m">
                 <ref role="3cqZAo" node="1SzZzyBxbyO" resolve="n" />
               </node>

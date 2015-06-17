@@ -9,6 +9,7 @@
     <import index="bfsu" ref="r:38a54054-4006-43ef-8daa-4de1942d60e4(com.mbeddr.mpsutil.platform.editor)" />
     <import index="r4b4" ref="r:1784e088-20fd-4fdb-96b8-bc57f0056d94(com.mbeddr.core.base.editor)" />
     <import index="6q2s" ref="r:c494e56d-2869-45d3-81d1-883ba2ef8f01(com.mbeddr.mpsutil.ideEnhancement.structure)" />
+    <import index="oq9k" ref="371850a9-2c5b-4e1d-a811-70d97e847917/r:f4ae6487-fb1d-418f-8dd3-759f9604156f(com.mbeddr.mpsutil.editor.utils/com.mbeddr.mpsutil.editor.utils.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -89,7 +90,7 @@
             <node concept="3clFbF" id="3MfdKt5xVez" role="3cqZAp">
               <node concept="2ShNRf" id="3MfdKt5xVe$" role="3clFbG">
                 <node concept="1pGfFk" id="3MfdKt5xVe_" role="2ShVmc">
-                  <ref role="37wK5l" to="r4b4:DubiFB4e4X" resolve="IconCell" />
+                  <ref role="37wK5l" to="oq9k:3MfdKt5Bo94" resolve="IconCell" />
                   <node concept="pncrf" id="3MfdKt5xVeA" role="37wK5m" />
                   <node concept="3cmrfG" id="3MfdKt5xVeB" role="37wK5m">
                     <property role="3cmrfH" value="3" />
