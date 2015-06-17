@@ -329,5 +329,28 @@
       <ref role="20lvS9" to="m1h3:66D23jBZN3A" resolve="IControlledNamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7jXk4TJKfVh">
+    <property role="3GE5qa" value="codereview" />
+    <property role="TrG5h" value="ReviewAssessmentQuery" />
+    <property role="34LRSv" value="code review summary" />
+    <ref role="1TJDcQ" node="66D23jBKIgp" resolve="AssessmentQuery" />
+    <node concept="1TJgyj" id="7jXk4TJKfVi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="scope" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="66D23jBKIfY" resolve="AssessmentScope" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7jXk4TJKfVj">
+    <property role="3GE5qa" value="codereview" />
+    <property role="TrG5h" value="ReviewAssessmentResult" />
+    <ref role="1TJDcQ" node="66D23jBKIgq" resolve="AssessmentResult" />
+    <node concept="1TJgyj" id="7jXk4TJKfVk" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="code" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    </node>
+  </node>
 </model>
 

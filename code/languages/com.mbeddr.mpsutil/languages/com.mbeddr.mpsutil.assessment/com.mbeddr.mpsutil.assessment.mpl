@@ -57,6 +57,7 @@
     <dependency reexport="false">8612fab7-e276-4de7-804f-0d32fce52a79(com.mbeddr.mpsutil.externalReference)</dependency>
     <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
     <dependency reexport="false">24424f20-7598-4d7c-972a-f2b93086d35e(com.mbeddr.mpsutil.controlledName)</dependency>
+    <dependency reexport="false">6d413dda-39a2-46c4-b917-f7643a08e428(com.mbeddr.mpsutil.codereview)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f89904fb-9486-43a1-865e-5ad0375a8a88(de.itemis.mps.editor.bool)</usedLanguage>
