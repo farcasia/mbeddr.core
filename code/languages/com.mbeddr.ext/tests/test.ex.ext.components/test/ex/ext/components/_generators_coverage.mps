@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="0c8e0d19-c3cf-4b31-af77-531227edbce8" name="com.mbeddr.core.qa" version="-1" />
+    <use id="0cbb3d96-374f-41da-a8e7-33336d96a733" name="com.mbeddr.mpsutil.assessment" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   </languages>
@@ -37,10 +38,15 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="0cbb3d96-374f-41da-a8e7-33336d96a733" name="com.mbeddr.mpsutil.assessment">
+      <concept id="4363767068316757918" name="com.mbeddr.mpsutil.assessment.structure.Assessment" flags="ng" index="1T7_yp" />
+      <concept id="4363767068316757930" name="com.mbeddr.mpsutil.assessment.structure.AssessmentContainer" flags="ng" index="1T7_yH" />
+      <concept id="4363767068316757945" name="com.mbeddr.mpsutil.assessment.structure.DefaultAssessmentSummary" flags="ng" index="1T7_yY" />
+    </language>
   </registry>
-  <node concept="3pwaUo" id="18BOPK$tn95">
+  <node concept="1T7_yH" id="18BOPK$tn95">
     <property role="TrG5h" value="ComponentsCoverage" />
-    <node concept="3pwaUv" id="18BOPK$tn_N" role="3pwaUu">
+    <node concept="1T7_yp" id="18BOPK$tn_N" role="3pwaUu">
       <property role="TrG5h" value="ComponentsCoverage" />
       <property role="2iEbMk" value="1404464038488" />
       <property role="2iEaKi" value="z003cemm" />
@@ -64,16 +70,16 @@
           <property role="cMvJE" value="com.mbeddr.ext.compositecomponents" />
         </node>
       </node>
-      <node concept="qc_Tx" id="18BOPK$AcVt" role="q3PPx">
+      <node concept="1T7_yY" id="18BOPK$AcVt" role="q3PPx">
         <property role="qc_TA" value="22" />
         <property role="qc_T$" value="22" />
         <property role="qc_T_" value="0" />
       </node>
     </node>
   </node>
-  <node concept="3pwaUo" id="18BOPK$AcPQ">
+  <node concept="1T7_yH" id="18BOPK$AcPQ">
     <property role="TrG5h" value="StatemachinesCoverage" />
-    <node concept="3pwaUv" id="18BOPK$AcPX" role="3pwaUu">
+    <node concept="1T7_yp" id="18BOPK$AcPX" role="3pwaUu">
       <property role="TrG5h" value="StatemachinesCoverage" />
       <property role="2iEbMk" value="1404460464275" />
       <property role="2iEaKi" value="z003cemm" />
@@ -85,16 +91,16 @@
           <property role="cMvJE" value="com.mbeddr.ext.components.statemachine" />
         </node>
       </node>
-      <node concept="qc_Tx" id="18BOPK$AcQ1" role="q3PPx">
+      <node concept="1T7_yY" id="18BOPK$AcQ1" role="q3PPx">
         <property role="qc_TA" value="9" />
         <property role="qc_T$" value="9" />
         <property role="qc_T_" value="0" />
       </node>
     </node>
   </node>
-  <node concept="3pwaUo" id="18BOPK$AcRA">
+  <node concept="1T7_yH" id="18BOPK$AcRA">
     <property role="TrG5h" value="MathCoverage" />
-    <node concept="3pwaUv" id="18BOPK$AcRM" role="3pwaUu">
+    <node concept="1T7_yp" id="18BOPK$AcRM" role="3pwaUu">
       <property role="TrG5h" value="MathCoverage" />
       <property role="2iEbMk" value="1404460511291" />
       <property role="2iEaKi" value="z003cemm" />
@@ -103,7 +109,7 @@
           <property role="cMvJE" value="com.mbeddr.ext.math" />
         </node>
       </node>
-      <node concept="qc_Tx" id="18BOPK$AcRP" role="q3PPx">
+      <node concept="1T7_yY" id="18BOPK$AcRP" role="q3PPx">
         <property role="qc_TA" value="2" />
         <property role="qc_T$" value="2" />
         <property role="qc_T_" value="0" />

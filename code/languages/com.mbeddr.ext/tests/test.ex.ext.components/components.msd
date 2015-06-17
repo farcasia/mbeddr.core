@@ -24,6 +24,7 @@
     <usedLanguage>dbd01f1f-9071-44eb-995e-775f0f308135(com.mbeddr.mpsutil.chunk)</usedLanguage>
     <usedLanguage>337effeb-d191-46ed-969f-c98353f6f6ca(com.mbeddr.mpsutil.paragraph)</usedLanguage>
     <usedLanguage>669d12f6-e2b3-4310-9b39-d8f8f6447beb(com.mbeddr.mpsutil.documentable)</usedLanguage>
+    <usedLanguage>0cbb3d96-374f-41da-a8e7-33336d96a733(com.mbeddr.mpsutil.assessment)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)</usedDevKit>
@@ -54,10 +55,12 @@
     <language id="36a565f1-3fa0-42d6-baac-f87e209c9789" fqName="com.mbeddr.ext.components.mock" version="0" />
     <language id="41911c23-eb23-4ee6-872f-bc7f7ebce290" fqName="com.mbeddr.ext.components.test" version="0" />
     <language id="54f2a59b-97bb-4c09-af92-928ebf9c5966" fqName="com.mbeddr.ext.compositecomponents" version="0" />
+    <language id="0cbb3d96-374f-41da-a8e7-33336d96a733" fqName="com.mbeddr.mpsutil.assessment" version="-1" />
     <language id="a482b416-d0c9-473f-8f67-725ed642b3f3" fqName="com.mbeddr.mpsutil.breadcrumb" version="0" />
     <language id="dbd01f1f-9071-44eb-995e-775f0f308135" fqName="com.mbeddr.mpsutil.chunk" version="-1" />
     <language id="669d12f6-e2b3-4310-9b39-d8f8f6447beb" fqName="com.mbeddr.mpsutil.documentable" version="-1" />
     <language id="8c69e1b7-ded6-44a8-a7d1-7234c8521c73" fqName="com.mbeddr.mpsutil.externalReference" version="-1" />
+    <language id="18bd8769-892e-4516-8510-ed5c78c37d0d" fqName="com.mbeddr.mpsutil.ideEnhancement" version="-1" />
     <language id="1c897ba5-9d43-4035-ac7f-0306495743ac" fqName="com.mbeddr.mpsutil.interpreter.test" version="0" />
     <language id="d09a16fb-1d68-4a92-a5a4-20b4b2f86a62" fqName="com.mbeddr.mpsutil.jung" version="0" />
     <language id="92f195b6-a209-4804-ad65-f5248ecd5873" fqName="com.mbeddr.mpsutil.margincell" version="0" />

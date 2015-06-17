@@ -113,6 +113,8 @@
     <import index="7t3h" ref="r:db75bd6e-5066-4520-9b37-4506b0f4c545(com.mbeddr.mpsutil.codereview.editor)" />
     <import index="6q2s" ref="r:c494e56d-2869-45d3-81d1-883ba2ef8f01(com.mbeddr.mpsutil.ideEnhancement.structure)" />
     <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
+    <import index="dieh" ref="r:164854dd-6f40-455c-9bd3-2427b8abb0cf(com.mbeddr.mpsutil.assessment.structure)" />
+    <import index="rf8p" ref="r:0fdb109c-527d-46e7-a2f8-602e47a0c9bc(com.mbeddr.mpsutil.assessment.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -6291,11 +6293,11 @@
                   <ref role="3cqZAo" node="3jNX2XuMqPV" resolve="m" />
                 </node>
                 <node concept="2RRcyG" id="3jNX2XuMqQs" role="2OqNvi">
-                  <ref role="2RRcyH" to="vs0r:K292flwCEV" resolve="AssessmentContainer" />
+                  <ref role="2RRcyH" to="dieh:3MfdKt5$mYE" resolve="AssessmentContainer" />
                 </node>
               </node>
               <node concept="13MTOL" id="3jNX2XuMqQR" role="2OqNvi">
-                <ref role="13MTZf" to="vs0r:K292flwCEX" />
+                <ref role="13MTZf" to="dieh:3MfdKt5$mYF" />
               </node>
             </node>
             <node concept="2es0OD" id="3jNX2XuMqRj" role="2OqNvi">
@@ -6307,7 +6309,7 @@
                         <ref role="3cqZAo" node="3jNX2XuMqRm" resolve="it" />
                       </node>
                       <node concept="2qgKlT" id="3jNX2XuMqRO" role="2OqNvi">
-                        <ref role="37wK5l" to="hwgx:3jNX2XuLy_p" resolve="update" />
+                        <ref role="37wK5l" to="rf8p:3MfdKt5$nkd" resolve="update" />
                       </node>
                     </node>
                   </node>

@@ -18,6 +18,8 @@
         <dependency reexport="false">d4280a54-f6df-4383-aa41-d1b2bffa7eb1(com.mbeddr.core.base)</dependency>
         <dependency reexport="false">479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)</dependency>
         <dependency reexport="false">5192cf4a-63c7-438e-bed4-687010981d34(com.mbeddr.mpsutil.controlledName)</dependency>
+        <dependency reexport="false">0cbb3d96-374f-41da-a8e7-33336d96a733(com.mbeddr.mpsutil.assessment)</dependency>
+        <dependency reexport="false">6848b3f0-0942-4ece-8866-bedd828d3f69(com.mbeddr.mpsutil.assessment#4363767068316754365)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -80,6 +82,7 @@
     <dependency reexport="false">4ebd4c03-8d31-474d-8f79-c3cc581ab5a4(com.mbeddr.mpsutil.platform)</dependency>
     <dependency reexport="false">18bd8769-892e-4516-8510-ed5c78c37d0d(com.mbeddr.mpsutil.ideEnhancement)</dependency>
     <dependency reexport="false">4348a2aa-326f-4bd7-9cf9-19f9bbeaccb0(com.mbeddr.mpsutil.nodelist)</dependency>
+    <dependency reexport="false">0cbb3d96-374f-41da-a8e7-33336d96a733(com.mbeddr.mpsutil.assessment)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>

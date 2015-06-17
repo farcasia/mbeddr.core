@@ -49,6 +49,7 @@
     <import index="2mtg" ref="r:77a506cf-10b5-470f-a542-0ec38d4af907(com.mbeddr.mpsutil.controlledName.behavior)" />
     <import index="j0y" ref="r:1f34e206-1d79-4d23-b8c5-fa13d1172664(com.mbeddr.mpsutil.configItem.behavior)" />
     <import index="m0ti" ref="r:398a1030-14a2-4552-87a0-ff85ff4aaf41(com.mbeddr.mpsutil.ideEnhancement.behavior)" />
+    <import index="rf8p" ref="r:0fdb109c-527d-46e7-a2f8-602e47a0c9bc(com.mbeddr.mpsutil.assessment.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -13411,14 +13412,14 @@
       <property role="TrG5h" value="update" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:4$VRXeHdE9I" resolve="update" />
+      <ref role="13i0hy" to="rf8p:3MfdKt5$nv3" resolve="update" />
       <node concept="3Tm1VV" id="4$VRXeHeiLF" role="1B3o_S" />
       <node concept="3clFbS" id="4$VRXeHeiLK" role="3clF47">
         <node concept="3clFbJ" id="4$VRXeGZEVx" role="3cqZAp">
           <node concept="3clFbS" id="4$VRXeGZEVy" role="3clFbx">
             <node concept="3clFbF" id="4$VRXeH0gRx" role="3cqZAp">
               <node concept="BsUDl" id="4$VRXeH0gRw" role="3clFbG">
-                <ref role="37wK5l" to="hwgx:4$VRXeGZFjS" resolve="registerValue" />
+                <ref role="37wK5l" to="rf8p:3MfdKt5$nuw" resolve="registerValue" />
                 <node concept="2OqwBi" id="4$VRXeH0iIq" role="37wK5m">
                   <node concept="2OqwBi" id="4$VRXeH0gVQ" role="2Oq$k0">
                     <node concept="37vLTw" id="4$VRXeHeiSL" role="2Oq$k0">
@@ -13466,14 +13467,14 @@
       <property role="TrG5h" value="update" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:4$VRXeHdE9I" resolve="update" />
+      <ref role="13i0hy" to="rf8p:3MfdKt5$nv3" resolve="update" />
       <node concept="3Tm1VV" id="4$VRXeIgi7V" role="1B3o_S" />
       <node concept="3clFbS" id="4$VRXeIgi80" role="3clF47">
         <node concept="3clFbJ" id="4$VRXeIgi8k" role="3cqZAp">
           <node concept="3clFbS" id="4$VRXeIgi8l" role="3clFbx">
             <node concept="3clFbF" id="4$VRXeIgiQU" role="3cqZAp">
               <node concept="BsUDl" id="4$VRXeIgiQT" role="3clFbG">
-                <ref role="37wK5l" to="hwgx:4$VRXeGZFjS" resolve="registerValue" />
+                <ref role="37wK5l" to="rf8p:3MfdKt5$nuw" resolve="registerValue" />
                 <node concept="3cpWs3" id="4$VRXeIgAcW" role="37wK5m">
                   <node concept="2OqwBi" id="4$VRXeIgD4y" role="3uHU7w">
                     <node concept="2OqwBi" id="4$VRXeIgAmS" role="2Oq$k0">
@@ -13538,7 +13539,7 @@
       <property role="TrG5h" value="update" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="hwgx:4$VRXeHdE9I" resolve="update" />
+      <ref role="13i0hy" to="rf8p:3MfdKt5$nv3" resolve="update" />
       <node concept="3Tm1VV" id="4$VRXeIntud" role="1B3o_S" />
       <node concept="3clFbS" id="4$VRXeIntui" role="3clF47">
         <node concept="3clFbF" id="4$VRXeIsCJN" role="3cqZAp">
@@ -13614,7 +13615,7 @@
             </node>
             <node concept="3clFbF" id="4$VRXeInvHG" role="3cqZAp">
               <node concept="BsUDl" id="4$VRXeInvHF" role="3clFbG">
-                <ref role="37wK5l" to="hwgx:4$VRXeGZFjS" resolve="registerValue" />
+                <ref role="37wK5l" to="rf8p:3MfdKt5$nuw" resolve="registerValue" />
                 <node concept="37vLTw" id="4$VRXeIsCY1" role="37wK5m">
                   <ref role="3cqZAo" node="4$VRXeIsCXS" resolve="i" />
                 </node>
