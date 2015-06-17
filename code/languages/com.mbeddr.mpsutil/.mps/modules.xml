@@ -51,6 +51,7 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.paragraph/com.mbeddr.mpsutil.paragraph.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.pathAndFile/com.mbeddr.mpsutil.pathAndFile.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.mpl" folder="plantuml" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.platform/com.mbeddr.mpsutil.platform.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.preferenceform/com.mbeddr.mpsutil.preferenceform.mpl" folder="preferenceform" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.presentationMode/com.mbeddr.mpsutil.presentationMode.mpl" folder="base" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.mpsutil.propertydefault/com.mbeddr.mpsutil.propertydefault.mpl" folder="propertydefault" />
