@@ -16,6 +16,7 @@
     <import index="kwxp" ref="r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -748,7 +749,7 @@
       <ref role="PrY4T" to="c4fa:6o2p2Z0DOCt" resolve="IAllowsIncompleteTypes" />
     </node>
     <node concept="PrWs8" id="1DVNPtFQlXH" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+      <ref role="PrY4T" to="m3g7:1SzZzyBvwuI" resolve="IShowUpInOutline" />
     </node>
     <node concept="PrWs8" id="29JE8qNvthB" role="PzmwI">
       <ref role="PrY4T" node="29JE8qNvth_" resolve="IMayRequiresComponentInitializer" />

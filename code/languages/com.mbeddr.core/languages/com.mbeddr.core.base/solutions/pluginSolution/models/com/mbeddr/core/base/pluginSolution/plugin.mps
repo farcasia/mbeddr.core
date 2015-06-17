@@ -99,6 +99,8 @@
     <import index="r9fo" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.util(MPS.OpenAPI/org.jetbrains.mps.util@java_stub)" />
     <import index="ywu" ref="r:81a95cb9-e26a-4801-958d-58b4240e0bb2(com.mbeddr.mpsutil.commentable.refactorings)" />
     <import index="dhny" ref="r:be9b22ba-834b-4050-a519-5e70518fab34(com.mbeddr.mpsutil.presentationMode.editor)" />
+    <import index="z20a" ref="r:096ea6ec-2c32-4660-b175-107c62e0871a(com.mbeddr.mpsutil.outline.behavior)" />
+    <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1805,7 +1807,7 @@
                         <node concept="2Rf3mk" id="1DVNPtFPBN6" role="2OqNvi">
                           <node concept="1xMEDy" id="1DVNPtFPBN7" role="1xVPHs">
                             <node concept="chp4Y" id="1DVNPtFPBNa" role="ri$Ld">
-                              <ref role="cht4Q" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+                              <ref role="cht4Q" to="m3g7:1SzZzyBvwuI" resolve="IShowUpInOutline" />
                             </node>
                           </node>
                         </node>
@@ -1821,7 +1823,7 @@
                                   </node>
                                   <node concept="1mIQ4w" id="1DVNPtFPYfT" role="2OqNvi">
                                     <node concept="chp4Y" id="1DVNPtFPYfV" role="cj9EA">
-                                      <ref role="cht4Q" to="vs0r:1DVNPtFPUDE" resolve="IHideFromOutline" />
+                                      <ref role="cht4Q" to="m3g7:1SzZzyBvwuG" resolve="IHideFromOutline" />
                                     </node>
                                   </node>
                                 </node>
@@ -1844,7 +1846,7 @@
                                 <ref role="3cqZAo" node="3il$LAnRNmZ" resolve="it" />
                               </node>
                               <node concept="2qgKlT" id="3il$LAnSaVG" role="2OqNvi">
-                                <ref role="37wK5l" to="hwgx:3il$LAnRN_V" resolve="actuallyShowInOutline" />
+                                <ref role="37wK5l" to="z20a:1SzZzyBvwuK" resolve="actuallyShowInOutline" />
                               </node>
                             </node>
                           </node>
@@ -1989,7 +1991,7 @@
               <node concept="2Xjw5R" id="1DVNPtFPBaQ" role="2OqNvi">
                 <node concept="1xMEDy" id="1DVNPtFPBaR" role="1xVPHs">
                   <node concept="chp4Y" id="1DVNPtFPJG1" role="ri$Ld">
-                    <ref role="cht4Q" to="vs0r:1DVNPtFPJFZ" resolve="IOutlineRoot" />
+                    <ref role="cht4Q" to="m3g7:1SzZzyBvwuH" resolve="IOutlineRoot" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="1DVNPtFPBaT" role="1xVPHs" />

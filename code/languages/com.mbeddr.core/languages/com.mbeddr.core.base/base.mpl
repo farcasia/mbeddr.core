@@ -66,6 +66,7 @@
     <dependency reexport="false">8c69e1b7-ded6-44a8-a7d1-7234c8521c73(com.mbeddr.mpsutil.externalReference)</dependency>
     <dependency reexport="false">5579ba58-a3d7-409c-b2ef-6094d21eb7be(com.mbeddr.mpsutil.commentable)</dependency>
     <dependency reexport="false">7b4d8def-1874-4e78-a245-889a2caa3c79(com.mbeddr.mpsutil.presentationMode)</dependency>
+    <dependency reexport="false">32bede80-ff37-41ef-9642-cc929ec7df68(com.mbeddr.mpsutil.outline)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>
@@ -150,6 +151,7 @@
     <extendedLanguage>d09a16fb-1d68-4a92-a5a4-20b4b2f86a62(com.mbeddr.mpsutil.jung)</extendedLanguage>
     <extendedLanguage>b4d28e19-7d2d-47e9-943e-3a41f97a0e52(com.mbeddr.mpsutil.plantuml.node)</extendedLanguage>
     <extendedLanguage>8c69e1b7-ded6-44a8-a7d1-7234c8521c73(com.mbeddr.mpsutil.externalReference)</extendedLanguage>
+    <extendedLanguage>32bede80-ff37-41ef-9642-cc929ec7df68(com.mbeddr.mpsutil.outline)</extendedLanguage>
   </extendedLanguages>
 </language>
 

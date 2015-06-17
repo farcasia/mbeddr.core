@@ -14,6 +14,7 @@
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -112,7 +113,7 @@
       <ref role="PrY4T" to="2gv2:26BCBMXyK6_" resolve="ISteppableUnit" />
     </node>
     <node concept="PrWs8" id="1DVNPtFPKH1" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPJFZ" resolve="IOutlineRoot" />
+      <ref role="PrY4T" to="m3g7:1SzZzyBvwuH" resolve="IOutlineRoot" />
     </node>
   </node>
   <node concept="1TIwiD" id="5_l8w1EmTde">
@@ -164,7 +165,7 @@
       <ref role="PrY4T" to="qxxd:1SzZzyBtKMg" resolve="ICommentable" />
     </node>
     <node concept="PrWs8" id="1DVNPtFPOje" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+      <ref role="PrY4T" to="m3g7:1SzZzyBvwuI" resolve="IShowUpInOutline" />
     </node>
     <node concept="PrWs8" id="518euTyNoEj" role="PrDN$">
       <ref role="PrY4T" to="356a:4pl5GY7LKmz" resolve="TraceableConcept" />
@@ -615,7 +616,7 @@
       <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
     </node>
     <node concept="PrWs8" id="1DVNPtFQl$H" role="PrDN$">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+      <ref role="PrY4T" to="m3g7:1SzZzyBvwuI" resolve="IShowUpInOutline" />
     </node>
     <node concept="PrWs8" id="2azu63OPjKZ" role="PrDN$">
       <ref role="PrY4T" node="2azu63OPjKX" resolve="ICodeLocationContext" />
@@ -788,7 +789,7 @@
       <ref role="PrY4T" to="vs0r:Ug1QzfhXN3" resolve="IEmpty" />
     </node>
     <node concept="PrWs8" id="1DVNPtFPUDG" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:1DVNPtFPUDE" resolve="IHideFromOutline" />
+      <ref role="PrY4T" to="m3g7:1SzZzyBvwuG" resolve="IHideFromOutline" />
     </node>
   </node>
   <node concept="1TIwiD" id="5DwX9xlExfL">

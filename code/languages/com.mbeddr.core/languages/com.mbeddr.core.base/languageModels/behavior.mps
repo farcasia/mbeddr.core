@@ -62,6 +62,7 @@
     <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
     <import index="sv2b" ref="r:8752a7f8-5c94-49e7-ad0f-519a2a5c17c6(com.mbeddr.mpsutil.externalReference.behavior)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
+    <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -1377,27 +1378,6 @@
     </node>
     <node concept="13hLZK" id="7jSUHHvkApl" role="13h7CW">
       <node concept="3clFbS" id="7jSUHHvkApm" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="1DVNPtFPBb0">
-    <property role="3GE5qa" value="outline" />
-    <ref role="13h7C2" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
-    <node concept="13i0hz" id="3il$LAnRN_V" role="13h7CS">
-      <property role="13i0iv" value="false" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="actuallyShowInOutline" />
-      <node concept="3Tm1VV" id="3il$LAnRN_W" role="1B3o_S" />
-      <node concept="10P_77" id="3il$LAnRQGH" role="3clF45" />
-      <node concept="3clFbS" id="3il$LAnRN_Y" role="3clF47">
-        <node concept="3clFbF" id="3il$LAnS0Sb" role="3cqZAp">
-          <node concept="3clFbT" id="3il$LAnS0Sa" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="13hLZK" id="1DVNPtFPBb1" role="13h7CW">
-      <node concept="3clFbS" id="1DVNPtFPBb2" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="7H6_Qip5TrT">

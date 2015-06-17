@@ -11,6 +11,7 @@
     <import index="570t" ref="r:f06c514c-4b4c-4bfc-ad27-ef90a5bd8ded(com.mbeddr.mpsutil.breadcrumb.structure)" />
     <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
     <import index="10jo" ref="r:6e32694b-6dd1-4530-b48f-4e3bf97b2744(com.mbeddr.mpsutil.jung.structure)" />
+    <import index="m3g7" ref="r:022941d1-c714-4511-adc7-7d9b81f36dac(com.mbeddr.mpsutil.outline.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -837,7 +838,7 @@
       <ref role="PrY4T" to="tpck:2WmWrdnSpX3" resolve="ISuppressErrors" />
     </node>
     <node concept="PrWs8" id="7katCQkBK3h" role="PrDN$">
-      <ref role="PrY4T" node="1DVNPtFPUDE" resolve="IHideFromOutline" />
+      <ref role="PrY4T" to="m3g7:1SzZzyBvwuG" resolve="IHideFromOutline" />
     </node>
     <node concept="PrWs8" id="2AZbPfMcw3J" role="PrDN$">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
@@ -862,18 +863,6 @@
     <node concept="PrWs8" id="70kXLV4K0vZ" role="PrDN$">
       <ref role="PrY4T" node="70kXLV4LLzw" resolve="IReference" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="1DVNPtFPBay">
-    <property role="TrG5h" value="IShowUpInOutline" />
-    <property role="3GE5qa" value="outline" />
-  </node>
-  <node concept="PlHQZ" id="1DVNPtFPJFZ">
-    <property role="TrG5h" value="IOutlineRoot" />
-    <property role="3GE5qa" value="outline" />
-  </node>
-  <node concept="PlHQZ" id="1DVNPtFPUDE">
-    <property role="TrG5h" value="IHideFromOutline" />
-    <property role="3GE5qa" value="outline" />
   </node>
   <node concept="PlHQZ" id="36EXhjbTUWn">
     <property role="TrG5h" value="IGeneratesCodeForIDE" />
