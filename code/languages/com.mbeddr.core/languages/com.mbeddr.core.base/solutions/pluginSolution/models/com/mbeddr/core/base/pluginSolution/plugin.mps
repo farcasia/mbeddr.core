@@ -98,6 +98,7 @@
     <import index="z5os" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.ui.dialogs.properties.input(MPS.Platform/jetbrains.mps.ide.ui.dialogs.properties.input@java_stub)" />
     <import index="r9fo" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.util(MPS.OpenAPI/org.jetbrains.mps.util@java_stub)" />
     <import index="ywu" ref="r:81a95cb9-e26a-4801-958d-58b4240e0bb2(com.mbeddr.mpsutil.commentable.refactorings)" />
+    <import index="dhny" ref="r:be9b22ba-834b-4050-a519-5e70518fab34(com.mbeddr.mpsutil.presentationMode.editor)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -18970,8 +18971,8 @@
     <property role="TrG5h" value="presentationMode" />
     <node concept="33gmoH" id="3onExzPnGum" role="2hfSGL">
       <property role="33g7Lv" value="Presentation Mode" />
-      <ref role="33glcW" to="r4b4:7xesQBpJWpf" resolve="presentationMode" />
-      <ref role="33glcY" to="r4b4:7xesQBpJXuT" resolve="presentationMode" />
+      <ref role="33glcW" to="dhny:1SzZzyBvmRN" resolve="presentationMode" />
+      <ref role="33glcY" to="dhny:1SzZzyBvmRO" resolve="presentationMode" />
     </node>
     <node concept="tT9cl" id="3onExzPnGun" role="2hfP89">
       <ref role="tU$_T" node="goNQ8fnbtb" resolve="mbeddrPlatformProjectionModeGroup" />

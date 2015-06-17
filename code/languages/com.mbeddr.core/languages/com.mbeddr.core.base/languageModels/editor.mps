@@ -48,6 +48,7 @@
     <import index="smpy" ref="r:ed9d97e3-3a49-4210-9e88-f6dfa01cdd2a(com.mbeddr.mpsutil.externalReference.structure)" />
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="bvnq" ref="r:10893550-fcfc-4ba6-97aa-c426268923d6(com.mbeddr.mpsutil.commentable.editor)" />
+    <import index="dhny" ref="r:be9b22ba-834b-4050-a519-5e70518fab34(com.mbeddr.mpsutil.presentationMode.editor)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -9681,14 +9682,6 @@
       </node>
     </node>
   </node>
-  <node concept="2ABfQD" id="7xesQBpJWpf">
-    <property role="TrG5h" value="presentationMode" />
-    <node concept="2BsEeg" id="7xesQBpJXuT" role="2ABdcP">
-      <property role="2gpH_U" value="true" />
-      <property role="TrG5h" value="presentationMode" />
-      <property role="2BUmq6" value="Presentation Mode" />
-    </node>
-  </node>
   <node concept="24kQdi" id="4E5hYf6q7em">
     <property role="3GE5qa" value="paragraphs" />
     <ref role="1XX52x" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
@@ -9703,7 +9696,7 @@
       </node>
     </node>
     <node concept="2aJ2om" id="4E5hYf6qbTL" role="CpUAK">
-      <ref role="2$4xQ3" node="7xesQBpJXuT" resolve="presentationMode" />
+      <ref role="2$4xQ3" to="dhny:1SzZzyBvmRO" resolve="presentationMode" />
     </node>
   </node>
   <node concept="1h_SRR" id="$hL4249ROO">

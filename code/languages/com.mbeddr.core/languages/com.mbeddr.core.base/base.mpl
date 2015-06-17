@@ -65,6 +65,7 @@
     <dependency reexport="false">edbf7309-1f99-41ae-b728-0faf793461e1(com.mbeddr.mpsutil.valueDebugger)</dependency>
     <dependency reexport="false">8c69e1b7-ded6-44a8-a7d1-7234c8521c73(com.mbeddr.mpsutil.externalReference)</dependency>
     <dependency reexport="false">5579ba58-a3d7-409c-b2ef-6094d21eb7be(com.mbeddr.mpsutil.commentable)</dependency>
+    <dependency reexport="false">7b4d8def-1874-4e78-a245-889a2caa3c79(com.mbeddr.mpsutil.presentationMode)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)</usedLanguage>
