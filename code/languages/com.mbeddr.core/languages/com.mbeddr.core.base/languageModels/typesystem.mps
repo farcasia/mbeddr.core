@@ -17,6 +17,8 @@
     <import index="vbbt" ref="r:df40cc06-7605-45f2-ba8d-752ec6c121c3(com.mbeddr.mpsutil.pathAndFile.behavior)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
+    <import index="swq9" ref="r:39b5ac5d-5d44-4468-94c9-6ff9f5440d7d(com.mbeddr.mpsutil.paragraph.behavior)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -187,7 +189,6 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
-        <property id="1216127910019" name="applyImmediately" index="ARO6o" />
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
         <child id="1210784493590" name="actualArgument" index="3Coj4f" />
       </concept>
@@ -232,7 +233,6 @@
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
       <concept id="1172323065820" name="jetbrains.mps.lang.smodel.structure.Node_GetConceptOperation" flags="nn" index="3NT_Vc" />
-      <concept id="1140133623887" name="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation" flags="nn" index="1PgB_6" />
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <reference id="1140138128738" name="concept" index="1PxNhF" />
         <child id="1140138123956" name="leftExpression" index="1PxMeX" />
@@ -897,68 +897,6 @@
     <node concept="1YaCAy" id="4qSf1u1TRfs" role="1YuTPh">
       <property role="TrG5h" value="coun" />
       <ref role="1YaFvo" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="7uLL3Mf3R3T">
-    <property role="TrG5h" value="detectEmptyTextBlockOwner" />
-    <property role="3GE5qa" value="paragraphs" />
-    <node concept="3clFbS" id="7uLL3Mf3R3U" role="18ibNy">
-      <node concept="3clFbJ" id="7uLL3Mf3R3V" role="3cqZAp">
-        <node concept="2OqwBi" id="7uLL3Mf3R3W" role="3clFbw">
-          <node concept="1YBJjd" id="7uLL3Mf3R3X" role="2Oq$k0">
-            <ref role="1YBMHb" node="7uLL3Mf3R44" resolve="to" />
-          </node>
-          <node concept="2qgKlT" id="7uLL3Mf3R3Y" role="2OqNvi">
-            <ref role="37wK5l" to="hwgx:7uLL3Mf3Bol" resolve="isEmpty" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="7uLL3Mf3R3Z" role="3clFbx">
-          <node concept="2MkqsV" id="7uLL3Mf3R40" role="3cqZAp">
-            <node concept="Xl_RD" id="7uLL3Mf3R41" role="2MkJ7o">
-              <property role="Xl_RC" value="cannot have empty text blocks" />
-            </node>
-            <node concept="1YBJjd" id="7uLL3Mf3R42" role="2OEOjV">
-              <ref role="1YBMHb" node="7uLL3Mf3R44" resolve="to" />
-            </node>
-            <node concept="3Cnw8n" id="7uLL3Mf3R43" role="2OEOjU">
-              <property role="ARO6o" value="true" />
-              <ref role="QpYPw" node="7uLL3Mf3R45" resolve="fixEmptyTextBlockOwner" />
-              <node concept="3CnSsL" id="7uLL3Mf3WNg" role="3Coj4f">
-                <ref role="QkamJ" node="7uLL3Mf3R46" resolve="to" />
-                <node concept="1YBJjd" id="7uLL3Mf3WNi" role="3CoRuB">
-                  <ref role="1YBMHb" node="7uLL3Mf3R44" resolve="to" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7uLL3Mf3R44" role="1YuTPh">
-      <property role="TrG5h" value="to" />
-      <ref role="1YaFvo" to="vs0r:7uLL3Mf3udZ" resolve="ITextBlockOwner" />
-    </node>
-  </node>
-  <node concept="Q5z_Y" id="7uLL3Mf3R45">
-    <property role="3GE5qa" value="paragraphs" />
-    <property role="TrG5h" value="fixEmptyTextBlockOwner" />
-    <node concept="Q6JDH" id="7uLL3Mf3R46" role="Q6Id_">
-      <property role="TrG5h" value="to" />
-      <node concept="3Tqbb2" id="7uLL3Mf3R47" role="Q6QK4">
-        <ref role="ehGHo" to="vs0r:7uLL3Mf3udZ" resolve="ITextBlockOwner" />
-      </node>
-    </node>
-    <node concept="Q5ZZ6" id="7uLL3Mf3R48" role="Q6x$H">
-      <node concept="3clFbS" id="7uLL3Mf3R49" role="2VODD2">
-        <node concept="3clFbF" id="7uLL3Mf3R4a" role="3cqZAp">
-          <node concept="2OqwBi" id="7uLL3Mf3R4b" role="3clFbG">
-            <node concept="QwW4i" id="7uLL3Mf3R4c" role="2Oq$k0">
-              <ref role="QwW4h" node="7uLL3Mf3R46" resolve="to" />
-            </node>
-            <node concept="1PgB_6" id="7uLL3Mf3R4d" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="18kY7G" id="3jNX2XuKSmL">

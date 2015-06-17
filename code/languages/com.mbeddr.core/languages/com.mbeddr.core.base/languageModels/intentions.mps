@@ -26,6 +26,7 @@
     <import index="vbbt" ref="r:df40cc06-7605-45f2-ba8d-752ec6c121c3(com.mbeddr.mpsutil.pathAndFile.behavior)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -179,7 +180,6 @@
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
-      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -206,9 +206,6 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
-      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
-        <reference id="1138056546658" name="link" index="3TtcxE" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -227,7 +224,6 @@
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
-      <concept id="1227022210526" name="jetbrains.mps.baseLanguage.collections.structure.ClearAllElementsOperation" flags="nn" index="2Kehj3" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
@@ -421,51 +417,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="50N_nP$eG51">
-    <property role="3GE5qa" value="paragraphs" />
-    <property role="TrG5h" value="clearTextBlock" />
-    <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
-    <node concept="2S6ZIM" id="50N_nP$eG52" role="2ZfVej">
-      <node concept="3clFbS" id="50N_nP$eG53" role="2VODD2">
-        <node concept="3clFbF" id="50N_nP$eG56" role="3cqZAp">
-          <node concept="Xl_RD" id="50N_nP$eG57" role="3clFbG">
-            <property role="Xl_RC" value="Clear Text Block" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="50N_nP$eG54" role="2ZfgGD">
-      <node concept="3clFbS" id="50N_nP$eG55" role="2VODD2">
-        <node concept="3clFbF" id="50N_nP$eG58" role="3cqZAp">
-          <node concept="2OqwBi" id="50N_nP$eGlS" role="3clFbG">
-            <node concept="2OqwBi" id="50N_nP$eGe8" role="2Oq$k0">
-              <node concept="2OqwBi" id="50N_nP$eG5X" role="2Oq$k0">
-                <node concept="2OqwBi" id="50N_nP$eG5u" role="2Oq$k0">
-                  <node concept="2Sf5sV" id="50N_nP$eG59" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="50N_nP$eG5$" role="2OqNvi">
-                    <node concept="1xMEDy" id="50N_nP$eG5_" role="1xVPHs">
-                      <node concept="chp4Y" id="50N_nP$eG5C" role="ri$Ld">
-                        <ref role="cht4Q" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
-                      </node>
-                    </node>
-                    <node concept="1xIGOp" id="50N_nP$eGlw" role="1xVPHs" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="50N_nP$eG63" role="2OqNvi">
-                  <ref role="3Tt5mk" to="vs0r:7gVrg_0tw6n" />
-                </node>
-              </node>
-              <node concept="3Tsc0h" id="50N_nP$eGly" role="2OqNvi">
-                <ref role="3TtcxE" to="87nw:2dWzqxEBBFI" />
-              </node>
-            </node>
-            <node concept="2Kehj3" id="50N_nP$eGlY" role="2OqNvi" />
           </node>
         </node>
       </node>

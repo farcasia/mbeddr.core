@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="-1" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports />
@@ -82,6 +83,9 @@
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
         <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4137387759417349282" name="com.mbeddr.core.util.structure.ConvertNamedToPositionalStructInit" flags="ng" index="Ft22t">
@@ -354,7 +358,7 @@
       </node>
       <node concept="3XIRFW" id="5tbhN$4Mm_7" role="3XIRFX">
         <node concept="1QiMYF" id="5tbhN$4MnL0" role="3XIRFZ">
-          <node concept="OjmMv" id="5tbhN$4MnL2" role="3SJzmv">
+          <node concept="2TEkvs" id="5tbhN$4MnL2" role="3SJzmv">
             <node concept="19SGf9" id="5tbhN$4MnL3" role="OjmMu">
               <node concept="19SUe$" id="5tbhN$4MnL4" role="19SJt6">
                 <property role="19SUeA" value="this is a single line comment" />

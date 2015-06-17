@@ -10,6 +10,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="-1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports>
     <import index="3y0n" ref="r:d4d16117-20fb-4ba8-a1b2-1598e121e1d0(com.mbeddr.core.stdlib)" />
@@ -36,6 +37,9 @@
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt">
       <concept id="9101132143320200657" name="com.mbeddr.core.udt.structure.SUContent" flags="ng" index="2mccaB">
@@ -306,7 +310,7 @@
         </node>
       </node>
       <node concept="1z9TsT" id="137zkozyk6n" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyk6o" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyk6o" role="1w35rA">
           <node concept="19SGf9" id="137zkozyk6p" role="OjmMu">
             <node concept="19SUe$" id="137zkozyk6q" role="19SJt6">
               <property role="19SUeA" value=" These variables are not user alterable. This means you!. " />
@@ -661,7 +665,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyjQP" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyjQQ" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyjQQ" role="1w35rA">
           <node concept="19SGf9" id="137zkozyjQR" role="OjmMu">
             <node concept="19SUe$" id="137zkozyjQS" role="19SJt6">
               <property role="19SUeA" value=" Register Fork Handlers " />
@@ -691,7 +695,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyjR1" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyjR2" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyjR2" role="1w35rA">
           <node concept="19SGf9" id="137zkozyjR3" role="OjmMu">
             <node concept="19SUe$" id="137zkozyjR4" role="19SJt6">
               <property role="19SUeA" value=" Attributes " />
@@ -1191,7 +1195,7 @@
       <property role="TrG5h" value="__cleanup_routine_type" />
       <property role="2OOxQR" value="true" />
       <node concept="1z9TsT" id="137zkozyjT_" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyjTA" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyjTA" role="1w35rA">
           <node concept="19SGf9" id="137zkozyjTB" role="OjmMu">
             <node concept="19SUe$" id="137zkozyjTC" role="19SJt6">
               <property role="19SUeA" value=" Macros for cleanup_push and pop;\n * The function definitions are\nvoid pthread_cleanup_push (void (*routine)(void*), void *arg);\nvoid pthread_cleanup_pop (int execute);\n" />
@@ -1349,7 +1353,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyjUD" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyjUE" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyjUE" role="1w35rA">
           <node concept="19SGf9" id="137zkozyjUF" role="OjmMu">
             <node concept="19SUe$" id="137zkozyjUG" role="19SJt6">
               <property role="19SUeA" value=" Condition variables " />
@@ -2004,7 +2008,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyjXW" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyjXX" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyjXX" role="1w35rA">
           <node concept="19SGf9" id="137zkozyjXY" role="OjmMu">
             <node concept="19SUe$" id="137zkozyjXZ" role="19SJt6">
               <property role="19SUeA" value=" Mutex's " />
@@ -2483,7 +2487,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyk0n" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyk0o" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyk0o" role="1w35rA">
           <node concept="19SGf9" id="137zkozyk0p" role="OjmMu">
             <node concept="19SUe$" id="137zkozyk0q" role="19SJt6">
               <property role="19SUeA" value=" Spinlocks " />
@@ -2604,7 +2608,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyk11" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyk12" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyk12" role="1w35rA">
           <node concept="19SGf9" id="137zkozyk13" role="OjmMu">
             <node concept="19SUe$" id="137zkozyk14" role="19SJt6">
               <property role="19SUeA" value=" RW Locks " />
@@ -2898,7 +2902,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyk2A" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyk2B" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyk2B" role="1w35rA">
           <node concept="19SGf9" id="137zkozyk2C" role="OjmMu">
             <node concept="19SUe$" id="137zkozyk2D" role="19SJt6">
               <property role="19SUeA" value=" Concurrency levels - X/Open interface " />
@@ -3113,7 +3117,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyk3P" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyk3Q" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyk3Q" role="1w35rA">
           <node concept="19SGf9" id="137zkozyk3R" role="OjmMu">
             <node concept="19SUe$" id="137zkozyk3S" role="19SJt6">
               <property role="19SUeA" value=" Non posix calls " />

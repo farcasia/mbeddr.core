@@ -11,6 +11,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="5e845763-f4ca-40bf-b31f-74e236ffed75" name="com.mbeddr.mpsutil.spreferences.context" version="-1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -207,6 +208,9 @@
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
         <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="5e845763-f4ca-40bf-b31f-74e236ffed75" name="com.mbeddr.mpsutil.spreferences.context">
       <concept id="877857976371880700" name="com.mbeddr.mpsutil.spreferences.context.structure.SPreferencesContext" flags="ng" index="2wNmnh">
@@ -5211,7 +5215,7 @@
             <node concept="3XISUE" id="rK9hH13V6E" role="3XIRFZ" />
             <node concept="3XISUE" id="6FZjEDdF6fR" role="3XIRFZ" />
             <node concept="1QiMYF" id="6FZjEDdF6fQ" role="3XIRFZ">
-              <node concept="OjmMv" id="7uLL3Mf4pCk" role="3SJzmv">
+              <node concept="2TEkvs" id="7uLL3Mf4pCk" role="3SJzmv">
                 <node concept="19SGf9" id="7uLL3Mf4pCn" role="OjmMu">
                   <node concept="19SUe$" id="7uLL3Mf4pCp" role="19SJt6">
                     <property role="19SUeA" value="end test ranges" />
@@ -5514,7 +5518,7 @@
             <node concept="3XISUE" id="5cvgcpwnZQW" role="3XIRFZ" />
             <node concept="3XIRFW" id="5cvgcpwnZQY" role="3XIRFZ">
               <node concept="1QiMYF" id="5cvgcpwnZRz" role="3XIRFZ">
-                <node concept="OjmMv" id="7uLL3Mf4pyA" role="3SJzmv">
+                <node concept="2TEkvs" id="7uLL3Mf4pyA" role="3SJzmv">
                   <node concept="19SGf9" id="7uLL3Mf4pyD" role="OjmMu">
                     <node concept="19SUe$" id="7uLL3Mf4pyF" role="19SJt6">
                       <property role="19SUeA" value="you can't assign int8 to uint8" />
@@ -7001,7 +7005,7 @@
             </node>
             <node concept="3XISUE" id="4fklbveD4CL" role="3XIRFZ" />
             <node concept="1QiMYF" id="485kC3CqG3_" role="3XIRFZ">
-              <node concept="OjmMv" id="485kC3CqG3B" role="3SJzmv">
+              <node concept="2TEkvs" id="485kC3CqG3B" role="3SJzmv">
                 <node concept="19SGf9" id="485kC3CqG3C" role="OjmMu">
                   <node concept="19SUe$" id="485kC3CqG3D" role="19SJt6">
                     <property role="19SUeA" value="non-pointer types can be assigned from volatile to non volatile and vice versa" />
@@ -7056,7 +7060,7 @@
             </node>
             <node concept="3XISUE" id="4fklbveDJvN" role="3XIRFZ" />
             <node concept="1QiMYF" id="485kC3CqMZz" role="3XIRFZ">
-              <node concept="OjmMv" id="485kC3CqMZ_" role="3SJzmv">
+              <node concept="2TEkvs" id="485kC3CqMZ_" role="3SJzmv">
                 <node concept="19SGf9" id="485kC3CqMZA" role="OjmMu">
                   <node concept="19SUe$" id="485kC3CqMZB" role="19SJt6">
                     <property role="19SUeA" value="in case of a pointer, \nif the assigned base type is NOT volatile\nonly pointers with a NON-volatile base type must be assigned" />
@@ -8196,7 +8200,7 @@
             <node concept="3XISUE" id="5h6rdrHa_Jx" role="3XIRFZ" />
             <node concept="3XIRFW" id="5cvgcpwo1Wi" role="3XIRFZ">
               <node concept="1QiMYF" id="5cvgcpwo1Wk" role="3XIRFZ">
-                <node concept="OjmMv" id="7uLL3Mf4pEc" role="3SJzmv">
+                <node concept="2TEkvs" id="7uLL3Mf4pEc" role="3SJzmv">
                   <node concept="19SGf9" id="7uLL3Mf4pEf" role="OjmMu">
                     <node concept="19SUe$" id="7uLL3Mf4pEh" role="19SJt6">
                       <property role="19SUeA" value="you can't assign int8 to uint8" />
@@ -17963,7 +17967,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="40dlgDM1dHW" role="lGtFl">
-            <node concept="OjmMv" id="40dlgDM1dHX" role="1w35rA">
+            <node concept="2TEkvs" id="40dlgDM1dHX" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM1dHY" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM1dHZ" role="19SJt6">
                   <property role="19SUeA" value="arrays are allowed" />
@@ -18002,7 +18006,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="40dlgDM2JBI" role="lGtFl">
-            <node concept="OjmMv" id="40dlgDM2JBJ" role="1w35rA">
+            <node concept="2TEkvs" id="40dlgDM2JBJ" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM2JBK" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM2JBL" role="19SJt6">
                   <property role="19SUeA" value="global variable addresses are allowed" />
@@ -18053,7 +18057,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="40dlgDM3hwF" role="lGtFl">
-            <node concept="OjmMv" id="40dlgDM3hwG" role="1w35rA">
+            <node concept="2TEkvs" id="40dlgDM3hwG" role="1w35rA">
               <node concept="19SGf9" id="40dlgDM3hwH" role="OjmMu">
                 <node concept="19SUe$" id="40dlgDM3hwI" role="19SJt6">
                   <property role="19SUeA" value="field addresses of global struct variables are allowed" />
@@ -21535,7 +21539,7 @@
             <property role="2c7vTL" value="false" />
           </node>
           <node concept="1z9TsT" id="5WwC2ssWq0D" role="lGtFl">
-            <node concept="OjmMv" id="5WwC2ssWq0E" role="1w35rA">
+            <node concept="2TEkvs" id="5WwC2ssWq0E" role="1w35rA">
               <node concept="19SGf9" id="5WwC2ssWq0F" role="OjmMu">
                 <node concept="19SUe$" id="5WwC2ssWq0G" role="19SJt6" />
               </node>
@@ -22125,7 +22129,7 @@
           <property role="2OOxQR" value="true" />
           <node concept="3XIRFW" id="12K3RfpFMPd" role="3XIRFX">
             <node concept="1QiMYF" id="1iwpWaOSqjC" role="3XIRFZ">
-              <node concept="OjmMv" id="1iwpWaOSqjE" role="3SJzmv">
+              <node concept="2TEkvs" id="1iwpWaOSqjE" role="3SJzmv">
                 <node concept="19SGf9" id="1iwpWaOSqjF" role="OjmMu">
                   <node concept="19SUe$" id="1iwpWaOSqjG" role="19SJt6">
                     <property role="19SUeA" value="accent bug 1418" />

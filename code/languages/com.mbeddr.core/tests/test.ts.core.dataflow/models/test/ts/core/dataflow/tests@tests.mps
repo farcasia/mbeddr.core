@@ -5,6 +5,7 @@
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -115,6 +116,9 @@
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
         <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt">
       <concept id="6116558314501347857" name="com.mbeddr.core.udt.structure.TypeDef" flags="ng" index="rcJHK">
@@ -856,7 +860,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7DvJ5MYNIJ2" role="3XIRFZ">
-              <node concept="OjmMv" id="7DvJ5MYNIJ4" role="3SJzmv">
+              <node concept="2TEkvs" id="7DvJ5MYNIJ4" role="3SJzmv">
                 <node concept="19SGf9" id="7DvJ5MYNIJ5" role="OjmMu">
                   <node concept="19SUe$" id="7DvJ5MYNIJ6" role="19SJt6">
                     <property role="19SUeA" value="here comes some computation and then we use the same condition&#10;but the data flow analysis does not perform static analysis" />
@@ -1165,7 +1169,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7DvJ5MYNDte" role="3XIRFZ">
-              <node concept="OjmMv" id="7DvJ5MYNDtg" role="3SJzmv">
+              <node concept="2TEkvs" id="7DvJ5MYNDtg" role="3SJzmv">
                 <node concept="19SGf9" id="7DvJ5MYNDth" role="OjmMu">
                   <node concept="19SUe$" id="7DvJ5MYNDti" role="19SJt6">
                     <property role="19SUeA" value="below we should not have errors since p is initialized in testFunction3" />
@@ -1382,7 +1386,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="3ieSxUOrwkP" role="3XIRFZ">
-              <node concept="OjmMv" id="3ieSxUOrwkR" role="3SJzmv">
+              <node concept="2TEkvs" id="3ieSxUOrwkR" role="3SJzmv">
                 <node concept="19SGf9" id="3ieSxUOrwkS" role="OjmMu">
                   <node concept="19SUe$" id="3ieSxUOrwkT" role="19SJt6">
                     <property role="19SUeA" value="a must be initialized at this point to pass it as an INOUT argument" />

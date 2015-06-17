@@ -18,6 +18,7 @@
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports />
   <registry>
@@ -84,6 +85,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="bd640b8f-4be4-42b6-8dc0-2c94d1ddf606" name="com.mbeddr.ext.components.gen_nomw">
       <concept id="2103658896110278831" name="com.mbeddr.ext.components.gen_nomw.structure.NoMwComponentsGenStrategy" flags="ng" index="3i3YCL">
@@ -917,7 +921,7 @@
             <node concept="OCJnL" id="47Sr75PnwFG" role="1KoBSX">
               <node concept="2xGTIE" id="6MoZRJHUyyE" role="S7lxW">
                 <node concept="1QiMYF" id="KU5KLY2w15" role="3XIRFZ">
-                  <node concept="OjmMv" id="7uLL3Mf4pNn" role="3SJzmv">
+                  <node concept="2TEkvs" id="7uLL3Mf4pNn" role="3SJzmv">
                     <node concept="19SGf9" id="7uLL3Mf4pNq" role="OjmMu">
                       <node concept="19SUe$" id="7uLL3Mf4pNs" role="19SJt6">
                         <property role="19SUeA" value="value is initialized to 5 above" />
@@ -926,7 +930,7 @@
                   </node>
                 </node>
                 <node concept="1QiMYF" id="KU5KLY2w17" role="3XIRFZ">
-                  <node concept="OjmMv" id="7uLL3Mf4pP3" role="3SJzmv">
+                  <node concept="2TEkvs" id="7uLL3Mf4pP3" role="3SJzmv">
                     <node concept="19SGf9" id="7uLL3Mf4pP6" role="OjmMu">
                       <node concept="19SUe$" id="7uLL3Mf4pP8" role="19SJt6">
                         <property role="19SUeA" value="setting it to 0 here tests whether this enty" />
@@ -935,7 +939,7 @@
                   </node>
                 </node>
                 <node concept="1QiMYF" id="KU5KLY2w19" role="3XIRFZ">
-                  <node concept="OjmMv" id="7uLL3Mf4pUp" role="3SJzmv">
+                  <node concept="2TEkvs" id="7uLL3Mf4pUp" role="3SJzmv">
                     <node concept="19SGf9" id="7uLL3Mf4pUs" role="OjmMu">
                       <node concept="19SUe$" id="7uLL3Mf4pUu" role="19SJt6">
                         <property role="19SUeA" value="action of the initial state is actually executed" />

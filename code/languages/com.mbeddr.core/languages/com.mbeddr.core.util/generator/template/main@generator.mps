@@ -17,6 +17,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="896334f3-82ce-427b-bb47-ccd3131864a9" name="com.mbeddr.mpsutil.mappingLabels" version="-1" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -345,6 +346,9 @@
       <concept id="1088761943574" name="jetbrains.mps.lang.generator.structure.ReferenceMacro" flags="ln" index="1ZhdrF">
         <child id="1167770376702" name="referentFunction" index="3$ytzL" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -12199,7 +12203,7 @@
                   </node>
                 </node>
                 <node concept="1QiMYF" id="2qTj7CwNudl" role="3XIRFZ">
-                  <node concept="OjmMv" id="2qTj7CwNudm" role="3SJzmv">
+                  <node concept="2TEkvs" id="2qTj7CwNudm" role="3SJzmv">
                     <node concept="19SGf9" id="2qTj7CwNudn" role="OjmMu">
                       <node concept="19SUe$" id="2qTj7CwNudo" role="19SJt6">
                         <property role="19SUeA" value="Output of the data logger" />
@@ -16150,7 +16154,7 @@
                 </node>
               </node>
               <node concept="1z9TsT" id="5usoWIJKHvT" role="lGtFl">
-                <node concept="OjmMv" id="5usoWIJKHvU" role="1w35rA">
+                <node concept="2TEkvs" id="5usoWIJKHvU" role="1w35rA">
                   <node concept="19SGf9" id="5usoWIJKHvV" role="OjmMu">
                     <node concept="19SUe$" id="5usoWIJKHvW" role="19SJt6">
                       <property role="19SUeA" value="Message Reporting Function " />

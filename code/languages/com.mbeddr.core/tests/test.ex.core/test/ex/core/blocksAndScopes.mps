@@ -4,6 +4,7 @@
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -67,6 +68,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -172,7 +176,7 @@
       <node concept="3XIRFW" id="6CslLwlSItG" role="3XIRFX">
         <node concept="3XISUE" id="5gTlpakxbGE" role="3XIRFZ" />
         <node concept="1QiMYF" id="5gTlpakxbGH" role="3XIRFZ">
-          <node concept="OjmMv" id="5gTlpakxbGI" role="3SJzmv">
+          <node concept="2TEkvs" id="5gTlpakxbGI" role="3SJzmv">
             <node concept="19SGf9" id="5gTlpakxbGJ" role="OjmMu">
               <node concept="19SUe$" id="5gTlpakxbGK" role="19SJt6">
                 <property role="19SUeA" value="Here is a single line comment." />
@@ -213,7 +217,7 @@
         </node>
         <node concept="3XISUE" id="5gTlpakxbGN" role="3XIRFZ" />
         <node concept="1QiMYF" id="5gTlpakxbGQ" role="3XIRFZ">
-          <node concept="OjmMv" id="5gTlpakxbGR" role="3SJzmv">
+          <node concept="2TEkvs" id="5gTlpakxbGR" role="3SJzmv">
             <node concept="19SGf9" id="5gTlpakxbGS" role="OjmMu">
               <node concept="19SUe$" id="5gTlpakxbGT" role="19SJt6">
                 <property role="19SUeA" value="But you can always write more than one line. \nIt automatically wraps, and you can also press\nEnter anytime." />
@@ -256,7 +260,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5gTlpakxbGU" role="lGtFl">
-            <node concept="OjmMv" id="5gTlpakxbGV" role="1w35rA">
+            <node concept="2TEkvs" id="5gTlpakxbGV" role="1w35rA">
               <node concept="19SGf9" id="5gTlpakxbGW" role="OjmMu">
                 <node concept="19SUe$" id="5gTlpakxbGX" role="19SJt6">
                   <property role="19SUeA" value="Hier ist the doc." />

@@ -15,6 +15,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports />
   <registry>
@@ -65,6 +66,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="bd640b8f-4be4-42b6-8dc0-2c94d1ddf606" name="com.mbeddr.ext.components.gen_nomw">
       <concept id="2103658896110278831" name="com.mbeddr.ext.components.gen_nomw.structure.NoMwComponentsGenStrategy" flags="ng" index="3i3YCL">
@@ -307,7 +311,7 @@
             <ref role="1XX6Gv" node="78Ts1skplN9" resolve="instances" />
           </node>
           <node concept="1z9TsT" id="78Ts1skpoRP" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxL0$" role="1w35rA">
+            <node concept="2TEkvs" id="3mjVpLdxL0$" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxL0B" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxL0D" role="19SJt6">
                   <property role="19SUeA" value="Interface f\u00FCr \&quot;Calls\&quot; was die Parameter pr\u00FCft etc." />

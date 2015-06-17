@@ -10,6 +10,7 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -265,6 +266,9 @@
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -2809,7 +2813,7 @@
           </node>
           <node concept="3XIRFW" id="7F2vPZ4qcfq" role="3XIRFX">
             <node concept="1QiMYF" id="7F2vPZ4zHMl" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4zHMn" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4zHMn" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4zHMo" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4zHMp" role="19SJt6">
                     <property role="19SUeA" value="storing 2 to parent StatementList" />
@@ -2828,7 +2832,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4zIkF" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4zIkH" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4zIkH" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4zIkI" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4zIkJ" role="19SJt6">
                     <property role="19SUeA" value="storing 7 to Function" />
@@ -2848,7 +2852,7 @@
             </node>
             <node concept="3XIRFW" id="7F2vPZ4qfyU" role="3XIRFZ">
               <node concept="1QiMYF" id="7F2vPZ4zIPL" role="3XIRFZ">
-                <node concept="OjmMv" id="7F2vPZ4zIPN" role="3SJzmv">
+                <node concept="2TEkvs" id="7F2vPZ4zIPN" role="3SJzmv">
                   <node concept="19SGf9" id="7F2vPZ4zIPO" role="OjmMu">
                     <node concept="19SUe$" id="7F2vPZ4zIPP" role="19SJt6">
                       <property role="19SUeA" value="retrieving value(null) of parent StatementList" />
@@ -2870,7 +2874,7 @@
                 </node>
               </node>
               <node concept="1QiMYF" id="7F2vPZ4zJm4" role="3XIRFZ">
-                <node concept="OjmMv" id="7F2vPZ4zJm6" role="3SJzmv">
+                <node concept="2TEkvs" id="7F2vPZ4zJm6" role="3SJzmv">
                   <node concept="19SGf9" id="7F2vPZ4zJm7" role="OjmMu">
                     <node concept="19SUe$" id="7F2vPZ4zJm8" role="19SJt6">
                       <property role="19SUeA" value="storing 5 to parent StatementList" />
@@ -2889,7 +2893,7 @@
                 </node>
               </node>
               <node concept="1QiMYF" id="7F2vPZ4zJQv" role="3XIRFZ">
-                <node concept="OjmMv" id="7F2vPZ4zJQx" role="3SJzmv">
+                <node concept="2TEkvs" id="7F2vPZ4zJQx" role="3SJzmv">
                   <node concept="19SGf9" id="7F2vPZ4zJQy" role="OjmMu">
                     <node concept="19SUe$" id="7F2vPZ4zJQz" role="19SJt6">
                       <property role="19SUeA" value="retrieving value(5) of parent StatementList" />
@@ -2912,7 +2916,7 @@
               </node>
               <node concept="3XIRFW" id="7F2vPZ4wZd7" role="3XIRFZ">
                 <node concept="1QiMYF" id="7F2vPZ4zKmB" role="3XIRFZ">
-                  <node concept="OjmMv" id="7F2vPZ4zKmD" role="3SJzmv">
+                  <node concept="2TEkvs" id="7F2vPZ4zKmD" role="3SJzmv">
                     <node concept="19SGf9" id="7F2vPZ4zKmE" role="OjmMu">
                       <node concept="19SUe$" id="7F2vPZ4zKmF" role="19SJt6">
                         <property role="19SUeA" value="retrieving value(7) of parent Function, traversing several environments up" />
@@ -2936,7 +2940,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4zKSf" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4zKSh" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4zKSh" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4zKSi" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4zKSj" role="19SJt6">
                     <property role="19SUeA" value="retrieving value(2) of parent StatementList, in-between StatementList was pop-ed" />
@@ -2958,7 +2962,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4zLrl" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4zLrn" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4zLrn" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4zLro" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4zLrp" role="19SJt6">
                     <property role="19SUeA" value="retrieving value(7) of parent Function in same environment" />
@@ -2997,7 +3001,7 @@
           </node>
           <node concept="3XIRFW" id="7F2vPZ4_HcQ" role="3XIRFX">
             <node concept="1QiMYF" id="7F2vPZ4_X6Y" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X6Z" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X6Z" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X70" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X71" role="19SJt6">
                     <property role="19SUeA" value="storing 2 to parent StatementList" />
@@ -3016,7 +3020,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4_X76" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X77" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X77" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X78" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X79" role="19SJt6">
                     <property role="19SUeA" value="storing 7 to Function" />
@@ -3040,7 +3044,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4_X7N" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X7O" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X7O" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X7P" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X7Q" role="19SJt6">
                     <property role="19SUeA" value="retrieving value(2) of parent StatementList, in-between StatementList was pop-ed" />
@@ -3062,7 +3066,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4_X7W" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X7X" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X7X" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X7Y" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X7Z" role="19SJt6">
                     <property role="19SUeA" value="retrieving value(7) of root Function in same environment" />
@@ -3096,7 +3100,7 @@
           </node>
           <node concept="3XIRFW" id="7F2vPZ4_Y8z" role="3XIRFX">
             <node concept="1QiMYF" id="7F2vPZ4_X7f" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X7g" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X7g" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X7h" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X7i" role="19SJt6">
                     <property role="19SUeA" value="retrieving value(null) of parent StatementList" />
@@ -3118,7 +3122,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4_X7o" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X7p" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X7p" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X7q" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X7r" role="19SJt6">
                     <property role="19SUeA" value="storing 5 to parent StatementList" />
@@ -3137,7 +3141,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4_X7w" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X7x" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X7x" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X7y" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X7z" role="19SJt6">
                     <property role="19SUeA" value="retrieving value(5) of parent StatementList" />
@@ -3173,7 +3177,7 @@
           </node>
           <node concept="3XIRFW" id="7F2vPZ4A0m4" role="3XIRFX">
             <node concept="1QiMYF" id="7F2vPZ4_X7E" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4_X7F" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4_X7F" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4_X7G" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4_X7H" role="19SJt6">
                     <property role="19SUeA" value="retrieving value(7) of root Function, traversing several environments up" />
@@ -5477,7 +5481,7 @@
           </node>
           <node concept="3XIRFW" id="7F2vPZ4GjCC" role="3XIRFX">
             <node concept="1QiMYF" id="7F2vPZ4NGFJ" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NGFL" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NGFL" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NGFM" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NGFN" role="19SJt6">
                     <property role="19SUeA" value="Cached Literal" />
@@ -5491,7 +5495,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4NIZN" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NIZP" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NIZP" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NIZQ" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NIZR" role="19SJt6">
                     <property role="19SUeA" value="store cached value of first ExpressionStatement.expression to c1" />
@@ -5515,7 +5519,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4NLjZ" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NLk1" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NLk1" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NLk2" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NLk3" role="19SJt6">
                     <property role="19SUeA" value="remove cached value of first ExpressionStatement.expression from cache" />
@@ -5534,7 +5538,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4NNCj" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NNCl" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NNCl" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NNCm" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NNCn" role="19SJt6">
                     <property role="19SUeA" value="store isCached(first ExpressionStatement.expression) to c2" />
@@ -5587,7 +5591,7 @@
           </node>
           <node concept="3XIRFW" id="7F2vPZ4KpiZ" role="3XIRFX">
             <node concept="1QiMYF" id="7F2vPZ4NP_D" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NP_F" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NP_F" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NP_G" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NP_H" role="19SJt6">
                     <property role="19SUeA" value="first ExpressionStatement.expression (Multiply) is marked as cached=false" />
@@ -5606,7 +5610,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4NSOZ" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NSP0" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NSP0" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NSP1" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NSP2" role="19SJt6">
                     <property role="19SUeA" value="store isCached(first ExpressionStatement.expression) to c3" />
@@ -5668,7 +5672,7 @@
           </node>
           <node concept="3XIRFW" id="7F2vPZ4Lx8i" role="3XIRFX">
             <node concept="1QiMYF" id="7F2vPZ4NW2z" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NW2_" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NW2_" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NW2A" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NW2B" role="19SJt6">
                     <property role="19SUeA" value="some literal" />
@@ -5685,7 +5689,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4NXDt" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NXDu" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NXDu" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NXDv" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NXDw" role="19SJt6">
                     <property role="19SUeA" value="store cached value of first ExpressionStatement.expression to c4" />
@@ -5709,7 +5713,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4NZgD" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4NZgF" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4NZgF" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4NZgG" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4NZgH" role="19SJt6">
                     <property role="19SUeA" value="store 3 to environment with key(first ExpressionStatement.expression)" />
@@ -5728,7 +5732,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4O5FG" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4O5FH" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4O5FH" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4O5FI" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4O5FJ" role="19SJt6">
                     <property role="19SUeA" value="store isCached(first ExpressionStatement.expression) to c5" />
@@ -5849,7 +5853,7 @@
               </node>
             </node>
             <node concept="1QiMYF" id="7F2vPZ4U_T0" role="3XIRFZ">
-              <node concept="OjmMv" id="7F2vPZ4U_T2" role="3SJzmv">
+              <node concept="2TEkvs" id="7F2vPZ4U_T2" role="3SJzmv">
                 <node concept="19SGf9" id="7F2vPZ4U_T3" role="OjmMu">
                   <node concept="19SUe$" id="7F2vPZ4U_T4" role="19SJt6">
                     <property role="19SUeA" value="store value of a to environment with key(next free constant)" />

@@ -18,6 +18,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="896334f3-82ce-427b-bb47-ccd3131864a9" name="com.mbeddr.mpsutil.mappingLabels" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <generationPart ref="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" />
     <generationPart ref="61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -335,6 +336,9 @@
       <concept id="1088761943574" name="jetbrains.mps.lang.generator.structure.ReferenceMacro" flags="ln" index="1ZhdrF">
         <child id="1167770376702" name="referentFunction" index="3$ytzL" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1559,7 +1563,7 @@
                             </node>
                             <node concept="3XIRFW" id="6TgX$rT28wY" role="3XIRFZ">
                               <node concept="1QiMYF" id="6TgX$rT28wZ" role="3XIRFZ">
-                                <node concept="OjmMv" id="6TgX$rT28x0" role="3SJzmv">
+                                <node concept="2TEkvs" id="6TgX$rT28x0" role="3SJzmv">
                                   <node concept="19SGf9" id="6TgX$rT28x1" role="OjmMu">
                                     <node concept="19SUe$" id="6TgX$rT28x2" role="19SJt6">
                                       <property role="19SUeA" value="transition actions" />
@@ -1645,7 +1649,7 @@
                               </node>
                             </node>
                             <node concept="1QiMYF" id="2yGObvV5c_H" role="3XIRFZ">
-                              <node concept="OjmMv" id="7uLL3Mf4pLd" role="3SJzmv">
+                              <node concept="2TEkvs" id="7uLL3Mf4pLd" role="3SJzmv">
                                 <node concept="19SGf9" id="7uLL3Mf4pLg" role="OjmMu">
                                   <node concept="19SUe$" id="7uLL3Mf4pLi" role="19SJt6">
                                     <property role="19SUeA" value="switch state" />

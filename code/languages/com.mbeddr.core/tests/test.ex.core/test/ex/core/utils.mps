@@ -4,6 +4,7 @@
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -69,6 +70,9 @@
       <concept id="1595838349830846141" name="com.mbeddr.core.pointers.structure.ReferenceExpr" flags="ng" index="YInwV" />
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="2790345531544431663" name="com.mbeddr.core.util.structure.GenericDLFinishOp" flags="ng" index="6Xa1l" />
@@ -1269,7 +1273,7 @@
             </node>
             <node concept="3XIRFW" id="E67pIWngGl" role="2QKArf">
               <node concept="1QiMYF" id="E67pIWptxN" role="3XIRFZ">
-                <node concept="OjmMv" id="E67pIWptxO" role="3SJzmv">
+                <node concept="2TEkvs" id="E67pIWptxO" role="3SJzmv">
                   <node concept="19SGf9" id="E67pIWptxP" role="OjmMu">
                     <node concept="19SUe$" id="E67pIWptxQ" role="19SJt6">
                       <property role="19SUeA" value="report some kind of error" />

@@ -11,6 +11,7 @@
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports />
   <registry>
@@ -38,6 +39,9 @@
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
         <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="efda956e-491e-4f00-ba14-36af2f213ecf" name="com.mbeddr.core.udt">
       <concept id="6116558314501347857" name="com.mbeddr.core.udt.structure.TypeDef" flags="ng" index="rcJHK">
@@ -315,7 +319,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozycEI" role="lGtFl">
-        <node concept="OjmMv" id="137zkozycEJ" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozycEJ" role="1w35rA">
           <node concept="19SGf9" id="137zkozycEK" role="OjmMu">
             <node concept="19SUe$" id="137zkozycEL" role="19SJt6">
               <property role="19SUeA" value=" TYPES " />
@@ -353,7 +357,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozycEW" role="lGtFl">
-        <node concept="OjmMv" id="137zkozycEX" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozycEX" role="1w35rA">
           <node concept="19SGf9" id="137zkozycEY" role="OjmMu">
             <node concept="19SUe$" id="137zkozycEZ" role="19SJt6">
               <property role="19SUeA" value=" FUNCTIONS " />
@@ -4276,7 +4280,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyckj" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyckk" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyckk" role="1w35rA">
           <node concept="19SGf9" id="137zkozyckl" role="OjmMu">
             <node concept="19SUe$" id="137zkozyckm" role="19SJt6">
               <property role="19SUeA" value=" FUNCTIONS " />
@@ -7535,7 +7539,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozycLg" role="lGtFl">
-        <node concept="OjmMv" id="137zkozycLh" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozycLh" role="1w35rA">
           <node concept="19SGf9" id="137zkozycLi" role="OjmMu">
             <node concept="19SUe$" id="137zkozycLj" role="19SJt6">
               <property role="19SUeA" value=" FUNCTIONS " />
@@ -9127,7 +9131,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozycR0" role="lGtFl">
-        <node concept="OjmMv" id="137zkozycR1" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozycR1" role="1w35rA">
           <node concept="19SGf9" id="137zkozycR2" role="OjmMu">
             <node concept="19SUe$" id="137zkozycR3" role="19SJt6">
               <property role="19SUeA" value=" TYPES " />
@@ -9177,7 +9181,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozycRa" role="lGtFl">
-        <node concept="OjmMv" id="137zkozycRb" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozycRb" role="1w35rA">
           <node concept="19SGf9" id="137zkozycRc" role="OjmMu">
             <node concept="19SUe$" id="137zkozycRd" role="19SJt6">
               <property role="19SUeA" value=" FUNCTIONS " />
@@ -9417,7 +9421,7 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="1z9TsT" id="137zkozyc_3" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyc_4" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyc_4" role="1w35rA">
           <node concept="19SGf9" id="137zkozyc_5" role="OjmMu">
             <node concept="19SUe$" id="137zkozyc_6" role="19SJt6">
               <property role="19SUeA" value=" TYPES " />
@@ -9459,7 +9463,7 @@
         </node>
       </node>
       <node concept="1z9TsT" id="137zkozyc_K" role="lGtFl">
-        <node concept="OjmMv" id="137zkozyc_L" role="1w35rA">
+        <node concept="2TEkvs" id="137zkozyc_L" role="1w35rA">
           <node concept="19SGf9" id="137zkozyc_M" role="OjmMu">
             <node concept="19SUe$" id="137zkozyc_N" role="19SJt6">
               <property role="19SUeA" value=" FUNCTIONS " />

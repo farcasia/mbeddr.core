@@ -12,6 +12,7 @@
     <use id="b2da2e1a-b542-47f5-9be0-4dc21efe74a4" name="com.mbeddr.core.checks" version="-1" />
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="-1" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports>
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
@@ -91,6 +92,9 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
       <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
@@ -293,7 +297,7 @@
             </node>
             <node concept="3XISUE" id="3nGMb$mp6D5" role="3XIRFZ" />
             <node concept="1QiMYF" id="7Ny2UQe_NA2" role="3XIRFZ">
-              <node concept="OjmMv" id="7Ny2UQe_NA4" role="3SJzmv">
+              <node concept="2TEkvs" id="7Ny2UQe_NA4" role="3SJzmv">
                 <node concept="19SGf9" id="7Ny2UQe_NA5" role="OjmMu">
                   <node concept="19SUe$" id="7Ny2UQe_NA6" role="19SJt6">
                     <property role="19SUeA" value="no warning" />

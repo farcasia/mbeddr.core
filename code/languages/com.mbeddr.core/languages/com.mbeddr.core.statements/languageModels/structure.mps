@@ -12,6 +12,7 @@
     <import index="qxxd" ref="r:ef783367-98b4-46fd-895f-7c372f2bf6ec(com.mbeddr.mpsutil.commentable.structure)" />
     <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -547,13 +548,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="textblock" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="vs0r:7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="kbk3:1SzZzyByFB$" resolve="TextBlock" />
     </node>
     <node concept="PrWs8" id="6yeRgC0uAEH" role="PzmwI">
       <ref role="PrY4T" to="vs0r:6yeRgC0uAED" resolve="IIsDocumentationComment" />
     </node>
     <node concept="PrWs8" id="7uLL3Mf3Z6_" role="PzmwI">
-      <ref role="PrY4T" to="vs0r:7uLL3Mf3udZ" resolve="ITextBlockOwner" />
+      <ref role="PrY4T" to="kbk3:1SzZzyByFBz" resolve="ITextBlockOwner" />
     </node>
     <node concept="PrWs8" id="4ueXZrqtevg" role="PzmwI">
       <ref role="PrY4T" to="bze9:1SzZzyBvYl1" resolve="ISearchSupport" />

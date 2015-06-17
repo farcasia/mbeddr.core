@@ -15,6 +15,7 @@
     <import index="bze9" ref="r:6772ce89-8dac-4005-801e-35f22f42468f(com.mbeddr.mpsutil.search.structure)" />
     <import index="r1oh" ref="r:9ddfb568-d41a-431c-a77f-5bf21016dec7(com.mbeddr.mpsutil.tree.structure)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="kbk3" ref="r:1dca848d-ac24-4144-b9db-05f5ca1a0dbf(com.mbeddr.mpsutil.paragraph.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
@@ -232,10 +233,10 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="kbk3:1SzZzyByFB$" resolve="TextBlock" />
     </node>
     <node concept="PrWs8" id="7uLL3Mf3umh" role="PzmwI">
-      <ref role="PrY4T" node="7uLL3Mf3udZ" resolve="ITextBlockOwner" />
+      <ref role="PrY4T" to="kbk3:1SzZzyByFBz" resolve="ITextBlockOwner" />
     </node>
     <node concept="PrWs8" id="4ueXZrqtwBO" role="PzmwI">
       <ref role="PrY4T" to="bze9:1SzZzyBvYl1" resolve="ISearchSupport" />
@@ -862,21 +863,6 @@
       <ref role="PrY4T" to="87nw:2dWzqxEBBFG" resolve="IWord" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7gVrg_0tw6m">
-    <property role="3GE5qa" value="paragraphs" />
-    <property role="TrG5h" value="TextBlock" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7gVrg_0tw6n" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="text" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="87nw:2dWzqxEB$Tx" resolve="Text" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7uLL3Mf3udZ">
-    <property role="3GE5qa" value="paragraphs" />
-    <property role="TrG5h" value="ITextBlockOwner" />
-  </node>
   <node concept="PlHQZ" id="3Y7ywckEJZi">
     <property role="TrG5h" value="IKeepAliveInGeneration" />
   </node>
@@ -977,7 +963,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="comment" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7gVrg_0tw6m" resolve="TextBlock" />
+      <ref role="20lvS9" to="kbk3:1SzZzyByFB$" resolve="TextBlock" />
     </node>
     <node concept="1TJgyi" id="7hIyKqbGn$1" role="1TKVEl">
       <property role="TrG5h" value="status" />

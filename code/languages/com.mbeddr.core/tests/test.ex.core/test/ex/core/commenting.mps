@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
   <imports>
@@ -60,6 +61,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -268,7 +272,7 @@
         <node concept="3XISUE" id="4LLYoS8w9Q" role="3XIRFZ" />
         <node concept="3XISUE" id="4LLYoSbqWn" role="3XIRFZ" />
         <node concept="1QiMYF" id="7QNKF_rYxAH" role="3XIRFZ">
-          <node concept="OjmMv" id="7uLL3Mf4p_2" role="3SJzmv">
+          <node concept="2TEkvs" id="7uLL3Mf4p_2" role="3SJzmv">
             <node concept="19SGf9" id="7uLL3Mf4p_5" role="OjmMu">
               <node concept="19SUe$" id="7uLL3Mf4p_7" role="19SJt6">
                 <property role="19SUeA" value="dsafadssadsada ahsda djkasd hajkda djhakdh adjkahd ajksd ajkdsh adjkashd ajkdh ajkdhad jkahd ajkdh ajkdha djkah dajkdh ajdkh adjka dakjsd akdjhads kasjhd kajdh askjdfsadf" />
@@ -277,7 +281,7 @@
           </node>
         </node>
         <node concept="1QiMYF" id="5gTlpakvKCG" role="3XIRFZ">
-          <node concept="OjmMv" id="5gTlpakvKCH" role="3SJzmv">
+          <node concept="2TEkvs" id="5gTlpakvKCH" role="3SJzmv">
             <node concept="19SGf9" id="5gTlpakvKCI" role="OjmMu">
               <node concept="19SUe$" id="5gTlpakvKCK" role="19SJt6">
                 <property role="19SUeA" value="null" />

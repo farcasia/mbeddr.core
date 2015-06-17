@@ -33,6 +33,7 @@
     <import index="wyx5" ref="r:bc1c316f-907f-4249-837f-bb1f2c3a50f0(com.mbeddr.mpsutil.search.behavior)" />
     <import index="lui5" ref="r:915a9086-b169-42c3-ad5a-d37d448f5195(com.mbeddr.mpsutil.chunk.behavior)" />
     <import index="42k1" ref="r:5ea3cbe4-05ba-455c-894a-c6088bcf8c41(com.mbeddr.mpsutil.chunk.structure)" />
+    <import index="swq9" ref="r:39b5ac5d-5d44-4468-94c9-6ff9f5440d7d(com.mbeddr.mpsutil.paragraph.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -5695,7 +5696,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="isEmpty" />
-      <ref role="13i0hy" to="hwgx:7uLL3Mf3Bol" resolve="isEmpty" />
+      <ref role="13i0hy" to="swq9:1SzZzyByFFl" resolve="isEmpty" />
       <node concept="3Tm1VV" id="7uLL3Mf3Z6B" role="1B3o_S" />
       <node concept="3clFbS" id="7uLL3Mf3Z6C" role="3clF47">
         <node concept="3clFbF" id="5gTlpaku0La" role="3cqZAp">
@@ -5728,7 +5729,7 @@
               </node>
             </node>
             <node concept="2qgKlT" id="4ueXZrqtewq" role="2OqNvi">
-              <ref role="37wK5l" to="hwgx:jpyKDg1A7A" resolve="containsText" />
+              <ref role="37wK5l" to="swq9:1SzZzyByFDm" resolve="containsText" />
               <node concept="3cpWs2" id="4ueXZrqtewr" role="37wK5m">
                 <ref role="3cqZAo" node="4ueXZrqtevk" resolve="text" />
               </node>
@@ -5786,7 +5787,7 @@
     </node>
     <node concept="13i0hz" id="BsHjoDSP5B" role="13h7CS">
       <property role="TrG5h" value="getTextColor" />
-      <ref role="13i0hy" to="hwgx:BsHjoDQZaR" resolve="getTextColor" />
+      <ref role="13i0hy" to="swq9:1SzZzyByFFp" resolve="getTextColor" />
       <node concept="3clFbS" id="BsHjoDSP5E" role="3clF47">
         <node concept="3cpWs6" id="BsHjoDSP5R" role="3cqZAp">
           <node concept="10M0yZ" id="4tRpPVPUEqf" role="3cqZAk">
@@ -5802,7 +5803,7 @@
     </node>
     <node concept="13i0hz" id="BsHjoDSP6A" role="13h7CS">
       <property role="TrG5h" value="getBracketColor" />
-      <ref role="13i0hy" to="hwgx:BsHjoDRsTa" resolve="getBracketColor" />
+      <ref role="13i0hy" to="swq9:1SzZzyByFFv" resolve="getBracketColor" />
       <node concept="3clFbS" id="BsHjoDSP6D" role="3clF47">
         <node concept="3cpWs6" id="2ofiXe_ssdb" role="3cqZAp">
           <node concept="10M0yZ" id="2ofiXe_ssdc" role="3cqZAk">

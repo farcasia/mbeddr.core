@@ -14,6 +14,7 @@
     <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="1" />
     <use id="dbd01f1f-9071-44eb-995e-775f0f308135" name="com.mbeddr.mpsutil.chunk" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
   </languages>
   <imports />
   <registry>
@@ -68,6 +69,9 @@
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="7085783497126752833" name="com.mbeddr.core.util.structure.EmptyMessageDefinition" flags="ng" index="fLn3d" />
@@ -1420,7 +1424,7 @@
         </node>
       </node>
       <node concept="1z9TsT" id="4otgCcVJE_Z" role="lGtFl">
-        <node concept="OjmMv" id="4otgCcVJEA0" role="1w35rA">
+        <node concept="2TEkvs" id="4otgCcVJEA0" role="1w35rA">
           <node concept="19SGf9" id="4otgCcVJEA1" role="OjmMu">
             <node concept="19SUe$" id="4otgCcVJEA2" role="19SJt6">
               <property role="19SUeA" value="Nested states with same names in different composite states must be allowed" />

@@ -12,6 +12,7 @@
     <use id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="896334f3-82ce-427b-bb47-ccd3131864a9" name="com.mbeddr.mpsutil.mappingLabels" version="0" />
+    <use id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
@@ -359,6 +360,9 @@
       <concept id="1088761943574" name="jetbrains.mps.lang.generator.structure.ReferenceMacro" flags="ln" index="1ZhdrF">
         <child id="1167770376702" name="referentFunction" index="3$ytzL" />
       </concept>
+    </language>
+    <language id="337effeb-d191-46ed-969f-c98353f6f6ca" name="com.mbeddr.mpsutil.paragraph">
+      <concept id="2171858964605221348" name="com.mbeddr.mpsutil.paragraph.structure.TextBlock" flags="ng" index="2TEkvs" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1306,7 +1310,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="3yeYUb92$qD" role="lGtFl">
-            <node concept="OjmMv" id="3mjVpLdxLgq" role="1w35rA">
+            <node concept="2TEkvs" id="3mjVpLdxLgq" role="1w35rA">
               <node concept="19SGf9" id="3mjVpLdxLgt" role="OjmMu">
                 <node concept="19SUe$" id="3mjVpLdxLgv" role="19SJt6">
                   <property role="19SUeA" value="instance" />
@@ -4685,7 +4689,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5basnX1aFlZ" role="lGtFl">
-            <node concept="OjmMv" id="5basnX1aFm0" role="1w35rA">
+            <node concept="2TEkvs" id="5basnX1aFm0" role="1w35rA">
               <node concept="19SGf9" id="5basnX1aFm1" role="OjmMu">
                 <node concept="19SUe$" id="5basnX1aFm2" role="19SJt6">
                   <property role="19SUeA" value="fields" />
@@ -5002,7 +5006,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5basnX1aFom" role="lGtFl">
-            <node concept="OjmMv" id="5basnX1aFon" role="1w35rA">
+            <node concept="2TEkvs" id="5basnX1aFon" role="1w35rA">
               <node concept="19SGf9" id="5basnX1aFoo" role="OjmMu">
                 <node concept="19SUe$" id="5basnX1aFop" role="19SJt6">
                   <property role="19SUeA" value="required ports" />
@@ -5077,7 +5081,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5basnX1aFoQ" role="lGtFl">
-            <node concept="OjmMv" id="5basnX1aFoR" role="1w35rA">
+            <node concept="2TEkvs" id="5basnX1aFoR" role="1w35rA">
               <node concept="19SGf9" id="5basnX1aFoS" role="OjmMu">
                 <node concept="19SUe$" id="5basnX1aFoT" role="19SJt6">
                   <property role="19SUeA" value="required ports" />
@@ -5183,7 +5187,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5basnX1aFpy" role="lGtFl">
-            <node concept="OjmMv" id="5basnX1aFpz" role="1w35rA">
+            <node concept="2TEkvs" id="5basnX1aFpz" role="1w35rA">
               <node concept="19SGf9" id="5basnX1aFp$" role="OjmMu">
                 <node concept="19SUe$" id="5basnX1aFp_" role="19SJt6">
                   <property role="19SUeA" value="provided ports" />
@@ -5356,7 +5360,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5basnX1aFqG" role="lGtFl">
-            <node concept="OjmMv" id="5basnX1aFqH" role="1w35rA">
+            <node concept="2TEkvs" id="5basnX1aFqH" role="1w35rA">
               <node concept="19SGf9" id="5basnX1aFqI" role="OjmMu">
                 <node concept="19SUe$" id="5basnX1aFqJ" role="19SJt6">
                   <property role="19SUeA" value="Req port ops" />
@@ -5473,7 +5477,7 @@
             </node>
           </node>
           <node concept="1z9TsT" id="5basnX1aFru" role="lGtFl">
-            <node concept="OjmMv" id="5basnX1aFrv" role="1w35rA">
+            <node concept="2TEkvs" id="5basnX1aFrv" role="1w35rA">
               <node concept="19SGf9" id="5basnX1aFrw" role="OjmMu">
                 <node concept="19SUe$" id="5basnX1aFrx" role="19SJt6">
                   <property role="19SUeA" value="Abstract runnables" />
@@ -10213,7 +10217,7 @@
                 </node>
               </node>
               <node concept="1QiMYF" id="4PVmln327q8" role="3XIRFZ">
-                <node concept="OjmMv" id="4PVmln327qa" role="3SJzmv">
+                <node concept="2TEkvs" id="4PVmln327qa" role="3SJzmv">
                   <node concept="19SGf9" id="4PVmln327qb" role="OjmMu">
                     <node concept="19SUe$" id="4PVmln327qc" role="19SJt6">
                       <property role="19SUeA" value="TODO should be migrated into switch/case with static evaluation" />
@@ -12846,7 +12850,7 @@
               </node>
               <node concept="3XISUE" id="2ofiXe_s5XE" role="3XIRFZ" />
               <node concept="1QiMYF" id="2ofiXe_s5XG" role="3XIRFZ">
-                <node concept="OjmMv" id="2ofiXe_s5XH" role="3SJzmv">
+                <node concept="2TEkvs" id="2ofiXe_s5XH" role="3SJzmv">
                   <node concept="19SGf9" id="2ofiXe_s5XI" role="OjmMu">
                     <node concept="19SUe$" id="2ofiXe_s5XJ" role="19SJt6">
                       <property role="19SUeA" value="sdasdsadas" />
@@ -12950,7 +12954,7 @@
               </node>
             </node>
             <node concept="1z9TsT" id="2ofiXe_s5XK" role="lGtFl">
-              <node concept="OjmMv" id="2ofiXe_s5XL" role="1w35rA">
+              <node concept="2TEkvs" id="2ofiXe_s5XL" role="1w35rA">
                 <node concept="19SGf9" id="2ofiXe_s5XM" role="OjmMu">
                   <node concept="19SUe$" id="2ofiXe_s5XN" role="19SJt6">
                     <property role="19SUeA" value="dasdasd" />
@@ -13215,7 +13219,7 @@
             <property role="3J7Ymq" value="true" />
             <node concept="3XIRFW" id="3_MZZHrsqHd" role="3XIRFX">
               <node concept="1QiMYF" id="3yeYUb92WQH" role="3XIRFZ">
-                <node concept="OjmMv" id="7uLL3Mf4pSx" role="3SJzmv">
+                <node concept="2TEkvs" id="7uLL3Mf4pSx" role="3SJzmv">
                   <node concept="19SGf9" id="7uLL3Mf4pS$" role="OjmMu">
                     <node concept="19SUe$" id="7uLL3Mf4pSA" role="19SJt6">
                       <property role="19SUeA" value="COMPONENT" />
@@ -13420,7 +13424,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="3yeYUb939Bc" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLFH" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLFH" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLFK" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLFM" role="19SJt6">
                         <property role="19SUeA" value="protocol state" />
@@ -14595,7 +14599,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="3yeYUb953wK" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLfN" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLfN" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLfQ" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLfS" role="19SJt6">
                         <property role="19SUeA" value="prov port" />
@@ -14912,7 +14916,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="3yeYUb97NNW" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLvr" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLvr" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLvu" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLvw" role="19SJt6">
                         <property role="19SUeA" value="prov port owning instance" />
@@ -15278,7 +15282,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="2Zh_y09BtLp" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLp3" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLp3" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLp6" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLp8" role="19SJt6">
                         <property role="19SUeA" value="connected :1 req cs port" />
@@ -15732,7 +15736,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="1PvAkX2sItr" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxL0K" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxL0K" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxL0N" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxL0P" role="19SJt6">
                         <property role="19SUeA" value="connected req sr port" />
@@ -16170,7 +16174,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="2Zh_y09Bua5" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLn5" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLn5" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLn8" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLna" role="19SJt6">
                         <property role="19SUeA" value="connected :n req cs port" />
@@ -16617,7 +16621,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="3yeYUb953Es" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxL9l" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxL9l" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxL9o" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxL9q" role="19SJt6">
                         <property role="19SUeA" value="required port ops" />
@@ -17161,7 +17165,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="2ZUGF54lM_s" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLEj" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLEj" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLEm" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLEo" role="19SJt6">
                         <property role="19SUeA" value="required port ops" />
@@ -17450,7 +17454,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="3yeYUb97VdC" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLO6" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLO6" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLO9" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLOb" role="19SJt6">
                         <property role="19SUeA" value="required port ops" />
@@ -17703,7 +17707,7 @@
                   </node>
                 </node>
                 <node concept="1z9TsT" id="3yeYUb94$bS" role="lGtFl">
-                  <node concept="OjmMv" id="3mjVpLdxLTN" role="1w35rA">
+                  <node concept="2TEkvs" id="3mjVpLdxLTN" role="1w35rA">
                     <node concept="19SGf9" id="3mjVpLdxLTQ" role="OjmMu">
                       <node concept="19SUe$" id="3mjVpLdxLTS" role="19SJt6">
                         <property role="19SUeA" value="implements" />
