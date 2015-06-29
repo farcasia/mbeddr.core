@@ -630,6 +630,12 @@
             <ref role="1Busuk" to="al5i:$bJ0jguQfr" resolve="com.mbeddr.core.base" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7alKWVp2QuB" role="3bR37C">
+          <node concept="3bR9La" id="7alKWVp2QuC" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="p6ld:7uZw0yZ43K6" resolve="com.mbeddr.core.modules.gen" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="62XMcUo5Go6" role="2G$12L">
         <property role="BnDLt" value="true" />
