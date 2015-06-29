@@ -268,5 +268,9 @@
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
   </node>
+  <node concept="PlHQZ" id="uYp4aP7jC8">
+    <property role="3GE5qa" value="extending" />
+    <property role="TrG5h" value="IForceCopyInImportedModules" />
+  </node>
 </model>
 

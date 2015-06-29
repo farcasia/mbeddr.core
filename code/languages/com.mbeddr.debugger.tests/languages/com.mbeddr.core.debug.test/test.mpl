@@ -131,7 +131,7 @@
           <lesser-priority-mapping>
             <generator generatorUID="3a6b9f2f-4402-4ed6-a7cd-12b272b244d5(com.mbeddr.mpsutil.blutil#374287044672169667)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="3a6b9f2f-4402-4ed6-a7cd-12b272b244d5/r:0d8c18c2-3a01-472e-96fe-573575c47352(com.mbeddr.mpsutil.blutil#374287044672169667/com.mbeddr.mpsutil.blutil.generator.template.main@generator)" nodeID="4481811096721094821" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
